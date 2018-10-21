@@ -1,0 +1,15 @@
+site_name: Oronymzy's tips
+nav:
+  - Home: 'README.md'
+  - License: 'LICENSE.md'
+  - Digital preservation:
+    - 'cmscFMA.md'
+    - 'glslnkw.md'
+  - Dweb:
+    - 'ebsdatp.md'
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+theme:
+  name: 'material'

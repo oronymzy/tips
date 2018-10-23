@@ -5,4 +5,4 @@ Use `lynx -dump -listonly -nonumbers foo.bar | grep -e barfoo > foobar.txt`, whe
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 ## prior work
-The `-dump` and `-listonly` options for [Lynx](http://lynx.invisible-island.net/) were introduced to me by [a comment on Stack Exchange by michas](https://unix.stackexchange.com/questions/116987/how-do-i-use-wget-to-download-all-links-from-my-site-and-save-to-a-text-file/116990#116990).
+The `-dump` and `-listonly` options for [Lynx](http://lynx.invisible-island.net/) were introduced to me by [an answer on Stack Exchange by michas](https://unix.stackexchange.com/questions/116987/how-do-i-use-wget-to-download-all-links-from-my-site-and-save-to-a-text-file/116990#116990).

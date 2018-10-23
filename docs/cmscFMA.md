@@ -5,7 +5,7 @@ Use `lynx -dump -listonly -nonumbers foo.bar | grep -e music/download | wget --c
     [Be polite](https://en.wikipedia.org/wiki/Web_crawler#Politeness_policy) when using this script on multiple pages in a short period of time.
 
 ## explanation
-- `lynx -dump -listonly -nonumbers foo.bar` [gets a list of URLs](#getting a list of URLs from a website) from *foo.bar*.
+- `lynx -dump -listonly -nonumbers foo.bar` [gets a list of URLs](glslnkw.md) from *foo.bar*.
 - `grep -e music/download` returns URLs containing *music/download*.
 - `wget --content-disposition -i -` retrieves music files.
 

@@ -13,8 +13,9 @@ markdown_extensions:
   - admonition
   - footnotes
   - pymdownx.details
+  - pymdownx.keys
 ```
 
-were introduced to me by the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
+were introduced to me by the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
 
 [^Orotips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown

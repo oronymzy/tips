@@ -3,8 +3,8 @@ nav:
   - Home: 'README.md'
   - License: 'LICENSE.md'
   - Content creation:
-    - 'usngGit.md'
     - 'instGit.md'
+    - 'usngGit.md'
   - Digital preservation:
     - 'cmscFMA.md'
     - 'glslnkw.md'

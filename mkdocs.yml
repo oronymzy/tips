@@ -3,6 +3,7 @@ nav:
   - Home: 'README.md'
   - License: 'LICENSE.md'
   - Content creation:
+    - 'insFDrd.md'
     - 'instGit.md'
     - 'undGitc.md'
     - 'usngGit.md'

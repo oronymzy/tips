@@ -3,7 +3,6 @@ nav:
   - Home: 'README.md'
   - License: 'LICENSE.md'
   - Content creation:
-    - 'insFDrd.md'
     - 'instGit.md'
     - 'undGitc.md'
     - 'usngGit.md'
@@ -13,6 +12,8 @@ nav:
     - 'glslnkw.md'
   - Dweb:
     - 'ebsdatp.md'
+  - Privacy:
+    - 'insFDrd.md'
 markdown_extensions:
   - admonition
   - footnotes

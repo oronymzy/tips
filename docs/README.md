@@ -2,6 +2,9 @@
 
 Hope you find them useful.
 
+!!! info
+    This site came about from my habit of [information grazing](https://en.wikipedia.org/wiki/Information_grazing), and serves as a way of documenting information I tend to quickly forget.
+
 !!! note
     [MkDocs](https://www.mkdocs.org/) pages are designed to be generated from [Python-Markdown](https://python-markdown.github.io/)-formatted text files[^Orotips1], but I tend to use [Pandoc Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown), and I'm also using [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/), so it's a bit of a mess.
 

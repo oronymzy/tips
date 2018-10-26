@@ -1,4 +1,5 @@
 # installing F-Droid
+
 !!! warning "security risk"
     To install the F-Droid client, the user has to allow installation from "Unknown sources" in Android settings[^insFDrd1] and retrieve the APK (installable file) from the official site. Installation is not available through the Google Play store due to the non-compete clause of the Google Play Developer Distribution Agreement.[^insFDrd2]
 

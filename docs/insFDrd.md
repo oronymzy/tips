@@ -5,6 +5,9 @@
 
 [Download the APK from the official F-Droid website](https://f-droid.org/FDroid.apk) and install.
 
+!!! tip
+    F-Droid can act as an alternative to the [Google Play app store](https://en.wikipedia.org/wiki/Google_Play).
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [F-Droid](https://en.wikipedia.org/w/index.php?title=F-Droid&oldid=862843173#Client_application) on Wikipedia, with the modification of converting the original HTML to Markdown and placing the text into a warning admonition.
 

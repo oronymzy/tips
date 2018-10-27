@@ -1,7 +1,7 @@
 # enabling browser support for the dat protocol
 For Firefox on a Linux system, install **Dat-Firefox**, a prototype browser extension which makes `dat://` urls function in Firefox using a slightly modified [dat-gateway](https://github.com/sammacbeth/dat-gateway) as a bridge to the dat network. To install Dat-Firefox, first install [dat-fox-helper](https://github.com/sammacbeth/dat-fox-helper) with `curl -o- https://raw.githubusercontent.com/sammacbeth/dat-fox-helper/master/installer.sh | bash`. The [dat-fox](https://github.com/sammacbeth/dat-fox) extension will automatically verify if the binary can be automatically launched when it starts up. then Install the extension from the [Mozilla Addon Store](https://addons.mozilla.org/en-US/firefox/addon/dat-p2p-protocol/). When a dat protocol url is entered, set the *Launch Application* to Dat and select “Remember my choice for dat links”.
 
-??? note "Usage"
+??? note "Personal experience"
     - Only works in a limited and buggy way on Slinky running Kubuntu 18.04.
     - Does not work on Shady running Lubuntu 18.04, with Firefox returning an error that “The proxy server is refusing connections”.
 

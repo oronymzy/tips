@@ -4,6 +4,7 @@ nav:
   - License: 'LICENSE.md'
   - Content creation:
     - 'instGit.md'
+    - 'insMkDc.md'
     - 'instpip.md'
     - 'islGHsr.md'
     - 'undGitc.md'

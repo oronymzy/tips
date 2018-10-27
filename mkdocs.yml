@@ -1,7 +1,6 @@
 site_name: Oronymzy's tips
 nav:
   - Home: 'README.md'
-  - License: 'LICENSE.md'
   - Content creation:
     - 'instGit.md'
     - 'insMkDc.md'

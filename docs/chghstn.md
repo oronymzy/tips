@@ -9,7 +9,7 @@ Use `sudo hostname foobar`, where *foobar* is the new hostname.
 ## LineageOS
 Use ++"Settings > Developer options > Device hostname"++.
 
-### licensing ###
+## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 ## prior work

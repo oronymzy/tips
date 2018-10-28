@@ -21,11 +21,14 @@ The following additions to `mkdocs.yml`:
 markdown_extensions:
   - admonition
   - footnotes
+  - markdown.extensions.attr_list
   - pymdownx.details
   - pymdownx.keys
 ```
 
-were introduced to me by the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
+were introduced to me by the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
+
+
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together. 

@@ -14,7 +14,7 @@ To amend the most recent commit message before pushing it to a remote repository
 To create a maximally-compressed [zip](https://en.wikipedia.org/wiki/Zip_(file_format)) archive of the local repository, use `git archive --format=zip -9 -o /foo/bar/baz.zip HEAD`, where */foo/bar/baz.zip* is the path to the zip archive file.
 
 ## licensing
-**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Specificially, the following content falls under this license:
+**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Specifically, the following content falls under this license:
 
 - [An answer on Stack Overflow by karlphillip](https://stackoverflow.com/questions/8533202/list-files-in-local-git-repo/8533413#8533413), with changes made, including rewording of the original text:
 > To list all of the already committed files being tracked by your git repository, use `git ls-tree --full-tree -r HEAD`.

@@ -3,6 +3,7 @@ In Kubuntu, [install pip](instpip.md), then use `sudo -H pip install mkdocs mkdo
 
 ??? info "Personal experience"
     - Works on Snarky running Kubuntu 17.10.
+    - Somewhat works on Slim running CentOS 7, with pages rendering incorrectly. Does not work with mkdocs-material.
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

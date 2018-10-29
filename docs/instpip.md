@@ -1,8 +1,8 @@
 # installing pip
-In Kubuntu, use `wget -P /tmp https://bootstrap.pypa.io/get-pip.py && sudo -H python /tmp/get-pip.py` to install [pip](https://pip.pypa.io/en/stable/).
+In Linux, use `wget -P /tmp https://bootstrap.pypa.io/get-pip.py && sudo -H python /tmp/get-pip.py` to install [pip](https://pip.pypa.io/en/stable/).
 
 ??? info "Personal experience"
-    - Works on Slinky running Kubuntu 18.04 and Snarky running Kubuntu 17.10.
+    - Works on Slim running CentOS 7, Slinky running Kubuntu 18.04 and Snarky running Kubuntu 17.10.
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

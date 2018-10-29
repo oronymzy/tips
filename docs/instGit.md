@@ -1,5 +1,5 @@
 # installing Git
-To install from [Ubuntu PPA](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)#Package_Archives), use `sudo add-apt-repository ppa:git-core/ppa -y && sudo apt-get update ; sudo apt-get install git -y`.
+Use `sudo add-apt-repository ppa:git-core/ppa -y && sudo apt-get update ; sudo apt-get install git -y` to install from [Ubuntu PPA](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)#Package_Archives).
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

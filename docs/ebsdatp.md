@@ -6,7 +6,7 @@ For Firefox on a Linux system, install **Dat-Firefox**, a prototype browser exte
     - Does not work on Shady running Lubuntu 18.04, with Firefox returning an error that “The proxy server is refusing connections”.
 
 ## licensing
-**Some rights reserved: MIT License.** Includes significant content from “[Dat-Firefox README](https://github.com/sammacbeth/dat-fox/blob/master/README.md)” and “[Dat-fox Helper Readme](https://github.com/sammacbeth/dat-fox-helper/blob/master/Readme.md)” on GitHub with the modifications, including the following:
+**Some rights reserved: MIT License.** Includes significant content from “[Dat-Firefox README](https://github.com/sammacbeth/dat-fox/blob/master/README.md)” and “[Dat-fox Helper Readme](https://github.com/sammacbeth/dat-fox-helper/blob/master/Readme.md)” on GitHub with modifications, including the following:
 
 - Fixed linebreak issues.
 

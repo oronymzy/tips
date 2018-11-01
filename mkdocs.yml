@@ -30,5 +30,7 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - pymdownx.details
   - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
 theme:
   name: 'material'

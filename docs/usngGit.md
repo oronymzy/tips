@@ -5,6 +5,8 @@ Create a repository in a local directory, ideally including a `README.md` and a 
 
 To connect a local repository with a remote repository on GitHub, use `git remote add origin https://github.com/foo/bar.git`, where *foo* is the username and *bar* is the repository name. To change the remote repository, use `git remote set-url origin https://github.com/foo/bar.git`.
 
+To rename the shortname of a remote, use `git remote rename foo bar`, where *foo* is the original shortname and *bar* is the new shortname.
+
 To push the local repository to the connected remote repository on GitHub, use `git push -u origin master` and enter your GitHub username and password at the resulting prompt. It may be useful to first simulate the Git command by including the “dry run” `-n` option, as with `git push -n -u origin master`.
 
 To list all of the already committed files being tracked by your git repository, use `git ls-tree --full-tree -r HEAD`. To detect changes, use `git ls-files -m`.
@@ -30,6 +32,7 @@ If the above content is omitted, the rest is licensed **no rights reserved: [CC0
 - The detecting of changes was introduced to me by [an answer on Stack Overflow by Christoffer Hammarström](https://stackoverflow.com/questions/3882838/whats-an-easy-way-to-detect-modified-files-in-a-git-workspace/3882880#3882880).
 - The importance of starting a repository with a `README.md`, `LICENSE.md`, and `.gitignore` file was introduced to me by the default repository instructions on [GitHub](https://github.com/).
 - The listing of files in Git was introduced to me by [an answer on Stack Overflow by karlphillip](https://stackoverflow.com/questions/8533202/list-files-in-local-git-repo/8533413#8533413).
+- The renaming of a shortname of a remote was introduced to me by [a page on git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_renaming_and_removing_remotes).
 - The setting of email and user name was introduced to me by [a page on git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#_your_identity).
 
 [^usngGit1]: https://github.com/erlang/otp/wiki/writing-good-commit-messages

@@ -3,11 +3,11 @@
 
 Create a repository in a local directory, ideally including a `README.md` and a `LICENSE.md` file, and a `.gitignore` file if necessary. Navigate to the repository's directory with `cd`, use `git init` to create an empty Git repository, then use `git add .` to update the index. Use `git commit -m "Initial commit"` to establish an initial Git commit with the message *Initial commit*. Single-line commit messages act as summaries, the convention is to write using [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood), start with a capital letter, and end without a period[^usngGit1].
 
-To connect a local repository with a remote repository on GitHub, use `git remote add origin https://github.com/foo/bar.git`, where *foo* is the username and *bar* is the repository name. To change the remote repository, use `git remote set-url origin https://github.com/foo/bar.git`.
+To connect a local repository with a remote repository on GitHub, use `git remote add baz https://github.com/foo/bar.git`, where *foo* is the username, *bar* is the repository name, and *baz* is the shortname of the remote. To change the remote repository, use `git remote set-url baz https://github.com/foo/bar.git`.
 
 To rename the shortname of a remote, use `git remote rename foo bar`, where *foo* is the original shortname and *bar* is the new shortname.
 
-To push the local repository to the connected remote repository on GitHub, use `git push -u origin master` and enter your GitHub username and password at the resulting prompt. It may be useful to first simulate the Git command by including the “dry run” `-n` option, as with `git push -n -u origin master`.
+To push the local repository to the connected remote repository on GitHub, use `git push -u baz master` and enter your GitHub username and password at the resulting prompt. It may be useful to first simulate the Git command by including the “dry run” `-n` option, as with `git push -n -u baz master`.
 
 To list all of the already committed files being tracked by your git repository, use `git ls-tree --full-tree -r HEAD`. To detect changes, use `git ls-files -m`.
 

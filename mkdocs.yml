@@ -2,6 +2,7 @@ site_name: Oronymzy's tips
 nav:
   - Home: 'README.md'
   - Content creation:
+    - 'findplc.md'
     - 'insCOSs.md'
     - 'instGit.md'
     - 'insMkDc.md'

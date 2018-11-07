@@ -1,5 +1,9 @@
 # installing a Linux system
-For all Ubuntu-based systems, install officially supported programs using `sudo apt install audacity cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync imagemagick inkscape jekyll jq krename lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder sqlitebrowser surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+## Ubuntu-based systems
+
+To install updates, use `sudo apt update ; sudo apt full-upgrade && sudo apt autoremove`.
+
+To install officially supported programs, use `sudo apt install audacity cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync imagemagick inkscape jekyll jq krename lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder sqlitebrowser surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions:
 
@@ -30,5 +34,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
+
+## prior work
+The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
 
 [^insLnxS1]: http://openjdk.java.net/install/

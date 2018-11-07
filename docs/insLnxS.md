@@ -1,5 +1,5 @@
-# installing a Linux system
-## Ubuntu-based systems
+# installing a [Linux] system
+## [Ubuntu-based] systems
 
 To install updates, use `sudo apt update ; sudo apt full-upgrade && sudo apt autoremove`.
 
@@ -38,4 +38,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 ## prior work
 The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
 
+[Linux]: https://en.wikipedia.org/wiki/Linux_distribution
+[Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [^insLnxS1]: http://openjdk.java.net/install/

@@ -1,4 +1,8 @@
 # installing Google Chrome
+
+!!! attention
+    Google Chrome can only be installed on 64-bit Linux systems.[^insGCrm1]
+
 ## CentOS
 Use `sudo yum install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm`.
 
@@ -11,3 +15,5 @@ Use `wget -P /tmp https://dl.google.com/linux/direct/google-chrome-stable_curren
 ## prior work
 - The bulk of the Kubuntu installation script was introduced to me by [an answer on Ask Ubuntu by Tioz](https://askubuntu.com/questions/760085/how-do-you-install-google-chrome-on-ubuntu-16-04/760452#760452).
 - The method of installing an RPM package from a URL using yum was introduced to me by [a question on Stack Exchange by userX](https://unix.stackexchange.com/questions/457130/install-google-chrome-in-centos).
+
+[^insGCrm1]: https://support.google.com/chrome/answer/95346

@@ -3,6 +3,7 @@ nav:
   - Home: 'README.md'
   - Content creation:
     - 'insCOSs.md'
+    - 'insLnxS.md'
     - 'instGit.md'
     - 'instlGo.md'
     - 'insKrta.md'
@@ -18,6 +19,7 @@ nav:
     - 'gdskscr.md'
     - 'glslnkw.md'
     - 'instuGt.md'
+    - 'insytdl.md'
   - Dweb:
     - 'ebsdatp.md'
     - 'insqBtr.md'

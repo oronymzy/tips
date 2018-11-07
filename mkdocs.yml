@@ -4,7 +4,9 @@ nav:
   - Content creation:
     - 'findplc.md'
     - 'insCOSs.md'
+    - 'insbeet.md'
     - 'instGit.md'
+    - 'instlGo.md'
     - 'insMkDc.md'
     - 'instpip.md'
     - 'insPyth.md'

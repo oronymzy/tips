@@ -2,9 +2,7 @@ site_name: Oronymzy's tips
 nav:
   - Home: 'README.md'
   - Content creation:
-    - 'findplc.md'
     - 'insCOSs.md'
-    - 'insbeet.md'
     - 'instGit.md'
     - 'instlGo.md'
     - 'insMkDc.md'
@@ -20,6 +18,10 @@ nav:
     - 'glslnkw.md'
   - Dweb:
     - 'ebsdatp.md'
+  - Entertainment:
+    - 'findplc.md'
+    - 'insbeet.md'
+    - 'insGCrm.md'
   - Privacy:
     - 'chgevtb.md'
     - 'chghstn.md'

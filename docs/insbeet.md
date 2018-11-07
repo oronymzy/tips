@@ -7,7 +7,7 @@
 [Install pip](instpip.md), then use `sudo -H pip install beets`.
 
 ## Kubuntu
-Use `sudo apt-get install python-dev python-pip` to install dependencies, then use `sudo pip install beets` to install beets, then use `beet config -p` to find the `config.yaml` YAML-formatted text configuration file for beets (or create it if it doesn't exist) and customize it with:
+[Install pip](instpip.md), use `sudo -H pip install beets`, then use `beet config -p` to find the `config.yaml` YAML-formatted text configuration file for beets (or create it if it doesn't exist) and customize it with:
 
 ```
 directory: /foo/bar/baz

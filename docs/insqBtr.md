@@ -8,4 +8,4 @@ Use `sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y && sudo 
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 ## prior work
-- The bulk of the installation script was introduced to me by [the qbittorrent-stable PPA page on Launchpad](https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable).
+The bulk of the installation script was introduced to me by [the qbittorrent-stable PPA page on Launchpad](https://launchpad.net/~qbittorrent-team/+archive/ubuntu/qbittorrent-stable).

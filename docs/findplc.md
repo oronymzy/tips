@@ -17,7 +17,7 @@ Use `http://freemusicarchive.org/search/?adv=1&music-filter-CC-attribution-only=
     This is an incomplete explanation.
 
 - The `music-filter-CC-attribution-only=on`, `music-filter-CC-attribution-sharealike=1`, `music-filter-public-domain=1` parts of the [query string](https://en.wikipedia.org/wiki/Query_string) search for music licensed *Attribution Only*, *Attribution-Sharealike*, or *Public Domain*.
-- The `sort=track_date_publishe` part of the [query string](https://en.wikipedia.org/wiki/Query_string) sorts the results by date in descending order.
+- The `sort=track_date_published` part of the [query string](https://en.wikipedia.org/wiki/Query_string) sorts the results by date in descending order.
 - The `per_page=200` part of the [query string](https://en.wikipedia.org/wiki/Query_string) displays 200 results per page.
 
 ## licensing

@@ -4,6 +4,7 @@ nav:
   - Content creation:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
+    - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'
     - installing Krita: 'insKrta.md'

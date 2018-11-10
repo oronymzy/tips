@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update ; sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync imagemagick inkscape jekyll jq krename lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions:
 

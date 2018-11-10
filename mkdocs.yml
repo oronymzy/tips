@@ -12,6 +12,7 @@ nav:
     - installing pip: 'instpip.md'
     - installing Python: 'insPyth.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
+    - rewriting Git history: 'rGithst.md'
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
     - using MkDocs: 'usgMkDc.md'

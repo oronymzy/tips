@@ -24,9 +24,10 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - pymdownx.details
   - pymdownx.keys
+  - pymdownx.tilde
 ```
 
-were introduced to me by the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
+were introduced to me by the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), [Tilde](https://facelessuser.github.io/pymdown-extensions/extensions/tilde/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
 
 
 

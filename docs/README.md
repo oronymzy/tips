@@ -77,7 +77,7 @@ markdown_extensions:
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/oronymzy/oronymzy.tips'
+      link: 'https://github.com/oronymzy'
 ```
 
 were introduced to me by [Adding social links](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links), [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), [Tilde](https://facelessuser.github.io/pymdown-extensions/extensions/tilde/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).

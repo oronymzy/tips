@@ -1,5 +1,8 @@
-# collecting music from the Free Music Archive
-Use `lynx -dump -listonly -nonumbers foo.bar | grep -e music/download | wget --content-disposition -i -`, where *foo.bar* is the URL of the page containing the music to be downloaded.
+# ~~collecting music from the Free Music Archive~~
+~~Use `lynx -dump -listonly -nonumbers foo.bar | grep -e music/download | wget --content-disposition -i -`, where *foo.bar* is the URL of the page containing the music to be downloaded.~~
+
+!!! attention
+    **The Free Music Archive [is closing](http://freemusicarchive.org/member/cheyenne_h/blog/Big_Changes_Ahead_for_FMA)**, so these instructions are no longer useful. Refer to [Archiveteam's page ](https://www.archiveteam.org/index.php?title=Free_Music_Archive) for further information.
 
 !!! warning
     [Be polite](https://en.wikipedia.org/wiki/Web_crawler#Politeness_policy) when using this script on multiple pages in a short period of time.

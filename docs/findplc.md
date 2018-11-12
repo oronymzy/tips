@@ -7,9 +7,12 @@
 
 Enter `site:*.bandcamp.com/album/* intext:"some rights reserved" intext:"name your price" -intext:"individual track pages"` into the Google search bar, then sort the results by date.
 
-## Free Music Archive
+## ~~Free Music Archive~~
 
-Use `http://freemusicarchive.org/search/?adv=1&music-filter-CC-attribution-only=on&music-filter-CC-attribution-sharealike=1&music-filter-public-domain=1&sort=track_date_published&d=1&page=1&per_page=200`.
+~~Use `http://freemusicarchive.org/search/?adv=1&music-filter-CC-attribution-only=on&music-filter-CC-attribution-sharealike=1&music-filter-public-domain=1&sort=track_date_published&d=1&page=1&per_page=200`.~~
+
+!!! attention
+    **The Free Music Archive [is closing](http://freemusicarchive.org/member/cheyenne_h/blog/Big_Changes_Ahead_for_FMA)**, so these instructions are no longer useful. Refer to [Archiveteam's page ](https://www.archiveteam.org/index.php?title=Free_Music_Archive) for further information.
 
 ### explanation
 

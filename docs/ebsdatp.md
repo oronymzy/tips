@@ -10,7 +10,7 @@ For Firefox on a Linux system, install **Dat-Firefox**, a prototype browser exte
 
 - Fixed linebreak issues.
 
-??? note "MIT License for Dat-Firefox[^ebsdatp1]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Dat-Firefox[^ebsdatp1]"
     MIT License
     
     Copyright (c) 2018 Sam Macbeth
@@ -33,7 +33,7 @@ For Firefox on a Linux system, install **Dat-Firefox**, a prototype browser exte
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-??? note "MIT License for Dat-fox Helper[^ebsdatp2]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Dat-fox Helper[^ebsdatp2]"
     MIT License
     
     Copyright (c) 2018 Sam Macbeth

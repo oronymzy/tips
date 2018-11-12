@@ -22,9 +22,6 @@ nav:
     - getting a list of URLs from a website: 'glslnkw.md'
     - installing uGet: 'instuGt.md'
     - installing youtube-dl: 'insytdl.md'
-  - Dweb:
-    - enabling browser support for the dat protocol: 'ebsdatp.md'
-    - installing qBittorrent: 'insqBtr.md'
   - Entertainment:
     - finding permissively-licensed content: 'findplc.md'
     - installing beets: 'insbeet.md'
@@ -37,6 +34,9 @@ nav:
     - installing F-Droid: 'insFDrd.md'
     - installing VirtualBox: 'instVBx.md'
     - using GNU GRUB: 'usgGRUB.md'
+  - Sharing:
+    - enabling browser support for the dat protocol: 'ebsdatp.md'
+    - installing qBittorrent: 'insqBtr.md'
   - Web syndication:
     - getting an RSS feed for an iTunes podcast: 'gRSSiTn.md'
 markdown_extensions:

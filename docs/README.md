@@ -15,6 +15,7 @@ My operating system of choice is [Kubuntu](https://kubuntu.org/) for desktop and
 All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) **unless otherwise noted**, and will always be more permissive than all rights reserved. The *licensing* heading denotes the license for each page. Additionally, the website generated from the content falls under the following licenses:
 
 ??? note "[BSD 2-Clause “Simplified” License](https://choosealicense.com/licenses/bsd-2-clause/) for [MkDocs](https://www.mkdocs.org/) [^Orotips2] [^Orotips3]"
+    
     Copyright © 2014, Tom Christie. All rights reserved.
     
     Redistribution and use in source and binary forms, with or
@@ -43,6 +44,7 @@ All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/
     POSSIBILITY OF SUCH DAMAGE.
 
 ??? note "[MIT License](https://choosealicense.com/licenses/mit/) for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [^Orotips4]"
+    
     Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
     
     Permission is hereby granted, free of charge, to any person obtaining a copy

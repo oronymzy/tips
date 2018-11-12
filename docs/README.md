@@ -78,9 +78,11 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/oronymzy'
+repo_name: 'oronymzy/oronymzy.tips'
+repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 ```
 
-were introduced to me by [Adding social links](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links), [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), [Tilde](https://facelessuser.github.io/pymdown-extensions/extensions/tilde/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
+were introduced to me by [Adding a source repository](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository), [Adding social links](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links), [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), [Tilde](https://facelessuser.github.io/pymdown-extensions/extensions/tilde/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together. 

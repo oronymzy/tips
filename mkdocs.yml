@@ -50,3 +50,7 @@ markdown_extensions:
   - pymdownx.tilde
 theme:
   name: 'material'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/oronymzy/oronymzy.tips'

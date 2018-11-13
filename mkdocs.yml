@@ -26,6 +26,7 @@ nav:
     - finding permissively-licensed content: 'findplc.md'
     - installing beets: 'insbeet.md'
     - installing Google Chrome: 'insGCrm.md'
+    - query API for ccMixter: 'qAPIccx.md'
   - Privacy:
     - changing an environment variable: 'chgevtb.md'
     - changing the hostname: 'chghstn.md'

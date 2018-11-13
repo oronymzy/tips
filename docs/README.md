@@ -86,11 +86,20 @@ repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 edit_uri: ''
 ```
 
-were introduced to me by [Adding a source repository](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository), [Adding social links](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links), [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation), [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/), [Definition Lists](https://python-markdown.github.io/extensions/definition_lists/), [Footnotes](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation), [Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/), [Tilde](https://facelessuser.github.io/pymdown-extensions/extensions/tilde/), and [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation).
+were introduced to me by [Adding a source repository], [Adding social links], [Admonition], [Attribute Lists], [Definition Lists], [Footnotes], [Keys], [Tilde], and [PyMdown Extensions].
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
 
+[Adding a source repository]: https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository
+[Adding social links]: https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links
+[Admonition]: https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation
+[Attribute Lists]: https://python-markdown.github.io/extensions/attr_list/
+[Definition Lists]: https://python-markdown.github.io/extensions/definition_lists/
+[Footnotes]: https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation
+[Keys]: https://facelessuser.github.io/pymdown-extensions/extensions/keys/
+[PyMdown Extensions]: https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation
+[Tilde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
 [^Orotips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
 [^Orotips2]: https://www.mkdocs.org/about/license/
 [^Orotips3]: https://github.com/mkdocs/mkdocs/blob/master/LICENSE

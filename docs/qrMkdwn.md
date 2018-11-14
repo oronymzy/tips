@@ -215,13 +215,15 @@ Reference-style:
 [logo]: qrMkdwn.png "Logo Title Text 2"
 ```
 
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](qrMkdwn.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
+??? tip "Result"
+    
+    Here's our logo (hover to see the title text):
+    
+    Inline-style: 
+    ![alt text](qrMkdwn.png "Logo Title Text 1")
+    
+    Reference-style: 
+    ![alt text][logo]
 
 [logo]: qrMkdwn.png "Logo Title Text 2"
 
@@ -233,7 +235,9 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't. Howeve
 Inline `code` has `back-ticks around` it.
 ```
 
-Inline `code` has `back-ticks around` it.
+??? tip "Result"
+    
+    Inline `code` has `back-ticks around` it.
 
 Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces.
 
@@ -254,21 +258,22 @@ Blocks of code are either fenced by lines with three back-ticks <code>```</code>
  ```
 ```
 
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
-```
+??? tip "Result"
+    
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+    
+    ```python
+    s = "Python syntax highlighting"
+    print s
+    ```
+    
+    ```
+    No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+    But let's throw in a <b>tag</b>.
+    ```
 
 ## tables {: #tables }
 
@@ -284,13 +289,15 @@ Colons can be used to align columns.
 | zebra stripes | are neat      |    $1 |
 ```
 
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-|---------------|:-------------:|------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+??? tip "Result"
+    
+    Colons can be used to align columns.
+    
+    | Tables        | Are           | Cool  |
+    |---------------|:-------------:|------:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
 
 ```
 The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted, and only one dash is required to separate each header cell. You can also use inline Markdown.
@@ -301,12 +308,14 @@ The table will render correctly even if the raw Markdown does not line up pretti
 | 1 | 2 | 3
 ```
 
-The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted, and only one dash is required to separate each header cell. You can also use inline Markdown.
-
-| Markdown | Less | Pretty
-|-|-|-
-| *Still* | `renders` | **nicely**
-| 1 | 2 | 3
+??? tip "Result"
+    
+    The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted, and only one dash is required to separate each header cell. You can also use inline Markdown.
+    
+    | Markdown | Less | Pretty
+    |-|-|-
+    | *Still* | `renders` | **nicely**
+    | 1 | 2 | 3
 
 ## blockquotes {: #blockquotes }
 
@@ -319,12 +328,14 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+??? tip "Result"
+    
+    > Blockquotes are very handy in email to emulate reply text.
+    > This line is part of the same quote.
+    
+    Quote break.
+    
+    > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
 ## inline HTML {: #html }
 
@@ -340,13 +351,19 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 </dl>
 ```
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+??? tip "Result"
+    
+    <dl>
+      <dt>Definition list</dt>
+      <dd>Is something people use sometimes.</dd>
+    
+      <dt>Markdown in HTML</dt>
+      <dd>Does \*not\* work \*\*very\*\* well. Use HTML <em>tags</em>.</dd>
+    </dl>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+!!! note
+    
+    Because Markdown *is* rendered within HTML when inside an admonition, the *Result* admonition contains raw Markdown formatted differently than in the example, with backslash-escapes added.
 
 ## horizontal rule {: #hr }
 
@@ -366,19 +383,21 @@ ___
 Underscores
 ```
 
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
+??? tip "Result"
+    
+    Three or more...
+    
+    ---
+    
+    Hyphens
+    
+    ***
+    
+    Asterisks
+    
+    ___
+    
+    Underscores
 
 ## line breaks {: #lines }
 
@@ -390,7 +409,7 @@ Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., ins
 
 Here are some things to try out:
 
-```
+``` tab="Markdown with dots"
 Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
@@ -399,12 +418,23 @@ This line is also a separate paragraph, but...⋅⋅
 This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 ```
 
+``` tab="Markdown without dots"
 Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
 This line is also a separate paragraph, but...  
 This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
+```
+
+??? tip "Result"
+    
+    Here's a line for us to start with.
+    
+    This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+    
+    This line is also a separate paragraph, but...  
+    This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 
 !!! note
     

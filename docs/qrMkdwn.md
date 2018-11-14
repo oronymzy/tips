@@ -390,6 +390,9 @@ This line is separated by a single newline and two spaces, so it's a separate li
     - {~~The outer pipes (|) are optional~>The rightmost pipe (`|`) is optional~~}
     - {~~This line is only separated by a single newline, so it's a separate line in the *same paragraph*.~>This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.~~}
 
+## prior work
+The bulk of the instructions were introduced to me through [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), part of the [Markdown Here](https://github.com/adam-p/markdown-here) [wiki](https://github.com/adam-p/markdown-here/wiki) on GitHub.
+
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
 [^qrMkdown1]: https://python-markdown.github.io/#differences

@@ -43,9 +43,12 @@ nav:
     - getting an RSS feed for an iTunes podcast: 'gRSSiTn.md'
 markdown_extensions:
   - admonition
+  - codehilite:
+      guess_lang: false
   - def_list
   - footnotes
   - markdown.extensions.attr_list
+  - pymdownx.critic
   - pymdownx.details
   - pymdownx.keys
   - pymdownx.tasklist:

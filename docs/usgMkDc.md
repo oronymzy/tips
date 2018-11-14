@@ -1,4 +1,4 @@
-# using MkDocs
+# using [MkDocs]
 
 !!! bug
     If a page begins with an admonition, there must be a newline between the first heading and the admonition, or the text between the first and second heading will not be searchable.
@@ -9,9 +9,17 @@
 !!! attention
     If the `repo_url` setting is used in the YAML configuration file, automatically-generated edit buttons can be disabled with `edit_uri: ''`.
 
+!!! attention
+    Reference-style links do not work within admonitions.
+
+!!! attention
+    Markdown is rendered within HTML when inside admonitions.
+
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 ## prior work
 - The explanation for MkDoc's difficulty in serving pages opened locally was introduced to me by [a comment on GitHub by waylan](https://github.com/mkdocs/mkdocs/issues/1367#issuecomment-354797280).
 - The method of disabling automatically-generated edit buttons was introduced to me by [a page on the MkDocs website](https://www.mkdocs.org/user-guide/configuration/#edit_uri) and [the Getting started page on the Material for MkDocs website](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository).
+
+[MkDocs]: https://www.mkdocs.org/

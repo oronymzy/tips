@@ -105,6 +105,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 ## links {: #links }
 
 !!! attention
+    
     Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
 
 There are two ways to create links:
@@ -386,6 +387,10 @@ This line is separated by a single newline and two spaces, so it's a separate li
 ## licensing
 **Some rights reserved: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).** Includes significant content from [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on GitHub with modifications, including the following:
 
+!!! attention
+    
+    These are just the changes made prior to the first Git commit.
+
 - Changed attribute formatting.
 - Removed at least one reference to Markdown Here and Github-flavored Markdown.
 - Removed table of contents.
@@ -405,6 +410,7 @@ This line is separated by a single newline and two spaces, so it's a separate li
     - {--You'll soon learn to get what you want.--}
 
 ??? info "Additional substitutions"
+    
     - {~~(In this example, leading and trailing spaces are shown with with dots: `⋅`)~>Leading and trailing spaces are shown with dots (`⋅`).~~}
     - {~~&lt;Enter&gt;~>++enter++~~}
     - {~~My basic recommendation for learning how line breaks work is to experiment and discover -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want.~>Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), and see what happens. You'll soon learn to get what you want.~~}

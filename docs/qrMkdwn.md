@@ -1,9 +1,8 @@
 # quick reference for [Markdown]
 
-
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
 
-## Headers {: #headers }
+## headers {: #headers }
 
 ```no-highlight
 # H1
@@ -39,7 +38,7 @@ Alt-H1
 Alt-H2
 ------
 
-## Emphasis {: #emphasis }
+## emphasis {: #emphasis }
 
 ```no-highlight
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -59,7 +58,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-## Lists {: #lists }
+## lists {: #lists }
 
 !!! note
     
@@ -103,7 +102,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
     
     [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown1]
 
-## Links {: #links }
+## links {: #links }
 
 There are two ways to create links.
 
@@ -149,7 +148,7 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-## Images {: #images }
+## images {: #images }
 
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -173,7 +172,7 @@ Reference-style:
 
 [logo]: qrMkdwn.png "Logo Title Text 2"
 
-## Code and Syntax Highlighting {: #code }
+## code and syntax highlighting {: #code }
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
 
@@ -218,7 +217,7 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
 
-## Tables {: #tables }
+## tables {: #tables }
 
 Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables -- a task that would otherwise require copy-pasting from another application.
 
@@ -256,7 +255,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 | *Still* | `renders` | **nicely**
 | 1 | 2 | 3
 
-## Blockquotes {: #blockquotes }
+## blockquotes {: #blockquotes }
 
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
@@ -274,7 +273,7 @@ Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-## Inline HTML {: #html }
+## inline HTML {: #html }
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
 
@@ -296,7 +295,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-## Horizontal Rule {: #hr }
+## horizontal rule {: #hr }
 
 ```
 Three or more...
@@ -328,7 +327,7 @@ ___
 
 Underscores
 
-## Line Breaks {: #lines }
+## line breaks {: #lines }
 
 !!! note
     

@@ -1,21 +1,22 @@
 site_name: Oronymzy's tips
 nav:
   - Home: 'README.md'
+  - Coding:
+    - installing Git: 'instGit.md'
+    - installing Go: 'instlGo.md'
+    - installing Python: 'insPyth.md'
+    - rewriting Git history: 'rGithst.md'
+    - undoing a Git commit: 'undGitc.md'
+    - using Git: 'usngGit.md'
   - Content creation:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
     - installing DB Browser for SQLite: 'inDBSQL.md'
-    - installing Git: 'instGit.md'
-    - installing Go: 'instlGo.md'
     - installing Krita: 'insKrta.md'
     - installing MkDocs: 'insMkDc.md'
     - installing pip: 'instpip.md'
-    - installing Python: 'insPyth.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'
-    - rewriting Git history: 'rGithst.md'
-    - undoing a Git commit: 'undGitc.md'
-    - using Git: 'usngGit.md'
     - using MkDocs: 'usgMkDc.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'

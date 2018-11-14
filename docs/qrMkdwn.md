@@ -4,7 +4,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 
 ## headings {: #headings }
 
-```no-highlight
+```
 # H1
 ## H2
 ### H3
@@ -23,7 +23,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 
 Alternatively, for H1 and H2, an underline-ish style:
 
-```no-highlight
+```
 Alt-H1
 ======
 
@@ -40,7 +40,7 @@ Alt-H2
 
 ## emphasis {: #emphasis }
 
-```no-highlight
+```
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -65,7 +65,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
     
     Leading and trailing spaces are shown with dots (`⋅`).
 
-```no-highlight
+```
 1. First ordered list item
 2. Another item
 ⋅⋅⋅⋅* Unordered sub-list. 
@@ -149,7 +149,7 @@ In either case, the link definition for a reference-style link is included separ
 [reference-style]: https://www.google.com
 ```
 A more detailed example:
-```no-highlight
+```
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -195,7 +195,7 @@ Some text to show that the reference links can follow later.
 
 ## images {: #images }
 
-```no-highlight
+```
 Here's our logo (hover to see the title text):
 
 Inline-style: 
@@ -221,7 +221,7 @@ Reference-style:
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
 
-```no-highlight
+```
 Inline `code` has `back-ticks around` it.
 ```
 
@@ -302,7 +302,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 ## blockquotes {: #blockquotes }
 
-```no-highlight
+```
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 
@@ -322,7 +322,7 @@ Quote break.
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
 
-```no-highlight
+```
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>

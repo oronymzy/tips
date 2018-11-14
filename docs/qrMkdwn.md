@@ -12,6 +12,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 ##### H5
 ###### H6
 ```
+
 ??? tip "Result"
     
     # H1
@@ -30,6 +31,7 @@ Alt-H1
 Alt-H2
 ------
 ```
+
 ??? tip "Result"
     
     Alt-H1
@@ -49,6 +51,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 ```
+
 ??? tip "Result"
     
     Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -130,6 +133,7 @@ There are two ways to create links:
 ```
 [inline-style](https://www.google.com)
 ```
+
 ??? tip "Result"
     
     [inline-style](https://www.google.com)
@@ -137,11 +141,12 @@ and
 ```
 [reference-style]
 ```
+
 ??? tip "Result"
     
     [reference-style](https://www.google.com)
   
-alternately, reference-style links can be created like this:
+Alternatively, reference-style links can be created like this:
 
 ```
 [alternate reference-style link][link definition]

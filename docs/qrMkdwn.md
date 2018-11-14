@@ -104,8 +104,36 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 ## links {: #links }
 
-There are two ways to create links.
+!!! attention
+    Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
 
+There are two ways to create links:
+
+```
+[inline-style](https://www.google.com)
+```
+??? tip "Result"
+    
+    [inline-style](https://www.google.com)
+and
+```
+[reference-style]
+```
+??? tip "Result"
+    
+    [reference-style](https://www.google.com)
+  
+alternately, reference-style links can be created like this:
+
+```
+[alternate reference-style link][link definition]
+```
+In either case, the link definition for a reference-style link is included separately, usually at the bottom of the document:
+```
+[link definition]: https://www.google.com
+[reference-style]: https://www.google.com
+```
+A more detailed example:
 ```no-highlight
 [I'm an inline-style link](https://www.google.com)
 
@@ -123,30 +151,28 @@ URLs in angle brackets will automatically get turned into links: <http://www.exa
 
 Some text to show that the reference links can follow later.
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
 [link text itself]: http://www.reddit.com
 ```
 
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs in angle brackets will automatically get turned into links: <http://www.example.com>
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+??? tip "Result"
+    
+    [I'm an inline-style link](https://www.google.com)
+    
+    [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+    
+    [I'm a reference-style link](https://www.mozilla.org)
+    
+    [I'm a relative reference to a repository file](../blob/master/LICENSE)
+    
+    [You can use numbers for reference-style link definitions](http://slashdot.org)
+    
+    Or leave it empty and use the [link text itself](http://www.reddit.com).
+    
+    URLs in angle brackets will automatically get turned into links: <http://www.example.com>
+    
+    Some text to show that the reference links can follow later.
 
 ## images {: #images }
 

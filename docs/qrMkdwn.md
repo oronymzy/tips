@@ -104,10 +104,6 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 ## links {: #links }
 
-!!! attention
-    
-    Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
-
 There are two ways to create links:
 
 ```
@@ -174,6 +170,10 @@ Some text to show that the reference links can follow later.
     URLs in angle brackets will automatically get turned into links: <http://www.example.com>
     
     Some text to show that the reference links can follow later.
+
+!!! note
+    
+    Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
 
 ## images {: #images }
 

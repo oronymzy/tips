@@ -1,4 +1,4 @@
-# quick reference for Markdown
+# quick reference for [Markdown]
 
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
@@ -365,7 +365,7 @@ This line is separated by a single newline and two spaces, so it's a separate li
 - Removed at least one reference to Markdown Here and Github-flavored Markdown.
 - Removed table of contents.
 - Removed secton on YouTube videos.
-- Substituted the original logo with the [Definition of Free Cultural Works](https://en.wikipedia.org/wiki/Definition_of_Free_Cultural_Works) [logo](https://commons.wikimedia.org/wiki/File:Definition_of_Free_Cultural_Works_logo_notext.svg), which was released under a public domain dedication.
+- Substituted the original [Markdown Here](https://github.com/adam-p/markdown-here) logo with the [Definition of Free Cultural Works](https://en.wikipedia.org/wiki/Definition_of_Free_Cultural_Works) [logo](https://commons.wikimedia.org/wiki/File:Definition_of_Free_Cultural_Works_logo_notext.svg), which was released under a public domain dedication.
 - Tweaked the less pretty Markdown table.
 
 ??? info "Additional removals"
@@ -390,6 +390,7 @@ This line is separated by a single newline and two spaces, so it's a separate li
     - {~~The outer pipes (|) are optional~>The rightmost pipe (`|`) is optional~~}
     - {~~This line is only separated by a single newline, so it's a separate line in the *same paragraph*.~>This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.~~}
 
+[Markdown]: https://en.wikipedia.org/wiki/Markdown
 [Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
 [^qrMkdown1]: https://python-markdown.github.io/#differences
 [^qrMkdown2]: https://pandoc.org/MANUAL.html#paragraphs

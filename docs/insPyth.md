@@ -1,4 +1,4 @@
-# installing Python
+# installing [Python]
 For CentOS, use `sudo yum install centos-release-scl && sudo yum-config-manager --enable centos-sclo-rh-testing && sudo yum install rh-python36 && scl enable rh-python36 bash` to install Python 3.6.
 
 ## licensing
@@ -6,3 +6,5 @@ For CentOS, use `sudo yum install centos-release-scl && sudo yum-config-manager 
 
 ## prior work
 - The bulk of the CentOS installation script was introduced to me by [a page on Software Collections](https://www.softwarecollections.org/en/scls/rhscl/rh-python36/).
+
+[Python]: https://www.python.org/

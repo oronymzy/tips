@@ -1,4 +1,4 @@
-# installing a CentOS system
+# installing a [CentOS] system
 
 !!! attention
     By default, CentOS 7 installs the *Minimal Install* *Base Environment*, without a GUI. I recommend a KDE-based GUI. Under *Base Environment*, choose *KDE Plasma Workspaces*, and select all under *Add-Ons for Selected Environment*.
@@ -61,4 +61,5 @@ Also install additional programs using more specific instructions:
 - The fact that a *Minimal Install* *Base Environment* is installed by default was introduced to me by [an answer on Stack Exchange by Nasir Riley](https://unix.stackexchange.com/questions/434912/newly-installed-centos-7-boots-to-command-line-and-unable-to-enter-gui/434923#434923).
 - The method of enabling access to the EPEL and Nux Dextop repositories was introduced to me by [a page on the Fedora Project Wiki](https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F) and [the My RPM repositories homepage](https://li.nux.ro/repos.html).
 
+[CentOS]: https://www.centos.org/
 [^insCOSs1]: https://li.nux.ro/repos.html

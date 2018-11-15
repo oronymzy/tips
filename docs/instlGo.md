@@ -1,4 +1,4 @@
-# installing Go
+# installing [Go]
 In Linux, use `wget -P /tmp https://dl.google.com/go/go1.11.linux-amd64.tar.gz && sudo tar -C /usr/local -xzf /tmp/go1.11.linux-amd64.tar.gz`, then add these lines to `$HOME/.profile`:
 
 ```
@@ -30,3 +30,5 @@ To uninstall, use `rm -rvf /usr/local/go/`, then remove the text previously adde
 - The lines to be added to `$HOME/.profile` and the necessity of setting GOROOT was introduced to me by [an answer on Ask Ubuntu by Tony](https://askubuntu.com/questions/959932/installation-instructions-for-golang-1-9-into-ubuntu-16-04/960327#960327).
 - The method of extracting the tar and creating a Go tree was introduced to me by [a page on the Go website](https://golang.org/doc/install).
 - The method of uninstalling Go was introduced to me by [an answer on Stack Overflow by Basile Starynkevitch](https://stackoverflow.com/questions/42186003/how-to-uninstall-golang/42186042#42186042).
+
+[Go]: https://golang.org/

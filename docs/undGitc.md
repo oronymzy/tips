@@ -1,4 +1,4 @@
-# undoing a Git commit
+# undoing a [Git] commit
 Undoing a commit is a little scary if you don't know how it works. But it's actually amazingly easy if you do understand.
 
 Say you have this, where C is your HEAD and (F) is the state of your files.
@@ -65,3 +65,5 @@ You've now resurrected that commit. Commits don't actually get destroyed in Git 
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [an answer on Stack Overflow by Ryan Lundy](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git/6866485#6866485), with the modification of converting the original HTML to Markdown.
+
+[Git]: https://git-scm.com/

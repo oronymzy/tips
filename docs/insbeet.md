@@ -1,4 +1,4 @@
-# installing beets
+# installing [beets]
 ## CentOS
 
 !!! note
@@ -52,3 +52,5 @@ where */foo/bar/baz* is the path to where the music is stored.
 - The method of importing music without autotagging it was introduced to me by [the Getting Started page on beets documentation](http://beets.readthedocs.io/en/v1.4.5/guides/main.html#importing-your-library).
 - The possibility of customizing the path format configuration was introduced to me by [the Configuration page on beets documentation](http://beets.readthedocs.io/en/v1.4.5/reference/config.html#path-format-configuration).
 - The workaround for a non-functioning `singleton` field was introduced to me by [the Queries page on beets documentation](http://beets.readthedocs.io/en/v1.4.5/reference/query.html#regular-expressions).
+
+[beets]: http://beets.io/

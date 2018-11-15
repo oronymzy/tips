@@ -2,6 +2,92 @@
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
 
+## blockquotes {: #blockquotes }
+
+```
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+```
+
+??? tip "Result"
+    
+    > Blockquotes are very handy in email to emulate reply text.
+    > This line is part of the same quote.
+    
+    Quote break.
+    
+    > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+
+## code and syntax highlighting {: #code }
+
+Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
+
+```
+Inline `code` has `back-ticks around` it.
+```
+
+??? tip "Result"
+    
+    Inline `code` has `back-ticks around` it.
+
+Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces.
+
+```
+ ```javascript
+ var s = "JavaScript syntax highlighting";
+ alert(s);
+ ```
+ 
+ ```python
+ s = "Python syntax highlighting"
+ print s
+ ```
+ 
+ ```
+ No language indicated, so no syntax highlighting. 
+ But let's throw in a <b>tag</b>.
+ ```
+```
+
+??? tip "Result"
+    
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+    
+    ```python
+    s = "Python syntax highlighting"
+    print s
+    ```
+    
+    ```
+    No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+    But let's throw in a <b>tag</b>.
+    ```
+
+## emphasis {: #emphasis }
+
+```
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+```
+
+??? tip "Result"
+    
+    Emphasis, aka italics, with *asterisks* or _underscores_.
+    
+    Strong emphasis, aka bold, with **asterisks** or __underscores__.
+    
+    Combined emphasis with **asterisks and _underscores_**.
+
 ## headings {: #headings }
 
 ```
@@ -40,98 +126,134 @@ Alt-H2
     Alt-H2
     ------
 
-## emphasis {: #emphasis }
+## horizontal rule {: #hr }
 
 ```
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Three or more...
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+---
 
-Combined emphasis with **asterisks and _underscores_**.
-```
+Hyphens
 
-??? tip "Result"
-    
-    Emphasis, aka italics, with *asterisks* or _underscores_.
-    
-    Strong emphasis, aka bold, with **asterisks** or __underscores__.
-    
-    Combined emphasis with **asterisks and _underscores_**.
+***
 
+Asterisks
 
-## strikethrough {: #strikethrough }
+___
 
-```
-Strikethrough uses two tildes. ~~Scratch this.~~
+Underscores
 ```
 
 ??? tip "Result"
     
-    Strikethrough uses two tildes. ~~Scratch this.~~
+    Three or more...
+    
+    ---
+    
+    Hyphens
+    
+    ***
+    
+    Asterisks
+    
+    ___
+    
+    Underscores
 
-## lists {: #lists }
+## images {: #images }
+
+```
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](qrMkdwn.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: qrMkdwn.png "Logo Title Text 2"
+```
+
+??? tip "Result"
+    
+    Here's our logo (hover to see the title text):
+    
+    Inline-style: 
+    ![alt text](qrMkdwn.png "Logo Title Text 1")
+    
+    Reference-style: 
+    ![alt text][logo]
+
+[logo]: qrMkdwn.png "Logo Title Text 2"
+
+## inline HTML {: #html }
+
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+
+```
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+```
+
+??? tip "Result"
+    
+    <dl>
+      <dt>Definition list</dt>
+      <dd>Is something people use sometimes.</dd>
+    
+      <dt>Markdown in HTML</dt>
+      <dd>Does \*not\* work \*\*very\*\* well. Use HTML <em>tags</em>.</dd>
+    </dl>
+
+!!! note
+    
+    Because Markdown *is* rendered within HTML when inside an admonition, the *Result* admonition contains raw Markdown formatted differently than in the example, with backslash-escapes added.
+
+## line breaks {: #lines }
 
 !!! note
     
     Leading and trailing spaces are shown with dots (`⋅`).
 
+Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), and see what happens.
+
+Here are some things to try out:
+
 ``` tab="Markdown with dots"
-1. First ordered list item
-2. Another item
-⋅⋅⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅⋅⋅1. Ordered sub-list
-4. And another item.
+Here's a line for us to start with.
 
-⋅⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
-⋅⋅⋅⋅
-⋅⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅⋅Note that this line is separate, but within the same paragraph.
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+This line is also a separate paragraph, but...⋅⋅
+This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 ```
 
 ``` tab="Markdown without dots"
-1. First ordered list item
-2. Another item
-    * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-    1. Ordered sub-list
-4. And another item.
+Here's a line for us to start with.
 
-    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
-    
-    To have a line break without a paragraph, you will need to use two trailing spaces.
-    Note that this line is separate, but within the same paragraph.
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+This line is also a separate paragraph, but...  
+This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 ```
 
 ??? tip "Result"
     
-    1. First ordered list item
-    2. Another item
-        * Unordered sub-list. 
-    1. Actual numbers don't matter, just that it's a number
-        1. Ordered sub-list
-    4. And another item.
+    Here's a line for us to start with.
     
-        You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
-        
-        To have a line break without a paragraph, you will need to use two trailing spaces.
-        Note that this line is separate, but within the same paragraph.
+    This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
     
-    * Unordered list can use asterisks
-    - Or minuses
-    + Or pluses
+    This line is also a separate paragraph, but...  
+    This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 
-!!! attention
+!!! note
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown1]
+    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown] (with an extension)[^qrMkdown2].
 
 ## links {: #links }
 
@@ -208,79 +330,79 @@ Some text to show that the reference links can follow later.
     
     Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
 
-## images {: #images }
+## lists {: #lists }
 
-```
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](qrMkdwn.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: qrMkdwn.png "Logo Title Text 2"
-```
-
-??? tip "Result"
+!!! note
     
-    Here's our logo (hover to see the title text):
-    
-    Inline-style: 
-    ![alt text](qrMkdwn.png "Logo Title Text 1")
-    
-    Reference-style: 
-    ![alt text][logo]
+    Leading and trailing spaces are shown with dots (`⋅`).
 
-[logo]: qrMkdwn.png "Logo Title Text 2"
+``` tab="Markdown with dots"
+1. First ordered list item
+2. Another item
+⋅⋅⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅⋅⋅1. Ordered sub-list
+4. And another item.
 
-## code and syntax highlighting {: #code }
+⋅⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
+⋅⋅⋅⋅
+⋅⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅⋅Note that this line is separate, but within the same paragraph.
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
-
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
 ```
-Inline `code` has `back-ticks around` it.
-```
 
-??? tip "Result"
+``` tab="Markdown without dots"
+1. First ordered list item
+2. Another item
+    * Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+    1. Ordered sub-list
+4. And another item.
+
+    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
     
-    Inline `code` has `back-ticks around` it.
+    To have a line break without a paragraph, you will need to use two trailing spaces.
+    Note that this line is separate, but within the same paragraph.
 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces.
-
-```
- ```javascript
- var s = "JavaScript syntax highlighting";
- alert(s);
- ```
- 
- ```python
- s = "Python syntax highlighting"
- print s
- ```
- 
- ```
- No language indicated, so no syntax highlighting. 
- But let's throw in a <b>tag</b>.
- ```
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
 ```
 
 ??? tip "Result"
     
-    ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
-    ```
+    1. First ordered list item
+    2. Another item
+        * Unordered sub-list. 
+    1. Actual numbers don't matter, just that it's a number
+        1. Ordered sub-list
+    4. And another item.
     
-    ```python
-    s = "Python syntax highlighting"
-    print s
-    ```
+        You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
+        
+        To have a line break without a paragraph, you will need to use two trailing spaces.
+        Note that this line is separate, but within the same paragraph.
     
-    ```
-    No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-    But let's throw in a <b>tag</b>.
-    ```
+    * Unordered list can use asterisks
+    - Or minuses
+    + Or pluses
+
+!!! attention
+    
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown1]
+
+## strikethrough {: #strikethrough }
+
+```
+Strikethrough uses two tildes. ~~Scratch this.~~
+```
+
+??? tip "Result"
+    
+    Strikethrough uses two tildes. ~~Scratch this.~~
 
 ## tables {: #tables }
 
@@ -323,129 +445,6 @@ The table will render correctly even if the raw Markdown does not line up pretti
     |-|-|-
     | *Still* | `renders` | **nicely**
     | 1 | 2 | 3
-
-## blockquotes {: #blockquotes }
-
-```
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-```
-
-??? tip "Result"
-    
-    > Blockquotes are very handy in email to emulate reply text.
-    > This line is part of the same quote.
-    
-    Quote break.
-    
-    > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-
-## inline HTML {: #html }
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
-
-```
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-```
-
-??? tip "Result"
-    
-    <dl>
-      <dt>Definition list</dt>
-      <dd>Is something people use sometimes.</dd>
-    
-      <dt>Markdown in HTML</dt>
-      <dd>Does \*not\* work \*\*very\*\* well. Use HTML <em>tags</em>.</dd>
-    </dl>
-
-!!! note
-    
-    Because Markdown *is* rendered within HTML when inside an admonition, the *Result* admonition contains raw Markdown formatted differently than in the example, with backslash-escapes added.
-
-## horizontal rule {: #hr }
-
-```
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-```
-
-??? tip "Result"
-    
-    Three or more...
-    
-    ---
-    
-    Hyphens
-    
-    ***
-    
-    Asterisks
-    
-    ___
-    
-    Underscores
-
-## line breaks {: #lines }
-
-!!! note
-    
-    Leading and trailing spaces are shown with dots (`⋅`).
-
-Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), and see what happens.
-
-Here are some things to try out:
-
-``` tab="Markdown with dots"
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...⋅⋅
-This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
-```
-
-``` tab="Markdown without dots"
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...  
-This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
-```
-
-??? tip "Result"
-    
-    Here's a line for us to start with.
-    
-    This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-    
-    This line is also a separate paragraph, but...  
-    This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
-
-!!! note
-    
-    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown] (with an extension)[^qrMkdown2].
 
 ## licensing
 **Some rights reserved: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).** Includes significant content from [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on GitHub with modifications, including the following:

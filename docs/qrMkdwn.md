@@ -331,6 +331,31 @@ Some text to show that the reference links can follow later.
     Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
 
 ## lists {: #lists }
+### description lists {: #dlists }
+
+```
+Description lists are made of terms and details
+: We don't need to go into much detail about it.
+
+Each term and its details can represent attribute-value pairs.
+
+Here is an attribute.
+: And here is a value.
+: It starts with a colon.
+```
+
+??? tip "Result"
+    
+    Description lists are made of terms and details
+    : We don't need to go into much detail about it.
+    
+    Each term and its details can represent attribute-value pairs.
+    
+    Here is an attribute.
+    : And here is a value.
+    : It starts with a colon.
+
+### ordered lists {: #olists }
 
 !!! note
     
@@ -348,10 +373,6 @@ Some text to show that the reference links can follow later.
 ⋅⋅⋅⋅
 ⋅⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 ⋅⋅⋅⋅Note that this line is separate, but within the same paragraph.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
 ```
 
 ``` tab="Markdown without dots"
@@ -366,10 +387,6 @@ Some text to show that the reference links can follow later.
     
     To have a line break without a paragraph, you will need to use two trailing spaces.
     Note that this line is separate, but within the same paragraph.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
 ```
 
 ??? tip "Result"
@@ -385,14 +402,24 @@ Some text to show that the reference links can follow later.
         
         To have a line break without a paragraph, you will need to use two trailing spaces.
         Note that this line is separate, but within the same paragraph.
-    
-    * Unordered list can use asterisks
-    - Or minuses
-    + Or pluses
 
 !!! attention
     
     [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown1]
+
+### unordered lists {: #ulists }
+
+```
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+```
+
+??? tip "Result"
+    
+    * Unordered list can use asterisks
+    - Or minuses
+    + Or pluses
 
 ## strikethrough {: #strikethrough }
 

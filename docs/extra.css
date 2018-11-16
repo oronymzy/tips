@@ -1,3 +1,5 @@
+/* MIT license. Contains significant content from [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). See README for full license. */
+
 .md-typeset table:not([class]) th {background-color: rgba(0, 0, 0, 0.1); color: black;}
 .no {background-color: #FFDDDD;}
 .yes {background-color: #ddffdd;}

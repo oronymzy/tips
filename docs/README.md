@@ -82,6 +82,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tilde
+extra_css:
+  - 'extra.css'
 extra:
   social:
     - type: 'github'
@@ -91,13 +93,14 @@ repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 edit_uri: ''
 ```
 
-were introduced to me by [Adding a source repository], [Adding social links], [Admonition], [Attribute Lists], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
+were introduced to me by [Adding a source repository], [Adding social links], [Additional stylesheets], [Admonition], [Attribute Lists], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
 
 [Adding a source repository]: https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository
 [Adding social links]: https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links
+[Additional stylesheets]: https://squidfunk.github.io/mkdocs-material/customization/#additional-stylesheets
 [Admonition]: https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation
 [Attribute Lists]: https://python-markdown.github.io/extensions/attr_list/
 [CodeHilite on Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/extensions/codehilite/

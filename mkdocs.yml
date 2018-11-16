@@ -54,12 +54,15 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.keys
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
 theme:
   name: 'material'
+extra_css:
+  - 'extra.css'
 extra:
   social:
     - type: 'github'

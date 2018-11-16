@@ -2,6 +2,10 @@
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
 
+??? info "Comparison"
+    
+    --8<-- "docs/qrMkdown-cmprtbl-cc0.html"
+
 ## blockquotes {: #blockquotes }
 
 ```

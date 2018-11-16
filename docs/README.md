@@ -79,6 +79,7 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - pymdownx.details
   - pymdownx.keys
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tilde
 extra:
@@ -90,7 +91,7 @@ repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 edit_uri: ''
 ```
 
-were introduced to me by [Adding a source repository], [Adding social links], [Admonition], [Attribute Lists], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [SuperFences], [Tilde], and [PyMdown Extensions].
+were introduced to me by [Adding a source repository], [Adding social links], [Admonition], [Attribute Lists], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
@@ -106,6 +107,7 @@ I will always make an effort to recognize prior work, regardless of licensing, a
 [Footnotes]: https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation
 [Keys]: https://facelessuser.github.io/pymdown-extensions/extensions/keys/
 [PyMdown Extensions]: https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation
+[Snippets]: https://facelessuser.github.io/pymdown-extensions/extensions/snippets/
 [SuperFences]: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
 [Tilde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
 [^Orotips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown

@@ -1,6 +1,6 @@
 # installing [Node.js] and [npm] with [nvm]
 
-In Ubuntu, use `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash` to install [the Node Version Manager](https://github.com/creationix/nvm) and avoid [the use of sudo in the installation of npm packages](https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-still-66e609f5f92). Close and reopen the terminal, then use `command -v nvm` to verify the installation of nvm. Then use `nvm install node` to install the latest version of Node.js and npm.
+In Kubuntu, use `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash` to install [the Node Version Manager](https://github.com/creationix/nvm) and avoid [the use of sudo in the installation of npm packages](https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-still-66e609f5f92). Close and reopen the terminal, then use `command -v nvm` to verify the installation of nvm. Then use `nvm install node` to install the latest version of Node.js and npm.
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

@@ -9,26 +9,32 @@
 <a href="https://pandoc.org/MANUAL.html#pandocs-markdown">Pandoc’s Markdown</a>
 </th>
 <th>
+<a href="https://facelessuser.github.io/PyMdown/">PyMdown</a>
+</th>
+<th>
 <a href="https://python-markdown.github.io/">Python-Markdown</a>
 </th>
 </tr>
 <tr>
 <th>
-footnotes
+<a href="#blockquotes">blockquotes</a>
 </th>
-<td class="no">
-no
+<td class="yes">
+yes<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
 </td>
 <td class="yes">
-yes (with extension)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
+yes<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
 </td>
 <td class="yes">
-yes (with extension)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
+yes
+</td>
+<td class="yes">
+yes
 </td>
 </tr>
 <tr>
 <th>
-<a href="#headings">headings</a>
+<a href="#code">code</a> (<a href="#icode">inline</a>)
 </th>
 <td class="yes">
 yes<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>
@@ -39,16 +45,39 @@ yes<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>
 <td class="yes">
 yes
 </td>
+<td class="yes">
+yes
+</td>
 </tr>
 <tr>
 <th>
-<a href="#links">links</a> (inline-style)
+<a href="#code">code</a> (<a href="#bcode">blocks</a>)
 </th>
-<td class="yes">
-yes<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>
+<td class="partial">
+partial (indent only)<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>
 </td>
 <td class="yes">
-yes<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>
+yes (with extension)<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a>
+</td>
+</tr>
+<tr>
+<th>
+<a href="#emphasis">emphasis</a>
+</th>
+<td class="yes">
+yes<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>
+</td>
+<td class="yes">
+yes
 </td>
 <td class="yes">
 yes
@@ -56,13 +85,152 @@ yes
 </tr>
 <tr>
 <th>
-<a href="#links">links</a> (reference-style)
+<a href="#footnotes">footnotes</a> (<a href="#ifootnote">inline-style</a>)
 </th>
-<td class="yes">
-yes<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a>
+<td class="no">
+no
 </td>
 <td class="yes">
-yes<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a>
+yes (with extension)<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a>
+</td>
+<td class="partial">
+partial (with extension)<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a>
+</td>
+<td class="no">
+no<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>
+</td>
+</tr>
+<tr>
+<th>
+<a href="#footnotes">footnotes</a> (<a href="#rfootnote">reference-style</a>)
+</th>
+<td class="no">
+no
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a>
+</td>
+</tr>
+<tr>
+<th>
+<a href="#headings">headings</a>
+</th>
+<td class="yes">
+yes<a href="#fn17" class="footnote-ref" id="fnref17"><sup>17</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a>
+</td>
+<td class="yes">
+yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#hrule">horizontal rules</a>
+</th>
+<td class="yes">
+yes<a href="#fn19" class="footnote-ref" id="fnref19"><sup>19</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn20" class="footnote-ref" id="fnref20"><sup>20</sup></a>
+</td>
+<td class="yes">
+yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#images">images</a>
+</th>
+<td class="yes">
+yes<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a>
+</td>
+<td class="yes">
+yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#html">inline HTML</a>
+</th>
+<td class="yes">
+yes<a href="#fn23" class="footnote-ref" id="fnref23"><sup>23</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn24" class="footnote-ref" id="fnref24"><sup>24</sup></a>
+</td>
+<td class="yes">
+yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#links">links</a> (<a href="#alink">automatic</a>)
+</th>
+<td class="yes">
+yes<a href="#fn25" class="footnote-ref" id="fnref25"><sup>25</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a>
+</td>
+<td class="yes">
+yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#links">links</a> (<a href="#ilink">inline-style</a>)
+</th>
+<td class="yes">
+yes<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a>
+</td>
+<td class="yes">
+yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#links">links</a> (<a href="#rlink">reference-style</a>)
+</th>
+<td class="yes">
+yes<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a>
+</td>
+<td class="yes">
+yes<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a>
+</td>
+<td class="yes">
+yes
 </td>
 <td class="yes">
 yes
@@ -76,10 +244,13 @@ yes
 no
 </td>
 <td class="yes">
-yes (with extension)<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a>
+yes (with extension)<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a>
 </td>
 <td class="yes">
-yes (with extension)<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>
+yes (with extension)<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a>
 </td>
 </tr>
 <tr>
@@ -87,10 +258,13 @@ yes (with extension)<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</s
 <a href="#lists">lists</a> (<a href="#olists">ordered lists</a>)
 </th>
 <td class="yes">
-yes<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a>
+yes<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a>
 </td>
 <td class="yes">
-yes<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a>
+yes<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a>
+</td>
+<td class="yes">
+yes
 </td>
 <td class="yes">
 yes
@@ -101,13 +275,33 @@ yes
 <a href="#lists">lists</a> (<a href="#ulists">unordered lists</a>)
 </th>
 <td class="yes">
-yes<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>
+yes<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a>
 </td>
 <td class="yes">
-yes<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a>
+yes<a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a>
 </td>
 <td class="yes">
 yes
+</td>
+<td class="yes">
+yes
+</td>
+</tr>
+<tr>
+<th>
+<a href="#strikethrough">strikethrough</a>
+</th>
+<td class="no">
+no
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn39" class="footnote-ref" id="fnref39"><sup>39</sup></a>
+</td>
+<td class="no">
+no
 </td>
 </tr>
 <tr>
@@ -118,31 +312,60 @@ yes
 no
 </td>
 <td class="yes">
-yes (with<br><em>pipe tables</em><br>extension)<a href="#fn15" class="footnote-ref" id="fnref15"><sup>15</sup></a>
+yes (with<br><em>pipe tables</em><br>extension)<a href="#fn40" class="footnote-ref" id="fnref40"><sup>40</sup></a>
 </td>
 <td class="yes">
-yes (with extension)<a href="#fn16" class="footnote-ref" id="fnref16"><sup>16</sup></a>
+yes (with extension)<a href="#fn41" class="footnote-ref" id="fnref41"><sup>41</sup></a>
+</td>
+<td class="yes">
+yes (with extension)<a href="#fn42" class="footnote-ref" id="fnref42"><sup>42</sup></a>
 </td>
 </tr>
 </tbody></table>
 <section class="footnotes">
 <hr>
 <ol>
-<li id="fn1"><p>https://pandoc.org/MANUAL.html#footnotes<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>https://python-markdown.github.io/extensions/footnotes/<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>https://daringfireball.net/projects/markdown/syntax#header<a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>https://pandoc.org/MANUAL.html#headers<a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>https://daringfireball.net/projects/markdown/syntax#link<a href="#fnref5" class="footnote-back">↩</a></p></li>
-<li id="fn6"><p>https://pandoc.org/MANUAL.html#inline-links<a href="#fnref6" class="footnote-back">↩</a></p></li>
-<li id="fn7"><p>https://daringfireball.net/projects/markdown/syntax#link<a href="#fnref7" class="footnote-back">↩</a></p></li>
-<li id="fn8"><p>https://pandoc.org/MANUAL.html#reference-links<a href="#fnref8" class="footnote-back">↩</a></p></li>
-<li id="fn9"><p>https://pandoc.org/MANUAL.html#definition-lists<a href="#fnref9" class="footnote-back">↩</a></p></li>
-<li id="fn10"><p>https://python-markdown.github.io/extensions/definition_lists/<a href="#fnref10" class="footnote-back">↩</a></p></li>
-<li id="fn11"><p>https://daringfireball.net/projects/markdown/syntax#list<a href="#fnref11" class="footnote-back">↩</a></p></li>
-<li id="fn12"><p>https://pandoc.org/MANUAL.html#ordered-lists<a href="#fnref12" class="footnote-back">↩</a></p></li>
-<li id="fn13"><p>https://daringfireball.net/projects/markdown/syntax#list<a href="#fnref13" class="footnote-back">↩</a></p></li>
-<li id="fn14"><p>https://pandoc.org/MANUAL.html#bullet-lists<a href="#fnref14" class="footnote-back">↩</a></p></li>
-<li id="fn15"><p>https://pandoc.org/MANUAL.html#tables<a href="#fnref15" class="footnote-back">↩</a></p></li>
-<li id="fn16"><p>https://python-markdown.github.io/extensions/tables/<a href="#fnref16" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>https://daringfireball.net/projects/markdown/syntax#blockquote<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>https://pandoc.org/MANUAL.html#block-quotations<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>https://daringfireball.net/projects/markdown/syntax#code<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>https://pandoc.org/MANUAL.html#verbatim<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>https://daringfireball.net/projects/markdown/syntax#precode<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>https://pandoc.org/MANUAL.html#verbatim-code-blocks<a href="#fnref6" class="footnote-back">↩</a></p></li>
+<li id="fn7"><p>https://facelessuser.github.io/pymdown-extensions/extensions/extra/<a href="#fnref7" class="footnote-back">↩</a></p></li>
+<li id="fn8"><p>https://python-markdown.github.io/extensions/fenced_code_blocks/<a href="#fnref8" class="footnote-back">↩</a></p></li>
+<li id="fn9"><p>https://daringfireball.net/projects/markdown/syntax#em<a href="#fnref9" class="footnote-back">↩</a></p></li>
+<li id="fn10"><p>https://pandoc.org/MANUAL.html#emphasis<a href="#fnref10" class="footnote-back">↩</a></p></li>
+<li id="fn11"><p>https://pandoc.org/MANUAL.html#footnotes<a href="#fnref11" class="footnote-back">↩</a></p></li>
+<li id="fn12"><p>Inline-style footnotes can be approximated using the <a href="https://facelessuser.github.io/pymdown-extensions/extensions/caret/">Caret extension</a> to create numbered superscripts and an ordered list. Links between the superscript and footnote will not be available.<a href="#fnref12" class="footnote-back">↩</a></p></li>
+<li id="fn13"><p>https://github.com/Python-Markdown/markdown/issues/658<a href="#fnref13" class="footnote-back">↩</a></p></li>
+<li id="fn14"><p>https://pandoc.org/MANUAL.html#footnotes<a href="#fnref14" class="footnote-back">↩</a></p></li>
+<li id="fn15"><p>https://facelessuser.github.io/pymdown-extensions/extensions/extra/<a href="#fnref15" class="footnote-back">↩</a></p></li>
+<li id="fn16"><p>https://python-markdown.github.io/extensions/footnotes/<a href="#fnref16" class="footnote-back">↩</a></p></li>
+<li id="fn17"><p>https://daringfireball.net/projects/markdown/syntax#header<a href="#fnref17" class="footnote-back">↩</a></p></li>
+<li id="fn18"><p>https://pandoc.org/MANUAL.html#headers<a href="#fnref18" class="footnote-back">↩</a></p></li>
+<li id="fn19"><p>https://daringfireball.net/projects/markdown/syntax#hr<a href="#fnref19" class="footnote-back">↩</a></p></li>
+<li id="fn20"><p>https://pandoc.org/MANUAL.html#horizontal-rules<a href="#fnref20" class="footnote-back">↩</a></p></li>
+<li id="fn21"><p>https://daringfireball.net/projects/markdown/syntax#img<a href="#fnref21" class="footnote-back">↩</a></p></li>
+<li id="fn22"><p>https://pandoc.org/MANUAL.html#images<a href="#fnref22" class="footnote-back">↩</a></p></li>
+<li id="fn23"><p>https://daringfireball.net/projects/markdown/syntax#html<a href="#fnref23" class="footnote-back">↩</a></p></li>
+<li id="fn24"><p>https://pandoc.org/MANUAL.html#raw-html<a href="#fnref24" class="footnote-back">↩</a></p></li>
+<li id="fn25"><p>https://daringfireball.net/projects/markdown/syntax#autolink<a href="#fnref25" class="footnote-back">↩</a></p></li>
+<li id="fn26"><p>https://pandoc.org/MANUAL.html#automatic-links<a href="#fnref26" class="footnote-back">↩</a></p></li>
+<li id="fn27"><p>https://daringfireball.net/projects/markdown/syntax#link<a href="#fnref27" class="footnote-back">↩</a></p></li>
+<li id="fn28"><p>https://pandoc.org/MANUAL.html#inline-links<a href="#fnref28" class="footnote-back">↩</a></p></li>
+<li id="fn29"><p>https://daringfireball.net/projects/markdown/syntax#link<a href="#fnref29" class="footnote-back">↩</a></p></li>
+<li id="fn30"><p>https://pandoc.org/MANUAL.html#reference-links<a href="#fnref30" class="footnote-back">↩</a></p></li>
+<li id="fn31"><p>https://pandoc.org/MANUAL.html#definition-lists<a href="#fnref31" class="footnote-back">↩</a></p></li>
+<li id="fn32"><p>https://facelessuser.github.io/pymdown-extensions/extensions/extra/<a href="#fnref32" class="footnote-back">↩</a></p></li>
+<li id="fn33"><p>https://python-markdown.github.io/extensions/definition_lists/<a href="#fnref33" class="footnote-back">↩</a></p></li>
+<li id="fn34"><p>https://daringfireball.net/projects/markdown/syntax#list<a href="#fnref34" class="footnote-back">↩</a></p></li>
+<li id="fn35"><p>https://pandoc.org/MANUAL.html#ordered-lists<a href="#fnref35" class="footnote-back">↩</a></p></li>
+<li id="fn36"><p>https://daringfireball.net/projects/markdown/syntax#list<a href="#fnref36" class="footnote-back">↩</a></p></li>
+<li id="fn37"><p>https://pandoc.org/MANUAL.html#bullet-lists<a href="#fnref37" class="footnote-back">↩</a></p></li>
+<li id="fn38"><p>https://pandoc.org/MANUAL.html#strikeout<a href="#fnref38" class="footnote-back">↩</a></p></li>
+<li id="fn39"><p>https://facelessuser.github.io/pymdown-extensions/extensions/tilde/<a href="#fnref39" class="footnote-back">↩</a></p></li>
+<li id="fn40"><p>https://pandoc.org/MANUAL.html#tables<a href="#fnref40" class="footnote-back">↩</a></p></li>
+<li id="fn41"><p>https://facelessuser.github.io/pymdown-extensions/extensions/extra/<a href="#fnref41" class="footnote-back">↩</a></p></li>
+<li id="fn42"><p>https://python-markdown.github.io/extensions/tables/<a href="#fnref42" class="footnote-back">↩</a></p></li>
 </ol>
 </section>

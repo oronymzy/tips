@@ -2,10 +2,6 @@
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
 
-??? info "Comparison"
-    
-    --8<-- "docs/qrMkdown-cmprtbl-cc0.html"
-
 ## blockquotes {: #blockquotes }
 
 ```
@@ -26,9 +22,11 @@ Quote break.
     
     > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-## code and syntax highlighting {: #code }
+## code {: #code }
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
+
+### inline code {: #icode }
 
 ```
 Inline `code` has `back-ticks around` it.
@@ -38,41 +36,67 @@ Inline `code` has `back-ticks around` it.
     
     Inline `code` has `back-ticks around` it.
 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces.
+### blocks of code {: #bcode }
+ Blocks of code are fenced by lines with three back-ticks (<code>```</code>).
 
 ```
  ```javascript
  var s = "JavaScript syntax highlighting";
  alert(s);
  ```
- 
+
  ```python
  s = "Python syntax highlighting"
  print s
  ```
- 
+
  ```
  No language indicated, so no syntax highlighting. 
  But let's throw in a <b>tag</b>.
  ```
 ```
 
+!!! note
+    The raw Markdown is indented by a single space to allow nesting of a code block within a code block.
+
+??? tip "Result"
+     
+     ```javascript
+     var s = "JavaScript syntax highlighting";
+     alert(s);
+     ```
+     
+     ```python
+     s = "Python syntax highlighting"
+     print s
+     ```
+     
+     ```
+     No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+     But let's throw in a <b>tag</b>.
+     ```
+
+Alternatively, code blocks can be fenced by three tildes (`~~~`) or be indented by four spaces.
+
+```
+~~~
+The quick
+brown fox
+~~~
+
+    jumps over
+    the lazy dog.
+```
+
 ??? tip "Result"
     
-    ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
-    ```
+    ~~~
+    The quick
+    brown fox
+    ~~~
     
-    ```python
-    s = "Python syntax highlighting"
-    print s
-    ```
-    
-    ```
-    No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-    But let's throw in a <b>tag</b>.
-    ```
+        jumps over
+        the lazy dog.
 
 ## emphasis {: #emphasis }
 
@@ -92,6 +116,55 @@ Combined emphasis with **asterisks and _underscores_**.
     
     Combined emphasis with **asterisks and _underscores_**.
 
+## footnotes {: #footnotes }
+
+!!! attention
+    
+    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^qrMkdown1] This means that:
+    
+    1. Markdown offers a more standardized way of creating footnotes than HTML.
+    2. HTML renderings of footnotes will differ significantly between different implementations of Markdown.
+
+!!! note
+    
+    **Footnotes usually include hyperlinks**, but because footnotes do not work within admonitions, the *Result* admonition contains raw Markdown formatted differently than in the example, with manually-added superscripts and ordered lists.
+
+### inline-style footnote {# ifootnote }
+This style of footnote creates a self-contained footnote beside the text it references.
+
+```
+An inline-style footnote consists of a caret (`^`) outside a pair of square brackets.
+It can be created on a single line^[It will be formatted like this.].
+```
+
+### reference-style footnote {# rfootnote }
+This style of footnote resembles a reference-style link, but works differently. Instead of combining into a hyperlink, the reference becomes a numbered superscript and the link definition becomes a numbered footnote at the end of the page.
+
+```
+The reference identifier[^1] is an string that begins with a caret (`^`).
+A number often follows the caret, but other characters are also allowed[^character-limitations].
+
+[^1]: In Python-Markdown, identifiers are called *labels*.
+[^character-limitations]:
+    Not all characters are allowed within the identifier.
+    Pandoc's Markdown does not allow spaces, tabs, or newlines in the identifier.
+```
+
+??? tip "Result"
+    
+    The reference identifier^1^ is an string that begins with a caret (`^`).
+    A number often follows the caret,
+    but other characters are also allowed^2^.
+    
+    1. In Python-Markdown, identifiers are called *labels*.
+    2. Not all characters are allowed within the identifier.
+    
+        Pandoc's Markdown does not allow spaces, tabs, or newlines in the identifier.
+
+!!! attention
+    
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^qrMkdown2]
+
 ## headings {: #headings }
 
 ```
@@ -105,12 +178,17 @@ Combined emphasis with **asterisks and _underscores_**.
 
 ??? tip "Result"
     
-    # H1
-    ## H2
-    ### H3
-    #### H4
-    ##### H5
-    ###### H6
+    <span class="h1workaround">H1</span>
+    
+    <span class="h2workaround">H2</span>
+    
+    <span class="h3workaround">H3</span>
+    
+    <span class="h4workaround">H4</span>
+    
+    <span class="h5workaround">H5</span>
+    
+    <span class="h6workaround">H6</span>
 
 Alternatively, for H1 and H2, an underline-ish style:
 
@@ -124,13 +202,15 @@ Alt-H2
 
 ??? tip "Result"
     
-    Alt-H1
-    ======
+    <span class="h1workaround">Alt-H1</span>
     
-    Alt-H2
-    ------
+    <span class="h2workaround">Alt-H2</span>
 
-## horizontal rule {: #hr }
+!!! note
+    
+    To avoid adding extraneous entries to the table of contents, several *Result* admonitions contain specially-styled HTML instead of heading elements.
+
+## horizontal rules {: #hrule }
 
 ```
 Three or more...
@@ -191,8 +271,7 @@ Reference-style:
 [logo]: qrMkdwn.png "Logo Title Text 2"
 
 ## inline HTML {: #html }
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 ```
 <dl>
@@ -257,78 +336,49 @@ This line is separated by a single newline and two spaces, so it's a separate li
 
 !!! note
     
-    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown] (with an extension)[^qrMkdown2].
+    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown3].
 
 ## links {: #links }
-
-There are two ways to create links:
+### automatic link {# alink }
 
 ```
-[inline-style](https://www.google.com)
-```
-
-??? tip "Result"
-    
-    [inline-style](https://www.google.com)
-and
-```
-[reference-style]
+URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
 ```
 
 ??? tip "Result"
     
-    [reference-style](https://www.google.com)
-  
-Alternatively, reference-style links can be created like this:
+    URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
+
+### inline-style link {# ilink }
 
 ```
-[alternate reference-style link][link definition]
-```
-In either case, the link definition for a reference-style link is included separately, usually at the bottom of the document:
-```
-[link definition]: https://www.google.com
-[reference-style]: https://www.google.com
-```
-A more detailed example:
-```
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs in angle brackets will automatically get turned into links: <http://www.example.com>
-
-Some text to show that the reference links can follow later.
-
-[1]: http://slashdot.org
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[link text itself]: http://www.reddit.com
+[I'm an inline-style link](https://freedomdefined.org/Definition), and
+[I'm an inline-style link with a title](https://freedomdefined.org/Definition "Definition of Free Cultural Works").
 ```
 
 ??? tip "Result"
     
-    [I'm an inline-style link](https://www.google.com)
+    [I'm an inline-style link](https://freedomdefined.org/Definition), and
+    [I'm an inline-style link with a title](https://freedomdefined.org/Definition "Definition of Free Cultural Works").
+
+### reference-style link {# rlink }
+
+```
+[I'm a reference-style link][with a separate link definition], and
+[I'm a reference-style link and definition all in one].
+
+The link definition for a reference-style link is included separately, usually at the bottom of the document.
+
+[with a separate link definition]: https://freedomdefined.org/Definition
+[I'm a reference-style link and definition all in one]: https://freedomdefined.org/Definition
+```
+
+??? tip "Result"
     
-    [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+    [I'm a reference-style link](https://freedomdefined.org/Definition), and
+    [I'm a reference-style link and definition all in one](https://freedomdefined.org/Definition).
     
-    [I'm a reference-style link](https://www.mozilla.org)
-    
-    [I'm a relative reference to a repository file](../blob/master/LICENSE)
-    
-    [You can use numbers for reference-style link definitions](http://slashdot.org)
-    
-    Or leave it empty and use the [link text itself](http://www.reddit.com).
-    
-    URLs in angle brackets will automatically get turned into links: <http://www.example.com>
-    
-    Some text to show that the reference links can follow later.
+    The link definition for a reference-style link is included separately, usually at the bottom of the document.
 
 !!! note
     
@@ -409,7 +459,7 @@ Here is an attribute.
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown1]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown4]
 
 ### unordered lists {: #ulists }
 
@@ -459,9 +509,8 @@ Colons can be used to align columns.
     | col 2 is      | centered      |   $12 |
     | zebra stripes | are neat      |    $1 |
 
+The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted. Only one dash is required to separate each header cell. You can also use inline Markdown.
 ```
-The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted, and only one dash is required to separate each header cell. You can also use inline Markdown.
-
 | Markdown | Less | Pretty
 |-|-|-
 | *Still* | `renders` | **nicely**
@@ -470,12 +519,98 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 ??? tip "Result"
     
-    The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted, and only one dash is required to separate each header cell. You can also use inline Markdown.
-    
     | Markdown | Less | Pretty
     |-|-|-
     | *Still* | `renders` | **nicely**
     | 1 | 2 | 3
+
+## comparison of Markdown implementations
+
+<!-- This table depends on CSS tweaks to display correctly. -->
+
+|                                                                     | [John Gruber’s Markdown]                     | [Pandoc's Markdown]                     | [PyMdown]                                       | [Python-Markdown]                       |
+|:--------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------|:------------------------------------------------|:----------------------------------------|
+|{: .fth } [blockquotes]                                              | yes{: .yes }[^jgmblkq]                       | yes{: .yes }[^pdmblkq]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [code]  [(inline)][inline code]                            | yes{: .yes }[^jgmcodi]                       | yes{: .yes }[^pdmcodi]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [code]  [(blocks)][blocks of code]                         | partial (indent only){: .partial }[^jgmcodb] | yes (with extension){: .yes }[^pdmcodb] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
+|{: .fth } [emphasis]                                                 | yes{: .yes }[^jgmemph]                       | yes{: .yes }[^pdmemph]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [footnotes]  [(inline-style)][inline-style footnote]       | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt] | partial (with extension){: .partial }[^pymfnis] | no{: .no }[^pynfnis]                    |
+|{: .fth } [footnotes]  [(reference-style)][reference-style footnote] | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynfnrs] |
+|{: .fth } [headings]                                                 | yes{: .yes }[^jgmhdng]                       | yes{: .yes }[^pdmhdng]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [horizontal rules]                                         | yes{: .yes }[^jgmhzrl]                       | yes{: .yes }[^pdmhzrl]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [images]                                                   | yes{: .yes }[^jgmimag]                       | yes{: .yes }[^pdmimag]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [inline HTML]                                              | yes{: .yes }[^jgmhtml]                       | yes (with extension){: .yes }[^pdmhtml] | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [links]  [(automatic)][automatic link]                     | yes{: .yes }[^jgmlkao]                       | yes{: .yes }[^pdmlkao]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [links]  [(inline-style)][inline-style link]               | yes{: .yes }[^jgmlink]                       | yes{: .yes }[^pdmlkis]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [links]  [(reference-style)][reference-style link]         | yes{: .yes }[^jgmlink]                       | yes{: .yes }[^pdmlkrs]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [lists]  [(description lists)][description lists]          | no{: .no }                                   | yes (with extension){: .yes }[^pdmldsc] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynldsc] |
+|{: .fth } [lists]  [(ordered lists)][ordered lists]                  | yes{: .yes }[^jgmlist]                       | yes{: .yes }[^pdmlord]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [lists]  [(unordered lists)][unordered lists]              | yes{: .yes }[^jgmlist]                       | yes{: .yes }[^pdmlurd]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [strikethrough]                                            | no{: .no }                                   | yes (with extension){: .yes }[^pdmstrk] | yes (with extension){: .yes }[^pymtlde]         | no{: .no }                              |
+|{: .fth } [tables]                                                   | no{: .no }                                   | yes (with extension){: .yes }[^pdmtabl] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyntabl] |
+
+[automatic link]: #alink
+[blockquotes]: #blockquotes
+[blocks of code]: #bcode
+[code]: #code
+[description lists]: #dlists
+[emphasis]: #emphasis
+[footnotes]: #footnotes
+[headings]: #headings
+[horizontal rules]: #hrule
+[images]: #images
+[inline-style footnote]: #ifootnote
+[inline-style link]: #ilink
+[inline code]: #icode
+[inline HTML]: #html
+[links]: #links
+[lists]: #lists
+[ordered lists]: #olists
+[reference-style footnote]: #rfootnote
+[reference-style link]: #rlink
+[strikethrough]: #strikethrough
+[tables]: #tables
+[unordered lists]: #ulists
+[John Gruber’s Markdown]: https://daringfireball.net/projects/markdown/syntax
+[Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
+[PyMdown]: https://facelessuser.github.io/PyMdown/
+[Python-Markdown]: https://python-markdown.github.io/
+[^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
+[^jgmcodi]: https://daringfireball.net/projects/markdown/syntax#code
+[^jgmcodb]: https://daringfireball.net/projects/markdown/syntax#precode
+[^jgmemph]: https://daringfireball.net/projects/markdown/syntax#em
+[^jgmhdng]: https://daringfireball.net/projects/markdown/syntax#header
+[^jgmhtml]: https://daringfireball.net/projects/markdown/syntax#html
+[^jgmhzrl]: https://daringfireball.net/projects/markdown/syntax#hr
+[^jgmimag]: https://daringfireball.net/projects/markdown/syntax#img
+[^jgmlink]: https://daringfireball.net/projects/markdown/syntax#link
+[^jgmlist]: https://daringfireball.net/projects/markdown/syntax#list
+[^jgmlkao]: https://daringfireball.net/projects/markdown/syntax#autolink
+[^pymexra]: https://facelessuser.github.io/pymdown-extensions/extensions/extra/
+[^pymfnis]: Inline-style footnotes can be approximated using the [Caret extension](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) to create numbered superscripts and an ordered list. Links between the superscript and footnote will not be available.
+[^pymtlde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
+[^pyncodb]: https://python-markdown.github.io/extensions/fenced_code_blocks/
+[^pynfnis]: https://github.com/Python-Markdown/markdown/issues/658
+[^pynfnrs]: https://python-markdown.github.io/extensions/footnotes/
+[^pynldsc]: https://python-markdown.github.io/extensions/definition_lists/
+[^pyntabl]: https://python-markdown.github.io/extensions/tables/
+[^pdmblkq]: https://pandoc.org/MANUAL.html#block-quotations
+[^pdmcodi]: https://pandoc.org/MANUAL.html#verbatim
+[^pdmcodb]: https://pandoc.org/MANUAL.html#verbatim-code-blocks
+[^pdmemph]: https://pandoc.org/MANUAL.html#emphasis
+[^pdmftnt]: https://pandoc.org/MANUAL.html#footnotes
+[^pdmhdng]: https://pandoc.org/MANUAL.html#headers
+[^pdmhtml]: https://pandoc.org/MANUAL.html#raw-html
+[^pdmhzrl]: https://pandoc.org/MANUAL.html#horizontal-rules
+[^pdmimag]: https://pandoc.org/MANUAL.html#images
+[^pdmldsc]: https://pandoc.org/MANUAL.html#definition-lists
+[^pdmlkao]: https://pandoc.org/MANUAL.html#automatic-links
+[^pdmlkis]: https://pandoc.org/MANUAL.html#inline-links
+[^pdmlkrs]: https://pandoc.org/MANUAL.html#reference-links
+[^pdmlord]: https://pandoc.org/MANUAL.html#ordered-lists
+[^pdmlurd]: https://pandoc.org/MANUAL.html#bullet-lists
+[^pdmstrk]: https://pandoc.org/MANUAL.html#strikeout
+[^pdmtabl]: https://pandoc.org/MANUAL.html#tables
 
 ## licensing
 **Some rights reserved: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).** Includes significant content from [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on GitHub with modifications, including the following:
@@ -518,6 +653,9 @@ The table will render correctly even if the raw Markdown does not line up pretti
 The bulk of the instructions were introduced to me through [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), part of the [Markdown Here](https://github.com/adam-p/markdown-here) [wiki](https://github.com/adam-p/markdown-here/wiki) on GitHub.
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
-[Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
-[^qrMkdown1]: https://python-markdown.github.io/#differences
-[^qrMkdown2]: https://pandoc.org/MANUAL.html#paragraphs
+[^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
+[^qrMkdown1]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
+[^qrMkdown2]: https://python-markdown.github.io/extensions/footnotes/#syntax
+[^qrMkdown3]: https://pandoc.org/MANUAL.html#paragraphs
+[^qrMkdown4]: https://python-markdown.github.io/#differences
+

@@ -75,6 +75,7 @@ markdown_extensions:
       guess_lang: false
   - def_list
   - footnotes
+  - pymdownx.caret
   - pymdownx.critic
   - markdown.extensions.attr_list
   - pymdownx.details
@@ -93,7 +94,7 @@ repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 edit_uri: ''
 ```
 
-were introduced to me by [Adding a source repository], [Adding social links], [Additional stylesheets], [Admonition], [Attribute Lists], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
+were introduced to me by [Adding a source repository], [Adding social links], [Additional stylesheets], [Admonition], [Attribute Lists], [Caret], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
@@ -103,6 +104,7 @@ I will always make an effort to recognize prior work, regardless of licensing, a
 [Additional stylesheets]: https://squidfunk.github.io/mkdocs-material/customization/#additional-stylesheets
 [Admonition]: https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation
 [Attribute Lists]: https://python-markdown.github.io/extensions/attr_list/
+[Caret]: https://facelessuser.github.io/pymdown-extensions/extensions/caret/
 [CodeHilite on Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
 [CodeHilite on Python-Markdown documentation]: https://python-markdown.github.io/extensions/code_hilite/
 [Critic]: https://facelessuser.github.io/pymdown-extensions/extensions/critic/

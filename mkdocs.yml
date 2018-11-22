@@ -4,7 +4,7 @@ nav:
   - Coding:
     - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'
-    - installing Node.js and npm: 'inNjnpm.md'
+    - installing Node.js and npm with nvm: 'inNjspv.md'
     - installing Python: 'insPyth.md'
     - rewriting Git history: 'rGithst.md'
     - undoing a Git commit: 'undGitc.md'

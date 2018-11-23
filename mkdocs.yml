@@ -10,26 +10,17 @@ nav:
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
   - Content creation:
-    - installing a CentOS system: 'insCOSs.md'
-    - installing a Linux system: 'insLnxS.md'
-    - installing Atom text editor: 'insAtom.md'
-    - installing Browsersync: 'inBsync.md'
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing Krita: 'insKrta.md'
-    - installing MkDocs: 'insMkDc.md'
-    - installing pip: 'instpip.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'
-    - using Atom text editor: 'usgAtom.md'
-    - using Browsersync: 'usBsync.md'
-    - using MkDocs: 'usgMkDc.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'
     - getting a desktop screenshot: 'gdskscr.md'
     - getting a list of URLs from a website: 'glslnkw.md'
     - installing uGet: 'instuGt.md'
     - installing youtube-dl: 'insytdl.md'
-  - Entertainment:
+  - Leisure:
     - finding permissively-licensed content: 'findplc.md'
     - installing beets: 'insbeet.md'
     - installing Google Chrome: 'insGCrm.md'
@@ -46,6 +37,17 @@ nav:
     - enabling browser support for the dat protocol: 'ebsdatp.md'
     - installing Beaker Browser: 'insBkrB.md'
     - installing qBittorrent: 'insqBtr.md'
+  - System software:
+    - installing a CentOS system: 'insCOSs.md'
+    - installing a Linux system: 'insLnxS.md'
+    - installing pip: 'instpip.md'
+  - Web development:
+    - installing Atom text editor: 'insAtom.md'
+    - installing Browsersync: 'inBsync.md'
+    - installing MkDocs: 'insMkDc.md'
+    - using Atom text editor: 'usgAtom.md'
+    - using Browsersync: 'usBsync.md'
+    - using MkDocs: 'usgMkDc.md'
   - Web syndication:
     - getting an RSS feed for an iTunes podcast: 'gRSSiTn.md'
 markdown_extensions:

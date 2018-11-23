@@ -38,6 +38,7 @@ nav:
     - installing Beaker Browser: 'insBkrB.md'
     - installing qBittorrent: 'insqBtr.md'
     - migrating qBittorrent settings: 'mgqBtst.md'
+    - migrating Transmission settings: 'mgTrnsm.md'
   - System software:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'

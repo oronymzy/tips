@@ -78,6 +78,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - markdown.extensions.attr_list
+  - meta
   - pymdownx.details
   - pymdownx.keys
   - pymdownx.snippets
@@ -94,7 +95,7 @@ repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 edit_uri: ''
 ```
 
-were introduced to me by [Adding a source repository], [Adding social links], [Additional stylesheets], [Admonition], [Attribute Lists], [Caret], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
+were introduced to me by [Adding a source repository], [Adding social links], [Additional stylesheets], [Admonition], [Attribute Lists], [Caret], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Metadata], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
 
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
@@ -111,6 +112,7 @@ I will always make an effort to recognize prior work, regardless of licensing, a
 [Definition Lists]: https://python-markdown.github.io/extensions/definition_lists/
 [Footnotes]: https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation
 [Keys]: https://facelessuser.github.io/pymdown-extensions/extensions/keys/
+[Metadata]: https://squidfunk.github.io/mkdocs-material/extensions/metadata/
 [PyMdown Extensions]: https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation
 [Snippets]: https://facelessuser.github.io/pymdown-extensions/extensions/snippets/
 [SuperFences]: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/

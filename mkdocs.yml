@@ -37,6 +37,7 @@ nav:
     - enabling browser support for the dat protocol: 'ebsdatp.md'
     - installing Beaker Browser: 'insBkrB.md'
     - installing qBittorrent: 'insqBtr.md'
+    - migrating qBittorrent settings: 'mgqBtst.md'
   - System software:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'

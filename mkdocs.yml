@@ -20,6 +20,7 @@ nav:
     - installing pip: 'instpip.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'
+    - using Browsersync: 'usBsync.md'
     - using MkDocs: 'usgMkDc.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'

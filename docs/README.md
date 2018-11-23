@@ -11,7 +11,7 @@ Hope you find them useful.
 ## disclosure of bias
 My operating system of choice is [Kubuntu](https://kubuntu.org/) for desktop and laptop computers and [Android](https://en.wikipedia.org/wiki/Android_(operating_system)) for mobile devices. These operating systems are both (arguably) [Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution), and are therefore [Unix-like](https://en.wikipedia.org/wiki/Unix-like). Consequently, much material relies on the [Unix shell](https://en.wikipedia.org/wiki/Unix_shell), though some material will use a graphical user interface. Proprietary operating systems like Windows and Mac will appear only occasionally. There is also an almost exclusive use of permissively-licensed software, even to the point of sacrificing functionality. The rationale for this is sustainability, as proprietary tools often become obsolete or inaccessible with no recourse for the user.
 
-## license
+## licensing
 All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) **unless otherwise noted**, and will always be more permissive than all rights reserved. The *licensing* heading denotes the license for each page. Additionally, the website generated from the content falls under the following licenses:
 
 ??? note "[BSD 2-Clause “Simplified” License](https://choosealicense.com/licenses/bsd-2-clause/) for [MkDocs](https://www.mkdocs.org/) [^Orotips2] [^Orotips3]"

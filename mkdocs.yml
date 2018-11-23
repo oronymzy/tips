@@ -20,6 +20,7 @@ nav:
     - installing pip: 'instpip.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'
+    - using Atom text editor: 'usgAtom.md'
     - using Browsersync: 'usBsync.md'
     - using MkDocs: 'usgMkDc.md'
   - Digital preservation:

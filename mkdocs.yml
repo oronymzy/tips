@@ -32,6 +32,7 @@ nav:
     - determining the IP address: 'dtnIPad.md'
     - establishing a USB kill switch: 'esUSBks.md'
     - installing F-Droid: 'insFDrd.md'
+    - installing VeraCrypt: 'insVCpt.md'
     - installing VirtualBox: 'instVBx.md'
     - using GNU GRUB: 'usgGRUB.md'
   - Sharing:

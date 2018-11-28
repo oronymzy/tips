@@ -12,6 +12,11 @@ Autocomplete suggestions can be disabled by unchecking `Show Suggestions On Keys
 [Highlight Selected](https://atom.io/packages/highlight-selected)
 : Highlight occurrences of a selection within the open editor. Can be triggered by either double clicking a word, or selecting a word/text with your cursor.
 
+[Hydrogen](https://github.com/nteract/hydrogen)
+: An interactive coding environment that supports Python, R, JavaScript and [other Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+: To install Hydrogen, use `apm install hydrogen`.
+: To enable Python support in Hydrogen, use `sudo python -m pip install ipykernel && sudo python -m ipykernel install --user`.
+
 [Markdown Preview Plus](https://atom.io/packages/markdown-preview-plus)
 : A fork of [Markdown Preview](https://github.com/atom/markdown-preview) that provides a real-time preview of Markdown documents.
 
@@ -86,7 +91,31 @@ on GitHub, with modifications.
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Markdown Preview Plus[^usgAtom3] [^usgAtom4]"
+
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Hydrogen[^usgAtom3]"
+    
+    Copyright (c) 2015 Will Whitney
+    
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+    
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Markdown Preview Plus[^usgAtom4] [^usgAtom5]"
     
     Copyright (c) 2014 Edward Fauchon-Jones\
     Copyright (c) 2015 Lukas Eipert\
@@ -267,7 +296,7 @@ on GitHub, with modifications.
     > OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
     > CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Minimap[^usgAtom5]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Minimap[^usgAtom6]"
     
     (The MIT License)
     
@@ -292,7 +321,7 @@ on GitHub, with modifications.
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-??? note "[MIT License](https://choosealicense.com/licenses/mit/) for minimap-highlight-selected[^usgAtom6]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for minimap-highlight-selected[^usgAtom7]"
     
     Copyright (c) 2014 <Your name here>
     
@@ -315,7 +344,7 @@ on GitHub, with modifications.
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-??? note "[MIT License](https://choosealicense.com/licenses/mit/) for simple-drag-drop-text[^usgAtom7]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for simple-drag-drop-text[^usgAtom8]"
     
     Copyright (c) 2014 Mark Hahn
     
@@ -338,7 +367,7 @@ on GitHub, with modifications.
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-??? note "[MIT License](https://choosealicense.com/licenses/mit/) for wordcount[^usgAtom8]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for wordcount[^usgAtom9]"
     
     Copyright (c) 2014 Ole Michaelis
     
@@ -361,12 +390,17 @@ on GitHub, with modifications.
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+## prior work
+- The bulk of the installation script for enabling Python support in Hydrogen was introduced to me [The Kernels section of the Installation page in the Hydrogen documentation](https://nteract.gitbooks.io/hydrogen/docs/Installation.html##kernels) and [the Kernels page on nteract](https://nteract.io/kernels).
+- The method of installing the Hydrogen plugin was introduced to me by [the Installation page in the Hydrogen documentation](https://nteract.gitbooks.io/hydrogen/docs/Installation.html).
+
 [Atom text editor]: https://atom.io/
 [^usgAtom1]: https://github.com/y-takey/atom-mermaid/blob/master/LICENSE.md
 [^usgAtom2]: https://github.com/richrace/highlight-selected/blob/master/LICENSE.md
-[^usgAtom3]: https://github.com/atom-community/markdown-preview-plus/blob/master/LICENSE.md
-[^usgAtom4]: https://github.com/atom-community/markdown-preview-plus#license
-[^usgAtom5]: https://github.com/atom-minimap/minimap/blob/master/LICENSE
-[^usgAtom6]: https://github.com/atom-minimap/minimap-highlight-selected/blob/master/LICENSE.md
-[^usgAtom7]: https://github.com/geoffthibeau/simple-drag-drop-text/blob/master/LICENSE.md
-[^usgAtom8]: https://github.com/OleMchls/atom-wordcount/blob/master/LICENSE.md
+[^usgAtom3]: https://github.com/nteract/hydrogen/blob/master/LICENSE.md
+[^usgAtom4]: https://github.com/atom-community/markdown-preview-plus/blob/master/LICENSE.md
+[^usgAtom5]: https://github.com/atom-community/markdown-preview-plus#license
+[^usgAtom6]: https://github.com/atom-minimap/minimap/blob/master/LICENSE
+[^usgAtom7]: https://github.com/atom-minimap/minimap-highlight-selected/blob/master/LICENSE.md
+[^usgAtom8]: https://github.com/geoffthibeau/simple-drag-drop-text/blob/master/LICENSE.md
+[^usgAtom9]: https://github.com/OleMchls/atom-wordcount/blob/master/LICENSE.md

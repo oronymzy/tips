@@ -15,7 +15,7 @@ Autocomplete suggestions can be disabled by unchecking `Show Suggestions On Keys
 [Hydrogen](https://github.com/nteract/hydrogen)
 : An interactive coding environment that supports Python, R, JavaScript and [other Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
 : To install Hydrogen, use `apm install hydrogen`.
-: To enable Python support in Hydrogen, use `sudo python -m pip install ipykernel && sudo python -m ipykernel install --user`.
+: To enable Python support in Hydrogen, [install pip](instpip.md), then use `sudo python -m pip install ipykernel && sudo python -m ipykernel install --user`.
 
 [Markdown Preview Plus](https://atom.io/packages/markdown-preview-plus)
 : A fork of [Markdown Preview](https://github.com/atom/markdown-preview) that provides a real-time preview of Markdown documents.

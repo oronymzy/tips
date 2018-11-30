@@ -1,5 +1,5 @@
 # installing [MkDocs]
-In Kubuntu, [install pip](instpip.md), then use `sudo -H pip install mkdocs mkdocs-material` to install [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://github.com/squidfunk/mkdocs-material).
+In Kubuntu, [install pip](instpip.md), then use `sudo -H pip install mkdocs mkdocs-material` to install [MkDocs](https://www.mkdocs.org/) with [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) as a theme. Alternatively, use `sudo -H pip install mkdocs-rtd-dropdown` to install [ReadTheDocs Dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown) as a theme.
 
 ??? info "Personal experience"
     - Works on Snarky running Kubuntu 17.10.

@@ -56,6 +56,7 @@ nav:
     - using Atom text editor: 'usgAtom.md'
     - using Browsersync: 'usBsync.md'
     - using MkDocs: 'usgMkDc.md'
+    - using rsync: 'usrsync.md'
   - Web syndication:
     - getting an RSS feed for an iTunes podcast: 'gRSSiTn.md'
 markdown_extensions:

@@ -23,6 +23,7 @@ nav:
     - installing pup: 'instpup.md'
     - installing uGet: 'instuGt.md'
     - installing youtube-dl: 'insytdl.md'
+    - using pup: 'usngpup.md'
   - Leisure:
     - finding permissively-licensed content: 'findplc.md'
     - installing beets: 'insbeet.md'

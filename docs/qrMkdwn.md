@@ -2,6 +2,18 @@
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
 
+The idea is that this:
+
+```
+# Foobar
+```
+
+is more human-readable than this:
+
+```
+<h1>Foobar</h1>
+```
+
 ## blockquotes {: #blockquotes }
 
 ```

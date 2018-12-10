@@ -4,6 +4,9 @@ Autocomplete suggestions can be disabled by unchecking `Show Suggestions On Keys
 
 ## plugins
 
+[atom-ide-ui](https://atom.io/packages/atom-ide-ui)
+: To enable YAML support, also install [ide-yaml](https://atom.io/packages/ide-yaml). YAML files must be opened from tree view in order to display correctly.
+
 [atom-mermaid](https://atom.io/packages/atom-mermaid)
 : Preview diagrams and flowcharts by mermaid library.
 
@@ -31,6 +34,11 @@ Autocomplete suggestions can be disabled by unchecking `Show Suggestions On Keys
 
 [wordcount](https://atom.io/packages/wordcount)
 : Counts the words and characters in the current document and displays them in the status bar.
+
+Alternatively, install the following instead of *atom-ide-ui*:
+
+[Linter](https://atom.io/packages/linter)
+: To enable YAML support, also install [linter-js-yaml](https://atom.io/packages/linter-js-yaml).
 
 ## licensing
 **Some rights reserved: MIT License.** Includes significant content from:

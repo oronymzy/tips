@@ -10,10 +10,12 @@ nav:
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
   - Content creation:
-    - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'
+  - Data management:
+    - installing DB Browser for SQLite: 'inDBSQL.md'
+    - installing yq: 'instlyq.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'
     - embedding Exif metadata into an image: 'emExfmi.md'

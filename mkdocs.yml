@@ -4,7 +4,6 @@ nav:
   - Coding:
     - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'
-    - installing Node.js and npm with nvm: 'inNjspv.md'
     - installing Python: 'insPyth.md'
     - rewriting Git history: 'rGithst.md'
     - undoing a Git commit: 'undGitc.md'
@@ -31,6 +30,10 @@ nav:
     - installing beets: 'insbeet.md'
     - installing Google Chrome: 'insGCrm.md'
     - query API for ccMixter: 'qAPIccx.md'
+  - Package management:
+    - installing Bower: 'inBower.md'
+    - installing Node.js and npm with nvm: 'inNjspv.md'
+    - installing pip: 'instpip.md'
   - Privacy:
     - changing an environment variable: 'chgevtb.md'
     - changing the hostname: 'chghstn.md'
@@ -50,7 +53,6 @@ nav:
   - System software:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
-    - installing pip: 'instpip.md'
   - Web development:
     - installing Atom text editor: 'insAtom.md'
     - installing Browsersync: 'inBsync.md'

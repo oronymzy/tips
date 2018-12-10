@@ -1,11 +1,15 @@
 # using [Atom text editor]
 
+!!! attention
+    
+    If a Markdown Preview Plus preview or outline view for atom-ide-ui does not display correctly, it may be necessary to make the current document appear in tree view. This can be accomplished by opening a file in a new window.
+
 Autocomplete suggestions can be disabled by unchecking `Show Suggestions On Keystroke` in the the [autocomplete-plus](https://atom.io/packages/autocomplete-plus) core package, or by disabling the package entirely.
 
 ## plugins
 
 [atom-ide-ui](https://atom.io/packages/atom-ide-ui)
-: To enable YAML support, also install [ide-yaml](https://atom.io/packages/ide-yaml). YAML files must be opened from tree view in order to display correctly.
+: To enable YAML support, also install [ide-yaml](https://atom.io/packages/ide-yaml).
 
 [atom-mermaid](https://atom.io/packages/atom-mermaid)
 : Preview diagrams and flowcharts by mermaid library.

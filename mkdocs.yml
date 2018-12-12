@@ -14,6 +14,7 @@ nav:
     - quick reference for Markdown: 'qrMkdwn.md'
   - Data management:
     - installing DB Browser for SQLite: 'inDBSQL.md'
+    - installing jq: 'instljq.md'
     - installing yq: 'instlyq.md'
     - using yq: 'usingyq.md'
   - Digital preservation:
@@ -25,6 +26,7 @@ nav:
     - installing pup: 'instpup.md'
     - installing uGet: 'instuGt.md'
     - installing youtube-dl: 'insytdl.md'
+    - making a file executable: 'mkfexec.md'
     - using pup: 'usngpup.md'
   - Leisure:
     - finding permissively-licensed content: 'findplc.md'

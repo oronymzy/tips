@@ -16,6 +16,7 @@ nav:
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing jq: 'instljq.md'
     - installing yq: 'instlyq.md'
+    - listing all files containing specific text: 'lsfctxt.md'
     - using yq: 'usingyq.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'

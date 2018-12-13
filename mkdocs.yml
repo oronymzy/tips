@@ -23,7 +23,7 @@ nav:
     - embedding Exif metadata into an image: 'emExfmi.md'
     - getting a desktop screenshot: 'gdskscr.md'
     - getting a web page screenshot: 'gwebscr.md'
-    - getting a list of URLs from a website: 'glslnkw.md'
+    - getting a list of URLs from a website: 'glsURLs.md'
     - installing pup: 'instpup.md'
     - installing uGet: 'instuGt.md'
     - installing youtube-dl: 'insytdl.md'

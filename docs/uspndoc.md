@@ -7,5 +7,8 @@ Use `pandoc -f markdown -t docx "input.md" --reference-doc="baz.docx" --lua-filt
     
     In order for Markdown-style tables to be rendered properly in HTML, a pipe must be included at the beginning of each line.
 
+## licensing
+**No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
+
 [pandoc]: http://pandoc.org/
 [^uspndoc1]: https://pandoc.org/MANUAL.html#non-pandoc-extensions

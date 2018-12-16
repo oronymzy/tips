@@ -348,6 +348,8 @@ This line is separated by a single newline and two spaces, so it's a separate li
     
     Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown3].
 
+It is also possible to [indicate page breaks in Markdown](ipbkMkd.md).
+
 ## links {: #links }
 ### automatic link {# alink }
 

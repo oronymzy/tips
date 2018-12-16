@@ -9,6 +9,7 @@ nav:
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
   - Content creation:
+    - indicating page breaks in Markdown: 'ipbkMkd.md'
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'

@@ -14,6 +14,7 @@ nav:
     - installing software from the latest GitHub software release: 'islGHsr.md'
     - quick reference for Markdown: 'qrMkdwn.md'
     - using pandoc: 'uspndoc.md'
+    - using SoX: 'usngSoX.md'
   - Data management:
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing jq: 'instljq.md'

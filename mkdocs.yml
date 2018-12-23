@@ -9,10 +9,11 @@ nav:
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
   - Content creation:
-    - indicating page breaks in Markdown: 'ipbkMkd.md'
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
-    - quick reference for Markdown: 'qrMkdwn.md'
+  - Data conversion:
+    - using FFmpeg: 'usFFmpg.md'
+    - using ImageMagick: 'usIMgck.md'
     - using pandoc: 'uspndoc.md'
     - using SoX: 'usngSoX.md'
   - Data management:
@@ -42,6 +43,11 @@ nav:
     - installing Bower: 'inBower.md'
     - installing Node.js and npm with nvm: 'inNjspv.md'
     - installing pip: 'instpip.md'
+    - installing Ruby Version Manager: 'insRVMr.md'
+  - Presentation:
+    - indicating page breaks in Markdown: 'ipbkMkd.md'
+    - quick reference for Markdown: 'qrMkdwn.md'
+    - using reveal.js: 'usrevjs.md'
   - Privacy:
     - changing an environment variable: 'chgevtb.md'
     - changing the hostname: 'chghstn.md'
@@ -64,6 +70,8 @@ nav:
   - Web development:
     - installing Atom text editor: 'insAtom.md'
     - installing Browsersync: 'inBsync.md'
+    - installing Hugo: 'insHugo.md'
+    - installing Jekyll: 'insJkyl.md'
     - installing MkDocs: 'insMkDc.md'
     - using Atom text editor: 'usgAtom.md'
     - using Browsersync: 'usBsync.md'
@@ -99,4 +107,4 @@ extra:
 repo_name: 'oronymzy/oronymzy.tips'
 repo_url: 'https://github.com/oronymzy/oronymzy.tips'
 edit_uri: ''
-copyright: 'Permissively licensed. See <a href="#licensing">licensing</a> for more information.'
+copyright: 'Freely licensed. See <a href="#licensing">§licensing</a> for more information.'

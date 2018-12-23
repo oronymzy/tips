@@ -66,6 +66,8 @@ All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/
     IN THE SOFTWARE.
 
 ## prior work
+The CSS strategy for arranging images into columns with padding was introduced to me by [a stylesheet on the Material Components GitHub](https://github.com/yakworks/mkdocs-material-components/blob/material-components-web/src/assets/stylesheets/mdc-web.css).
+
 The following additions to `mkdocs.yml`:
 
 ```

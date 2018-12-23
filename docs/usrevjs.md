@@ -4,9 +4,13 @@
     
     reveal.js can function as a self-contained program running from local files in the browser, but only [in a limited way](https://github.com/hakimel/reveal.js/#basic-setup). Complete functionality like [loading slides from a separate Markdown file](https://github.com/hakimel/reveal.js/#external-markdown) and [adding audio playback](https://github.com/rajgoel/reveal.js-plugins/tree/master/audio-slideshow) requires running it from a local or remote server.
 
-reveal.js can be downloaded with [Git](instGit.md) using `git clone https://github.com/hakimel/reveal.js.git && cd reveal.js`. `git clone https://github.com/hakimel/reveal.js.git` clones the reveal.js repository and `cd reveal.js` navigates to the reveal.js folder. It can also be downloaded directly from GitHub using the ++"Clone or download"++ button.
+reveal.js can be downloaded with [Git](instGit.md) using `git clone https://github.com/hakimel/reveal.js.git && cd reveal.js`, or downloaded directly from GitHub using the ++"Clone or download"++ button.
 
 Slides can be written using Markdown formatting either within *index.html* or as a separate file.
+
+## explanation
+- `git clone https://github.com/hakimel/reveal.js.git` clones the reveal.js repository
+- `cd reveal.js` navigates to the reveal.js folder
 
 ## self-contained usage
 ### [Markdown within *index.html*]

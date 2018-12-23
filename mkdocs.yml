@@ -47,6 +47,8 @@ nav:
   - Presentation:
     - indicating page breaks in Markdown: 'ipbkMkd.md'
     - quick reference for Markdown: 'qrMkdwn.md'
+    - using PyMdown: 'usPyMdn.md'
+    - using Python-Markdown: 'usPythM.md'
     - using reveal.js: 'usrevjs.md'
   - Privacy:
     - changing an environment variable: 'chgevtb.md'

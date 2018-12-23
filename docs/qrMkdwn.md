@@ -5,13 +5,13 @@ This is intended as a quick reference and showcase. For more complete info, see 
 The idea is that this:
 
 ```
-# Foobar
+Why is there a `cat` command, but no *bird* command?
 ```
 
 is more human-readable than this:
 
 ```
-<h1>Foobar</h1>
+Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ```
 
 ## blockquotes {: #blockquotes }
@@ -662,7 +662,8 @@ The table will render correctly even if the raw Markdown does not line up pretti
     - {~~This line is only separated by a single newline, so it's a separate line in the *same paragraph*.~>This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.~~}
 
 ## prior work
-The bulk of the instructions were introduced to me through [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), part of the [Markdown Here](https://github.com/adam-p/markdown-here) [wiki](https://github.com/adam-p/markdown-here/wiki) on GitHub.
+- The bulk of the instructions were introduced to me through [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), part of the [Markdown Here](https://github.com/adam-p/markdown-here) [wiki](https://github.com/adam-p/markdown-here/wiki) on GitHub.
+- The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/).
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote

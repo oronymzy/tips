@@ -53,6 +53,88 @@ Quote break.
     
     > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
+## breaks {: #breaks }
+### line breaks {: #lbreak }
+
+!!! note
+    
+    Leading and trailing spaces are shown with dots (`⋅`).
+
+Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), and see what happens.
+
+Here are some things to try out:
+
+``` tab="Markdown with dots"
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...⋅⋅
+This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
+```
+
+``` tab="Markdown without dots"
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...  
+This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
+```
+
+??? tip "Result"
+    
+    Here's a line for us to start with.
+    
+    This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+    
+    This line is also a separate paragraph, but...  
+    This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
+
+!!! note
+    
+    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown5].
+
+### page breaks {: #pbreak }
+
+Page breaks [can be indicated in Markdown using inline HTML or LaTeX formatting](ipbkMkd.md).
+
+### thematic breaks {: #tbreak }
+
+```
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+```
+
+??? tip "Result"
+    
+    Three or more...
+    
+    ---
+    
+    Hyphens
+    
+    ***
+    
+    Asterisks
+    
+    ___
+    
+    Underscores
+
+Thematic breaks correspond to [the *hr* (horizontal rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) in HTML.
+
 ## code {: #code }
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
@@ -241,40 +323,6 @@ Alt-H2
     
     To avoid adding extraneous entries to the table of contents, several *Result* admonitions contain specially-styled HTML instead of heading elements.
 
-## horizontal rules {: #hrule }
-
-```
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-```
-
-??? tip "Result"
-    
-    Three or more...
-    
-    ---
-    
-    Hyphens
-    
-    ***
-    
-    Asterisks
-    
-    ___
-    
-    Underscores
-
 ## images {: #images }
 
 ```
@@ -325,49 +373,6 @@ Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
 !!! note
     
     Because Markdown *is* rendered within HTML when inside an admonition, the *Result* admonition contains raw Markdown formatted differently than in the example, with backslash-escapes added.
-
-## line breaks {: #lines }
-
-!!! note
-    
-    Leading and trailing spaces are shown with dots (`⋅`).
-
-Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), and see what happens.
-
-Here are some things to try out:
-
-``` tab="Markdown with dots"
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...⋅⋅
-This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
-```
-
-``` tab="Markdown without dots"
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...  
-This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
-```
-
-??? tip "Result"
-    
-    Here's a line for us to start with.
-    
-    This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-    
-    This line is also a separate paragraph, but...  
-    This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
-
-!!! note
-    
-    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown5].
-
-It is also possible to [indicate page breaks in Markdown](ipbkMkd.md).
 
 ## links {: #links }
 ### automatic link {: #alink }
@@ -563,13 +568,13 @@ The table will render correctly even if the raw Markdown does not line up pretti
 |:--------------------------------------------------------------------|:------------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------|:------------------------------------------------|:----------------------------------------|
 |{: .fth } [admonitions]                                              | no{: .no }                                                              | no{: .no }                                   | no{: .no }                              | no{: .no }                                      | yes (with extension){: .yes }[^pynadmo] |
 |{: .fth } [blockquotes]                                              | yes{: .yes}[^gfmblkq]                                                   | yes{: .yes }[^jgmblkq]                       | yes{: .yes }[^pdmblkq]                  | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [breaks]  [(thematic)][thematic break]                     | yes{: .yes }[^gfmtbrk]                                                  | yes{: .yes }[^jgmtbrk]                       | yes{: .yes }[^pdmtbrk]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [code]  [(inline)][inline code]                            | yes{: .yes}[^gfmcodi]                                                   | yes{: .yes }[^jgmcodi]                       | yes{: .yes }[^pdmcodi]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [code]  [(blocks)][blocks of code]                         | yes{: .yes}[^gfmcodb]                                                   | partial (indent only){: .partial }[^jgmcodb] | yes (with extension){: .yes }[^pdmcodb] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
 |{: .fth } [emphasis]                                                 | yes{: .yes}[^gfmemph]                                                   | yes{: .yes }[^jgmemph]                       | yes{: .yes }[^pdmemph]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [footnotes]  [(inline-style)][inline-style footnote]       | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt] | partial (with extension){: .partial }[^pymfnis] | no{: .no }[^pynfnis]                    |
 |{: .fth } [footnotes]  [(reference-style)][reference-style footnote] | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynfnrs] |
 |{: .fth } [headings]                                                 | yes{: .yes }[^gfmhdng]                                                  | yes{: .yes }[^jgmhdng]                       | yes{: .yes }[^pdmhdng]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [horizontal rules]                                         | yes{: .yes }[^gfmhzrl]                                                  | yes{: .yes }[^jgmhzrl]                       | yes{: .yes }[^pdmhzrl]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [images]                                                   | yes{: .yes }[^gfmimag]                                                  | yes{: .yes }[^jgmimag]                       | yes{: .yes }[^pdmimag]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [inline HTML]                                              | partial (some tags are filtered out){: .partial } [^gfmhtm1] [^gfmhtm2] | yes{: .yes }[^jgmhtml]                       | yes (with extension){: .yes }[^pdmhtml] | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [links]  [(automatic)][automatic link]                     | yes{: .yes }[^gfmlka1] [^gfmlka2]                                       | yes{: .yes }[^jgmlkao]                       | yes{: .yes }[^pdmlkao]                  | yes{: .yes }                                    | yes{: .yes }                            |
@@ -585,12 +590,12 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [automatic link]: #alink
 [blockquotes]: #blockquotes
 [blocks of code]: #bcode
+[breaks]: #breaks
 [code]: #code
 [description lists]: #dlists
 [emphasis]: #emphasis
 [footnotes]: #footnotes
 [headings]: #headings
-[horizontal rules]: #hrule
 [images]: #images
 [inline-style footnote]: #ifootnote
 [inline-style link]: #ilink
@@ -603,6 +608,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [reference-style link]: #rlink
 [strikethrough]: #strikethrough
 [tables]: #tables
+[thematic break]: #tbreak
 [unordered lists]: #ulists
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
 [John Gruber’s Markdown]: https://daringfireball.net/projects/markdown/syntax
@@ -614,45 +620,35 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^gfmcodi]: https://github.github.com/gfm/#code-spans
 [^gfmemph]: https://github.github.com/gfm/#emphasis-and-strong-emphasis
 [^gfmhdng]: https://github.github.com/gfm/#atx-headings
-[^gfmhzrl]: https://github.github.com/gfm/#thematic-break
-[^gfmimag]: https://github.github.com/gfm/#images
 [^gfmhtm1]: https://github.github.com/gfm/#raw-html
 [^gfmhtm2]: https://github.github.com/gfm/#disallowed-raw-html-extension-
+[^gfmimag]: https://github.github.com/gfm/#images
+[^gfmlist]: https://github.github.com/gfm/#lists
 [^gfmlka1]: https://github.github.com/gfm/#autolink
 [^gfmlka2]: https://github.github.com/gfm/#autolinks-extension-
 [^gfmlkis]: https://github.github.com/gfm/#links
 [^gfmlkrs]: https://github.github.com/gfm/#link-reference-definitions
-[^gfmlist]: https://github.github.com/gfm/#lists
 [^gfmstrk]: https://github.github.com/gfm/#strikethrough-extension-
 [^gfmtabl]: https://github.github.com/gfm/#tables-extension-
+[^gfmtbrk]: https://github.github.com/gfm/#thematic-break
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
-[^jgmcodi]: https://daringfireball.net/projects/markdown/syntax#code
 [^jgmcodb]: https://daringfireball.net/projects/markdown/syntax#precode
+[^jgmcodi]: https://daringfireball.net/projects/markdown/syntax#code
 [^jgmemph]: https://daringfireball.net/projects/markdown/syntax#em
 [^jgmhdng]: https://daringfireball.net/projects/markdown/syntax#header
 [^jgmhtml]: https://daringfireball.net/projects/markdown/syntax#html
-[^jgmhzrl]: https://daringfireball.net/projects/markdown/syntax#hr
 [^jgmimag]: https://daringfireball.net/projects/markdown/syntax#img
 [^jgmlink]: https://daringfireball.net/projects/markdown/syntax#link
 [^jgmlist]: https://daringfireball.net/projects/markdown/syntax#list
 [^jgmlkao]: https://daringfireball.net/projects/markdown/syntax#autolink
-[^pymexra]: https://facelessuser.github.io/pymdown-extensions/extensions/extra/
-[^pymfnis]: Inline-style footnotes can be approximated using the [Caret extension](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) to create numbered superscripts and an ordered list. Links between the superscript and footnote will not be available.
-[^pynadmo]: https://python-markdown.github.io/extensions/admonition/
-[^pymtlde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
-[^pyncodb]: https://python-markdown.github.io/extensions/fenced_code_blocks/
-[^pynfnis]: https://github.com/Python-Markdown/markdown/issues/658
-[^pynfnrs]: https://python-markdown.github.io/extensions/footnotes/
-[^pynldsc]: https://python-markdown.github.io/extensions/definition_lists/
-[^pyntabl]: https://python-markdown.github.io/extensions/tables/
+[^jgmtbrk]: https://daringfireball.net/projects/markdown/syntax#hr
 [^pdmblkq]: https://pandoc.org/MANUAL.html#block-quotations
-[^pdmcodi]: https://pandoc.org/MANUAL.html#verbatim
 [^pdmcodb]: https://pandoc.org/MANUAL.html#verbatim-code-blocks
+[^pdmcodi]: https://pandoc.org/MANUAL.html#verbatim
 [^pdmemph]: https://pandoc.org/MANUAL.html#emphasis
 [^pdmftnt]: https://pandoc.org/MANUAL.html#footnotes
 [^pdmhdng]: https://pandoc.org/MANUAL.html#headers
 [^pdmhtml]: https://pandoc.org/MANUAL.html#raw-html
-[^pdmhzrl]: https://pandoc.org/MANUAL.html#horizontal-rules
 [^pdmimag]: https://pandoc.org/MANUAL.html#images
 [^pdmldsc]: https://pandoc.org/MANUAL.html#definition-lists
 [^pdmlkao]: https://pandoc.org/MANUAL.html#automatic-links
@@ -662,6 +658,16 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^pdmlurd]: https://pandoc.org/MANUAL.html#bullet-lists
 [^pdmstrk]: https://pandoc.org/MANUAL.html#strikeout
 [^pdmtabl]: https://pandoc.org/MANUAL.html#tables
+[^pdmtbrk]: https://pandoc.org/MANUAL.html#horizontal-rules
+[^pymexra]: https://facelessuser.github.io/pymdown-extensions/extensions/extra/
+[^pymfnis]: Inline-style footnotes can be approximated using the [Caret extension](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) to create numbered superscripts and an ordered list. Links between the superscript and footnote will not be available.
+[^pymtlde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
+[^pynadmo]: https://python-markdown.github.io/extensions/admonition/
+[^pyncodb]: https://python-markdown.github.io/extensions/fenced_code_blocks/
+[^pynfnis]: https://github.com/Python-Markdown/markdown/issues/658
+[^pynfnrs]: https://python-markdown.github.io/extensions/footnotes/
+[^pynldsc]: https://python-markdown.github.io/extensions/definition_lists/
+[^pyntabl]: https://python-markdown.github.io/extensions/tables/
 
 ## licensing
 **Some rights reserved: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).** Includes significant content from [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on GitHub with modifications, including the following:

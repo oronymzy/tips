@@ -44,14 +44,13 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
-??? tip "Result"
-    
-    > Blockquotes are very handy in email to emulate reply text.
-    > This line is part of the same quote.
-    
-    Quote break.
-    
-    > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+<blockquote>
+<p>Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.</p>
+</blockquote>
+<p>Quote break.</p>
+<blockquote>
+<p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+</blockquote>
 
 ## breaks {: #breaks }
 ### hard line breaks {: #hlbreak }
@@ -62,7 +61,7 @@ Hard line breaks correspond to [the *br* (line break) element](https://developer
 
 !!! note
     
-    Leading and trailing spaces are shown with dots (`⋅`).
+    Trailing spaces are shown with dots (`⋅`).
 
 ``` tab="Markdown with dots"
 Here's a line for us to start with.
@@ -82,14 +81,10 @@ This line is also a separate paragraph, but...
 This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 ```
 
-??? tip "Result"
-    
-    Here's a line for us to start with.
-    
-    This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-    
-    This line is also a separate paragraph, but...  
-    This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
+<p>Here’s a line for us to start with.</p>
+<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
+<p>This line is also a separate paragraph, but…<br />
+This line is separated by a single newline and two spaces, so it’s a separate line in the <em>same paragraph</em>.</p>
 
 #### hard line breaks with a backslash {: #hlbreakbslash }
 
@@ -123,21 +118,13 @@ ___
 Underscores
 ```
 
-??? tip "Result"
-    
-    Three or more...
-    
-    ---
-    
-    Hyphens
-    
-    ***
-    
-    Asterisks
-    
-    ___
-    
-    Underscores
+<p>Three or more…</p>
+<hr />
+<p>Hyphens</p>
+<hr />
+<p>Asterisks</p>
+<hr />
+<p>Underscores</p>
 
 Thematic breaks correspond to [the *hr* (horizontal rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) in HTML.
 
@@ -151,9 +138,7 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't. Howeve
 Inline `code` has `back-ticks around` it.
 ```
 
-??? tip "Result"
-    
-    Inline `code` has `back-ticks around` it.
+Inline <code>code</code> has <code>back-ticks around</code> it.
 
 ### blocks of code {: #bcode }
  Blocks of code are fenced by lines with three back-ticks (<code>```</code>).
@@ -178,22 +163,20 @@ Inline `code` has `back-ticks around` it.
 !!! note
     The raw Markdown is indented by a single space to allow nesting of a code block within a code block.
 
-??? tip "Result"
-     
-     ```javascript
-     var s = "JavaScript syntax highlighting";
-     alert(s);
-     ```
-     
-     ```python
-     s = "Python syntax highlighting"
-     print s
-     ```
-     
-     ```
-     No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-     But let's throw in a <b>tag</b>.
-     ```
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
 
 Alternatively, code blocks can be fenced by three tildes (`~~~`) or be indented by four spaces.
 
@@ -207,15 +190,10 @@ brown fox
     the lazy dog.
 ```
 
-??? tip "Result"
-    
-    ~~~
-    The quick
-    brown fox
-    ~~~
-    
-        jumps over
-        the lazy dog.
+<pre><code>The quick
+brown fox</code></pre>
+<pre><code>jumps over
+the lazy dog.</code></pre>
 
 ## emphasis {: #emphasis }
 
@@ -227,13 +205,9 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 ```
 
-??? tip "Result"
-    
-    Emphasis, aka italics, with *asterisks* or _underscores_.
-    
-    Strong emphasis, aka bold, with **asterisks** or __underscores__.
-    
-    Combined emphasis with **asterisks and _underscores_**.
+<p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
 
 ## footnotes {: #footnotes }
 
@@ -244,10 +218,6 @@ Combined emphasis with **asterisks and _underscores_**.
     1. Markdown offers a more standardized way of creating footnotes than HTML.
     2. HTML renderings of footnotes will differ significantly between different implementations of Markdown.
 
-!!! note
-    
-    **Footnotes usually include hyperlinks**, but because footnotes do not work within admonitions, the *Result* admonition contains raw Markdown formatted differently than in the example, with manually-added superscripts and ordered lists.
-
 ### inline-style footnote {: #ifootnote }
 This style of footnote creates a self-contained footnote beside the text it references.
 
@@ -255,6 +225,14 @@ This style of footnote creates a self-contained footnote beside the text it refe
 An inline-style footnote consists of a caret (`^`) outside a pair of square brackets.
 It can be created on a single line^[It will be formatted like this.].
 ```
+
+<p>An inline-style footnote consists of a caret (<code>^</code>) outside a pair of square brackets. It can be created on a single line<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>It will be formatted like this.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
 
 ### reference-style footnote {: #rfootnote }
 This style of footnote resembles a reference-style link, but works differently. Instead of combining into a hyperlink, the reference becomes a numbered superscript and the link definition becomes a numbered footnote at the end of the page.
@@ -269,16 +247,14 @@ A number often follows the caret, but other characters are also allowed[^charact
     Pandoc's Markdown does not allow spaces, tabs, or newlines in the identifier.
 ```
 
-??? tip "Result"
-    
-    The reference identifier^1^ is an string that begins with a caret (`^`).
-    A number often follows the caret,
-    but other characters are also allowed^2^.
-    
-    1. In Python-Markdown, identifiers are called *labels*.
-    2. Not all characters are allowed within the identifier.
-    
-        Pandoc's Markdown does not allow spaces, tabs, or newlines in the identifier.
+<p>The reference identifier<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> is an string that begins with a caret (<code>^</code>). A number often follows the caret, but other characters are also allowed<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>In Python-Markdown, identifiers are called <em>labels</em>.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Not all characters are allowed within the identifier. Pandoc’s Markdown does not allow spaces, tabs, or newlines in the identifier.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
 
 !!! attention
     
@@ -295,19 +271,17 @@ A number often follows the caret, but other characters are also allowed[^charact
 ###### H6
 ```
 
-??? tip "Result"
-    
-    <span class="h1workaround">H1</span>
-    
-    <span class="h2workaround">H2</span>
-    
-    <span class="h3workaround">H3</span>
-    
-    <span class="h4workaround">H4</span>
-    
-    <span class="h5workaround">H5</span>
-    
-    <span class="h6workaround">H6</span>
+<span class="h1workaround">H1</span>
+
+<span class="h2workaround">H2</span>
+
+<span class="h3workaround">H3</span>
+
+<span class="h4workaround">H4</span>
+
+<span class="h5workaround">H5</span>
+
+<span class="h6workaround">H6</span>
 
 Alternatively, for H1 and H2, an underline-ish style:
 
@@ -319,11 +293,9 @@ Alt-H2
 ------
 ```
 
-??? tip "Result"
-    
-    <span class="h1workaround">Alt-H1</span>
-    
-    <span class="h2workaround">Alt-H2</span>
+<span class="h1workaround">Alt-H1</span>
+
+<span class="h2workaround">Alt-H2</span>
 
 !!! note
     
@@ -343,42 +315,28 @@ Reference-style:
 [logo]: qrMkdwn.png "Logo Title Text 2"
 ```
 
-??? tip "Result"
-    
-    Here's our logo (hover to see the title text):
-    
-    Inline-style: 
-    ![alt text](qrMkdwn.png "Logo Title Text 1")
-    
-    Reference-style: 
-    ![alt text][logo]
-
-[logo]: qrMkdwn.png "Logo Title Text 2"
+<p>Here’s our logo (hover to see the title text):</p>
+<p>Inline-style: <img src="qrMkdwn.png" title="Logo Title Text 1" alt="alt text" /></p>
+<p>Reference-style: <img src="qrMkdwn.png" title="Logo Title Text 2" alt="alt text" /></p>
 
 ## inline HTML {: #html }
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 ```
 <figure>
-<img src="../qrMkdwn.png">
+<img src="qrMkdwn.png">
 <figcaption>This colorful image could use a caption.<br>
 Markdown in HTML does *not* work **very** well.
 Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
 </figure>
 ```
 
-??? tip "Result"
-    
-    <figure>
-    <img src="../qrMkdwn.png">
-    <figcaption>This colorful image could use a caption.<br>
-    Markdown in HTML does *not* work **very** well.
-    Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
-    </figure>
-
-!!! note
-    
-    Because Markdown *is* rendered within HTML when inside an admonition, the *Result* admonition contains raw Markdown formatted differently than in the example, with backslash-escapes added.
+<figure>
+<img src="qrMkdwn.png">
+<figcaption>This colorful image could use a caption.<br>
+Markdown in HTML does *not* work **very** well.
+Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
+</figure>
 
 ## links {: #links }
 ### automatic link {: #alink }
@@ -387,9 +345,7 @@ Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
 URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
 ```
 
-??? tip "Result"
-    
-    URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
+URLs in angle brackets will automatically get turned into links: <a href="https://freedomdefined.org/Definition" class="uri">https://freedomdefined.org/Definition</a>.
 
 ### inline-style link {: #ilink }
 
@@ -398,10 +354,7 @@ URLs in angle brackets will automatically get turned into links: <https://freedo
 [I'm an inline-style link with a title](https://freedomdefined.org/Definition "Definition of Free Cultural Works").
 ```
 
-??? tip "Result"
-    
-    [I'm an inline-style link](https://freedomdefined.org/Definition), and
-    [I'm an inline-style link with a title](https://freedomdefined.org/Definition "Definition of Free Cultural Works").
+<a href="https://freedomdefined.org/Definition">I’m an inline-style link</a>, and <a href="https://freedomdefined.org/Definition" title="Definition of Free Cultural Works">I’m an inline-style link with a title</a>.
 
 ### reference-style link {: #rlink }
 
@@ -415,16 +368,8 @@ The link definition for a reference-style link is included separately, usually a
 [I'm a reference-style link and definition all in one]: https://freedomdefined.org/Definition
 ```
 
-??? tip "Result"
-    
-    [I'm a reference-style link](https://freedomdefined.org/Definition), and
-    [I'm a reference-style link and definition all in one](https://freedomdefined.org/Definition).
-    
-    The link definition for a reference-style link is included separately, usually at the bottom of the document.
-
-!!! note
-    
-    Because reference-style links do not work within admonitions, several *Result* admonitions contain raw Markdown formatted differently than in the example, with reference-style links replaced with inline-style links.
+<p><a href="https://freedomdefined.org/Definition">I’m a reference-style link</a>, and <a href="https://freedomdefined.org/Definition">I’m a reference-style link and definition all in one</a>.</p>
+<p>The link definition for a reference-style link is included separately, usually at the bottom of the document.</p>
 
 ## lists {: #lists }
 ### description lists {: #dlists }
@@ -440,16 +385,19 @@ Here is an attribute.
 : It starts with a colon.
 ```
 
-??? tip "Result"
-    
-    Description lists are made of terms and details
-    : We don't need to go into much detail about it.
-    
-    Each term and its details can represent attribute-value pairs.
-    
-    Here is an attribute.
-    : And here is a value.
-    : It starts with a colon.
+<dl>
+<dt>Description lists are made of terms and details</dt>
+<dd>We don’t need to go into much detail about it.
+</dd>
+</dl>
+<p>Each term and its details can represent attribute-value pairs.</p>
+<dl>
+<dt>Here is an attribute.</dt>
+<dd>And here is a value.
+</dd>
+<dd>It starts with a colon.
+</dd>
+</dl>
 
 ### ordered lists {: #olists }
 
@@ -481,23 +429,25 @@ Here is an attribute.
 
     You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
     
-    To have a line break without a paragraph, you will need to use two trailing spaces.
+    To have a line break without a paragraph, you will need to use two trailing spaces.  
     Note that this line is separate, but within the same paragraph.
 ```
 
-??? tip "Result"
-    
-    1. First ordered list item
-    2. Another item
-        * Unordered sub-list. 
-    1. Actual numbers don't matter, just that it's a number
-        1. Ordered sub-list
-    4. And another item.
-    
-        You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.
-        
-        To have a line break without a paragraph, you will need to use two trailing spaces.
-        Note that this line is separate, but within the same paragraph.
+<ol type="1">
+<li>First ordered list item</li>
+<li>Another item
+<ul>
+<li>Unordered sub-list.</li>
+</ul></li>
+<li>Actual numbers don’t matter, just that it’s a number
+<ol type="1">
+<li>Ordered sub-list</li>
+</ol></li>
+<li><p>And another item.</p>
+<p>You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces.</p>
+<p>To have a line break without a paragraph, you will need to use two trailing spaces.<br />
+Note that this line is separate, but within the same paragraph.</p></li>
+</ol>
 
 !!! attention
     
@@ -511,11 +461,11 @@ Here is an attribute.
 + Or pluses
 ```
 
-??? tip "Result"
-    
-    * Unordered list can use asterisks
-    - Or minuses
-    + Or pluses
+<ul>
+<li>Unordered list can use asterisks</li>
+<li>Or minuses</li>
+<li>Or pluses</li>
+</ul>
 
 ## strikethrough {: #strikethrough }
 
@@ -523,13 +473,9 @@ Here is an attribute.
 Strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
-??? tip "Result"
-    
-    Strikethrough uses two tildes. ~~Scratch this.~~
+Strikethrough uses two tildes. <del>Scratch this.</del>
 
 ## tables {: #tables }
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables -- a task that would otherwise require copy-pasting from another application.
 
 ```
 Colons can be used to align columns.
@@ -541,15 +487,33 @@ Colons can be used to align columns.
 | zebra stripes | are neat      |    $1 |
 ```
 
-??? tip "Result"
-    
-    Colons can be used to align columns.
-    
-    | Tables        | Are           | Cool  |
-    |---------------|:-------------:|------:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
+<p>Colons can be used to align columns.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Tables</th>
+<th style="text-align: center;">Are</th>
+<th style="text-align: right;">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>col 3 is</td>
+<td style="text-align: center;">right-aligned</td>
+<td style="text-align: right;">$1600</td>
+</tr>
+<tr class="even">
+<td>col 2 is</td>
+<td style="text-align: center;">centered</td>
+<td style="text-align: right;">$12</td>
+</tr>
+<tr class="odd">
+<td>zebra stripes</td>
+<td style="text-align: center;">are neat</td>
+<td style="text-align: right;">$1</td>
+</tr>
+</tbody>
+</table>
 
 The table will render correctly even if the raw Markdown does not line up prettily. The rightmost pipe (`|`) and any extra spaces can be omitted. Only one dash is required to separate each header cell. You can also use inline Markdown.
 ```
@@ -559,12 +523,27 @@ The table will render correctly even if the raw Markdown does not line up pretti
 | 1 | 2 | 3
 ```
 
-??? tip "Result"
-    
-    | Markdown | Less | Pretty
-    |-|-|-
-    | *Still* | `renders` | **nicely**
-    | 1 | 2 | 3
+<table>
+<thead>
+<tr class="header">
+<th>Markdown</th>
+<th>Less</th>
+<th>Pretty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Still</em></td>
+<td><code>renders</code></td>
+<td><strong>nicely</strong></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
 
 ## comparison of Markdown implementations
 
@@ -722,7 +701,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 ## prior work
 - The bulk of the instructions were introduced to me through [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), part of the [Markdown Here](https://github.com/adam-p/markdown-here) [wiki](https://github.com/adam-p/markdown-here/wiki) on GitHub.
-- The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for [admonitions](#admonitions), which was produced with MkDocs.
+- The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for [admonitions](#admonitions), which was produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags were removed.
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote

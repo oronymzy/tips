@@ -8,12 +8,12 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **leading** {: #leadingdef }
 : adjective
 : Occuring at the beginning[^leadingdef] of a line.
-: __For example, this line contains two **leading** underscores.
+: ⋅⋅For example, this line contains two **leading** dots.
 
 **trailing** {: #trailingdef }
 : adjective
 : Occuring at the end[^trailingdef] of a line.
-: For example, this line contains two **trailing** underscores.__
+: For example, this line contains two **trailing** dots.⋅⋅
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841) on Wikipedia, with modifications.

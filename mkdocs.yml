@@ -1,6 +1,7 @@
 site_name: Oronymzy's tips
 nav:
   - Home: 'README.md'
+  - Definitions: 'defntns.md'
   - Coding:
     - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'
@@ -83,11 +84,11 @@ nav:
     - getting an RSS feed for an iTunes podcast: 'gRSSiTn.md'
 markdown_extensions:
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
   - def_list
   - footnotes
-  - markdown.extensions.attr_list
   - meta
   - pymdownx.caret
   - pymdownx.critic

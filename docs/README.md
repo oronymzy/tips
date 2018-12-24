@@ -3,9 +3,11 @@
 Hope you find them useful.
 
 !!! info
+    
     This site came about from my habit of [information grazing](https://en.wikipedia.org/wiki/Information_grazing), and serves as a way of documenting information I tend to quickly forget.
 
 !!! note
+    
     [MkDocs](https://www.mkdocs.org/) pages are designed to be generated from [Python-Markdown](https://python-markdown.github.io/)-formatted text files[^Orotips1], but I tend to use [Pandoc Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown), and I'm also using [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/), so it's a bit of a mess.
 
 ## disclosure of bias
@@ -71,57 +73,9 @@ All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/
 ## prior work
 The CSS strategy for arranging images into columns with padding was introduced to me by [a stylesheet on the Material Components GitHub](https://github.com/yakworks/mkdocs-material-components/blob/material-components-web/src/assets/stylesheets/mdc-web.css).
 
-The following additions to `mkdocs.yml`:
-
-```
-markdown_extensions:
-  - admonition
-  - codehilite:
-      guess_lang: false
-  - def_list
-  - footnotes
-  - pymdownx.caret
-  - pymdownx.critic
-  - markdown.extensions.attr_list
-  - meta
-  - pymdownx.details
-  - pymdownx.keys
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tilde
-extra_css:
-  - 'extra.css'
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/oronymzy'
-repo_name: 'oronymzy/oronymzy.tips'
-repo_url: 'https://github.com/oronymzy/oronymzy.tips'
-edit_uri: ''
-```
-
-were introduced to me by [Adding a source repository], [Adding social links], [Additional stylesheets], [Admonition], [Attribute Lists], [Caret], [CodeHilite on Material for MkDocs], [CodeHilite on Python-Markdown documentation], [Critic], [Definition Lists], [Footnotes], [Keys], [Metadata], [Snippets], [SuperFences], [Tilde], and [PyMdown Extensions].
-
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
 
-[Adding a source repository]: https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository
-[Adding social links]: https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links
-[Additional stylesheets]: https://squidfunk.github.io/mkdocs-material/customization/#additional-stylesheets
-[Admonition]: https://squidfunk.github.io/mkdocs-material/extensions/admonition/#installation
-[Attribute Lists]: https://python-markdown.github.io/extensions/attr_list/
-[Caret]: https://facelessuser.github.io/pymdown-extensions/extensions/caret/
-[CodeHilite on Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
-[CodeHilite on Python-Markdown documentation]: https://python-markdown.github.io/extensions/code_hilite/
-[Critic]: https://facelessuser.github.io/pymdown-extensions/extensions/critic/
-[Definition Lists]: https://python-markdown.github.io/extensions/definition_lists/
-[Footnotes]: https://squidfunk.github.io/mkdocs-material/extensions/footnotes/#installation
-[Keys]: https://facelessuser.github.io/pymdown-extensions/extensions/keys/
-[Metadata]: https://squidfunk.github.io/mkdocs-material/extensions/metadata/
-[PyMdown Extensions]: https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#installation
-[Snippets]: https://facelessuser.github.io/pymdown-extensions/extensions/snippets/
-[SuperFences]: https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
-[Tilde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
 [^Orotips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
 [^Orotips2]: https://www.mkdocs.org/about/license/
 [^Orotips3]: https://github.com/mkdocs/mkdocs/blob/master/LICENSE

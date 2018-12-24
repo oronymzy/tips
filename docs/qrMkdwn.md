@@ -14,6 +14,25 @@ is more human-readable than this:
 Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ```
 
+## admonitions {: #admonitions }
+
+```
+!!! attention
+    
+    Admonitions interrupt the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.
+```
+
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Admonitions interrupt the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
+</div>
+
+Admonitions do not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^qrMkdown1] [^qrMkdown2]
+
+!!! note
+    
+    A line containing just four spaces can be added to the beginning of an admonition for compatibility with Markdown implementations that do not support admonitions, causing them to be rendered as [code blocks](#bcode).
+
 ## blockquotes {: #blockquotes }
 
 ```
@@ -132,7 +151,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 !!! attention
     
-    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^qrMkdown1] This means that:
+    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^qrMkdown3] This means that:
     
     1. Markdown offers a more standardized way of creating footnotes than HTML.
     2. HTML renderings of footnotes will differ significantly between different implementations of Markdown.
@@ -175,7 +194,7 @@ A number often follows the caret, but other characters are also allowed[^charact
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^qrMkdown2]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^qrMkdown4]
 
 ## headings {: #headings }
 
@@ -346,7 +365,7 @@ This line is separated by a single newline and two spaces, so it's a separate li
 
 !!! note
     
-    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown3].
+    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown5].
 
 It is also possible to [indicate page breaks in Markdown](ipbkMkd.md).
 
@@ -471,7 +490,7 @@ Here is an attribute.
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown4]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown6]
 
 ### unordered lists {: #ulists }
 
@@ -542,6 +561,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 |                                                                     | [John Gruber’s Markdown]                     | [Pandoc's Markdown]                     | [PyMdown]                                       | [Python-Markdown]                       |
 |:--------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------|:------------------------------------------------|:----------------------------------------|
+|{: .fth } [admonitions]                                              | no{: .no }                                   | no{: .no }                              | no{: .no }                                      | yes (with extension){: .yes }[^pynadmo] |
 |{: .fth } [blockquotes]                                              | yes{: .yes }[^jgmblkq]                       | yes{: .yes }[^pdmblkq]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [code]  [(inline)][inline code]                            | yes{: .yes }[^jgmcodi]                       | yes{: .yes }[^pdmcodi]                  | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [code]  [(blocks)][blocks of code]                         | partial (indent only){: .partial }[^jgmcodb] | yes (with extension){: .yes }[^pdmcodb] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
@@ -561,6 +581,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 |{: .fth } [strikethrough]                                            | no{: .no }                                   | yes (with extension){: .yes }[^pdmstrk] | yes (with extension){: .yes }[^pymtlde]         | no{: .no }                              |
 |{: .fth } [tables]                                                   | no{: .no }                                   | yes (with extension){: .yes }[^pdmtabl] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyntabl] |
 
+[admonitions]: #admonitions
 [automatic link]: #alink
 [blockquotes]: #blockquotes
 [blocks of code]: #bcode
@@ -600,6 +621,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^jgmlkao]: https://daringfireball.net/projects/markdown/syntax#autolink
 [^pymexra]: https://facelessuser.github.io/pymdown-extensions/extensions/extra/
 [^pymfnis]: Inline-style footnotes can be approximated using the [Caret extension](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) to create numbered superscripts and an ordered list. Links between the superscript and footnote will not be available.
+[^pynadmo]: https://python-markdown.github.io/extensions/admonition/
 [^pymtlde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
 [^pyncodb]: https://python-markdown.github.io/extensions/fenced_code_blocks/
 [^pynfnis]: https://github.com/Python-Markdown/markdown/issues/658
@@ -663,12 +685,14 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 ## prior work
 - The bulk of the instructions were introduced to me through [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), part of the [Markdown Here](https://github.com/adam-p/markdown-here) [wiki](https://github.com/adam-p/markdown-here/wiki) on GitHub.
-- The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/).
+- The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for [admonitions](#admonitions), which was produced with MkDocs.
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
-[^qrMkdown1]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
-[^qrMkdown2]: https://python-markdown.github.io/extensions/footnotes/#syntax
-[^qrMkdown3]: https://pandoc.org/MANUAL.html#paragraphs
-[^qrMkdown4]: https://python-markdown.github.io/#differences
+[^qrMkdown1]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/7579894#7579894
+[^qrMkdown2]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/8297157#8297157
+[^qrMkdown3]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
+[^qrMkdown4]: https://python-markdown.github.io/extensions/footnotes/#syntax
+[^qrMkdown5]: https://pandoc.org/MANUAL.html#paragraphs
+[^qrMkdown6]: https://python-markdown.github.io/#differences
 

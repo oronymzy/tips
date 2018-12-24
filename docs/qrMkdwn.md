@@ -54,15 +54,15 @@ Quote break.
     > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
 ## breaks {: #breaks }
-### line breaks {: #lbreak }
+### hard line breaks {: #hlbreak }
+
+Hard line breaks correspond to [the *br* (line break) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) in HTML.
+
+#### hard line breaks with two spaces {: #hlbreaktwospace }
 
 !!! note
     
     Leading and trailing spaces are shown with dots (`⋅`).
-
-Try experimenting to learn how line breaks work -- hit ++enter++ once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), and see what happens.
-
-Here are some things to try out:
 
 ``` tab="Markdown with dots"
 Here's a line for us to start with.
@@ -91,9 +91,15 @@ This line is separated by a single newline and two spaces, so it's a separate li
     This line is also a separate paragraph, but...  
     This line is separated by a single newline and two spaces, so it's a separate line in the *same paragraph*.
 
-!!! note
-    
-    Most Markdown implementations require lines on the same paragraph to be separated by **two spaces** just before the newline, but ending a line with a backslash (`\`) is also supported by [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) (with an extension)[^qrMkdown5].
+#### hard line breaks with a backslash {: #hlbreakbslash }
+
+```
+Ending a line with a backslash is also possible.\
+This is less pretty, but more visible.
+```
+
+Ending a line with a backslash is also possible.<br />
+This is less pretty, but more visible.
 
 ### page breaks {: #pbreak }
 
@@ -564,27 +570,29 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 <!-- This table depends on CSS tweaks to display correctly. -->
 
-|                                                                     | [GitHub Flavored Markdown]                                              | [John Gruber’s Markdown]                     | [Pandoc's Markdown]                     | [PyMdown]                                       | [Python-Markdown]                       |
-|:--------------------------------------------------------------------|:------------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------|:------------------------------------------------|:----------------------------------------|
-|{: .fth } [admonitions]                                              | no{: .no }                                                              | no{: .no }                                   | no{: .no }                              | no{: .no }                                      | yes (with extension){: .yes }[^pynadmo] |
-|{: .fth } [blockquotes]                                              | yes{: .yes}[^gfmblkq]                                                   | yes{: .yes }[^jgmblkq]                       | yes{: .yes }[^pdmblkq]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [breaks]  [(thematic)][thematic break]                     | yes{: .yes }[^gfmtbrk]                                                  | yes{: .yes }[^jgmtbrk]                       | yes{: .yes }[^pdmtbrk]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [code]  [(inline)][inline code]                            | yes{: .yes}[^gfmcodi]                                                   | yes{: .yes }[^jgmcodi]                       | yes{: .yes }[^pdmcodi]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [code]  [(blocks)][blocks of code]                         | yes{: .yes}[^gfmcodb]                                                   | partial (indent only){: .partial }[^jgmcodb] | yes (with extension){: .yes }[^pdmcodb] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
-|{: .fth } [emphasis]                                                 | yes{: .yes}[^gfmemph]                                                   | yes{: .yes }[^jgmemph]                       | yes{: .yes }[^pdmemph]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [footnotes]  [(inline-style)][inline-style footnote]       | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt] | partial (with extension){: .partial }[^pymfnis] | no{: .no }[^pynfnis]                    |
-|{: .fth } [footnotes]  [(reference-style)][reference-style footnote] | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynfnrs] |
-|{: .fth } [headings]                                                 | yes{: .yes }[^gfmhdng]                                                  | yes{: .yes }[^jgmhdng]                       | yes{: .yes }[^pdmhdng]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [images]                                                   | yes{: .yes }[^gfmimag]                                                  | yes{: .yes }[^jgmimag]                       | yes{: .yes }[^pdmimag]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [inline HTML]                                              | partial (some tags are filtered out){: .partial } [^gfmhtm1] [^gfmhtm2] | yes{: .yes }[^jgmhtml]                       | yes (with extension){: .yes }[^pdmhtml] | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [links]  [(automatic)][automatic link]                     | yes{: .yes }[^gfmlka1] [^gfmlka2]                                       | yes{: .yes }[^jgmlkao]                       | yes{: .yes }[^pdmlkao]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [links]  [(inline-style)][inline-style link]               | yes{: .yes }[^gfmlkis]                                                  | yes{: .yes }[^jgmlink]                       | yes{: .yes }[^pdmlkis]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [links]  [(reference-style)][reference-style link]         | yes{: .yes }[^gfmlkrs]                                                  | yes{: .yes }[^jgmlink]                       | yes{: .yes }[^pdmlkrs]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [lists]  [(description lists)][description lists]          | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmldsc] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynldsc] |
-|{: .fth } [lists]  [(ordered lists)][ordered lists]                  | yes{: .yes }[^gfmlist]                                                  | yes{: .yes }[^jgmlist]                       | yes{: .yes }[^pdmlord]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [lists]  [(unordered lists)][unordered lists]              | yes{: .yes }[^gfmlist]                                                  | yes{: .yes }[^jgmlist]                       | yes{: .yes }[^pdmlurd]                  | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [strikethrough]                                            | yes (with extension){: .yes }[^gfmstrk]                                 | no{: .no }                                   | yes (with extension){: .yes }[^pdmstrk] | yes (with extension){: .yes }[^pymtlde]         | no{: .no }                              |
-|{: .fth } [tables]                                                   | yes (with extension){: .yes }[^gfmtabl]                                 | no{: .no }                                   | yes (with extension){: .yes }[^pdmtabl] | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyntabl] |
+|                                                                                       | [GitHub Flavored Markdown]                                              | [John Gruber’s Markdown]                     | [Pandoc's Markdown]                        | [PyMdown]                                       | [Python-Markdown]                       |
+|:--------------------------------------------------------------------------------------|:------------------------------------------------------------------------|:---------------------------------------------|:-------------------------------------------|:------------------------------------------------|:----------------------------------------|
+|{: .fth } [admonitions]                                                                | no{: .no }                                                              | no{: .no }                                   | no{: .no }                                 | no{: .no }                                      | yes (with extension){: .yes }[^pynadmo] |
+|{: .fth } [blockquotes]                                                                | yes{: .yes}[^gfmblkq]                                                   | yes{: .yes }[^jgmblkq]                       | yes{: .yes }[^pdmblkq]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [breaks]  [(hard line, with a backslash)][hard line breaks with a backslash] | yes{: .yes}[^gfmbhlk]                                                   | no{: .no }                                   | yes (with an extension){: .yes }[^pdmbhlk] | no{: .no }                                      | no{: .no }                              |
+|{: .fth } [breaks]  [(hard line, with two spaces)][hard line breaks with two spaces]   | yes{: .yes}[^gfmbhlk]                                                   | yes{: .yes} [^jgmbhls]                       | yes{: .yes }[^pdmbhlk]                     | yes{: .yes }[^pymbhls]                          | yes{: .yes }                            |
+|{: .fth } [breaks]  [(thematic)][thematic break]                                       | yes{: .yes }[^gfmtbrk]                                                  | yes{: .yes }[^jgmtbrk]                       | yes{: .yes }[^pdmtbrk]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [code]  [(inline)][inline code]                                              | yes{: .yes}[^gfmcodi]                                                   | yes{: .yes }[^jgmcodi]                       | yes{: .yes }[^pdmcodi]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [code]  [(blocks)][blocks of code]                                           | yes{: .yes}[^gfmcodb]                                                   | partial (indent only){: .partial }[^jgmcodb] | yes (with extension){: .yes }[^pdmcodb]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
+|{: .fth } [emphasis]                                                                   | yes{: .yes}[^gfmemph]                                                   | yes{: .yes }[^jgmemph]                       | yes{: .yes }[^pdmemph]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [footnotes]  [(inline-style)][inline-style footnote]                         | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt]    | partial (with extension){: .partial }[^pymfnis] | no{: .no }[^pynfnis]                    |
+|{: .fth } [footnotes]  [(reference-style)][reference-style footnote]                   | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynfnrs] |
+|{: .fth } [headings]                                                                   | yes{: .yes }[^gfmhdng]                                                  | yes{: .yes }[^jgmhdng]                       | yes{: .yes }[^pdmhdng]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [images]                                                                     | yes{: .yes }[^gfmimag]                                                  | yes{: .yes }[^jgmimag]                       | yes{: .yes }[^pdmimag]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [inline HTML]                                                                | partial (some tags are filtered out){: .partial } [^gfmhtm1] [^gfmhtm2] | yes{: .yes }[^jgmhtml]                       | yes (with extension){: .yes }[^pdmhtml]    | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [links]  [(automatic)][automatic link]                                       | yes{: .yes }[^gfmlka1] [^gfmlka2]                                       | yes{: .yes }[^jgmlkao]                       | yes{: .yes }[^pdmlkao]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [links]  [(inline-style)][inline-style link]                                 | yes{: .yes }[^gfmlkis]                                                  | yes{: .yes }[^jgmlink]                       | yes{: .yes }[^pdmlkis]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [links]  [(reference-style)][reference-style link]                           | yes{: .yes }[^gfmlkrs]                                                  | yes{: .yes }[^jgmlink]                       | yes{: .yes }[^pdmlkrs]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [lists]  [(description lists)][description lists]                            | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmldsc]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynldsc] |
+|{: .fth } [lists]  [(ordered lists)][ordered lists]                                    | yes{: .yes }[^gfmlist]                                                  | yes{: .yes }[^jgmlist]                       | yes{: .yes }[^pdmlord]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [lists]  [(unordered lists)][unordered lists]                                | yes{: .yes }[^gfmlist]                                                  | yes{: .yes }[^jgmlist]                       | yes{: .yes }[^pdmlurd]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [strikethrough]                                                              | yes (with extension){: .yes }[^gfmstrk]                                 | no{: .no }                                   | yes (with extension){: .yes }[^pdmstrk]    | yes (with extension){: .yes }[^pymtlde]         | no{: .no }                              |
+|{: .fth } [tables]                                                                     | yes (with extension){: .yes }[^gfmtabl]                                 | no{: .no }                                   | yes (with extension){: .yes }[^pdmtabl]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyntabl] |
 
 [admonitions]: #admonitions
 [automatic link]: #alink
@@ -595,6 +603,8 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [description lists]: #dlists
 [emphasis]: #emphasis
 [footnotes]: #footnotes
+[hard line breaks with a backslash]: #hlbreakbslash
+[hard line breaks with two spaces]: #hlbreaktwospace
 [headings]: #headings
 [images]: #images
 [inline-style footnote]: #ifootnote
@@ -616,6 +626,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [PyMdown]: https://facelessuser.github.io/PyMdown/
 [Python-Markdown]: https://python-markdown.github.io/
 [^gfmblkq]: https://github.github.com/gfm/#block-quotes
+[^gfmbhlk]: https://github.github.com/gfm/#hard-line-break
 [^gfmcodb]: https://github.github.com/gfm/#fenced-code-blocks
 [^gfmcodi]: https://github.github.com/gfm/#code-spans
 [^gfmemph]: https://github.github.com/gfm/#emphasis-and-strong-emphasis
@@ -631,6 +642,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^gfmstrk]: https://github.github.com/gfm/#strikethrough-extension-
 [^gfmtabl]: https://github.github.com/gfm/#tables-extension-
 [^gfmtbrk]: https://github.github.com/gfm/#thematic-break
+[^jgmbhls]: https://daringfireball.net/projects/markdown/syntax#p
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
 [^jgmcodb]: https://daringfireball.net/projects/markdown/syntax#precode
 [^jgmcodi]: https://daringfireball.net/projects/markdown/syntax#code
@@ -642,6 +654,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^jgmlist]: https://daringfireball.net/projects/markdown/syntax#list
 [^jgmlkao]: https://daringfireball.net/projects/markdown/syntax#autolink
 [^jgmtbrk]: https://daringfireball.net/projects/markdown/syntax#hr
+[^pdmbhlk]: https://pandoc.org/MANUAL.html#paragraphs
 [^pdmblkq]: https://pandoc.org/MANUAL.html#block-quotations
 [^pdmcodb]: https://pandoc.org/MANUAL.html#verbatim-code-blocks
 [^pdmcodi]: https://pandoc.org/MANUAL.html#verbatim
@@ -659,6 +672,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^pdmstrk]: https://pandoc.org/MANUAL.html#strikeout
 [^pdmtabl]: https://pandoc.org/MANUAL.html#tables
 [^pdmtbrk]: https://pandoc.org/MANUAL.html#horizontal-rules
+[^pymbhls]: https://facelessuser.github.io/PyMdown/user-guide/markdown-syntax/#p
 [^pymexra]: https://facelessuser.github.io/pymdown-extensions/extensions/extra/
 [^pymfnis]: Inline-style footnotes can be approximated using the [Caret extension](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) to create numbered superscripts and an ordered list. Links between the superscript and footnote will not be available.
 [^pymtlde]: https://facelessuser.github.io/pymdown-extensions/extensions/tilde/
@@ -716,6 +730,5 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^qrMkdown2]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/8297157#8297157
 [^qrMkdown3]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
 [^qrMkdown4]: https://python-markdown.github.io/extensions/footnotes/#syntax
-[^qrMkdown5]: https://pandoc.org/MANUAL.html#paragraphs
 [^qrMkdown6]: https://python-markdown.github.io/#differences
 

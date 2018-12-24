@@ -141,7 +141,7 @@ Combined emphasis with **asterisks and _underscores_**.
     
     **Footnotes usually include hyperlinks**, but because footnotes do not work within admonitions, the *Result* admonition contains raw Markdown formatted differently than in the example, with manually-added superscripts and ordered lists.
 
-### inline-style footnote {# ifootnote }
+### inline-style footnote {: #ifootnote }
 This style of footnote creates a self-contained footnote beside the text it references.
 
 ```
@@ -149,7 +149,7 @@ An inline-style footnote consists of a caret (`^`) outside a pair of square brac
 It can be created on a single line^[It will be formatted like this.].
 ```
 
-### reference-style footnote {# rfootnote }
+### reference-style footnote {: #rfootnote }
 This style of footnote resembles a reference-style link, but works differently. Instead of combining into a hyperlink, the reference becomes a numbered superscript and the link definition becomes a numbered footnote at the end of the page.
 
 ```
@@ -351,7 +351,7 @@ This line is separated by a single newline and two spaces, so it's a separate li
 It is also possible to [indicate page breaks in Markdown](ipbkMkd.md).
 
 ## links {: #links }
-### automatic link {# alink }
+### automatic link {: #alink }
 
 ```
 URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
@@ -361,7 +361,7 @@ URLs in angle brackets will automatically get turned into links: <https://freedo
     
     URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
 
-### inline-style link {# ilink }
+### inline-style link {: #ilink }
 
 ```
 [I'm an inline-style link](https://freedomdefined.org/Definition), and
@@ -373,7 +373,7 @@ URLs in angle brackets will automatically get turned into links: <https://freedo
     [I'm an inline-style link](https://freedomdefined.org/Definition), and
     [I'm an inline-style link with a title](https://freedomdefined.org/Definition "Definition of Free Cultural Works").
 
-### reference-style link {# rlink }
+### reference-style link {: #rlink }
 
 ```
 [I'm a reference-style link][with a separate link definition], and

@@ -38,6 +38,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  - pymdownx.extrarawhtml
   - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
@@ -74,6 +75,7 @@ edit_uri: ''
     - The `pymdownx.caret` entry point enables the [PyMdown Caret](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) extension, which allows the *ins* and *sup* HTML elements to be added using a caret (`^`).
     - The `pymdownx.critic` entry point enables the [PyMdown Critic](https://facelessuser.github.io/pymdown-extensions/extensions/critic/) extension, which adds support for the [CriticMarkdown](http://criticmarkup.com/) syntax.
     - The `pymdownx.details` entry point enables the [PyMdown Details](https://facelessuser.github.io/pymdown-extensions/extensions/details/) extension, which adds support for collapsible admonition-style elements using the *details* and *summary* HTML elements.
+    - The `pymdownx.extrarawhtml` entry point enables the [PyMdown ExtraRawHTML](https://facelessuser.github.io/pymdown-extensions/extensions/extrarawhtml/) extension, which allows parsing of Markdown within any HTML element as long as the `markdown="1"` attribute is added to its opening tag. It is taken from [Python-Markdown Extra](https://python-markdown.github.io/extensions/extra/#nested-markdown-inside-html-blocks), and is also available through the [PyMdown Extra](https://facelessuser.github.io/pymdown-extensions/extensions/extra/) and [Python-Markdown Extra](https://python-markdown.github.io/extensions/extra/) extension compilations.
     - The `pymdownx.keys` entry point enables the [PyMdown Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/) extension, which allows the *kbd* HTML element using two plus signs (`++`).
     - The `pymdownx.snippets` entry point enables the [PyMdown Snippets](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/) extension, which allows one Markdown or HTML file into another Markdown file using ASCII scissors (`--8<--`).
     - The `pymdownx.superfences` entry point enables the [PyMdown SuperFences](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/) extension, which expands the functionality of fenced code blocks.

@@ -78,6 +78,7 @@ nav:
     - installing MkDocs: 'insMkDc.md'
     - using Atom text editor: 'usgAtom.md'
     - using Browsersync: 'usBsync.md'
+    - using CSS: 'usngCSS.md'
     - using MkDocs: 'usgMkDc.md'
     - using rsync: 'usrsync.md'
   - Web syndication:

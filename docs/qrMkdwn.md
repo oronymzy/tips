@@ -64,7 +64,7 @@ Quote break.
 </blockquote>
 <p>Quote break.</p>
 <blockquote>
-<p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+<p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
 </blockquote>
 ```
 
@@ -75,7 +75,7 @@ Quote break.
     </blockquote>
     <p>Quote break.</p>
     <blockquote>
-    <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+    <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
     </blockquote>
 
 ## breaks {: #breaks }
@@ -108,18 +108,18 @@ This line is separated by a single newline and two spaces, so it's a separate li
 ```
 
 ``` tab="HTML"
-<p>Here’s a line for us to start with.</p>
+<p>Here's a line for us to start with.</p>
 <p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
 <p>This line is also a separate paragraph, but…<br />
-This line is separated by a single newline and two spaces, so it’s a separate line in the <em>same paragraph</em>.</p>
+This line is separated by a single newline and two spaces, so it's a separate line in the <em>same paragraph</em>.</p>
 ```
 
 !!! note ""
     
-    <p>Here’s a line for us to start with.</p>
+    <p>Here's a line for us to start with.</p>
     <p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
     <p>This line is also a separate paragraph, but…<br />
-    This line is separated by a single newline and two spaces, so it’s a separate line in the <em>same paragraph</em>.</p>
+    This line is separated by a single newline and two spaces, so it's a separate line in the <em>same paragraph</em>.</p>
 
 #### hard line breaks with a backslash {: #hlbreakbslash }
 
@@ -354,7 +354,7 @@ A number often follows the caret, but other characters are also allowed[^charact
 <hr />
 <ol>
 <li id="fn1"><p>In Python-Markdown, identifiers are called <em>labels</em>.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>Not all characters are allowed within the identifier. Pandoc’s Markdown does not allow spaces, tabs, or newlines in the identifier.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Not all characters are allowed within the identifier. Pandoc's Markdown does not allow spaces, tabs, or newlines in the identifier.<a href="#fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
 ```
@@ -366,7 +366,7 @@ A number often follows the caret, but other characters are also allowed[^charact
     <hr />
     <ol>
     <li id="fn1"><p>In Python-Markdown, identifiers are called <em>labels</em>.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-    <li id="fn2"><p>Not all characters are allowed within the identifier. Pandoc’s Markdown does not allow spaces, tabs, or newlines in the identifier.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+    <li id="fn2"><p>Not all characters are allowed within the identifier. Pandoc's Markdown does not allow spaces, tabs, or newlines in the identifier.<a href="#fnref2" class="footnote-back">↩</a></p></li>
     </ol>
     </section>
 
@@ -444,14 +444,14 @@ Reference-style:
 ```
 
 ``` tab="HTML"
-<p>Here’s our logo (hover to see the title text):</p>
+<p>Here's our logo (hover to see the title text):</p>
 <p>Inline-style: <img src="qrMkdwn.png" title="Logo Title Text 1" alt="alt text" /></p>
 <p>Reference-style: <img src="qrMkdwn.png" title="Logo Title Text 2" alt="alt text" /></p>
 ```
 
 !!! note ""
     
-    <p>Here’s our logo (hover to see the title text):</p>
+    <p>Here's our logo (hover to see the title text):</p>
     <p>Inline-style: <img src="qrMkdwn.png" title="Logo Title Text 1" alt="alt text" /></p>
     <p>Reference-style: <img src="qrMkdwn.png" title="Logo Title Text 2" alt="alt text" /></p>
 
@@ -499,12 +499,12 @@ URLs in angle brackets will automatically get turned into links: <a href="https:
 ```
 
 ``` tab="HTML"
-<a href="https://freedomdefined.org/Definition">I’m an inline-style link</a>, and <a href="https://freedomdefined.org/Definition" title="Definition of Free Cultural Works">I’m an inline-style link with a title</a>.
+<a href="https://freedomdefined.org/Definition">I'm an inline-style link</a>, and <a href="https://freedomdefined.org/Definition" title="Definition of Free Cultural Works">I'm an inline-style link with a title</a>.
 ```
 
 !!! note ""
     
-    <a href="https://freedomdefined.org/Definition">I’m an inline-style link</a>, and <a href="https://freedomdefined.org/Definition" title="Definition of Free Cultural Works">I’m an inline-style link with a title</a>.
+    <a href="https://freedomdefined.org/Definition">I'm an inline-style link</a>, and <a href="https://freedomdefined.org/Definition" title="Definition of Free Cultural Works">I'm an inline-style link with a title</a>.
 
 ### reference-style link {: #rlink }
 
@@ -519,13 +519,13 @@ The link definition for a reference-style link is included separately, usually a
 ```
 
 ``` tab="HTML"
-<p><a href="https://freedomdefined.org/Definition">I’m a reference-style link</a>, and <a href="https://freedomdefined.org/Definition">I’m a reference-style link and definition all in one</a>.</p>
+<p><a href="https://freedomdefined.org/Definition">I'm a reference-style link</a>, and <a href="https://freedomdefined.org/Definition">I'm a reference-style link and definition all in one</a>.</p>
 <p>The link definition for a reference-style link is included separately, usually at the bottom of the document.</p>
 ```
 
 !!! note ""
     
-    <p><a href="https://freedomdefined.org/Definition">I’m a reference-style link</a>, and <a href="https://freedomdefined.org/Definition">I’m a reference-style link and definition all in one</a>.</p>
+    <p><a href="https://freedomdefined.org/Definition">I'm a reference-style link</a>, and <a href="https://freedomdefined.org/Definition">I'm a reference-style link and definition all in one</a>.</p>
     <p>The link definition for a reference-style link is included separately, usually at the bottom of the document.</p>
 
 ## lists {: #lists }
@@ -545,7 +545,7 @@ Here is an attribute.
 ``` tab="HTML"
 <dl>
 <dt>Description lists are made of terms and details</dt>
-<dd>We don’t need to go into much detail about it.
+<dd>We don't need to go into much detail about it.
 </dd>
 </dl>
 <p>Each term and its details can represent attribute-value pairs.</p>
@@ -562,7 +562,7 @@ Here is an attribute.
     
     <dl>
     <dt>Description lists are made of terms and details</dt>
-    <dd>We don’t need to go into much detail about it.
+    <dd>We don't need to go into much detail about it.
     </dd>
     </dl>
     <p>Each term and its details can represent attribute-value pairs.</p>
@@ -615,7 +615,7 @@ Here is an attribute.
 <ul>
 <li>Unordered sub-list.</li>
 </ul></li>
-<li>Actual numbers don’t matter, just that it’s a number
+<li>Actual numbers don't matter, just that it's a number
 <ol type="1">
 <li>Ordered sub-list</li>
 </ol></li>
@@ -634,7 +634,7 @@ Note that this line is separate, but within the same paragraph.</p></li>
     <ul>
     <li>Unordered sub-list.</li>
     </ul></li>
-    <li>Actual numbers don’t matter, just that it’s a number
+    <li>Actual numbers don't matter, just that it's a number
     <ol type="1">
     <li>Ordered sub-list</li>
     </ol></li>
@@ -816,7 +816,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 <!-- This table depends on CSS tweaks to display correctly. -->
 
-|                                                                                       | [GitHub Flavored Markdown]                                              | [John Gruber’s Markdown]                     | [Pandoc's Markdown]                        | [PyMdown]                                       | [Python-Markdown]                       |
+|                                                                                       | [GitHub Flavored Markdown]                                              | [John Gruber's Markdown]                     | [Pandoc's Markdown]                        | [PyMdown]                                       | [Python-Markdown]                       |
 |:--------------------------------------------------------------------------------------|:------------------------------------------------------------------------|:---------------------------------------------|:-------------------------------------------|:------------------------------------------------|:----------------------------------------|
 |{: .fth } [admonitions]                                                                | no{: .no }                                                              | no{: .no }                                   | no{: .no }                                 | no{: .no }                                      | yes (with extension){: .yes }[^pynadmo] |
 |{: .fth } [blockquotes]                                                                | yes{: .yes}[^gfmblkq]                                                   | yes{: .yes }[^jgmblkq]                       | yes{: .yes }[^pdmblkq]                     | yes{: .yes }                                    | yes{: .yes }                            |
@@ -867,7 +867,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [thematic break]: #tbreak
 [unordered lists]: #ulists
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
-[John Gruber’s Markdown]: https://daringfireball.net/projects/markdown/syntax
+[John Gruber's Markdown]: https://daringfireball.net/projects/markdown/syntax
 [Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
 [PyMdown]: https://facelessuser.github.io/PyMdown/
 [Python-Markdown]: https://python-markdown.github.io/

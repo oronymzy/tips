@@ -1,11 +1,10 @@
 # listing all files containing specific text
-Use `grep -rnw '/foo/bar/' -e 'baz'`, where */foo/bar/* is the directory to recursively search within, and *baz* is the text to search for.
+Use `grep -rn '/foo/bar/' -e 'baz'`, where */foo/bar/* is the directory to recursively search within, and *baz* is the text to search for.
 
 ## explanation
 
 - `-r` or `-R` enables recursion
 - `-n` prefixes each outputted line with a line number[^lsfctxt1]
-- `-w` specifies selction of whole words[^lsfctxt2]
 - `-e` specifies a pattern[^lsfctxt2]
 
 ## licensing ###

@@ -943,7 +943,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^pyntabl]: https://python-markdown.github.io/extensions/tables/
 
 ## licensing
-**Some rights reserved: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).** Includes significant content from [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on GitHub with modifications, including the following:
+**Some rights reserved: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).** Includes significant content from [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on GitHub with changes made, including the following:
 
 !!! attention
     

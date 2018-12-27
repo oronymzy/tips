@@ -17,7 +17,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ??? note
     
     - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for [admonitions](#admonitions), which was produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
-    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonitions) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^qrMkdown1], several [headings](#headings) admonitions contain specially-styled HTML instead of heading elements.
+    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonitions) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^qrMkdwn1], several [headings](#headings) admonitions contain specially-styled HTML instead of heading elements.
 
 ## admonitions {: #admonitions }
 
@@ -41,7 +41,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 </div>
 </div>
 
-Admonitions do not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^qrMkdown2] [^qrMkdown3]
+Admonitions do not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^qrMkdwn2] [^qrMkdwn3]
 
 ??? danger "Compatibility hack"
     
@@ -302,7 +302,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 !!! attention
     
-    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^qrMkdown4] This means that:
+    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^qrMkdwn4] This means that:
     
     1. Markdown offers a more standardized way of creating footnotes than HTML.
     2. HTML renderings of footnotes will differ significantly between different implementations of Markdown.
@@ -372,7 +372,7 @@ A number often follows the caret, but other characters are also allowed[^charact
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^qrMkdown5]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^qrMkdwn5]
 
 ## headings {: #headings }
 
@@ -646,7 +646,7 @@ Note that this line is separate, but within the same paragraph.</p></li>
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdown6]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdwn6]
 
 ### unordered lists {: #ulists }
 
@@ -971,10 +971,10 @@ The bulk of the instructions were introduced to me through [Markdown Cheatsheet]
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
-[^qrMkdown1]: https://github.com/squidfunk/mkdocs-material/issues/179#issuecomment-282027581
-[^qrMkdown2]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/7579894#7579894
-[^qrMkdown3]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/8297157#8297157
-[^qrMkdown4]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
-[^qrMkdown5]: https://python-markdown.github.io/extensions/footnotes/#syntax
-[^qrMkdown6]: https://python-markdown.github.io/#differences
+[^qrMkdwn1]: https://github.com/squidfunk/mkdocs-material/issues/179#issuecomment-282027581
+[^qrMkdwn2]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/7579894#7579894
+[^qrMkdwn3]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/8297157#8297157
+[^qrMkdwn4]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
+[^qrMkdwn5]: https://python-markdown.github.io/extensions/footnotes/#syntax
+[^qrMkdwn6]: https://python-markdown.github.io/#differences
 

@@ -345,7 +345,7 @@ It can be created on a single line^[It will be formatted like this.].
     </section>
 
 ### reference-style footnote {: #rfootnote }
-This style of footnote resembles a reference-style link, but works differently. Instead of combining into a hyperlink, the reference becomes a numbered superscript and the link definition becomes a numbered footnote at the end of the page.
+This style of footnote resembles a [reference-style link](#rlink), but works differently. Instead of combining into a hyperlink, the reference becomes a numbered superscript and the link definition becomes a numbered footnote at the end of the page.
 
 ``` tab="Markdown"
 The reference identifier[^1] is an string that begins with a caret (`^`).

@@ -47,7 +47,7 @@ nav:
     - installing Ruby Version Manager: 'insRVMr.md'
   - Presentation:
     - indicating page breaks in Markdown: 'ipbkMkd.md'
-    - quick reference for Markdown: 'qrMkdwn.md'
+    - Markdown quick reference: 'Mkdqref.md'
     - using PyMdown: 'usPyMdn.md'
     - using Python-Markdown: 'usPythM.md'
     - using reveal.js: 'usrevjs.md'

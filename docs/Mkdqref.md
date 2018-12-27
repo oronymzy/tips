@@ -45,7 +45,7 @@ Admonitions do not have a direct HTML equivalent, but [the *aside* element](http
 
 ??? danger "Compatibility hack"
     
-    A line containing just four spaces can be added to the beginning of an admonition to make all the lines within the admonition render as a [code block](#bcode) in Markdown implementations that do not support admonitions.
+    A line containing just four spaces can be added to the beginning of an admonition to make all the lines within the admonition render as an [indented code block](#ibcode) in Markdown implementations that do not support admonitions.
 
 ## blockquotes {: #blockquotes }
 
@@ -186,22 +186,8 @@ Thematic breaks correspond to [the *hr* (horizontal rule) element](https://devel
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
 
-### inline code {: #icode }
-
-``` tab="Markdown"
-Inline `code` has `back-ticks around` it.
-```
-
-``` tab="HTML"
-Inline <code>code</code> has <code>back-ticks around</code> it.
-```
-
-!!! note ""
-    
-    Inline <code>code</code> has <code>back-ticks around</code> it.
-
-### blocks of code {: #bcode }
- Blocks of code are fenced by lines with three back-ticks (<code>```</code>).
+### fenced blocks of code {: #fbcode }
+Three back-ticks (<code>```</code>) or three tildes (<code>\~\~\~</code>) can function as fences for producing one or more lines of code.
 
 ``` tab="Markdown"
  ```javascript
@@ -250,31 +236,54 @@ But let&#39;s throw in a &lt;b&gt;tag&lt;/b&gt;.</code></pre>
     
     The raw Markdown is indented by a single space to allow nesting of a code block within a code block.
 
-Alternatively, code blocks can be fenced by three tildes (`~~~`) or be indented by four spaces.
-
 ``` tab="Markdown"
 ~~~
-The quick
-brown fox
+These fences are more squiggly, but they still work.
 ~~~
-
-    jumps over
-    the lazy dog.
 ```
 
 ``` tab="HTML"
-<pre><code>The quick
-brown fox</code></pre>
-<pre><code>jumps over
-the lazy dog.</code></pre>
+<pre><code>These fences are more squiggly, but they still work.</code></pre>
 ```
 
 !!! note ""
     
-    <pre><code>The quick
-    brown fox</code></pre>
-    <pre><code>jumps over
-    the lazy dog.</code></pre>
+    <pre><code>These fences are more squiggly, but they still work.</code></pre>
+
+### indented blocks of code {: #ibcode }
+A four-space indent produces one or more lines of code.
+
+``` tab="Markdown"
+    This formatting syntax works,
+    but can be a pain to select as raw Markdown
+    when spanning multiple lines of text.
+```
+
+``` tab="HTML"
+<pre><code>This formatting syntax works,
+but can be a pain to select as raw Markdown
+when spanning multiple lines of text.</code></pre>
+```
+
+!!! note ""
+    
+    <pre><code>This formatting syntax works,
+    but can be a pain to select as raw Markdown
+    when spanning multiple lines of text.</code></pre>
+
+### inline code {: #icode }
+
+``` tab="Markdown"
+Inline `code` has `back-ticks around` it.
+```
+
+``` tab="HTML"
+Inline <code>code</code> has <code>back-ticks around</code> it.
+```
+
+!!! note ""
+    
+    Inline <code>code</code> has <code>back-ticks around</code> it.
 
 ## emphasis {: #emphasis }
 
@@ -823,8 +832,9 @@ The table will render correctly even if the raw Markdown does not line up pretti
 |{: .fth } [breaks]  [(hard line, with a backslash)][hard line breaks with a backslash] | yes{: .yes}[^gfmbhlk]                                                   | no{: .no }                                   | yes (with an extension){: .yes }[^pdmbhlk] | no{: .no }                                      | no{: .no }                              |
 |{: .fth } [breaks]  [(hard line, with two spaces)][hard line breaks with two spaces]   | yes{: .yes}[^gfmbhlk]                                                   | yes{: .yes} [^jgmbhls]                       | yes{: .yes }[^pdmbhlk]                     | yes{: .yes }[^pymbhls]                          | yes{: .yes }                            |
 |{: .fth } [breaks]  [(thematic)][thematic break]                                       | yes{: .yes }[^gfmtbrk]                                                  | yes{: .yes }[^jgmtbrk]                       | yes{: .yes }[^pdmtbrk]                     | yes{: .yes }                                    | yes{: .yes }                            |
+|{: .fth } [code]  [(fenced blocks)][fenced blocks of code]                             | yes{: .yes}[^gfmfcdb]                                                   | no{: .no }                                   | yes (with extension){: .yes }[^pdmfcdb]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
+|{: .fth } [code]  [(indented blocks)][indented blocks of code]                         | yes{: .yes}[^gfmicdb]                                                   | yes{: .yes }[^jgmcodb]                       | yes{: .yes }[^pdmicdb]                     | yes (with extension){: .yes }[^pymexra]         | yes{: .yes }                            |
 |{: .fth } [code]  [(inline)][inline code]                                              | yes{: .yes}[^gfmcodi]                                                   | yes{: .yes }[^jgmcodi]                       | yes{: .yes }[^pdmcodi]                     | yes{: .yes }                                    | yes{: .yes }                            |
-|{: .fth } [code]  [(blocks)][blocks of code]                                           | yes{: .yes}[^gfmcodb]                                                   | partial (indent only){: .partial }[^jgmcodb] | yes (with extension){: .yes }[^pdmcodb]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pyncodb] |
 |{: .fth } [emphasis]                                                                   | yes{: .yes}[^gfmemph]                                                   | yes{: .yes }[^jgmemph]                       | yes{: .yes }[^pdmemph]                     | yes{: .yes }                                    | yes{: .yes }                            |
 |{: .fth } [footnotes]  [(inline-style)][inline-style footnote]                         | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt]    | partial (with extension){: .partial }[^pymfnis] | no{: .no }[^pynfnis]                    |
 |{: .fth } [footnotes]  [(reference-style)][reference-style footnote]                   | no{: .no }                                                              | no{: .no }                                   | yes (with extension){: .yes }[^pdmftnt]    | yes (with extension){: .yes }[^pymexra]         | yes (with extension){: .yes }[^pynfnrs] |
@@ -843,16 +853,17 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [admonitions]: #admonitions
 [automatic link]: #alink
 [blockquotes]: #blockquotes
-[blocks of code]: #bcode
 [breaks]: #breaks
 [code]: #code
 [description lists]: #dlists
 [emphasis]: #emphasis
+[fenced blocks of code]: #fbcode
 [footnotes]: #footnotes
 [hard line breaks with a backslash]: #hlbreakbslash
 [hard line breaks with two spaces]: #hlbreaktwospace
 [headings]: #headings
 [images]: #images
+[indented blocks of code]: #ibcode
 [inline-style footnote]: #ifootnote
 [inline-style link]: #ilink
 [inline code]: #icode
@@ -871,14 +882,15 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
 [PyMdown]: https://facelessuser.github.io/PyMdown/
 [Python-Markdown]: https://python-markdown.github.io/
-[^gfmblkq]: https://github.github.com/gfm/#block-quotes
 [^gfmbhlk]: https://github.github.com/gfm/#hard-line-break
-[^gfmcodb]: https://github.github.com/gfm/#fenced-code-blocks
+[^gfmblkq]: https://github.github.com/gfm/#block-quotes
 [^gfmcodi]: https://github.github.com/gfm/#code-spans
 [^gfmemph]: https://github.github.com/gfm/#emphasis-and-strong-emphasis
+[^gfmfcdb]: https://github.github.com/gfm/#fenced-code-blocks
 [^gfmhdng]: https://github.github.com/gfm/#atx-headings
 [^gfmhtm1]: https://github.github.com/gfm/#raw-html
 [^gfmhtm2]: https://github.github.com/gfm/#disallowed-raw-html-extension-
+[^gfmicdb]: https://github.github.com/gfm/#indented-code-blocks
 [^gfmimag]: https://github.github.com/gfm/#images
 [^gfmlist]: https://github.github.com/gfm/#lists
 [^gfmlka1]: https://github.github.com/gfm/#autolink
@@ -902,12 +914,13 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^jgmtbrk]: https://daringfireball.net/projects/markdown/syntax#hr
 [^pdmbhlk]: https://pandoc.org/MANUAL.html#paragraphs
 [^pdmblkq]: https://pandoc.org/MANUAL.html#block-quotations
-[^pdmcodb]: https://pandoc.org/MANUAL.html#verbatim-code-blocks
 [^pdmcodi]: https://pandoc.org/MANUAL.html#verbatim
 [^pdmemph]: https://pandoc.org/MANUAL.html#emphasis
+[^pdmfcdb]: https://pandoc.org/MANUAL.html#fenced-code-blocks
 [^pdmftnt]: https://pandoc.org/MANUAL.html#footnotes
 [^pdmhdng]: https://pandoc.org/MANUAL.html#headers
 [^pdmhtml]: https://pandoc.org/MANUAL.html#raw-html
+[^pdmicdb]: https://pandoc.org/MANUAL.html#indented-code-blocks
 [^pdmimag]: https://pandoc.org/MANUAL.html#images
 [^pdmldsc]: https://pandoc.org/MANUAL.html#definition-lists
 [^pdmlkao]: https://pandoc.org/MANUAL.html#automatic-links

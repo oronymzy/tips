@@ -71,7 +71,7 @@ nav:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
   - User interfacing:
-    - getting input device information: 'ginptdi.md'
+    - getting an input device's information: 'ginptdi.md'
   - Web development:
     - installing Atom text editor: 'insAtom.md'
     - installing Browsersync: 'inBsync.md'

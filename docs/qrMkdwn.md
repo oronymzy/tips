@@ -1,4 +1,4 @@
-# quick reference for [Markdown]
+# [Markdown] quick reference
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
 
@@ -17,7 +17,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ??? note
     
     - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for [admonitions](#admonitions), which was produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
-    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonitions) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^qrMkdwn1], several [headings](#headings) admonitions contain specially-styled HTML instead of heading elements.
+    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonitions) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^Mkdqref1], several [headings](#headings) admonitions contain specially-styled HTML instead of heading elements.
 
 ## admonitions {: #admonitions }
 
@@ -41,7 +41,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 </div>
 </div>
 
-Admonitions do not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^qrMkdwn2] [^qrMkdwn3]
+Admonitions do not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^Mkdqref2] [^Mkdqref3]
 
 ??? danger "Compatibility hack"
     
@@ -302,7 +302,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 !!! attention
     
-    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^qrMkdwn4] This means that:
+    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^Mkdqref4] This means that:
     
     1. Markdown offers a more standardized way of creating footnotes than HTML.
     2. HTML renderings of footnotes will differ significantly between different implementations of Markdown.
@@ -372,7 +372,7 @@ A number often follows the caret, but other characters are also allowed[^charact
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^qrMkdwn5]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^Mkdqref5]
 
 ## headings {: #headings }
 
@@ -435,32 +435,32 @@ Alt-H2
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](qrMkdwn.png "Logo Title Text 1")
+![alt text](Mkdqref.png "Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: qrMkdwn.png "Logo Title Text 2"
+[logo]: Mkdqref.png "Logo Title Text 2"
 ```
 
 ``` tab="HTML"
 <p>Here's our logo (hover to see the title text):</p>
-<p>Inline-style: <img src="qrMkdwn.png" title="Logo Title Text 1" alt="alt text" /></p>
-<p>Reference-style: <img src="qrMkdwn.png" title="Logo Title Text 2" alt="alt text" /></p>
+<p>Inline-style: <img src="Mkdqref.png" title="Logo Title Text 1" alt="alt text" /></p>
+<p>Reference-style: <img src="Mkdqref.png" title="Logo Title Text 2" alt="alt text" /></p>
 ```
 
 !!! note ""
     
     <p>Here's our logo (hover to see the title text):</p>
-    <p>Inline-style: <img src="qrMkdwn.png" title="Logo Title Text 1" alt="alt text" /></p>
-    <p>Reference-style: <img src="qrMkdwn.png" title="Logo Title Text 2" alt="alt text" /></p>
+    <p>Inline-style: <img src="Mkdqref.png" title="Logo Title Text 1" alt="alt text" /></p>
+    <p>Reference-style: <img src="Mkdqref.png" title="Logo Title Text 2" alt="alt text" /></p>
 
 ## inline HTML {: #html }
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 ```
 <figure>
-<img src="qrMkdwn.png">
+<img src="Mkdqref.png">
 <figcaption>This colorful image could use a caption.<br>
 Markdown in HTML does *not* work **very** well.
 Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
@@ -470,7 +470,7 @@ Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
 !!! note ""
     
     <figure>
-    <img src="qrMkdwn.png">
+    <img src="Mkdqref.png">
     <figcaption>This colorful image could use a caption.<br>
     Markdown in HTML does *not* work **very** well.
     Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
@@ -646,7 +646,7 @@ Note that this line is separate, but within the same paragraph.</p></li>
 
 !!! attention
     
-    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^qrMkdwn6]
+    [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^Mkdqref6]
 
 ### unordered lists {: #ulists }
 
@@ -971,10 +971,10 @@ The bulk of the instructions were introduced to me through [Markdown Cheatsheet]
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [^jgmblkq]: https://daringfireball.net/projects/markdown/syntax#blockquote
-[^qrMkdwn1]: https://github.com/squidfunk/mkdocs-material/issues/179#issuecomment-282027581
-[^qrMkdwn2]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/7579894#7579894
-[^qrMkdwn3]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/8297157#8297157
-[^qrMkdwn4]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
-[^qrMkdwn5]: https://python-markdown.github.io/extensions/footnotes/#syntax
-[^qrMkdwn6]: https://python-markdown.github.io/#differences
+[^Mkdqref1]: https://github.com/squidfunk/mkdocs-material/issues/179#issuecomment-282027581
+[^Mkdqref2]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/7579894#7579894
+[^Mkdqref3]: https://stackoverflow.com/questions/7579826/which-semantic-html-tag-for-displaying-side-notes-and-admonitions/8297157#8297157
+[^Mkdqref4]: https://en.wikipedia.org/wiki/Note_(typography)#HTML
+[^Mkdqref5]: https://python-markdown.github.io/extensions/footnotes/#syntax
+[^Mkdqref6]: https://python-markdown.github.io/#differences
 

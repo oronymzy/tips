@@ -24,7 +24,7 @@ var test = document.querySelector('a:has(> img)');
 [According to Wikipedia](https://en.wikipedia.org/wiki/Less_(stylesheet_language)), Less is a dynamic [preprocessor](https://en.wikipedia.org/wiki/Preprocessor) [style sheet language](https://en.wikipedia.org/wiki/Style_sheet_language) that can be compiled into [Cascading Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) (CSS) and run on the client side or server side.[^usngCSS1]
 
 ### [Sass]
-[According to Wikipedia], Sass is a [preprocessor](https://en.wikipedia.org/wiki/Preprocessor) [scripting language](https://en.wikipedia.org/wiki/Scripting_language) that is [interpreted](https://en.wikipedia.org/wiki/Interpreted_language) or [compiled](https://en.wikipedia.org/wiki/Compiled_language) into [Cascading Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) (CSS). SassScript is the scripting language itself. Sass consists of two [syntaxes](https://en.wikipedia.org/wiki/Syntax_(programming_languages)). The original syntax, called "the indented syntax", uses a syntax similar to [Haml](https://en.wikipedia.org/wiki/Haml).[^usngCSS2] It uses [indentation](https://en.wikipedia.org/wiki/Indent_style) to separate [code blocks](https://en.wikipedia.org/wiki/Block_(programming)) and [newline](https://en.wikipedia.org/wiki/Newline) characters to separate rules. The newer syntax, "SCSS" (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate lines within a block. The indented syntax and SCSS files are traditionally given the [extensions](https://en.wikipedia.org/wiki/Filename_extension) `.sass` and `.scss`, respectively.
+[According to Wikipedia](https://en.wikipedia.org/wiki/Sass_(stylesheet_language)), Sass is a [preprocessor](https://en.wikipedia.org/wiki/Preprocessor) [scripting language](https://en.wikipedia.org/wiki/Scripting_language) that is [interpreted](https://en.wikipedia.org/wiki/Interpreted_language) or [compiled](https://en.wikipedia.org/wiki/Compiled_language) into [Cascading Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) (CSS). SassScript is the scripting language itself. Sass consists of two [syntaxes](https://en.wikipedia.org/wiki/Syntax_(programming_languages)). The original syntax, called "the indented syntax", uses a syntax similar to [Haml](https://en.wikipedia.org/wiki/Haml).[^usngCSS2] It uses [indentation](https://en.wikipedia.org/wiki/Indent_style) to separate [code blocks](https://en.wikipedia.org/wiki/Block_(programming)) and [newline](https://en.wikipedia.org/wiki/Newline) characters to separate rules. The newer syntax, "SCSS" (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate lines within a block. The indented syntax and SCSS files are traditionally given the [extensions](https://en.wikipedia.org/wiki/Filename_extension) `.sass` and `.scss`, respectively.
 
 #### Bourbon
 Bourbon is a library of [Sass](http://sass-lang.com/) mixins and functions that are designed to make you a more efficient style sheet author.
@@ -37,16 +37,14 @@ Stylus is a CSS preprocessor that supports both an indented syntax and regular C
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
-- [Less (stylesheet language)](https://en.wikipedia.org/w/index.php?title=Less_(stylesheet_language)&oldid=865608252)
-- [Sass (stylesheet language)](https://en.wikipedia.org/w/index.php?title=Sass_(stylesheet_language)&oldid=872633192)
-on Wikipedia, with changes made.
 
-Also includes significant content from [an answer on Stack Overflow by Dan Herbert](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector/1014958#1014958).
-
-### compatible but superseded licensing, included for attribution
-**Some rights reserved: [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) or later.** Includes significant content from [:has()](https://developer.mozilla.org/en-US/docs/Web/CSS/:has$revision/1412251) by Mozilla Contributors, with changes made.
-
-**Some rights reserved: MIT License.** Includes significant content from [the Bourbon README on GitHub](https://github.com/thoughtbot/bourbon/blob/master/README.md), with changes made.
+- [An answer on Stack Overflow by Dan Herbert](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector/1014958#1014958), specifically:
+> There is currently no way to select the parent of an element in CSS.
+- [Less (stylesheet language)](https://en.wikipedia.org/w/index.php?title=Less_(stylesheet_language)&oldid=865608252) on Wikipedia, with changes made.
+- [Sass (stylesheet language)](https://en.wikipedia.org/w/index.php?title=Sass_(stylesheet_language)&oldid=872633192) on Wikipedia, with changes made.
+- [The Bourbon README on GitHub](https://github.com/thoughtbot/bourbon/blob/master/README.md), with changes made. **Originally licensed under the MIT License.**
+- [The Stylus README on GitHub](https://github.com/stylus/stylus/blob/dev/Readme.md), with changes made. **Originally licensed under the MIT License.**
+- [:has()](https://developer.mozilla.org/en-US/docs/Web/CSS/:has$revision/1412251) by Mozilla Contributors, with changes made. **Originally licensed [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) or later.**
 
 ??? note "[MIT License](https://choosealicense.com/licenses/mit/) for Bourbon[^usngCSS4]"
     

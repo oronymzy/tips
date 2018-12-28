@@ -3,6 +3,7 @@ nav:
   - Home: 'README.md'
   - Definitions: 'defntns.md'
   - Coding:
+    - including code comments: 'incdcmt.md'
     - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'
     - installing Python: 'insPyth.md'

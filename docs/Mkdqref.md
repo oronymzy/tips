@@ -285,6 +285,9 @@ Inline <code>code</code> has <code>back-ticks around</code> it.
     
     Inline <code>code</code> has <code>back-ticks around</code> it.
 
+## code comments {: codecomments }
+Code comments [can be included in Markdown using HTML formatting](incdcmt.md#Markdowncomment).
+
 ## emphasis {: #emphasis }
 
 ``` tab="Markdown"

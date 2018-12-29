@@ -38,6 +38,8 @@ nav:
     - opening multiple URLs: 'opmURLs.md'
     - using pup: 'usngpup.md'
     - using Lloyd Brookes's renamer: 'usLBrnm.md'
+  - Hardware:
+    - getting hardware information: 'ghdinfo.md'
   - Leisure:
     - finding permissively-licensed content: 'findplc.md'
     - installing beets: 'insbeet.md'
@@ -73,8 +75,6 @@ nav:
   - System software:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
-  - User interfacing:
-    - getting an input device's information: 'ginptdi.md'
   - Web development:
     - installing Atom text editor: 'insAtom.md'
     - installing Browsersync: 'inBsync.md'

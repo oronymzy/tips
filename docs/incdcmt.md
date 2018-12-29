@@ -17,10 +17,10 @@
 A *code comment* is any textual material relevant to and included with computer instructions that is intended to be omitted or hidden when those instructions are carried out.
 
 ## [CSS code comments]
-Use `/* foobar */`, where *foobar* is the code comment. The special markers `/*` and `*/` surround one or more lines of text to make a code comment. CSS code comments may not be nested[^incdcmt4], and it is not valid CSS to indicate a comment with only the marker `//` at the beginning of a line[^incdcmt5].
+Use `/* foobar */`, where *foobar* is the code comment. The strings `/*` and `*/` surround one or more lines of text to make a code comment. CSS code comments may not be nested[^incdcmt4], and it is not valid CSS to indicate a comment with only the string `//` at the beginning of a line[^incdcmt5].
 
 ## [HTML code comments]
-Use `<!-- foobar -->`, where *foobar* is the code comment. The special markers `<!--` and `-->` surround one or more lines of text to make a code comment. HTML comments are ignored by the browser and are usually invisible to the user, but they can be viewed [in Firefox](https://developer.mozilla.org/en-US/docs/Tools/View_source) or [Google Chrome](https://support.google.com/surveys/answer/6172725?hl=en) using the ++"view source"++ tool.
+Use `<!-- foobar -->`, where *foobar* is the code comment. The strings `<!--` and `-->` surround one or more lines of text to make a code comment. HTML comments are ignored by the browser and are usually invisible to the user, but they can be viewed [in Firefox](https://developer.mozilla.org/en-US/docs/Tools/View_source) or [Google Chrome](https://support.google.com/surveys/answer/6172725?hl=en) using the ++"view source"++ tool.
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:

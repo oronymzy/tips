@@ -14,6 +14,7 @@ Also install additional programs using more specific instructions:
 - [Go](instlGo.md)
 - [Google Chrome](insGCrm.md) (64-bit systems only)
 - [Krita (PPA)](insKrta.md)
+- [Lloyd Brookes's renamer](inLBrnm.md)
 - [MkDocs](insMkDc.md)
 - [qBittorrent (PPA)](insqBtr.md)
 - [uGet (PPA)](instuGt.md)
@@ -27,8 +28,11 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 ## explanation
 
 !!! note
+    
     This is an incomplete explanation.
 
+- `gprename` installs [GPRename](http://gprename.sourceforge.net/), a [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming).
+- `krename` installs [KRename](https://www.krename.net/home/), a [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming).
 - `net-tools` installs [ifconfig](https://en.wikipedia.org/wiki/Ifconfig).
 - `openjdk-8-jre`[^insLnxS1] installs the [Open Java Development Kit](https://en.wikipedia.org/wiki/OpenJDK) Java Runtime Environment.
 
@@ -36,7 +40,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 ## prior work
-The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
+- The method of installing GPRename was introduced to me by [an answer on Ask Ubuntu by karel](https://askubuntu.com/questions/1030996/how-can-i-install-pyrenamer-for-bionic/1031003#1031003).
+- The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
 
 [Linux]: https://en.wikipedia.org/wiki/Linux_distribution
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based

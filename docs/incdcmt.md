@@ -23,7 +23,7 @@ Use `/* foobar */`, where *foobar* is the code comment. The strings `/*` and `*/
 Use `<!-- foobar -->`, where *foobar* is the code comment. The strings `<!--` and `-->` surround one or more lines of text to make a code comment. HTML code comments are ignored by the browser and are usually invisible to the user, but they can be viewed [in Firefox](https://developer.mozilla.org/en-US/docs/Tools/View_source) or [Google Chrome](https://support.google.com/surveys/answer/6172725?hl=en) using the ++"view source"++ tool.
 
 ## [YAML code comments]
-Use `# foobar`, where *foobar* is the code comment. YAML code comments begin with a [number sign](https://en.wikipedia.org/wiki/Number_sign) (`#`), can start anywhere on a line and continue until the end of the line. Comments must be separated from other tokens by white space characters.[^incdcmt6]
+Use `# foobar`, where *foobar* is the code comment. The [number sign](https://en.wikipedia.org/wiki/Number_sign) character (`#`) makes a code comment out of the text between it and the end of the line, and can start anywhere on a line. YAML code comments must be separated from other tokens by white space characters.[^incdcmt6] Number signs that appear inside of a string are number sign literals.
 
 ## formats lacking support for code comments
 

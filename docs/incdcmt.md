@@ -20,7 +20,10 @@ A *code comment* is any textual material relevant to and included with computer 
 Use `/* foobar */`, where *foobar* is the code comment. The strings `/*` and `*/` surround one or more lines of text to make a code comment. CSS code comments may not be nested[^incdcmt4], and it is not valid CSS to indicate a comment with only the string `//` at the beginning of a line[^incdcmt5].
 
 ## [HTML code comments]
-Use `<!-- foobar -->`, where *foobar* is the code comment. The strings `<!--` and `-->` surround one or more lines of text to make a code comment. HTML comments are ignored by the browser and are usually invisible to the user, but they can be viewed [in Firefox](https://developer.mozilla.org/en-US/docs/Tools/View_source) or [Google Chrome](https://support.google.com/surveys/answer/6172725?hl=en) using the ++"view source"++ tool.
+Use `<!-- foobar -->`, where *foobar* is the code comment. The strings `<!--` and `-->` surround one or more lines of text to make a code comment. HTML code comments are ignored by the browser and are usually invisible to the user, but they can be viewed [in Firefox](https://developer.mozilla.org/en-US/docs/Tools/View_source) or [Google Chrome](https://support.google.com/surveys/answer/6172725?hl=en) using the ++"view source"++ tool.
+
+## [YAML code comments]
+Use `# foobar`, where *foobar* is the code comment. YAML code comments begin with a [number sign](https://en.wikipedia.org/wiki/Number_sign) (`#`), can start anywhere on a line and continue until the end of the line. Comments must be separated from other tokens by white space characters.[^incdcmt6]
 
 ## formats lacking support for code comments
 
@@ -33,6 +36,7 @@ Use `<!-- foobar -->`, where *foobar* is the code comment. The strings `<!--` an
 - [Comment (computer programming)](https://en.wikipedia.org/w/index.php?title=Comment_(computer_programming)&oldid=875338006) on Wikipedia, with changes made.
 - [Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started$revision/1436132) by Mozilla Contributors, with changes made, including rewording things to eliminate the need for em dashes. **Originally licensed [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) or later.**
 - [HTML element§Comments](https://en.wikipedia.org/w/index.php?title=HTML_element&oldid=874852200) on Wikipedia, with changes made.
+- [YAML§Syntax](https://en.wikipedia.org/wiki/YAML#Syntax) on Wikipedia, with changes made.
 
 ## prior work
 The fact that JSON does not support comments was introduced to me by [an answer on Stack Overflow by Eli](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json/244858#244858).
@@ -42,6 +46,8 @@ The fact that JSON does not support comments was introduced to me by [an answer 
 [^incdcmt3]: https://support.google.com/surveys/answer/6172725?hl=en
 [^incdcmt4]: https://www.w3.org/TR/CSS21/syndata.html#comments
 [^incdcmt5]: https://stackoverflow.com/questions/11218808/do-double-forward-slashes-direct-ie-to-use-specific-css/11218889#11218889
+[^incdcmt6]: ["YAML Ain't Markup Language (YAML™) Version 1.2"](http://www.yaml.org/spec/1.2/spec.html#id2780069). *Yaml.org*. Retrieved 27 May 2015.
 
 [CSS code comments]: https://developer.mozilla.org/en-US/docs/Web/CSS/Comments
 [HTML code comments]: https://en.wikipedia.org/wiki/HTML_element#Comments
+[YAML code comments]: https://yaml.org/spec/1.2/spec.html#id2780069

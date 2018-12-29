@@ -16,7 +16,7 @@
 
 A *code comment* is any textual material relevant to and included with computer instructions that is intended to be omitted or hidden when those instructions are carried out.
 
-## [HTML comments]
+## [HTML code comments]
 Use `<!-- foobar -->`, where *foobar* is the code comment. The special markers `<!--` and `-->` surround a line of text to make it into a code comment. HTML comments are ignored by the browser and are usually invisible to the user, but they can be viewed [in Firefox](https://developer.mozilla.org/en-US/docs/Tools/View_source) or [Google Chrome](https://support.google.com/surveys/answer/6172725?hl=en) using the ++"view source"++ tool.
 
 ## licensing
@@ -31,4 +31,4 @@ Use `<!-- foobar -->`, where *foobar* is the code comment. The special markers `
 [^incdcmt2]: For purposes of this article, programming language comments are treated as indistinct from comments that appear in [markup languages](https://en.wikipedia.org/wiki/Markup_language), [configuration files](https://en.wikipedia.org/wiki/Configuration_file) and other similar contexts. Moreover, markup language is often closely integrated with programming language code, especially in the context of [code generation](https://en.wikipedia.org/wiki/Automatic_programming). See e.g., Ganguli, Madhushree (2002). *Making Use of Jsp*. New York: Wiley. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-471-21974-6](https://en.wikipedia.org/wiki/Special:BookSources/0-471-21974-6).
 [^incdcmt3]: https://support.google.com/surveys/answer/6172725?hl=en
 
-[HTML comments]: https://en.wikipedia.org/wiki/HTML_element#Comments
+[HTML code comments]: https://en.wikipedia.org/wiki/HTML_element#Comments

@@ -447,32 +447,32 @@ Alt-H2
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](Mkdqref.png "Logo Title Text 1")
+![alt text](../Mkdqref.png "Logo Title Text 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: Mkdqref.png "Logo Title Text 2"
+[logo]: ../Mkdqref.png "Logo Title Text 2"
 ```
 
 ``` tab="HTML"
 <p>Here's our logo (hover to see the title text):</p>
-<p>Inline-style: <img src="Mkdqref.png" title="Logo Title Text 1" alt="alt text" /></p>
-<p>Reference-style: <img src="Mkdqref.png" title="Logo Title Text 2" alt="alt text" /></p>
+<p>Inline-style: <img src="../Mkdqref.png" title="Logo Title Text 1" alt="alt text" /></p>
+<p>Reference-style: <img src="../Mkdqref.png" title="Logo Title Text 2" alt="alt text" /></p>
 ```
 
 !!! note ""
     
     <p>Here's our logo (hover to see the title text):</p>
-    <p>Inline-style: <img src="Mkdqref.png" title="Logo Title Text 1" alt="alt text" /></p>
-    <p>Reference-style: <img src="Mkdqref.png" title="Logo Title Text 2" alt="alt text" /></p>
+    <p>Inline-style: <img src="../Mkdqref.png" title="Logo Title Text 1" alt="alt text" /></p>
+    <p>Reference-style: <img src="../Mkdqref.png" title="Logo Title Text 2" alt="alt text" /></p>
 
 ## inline HTML {: #html }
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 ```
 <figure>
-<img src="Mkdqref.png">
+<img src="../Mkdqref.png">
 <figcaption>This colorful image could use a caption.<br>
 Markdown in HTML does *not* work **very** well.
 Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
@@ -482,7 +482,7 @@ Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
 !!! note ""
     
     <figure>
-    <img src="Mkdqref.png">
+    <img src="../Mkdqref.png">
     <figcaption>This colorful image could use a caption.<br>
     Markdown in HTML does *not* work **very** well.
     Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>

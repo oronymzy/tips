@@ -16,7 +16,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 
 ??? note
     
-    - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for [admonitions](#admonitions), which was produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
+    - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for the [admonitions](#admonitions) and [attribute list](#alist) sections, which were produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
     - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonitions) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^Mkdqref1], several [headings](#headings) admonitions contain specially-styled HTML instead of heading elements.
 
 ## admonitions {: #admonitions }
@@ -558,6 +558,21 @@ An attribute list allows [HTML-style attributes](https://en.wikipedia.org/wiki/H
 !!! note
     
     The raw Markdown is indented by a single space to allow nesting of a code block within a code block.
+
+``` tab="Markdown"
+*This emphasized text*{#foo} will have `foo` as its `id`.  
+**This strongly emphasized text**{.bar} will have `bar` as its `class`.
+```
+
+``` tab="HTML"
+<p><em id="foo">This emphasized text</em> will have <code>foo</code> as its <code>id</code>.<br />
+<strong class="bar">This strongly emphasized text</strong> will have <code>bar</code> as its <code>class</code>.</p>
+```
+
+!!! note ""
+    
+    <p><em id="foo">This emphasized text</em> will have <code>foo</code> as its <code>id</code>.<br />
+    <strong class="bar">This strongly emphasized text</strong> will have <code>bar</code> as its <code>class</code>.</p>
 
 !!! warning
     

@@ -541,6 +541,28 @@ The link definition for a reference-style link is included separately, usually a
     <p>The link definition for a reference-style link is included separately, usually at the bottom of the document.</p>
 
 ## lists {: #lists }
+### attribute list {: #alist }
+
+An attribute list allows [HTML-style attributes](https://en.wikipedia.org/wiki/HTML_attribute) to be added to Markdown elements with curly brackets (`{}`) and a [CSS-like syntax](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax). More specifically:
+
+- The [number sign](https://en.wikipedia.org/wiki/Number_sign) character (`#`) indicates an `id` or unique identifier. This can be used to create a hyperlink to a section of an HTML page using a [fragment identifier](https://en.wikipedia.org/wiki/Fragment_identifier).
+- The [full stop](https://en.wikipedia.org/wiki/Full_stop) character (`.`) indicates a `class` or identifier that can be applied to multiple elements. With a fenced code block, this can be used to identify what language the code block is written in, which can be used for [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting), for example:
+```
+ ```{.yaml}
+ foo:
+   - bar
+   - baz
+ ```
+```
+
+!!! note
+    
+    The raw Markdown is indented by a single space to allow nesting of a code block within a code block.
+
+!!! warning
+    
+    Some Markdown implementations specify a colon `:` immediately following the first curly bracket, but may still work without it.
+
 ### description lists {: #dlists }
 
 ``` tab="Markdown"

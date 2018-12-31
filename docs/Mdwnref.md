@@ -22,20 +22,20 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ``` tab="Markdown"
 !!! attention
     
-    An admonition interrupts the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.
+    An admonition interrupts the flow of a document to communicate something contextually significant. Admonitions can be grouped into categories, and are often accompanied by specific icons and colors.
 ```
 
 ``` tab="HTML"
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>An admonition interrupts the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
+<p>An admonition interrupts the flow of a document to communicate something contextually significant. Admonitions can be grouped into categories, and are often accompanied by specific icons and colors.</p>
 </div>
 ```
 
 <div class="admonition note">
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>An admonition interrupts the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
+<p>An admonition interrupts the flow of a document to communicate something contextually significant. Admonitions can be grouped into categories, and are often accompanied by specific icons and colors.</p>
 </div>
 </div>
 

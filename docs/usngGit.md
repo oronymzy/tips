@@ -21,6 +21,8 @@ To search through commit messages, use `git log --grep="foobar"`, where *foobar*
 
 To view a specified commit, use `git show foobar`, where *foobar* is the 40-character commit object name.
 
+To show files managed by Git, use `git ls-files`. It is limited to the current directory and any subdirectories.
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Specifically, the following content falls under this license:
 
@@ -28,6 +30,8 @@ To view a specified commit, use `git show foobar`, where *foobar* is the 40-char
 > To list all of the already committed files being tracked by your git repository, use `git ls-tree --full-tree -r HEAD`.
 - [A question on Stack Overflow by Readonly](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) and [an answer on Stack Overflow by Greg Hewgill](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git/52719#52719), with changes made:
 > To discard unstaged changes that are not in the index, use `git stash save --keep-index --include-untracked`, then drop the stash with `git stash drop`.
+- [An answer on Stack Overflow by vonbrand](https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked/15606998#15606998), with changes made:
+> To show files managed by Git, use `git ls-files`. It is limited to the current directory and any subdirectories.
 
 If the above content is omitted, the rest is licensed **no rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 

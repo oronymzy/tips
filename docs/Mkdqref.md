@@ -16,41 +16,41 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 
 ??? note
     
-    - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for the [admonitions](#admonitions) and [attribute list](#alist) sections, which were produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
-    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonitions) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^Mkdqref1], several [headings](#headings) admonitions contain specially-styled HTML instead of heading elements.
+    - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for the [admonition](#admonition) and [attribute list](#alist) sections, which were produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
+    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonition) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^Mkdqref1], several [heading](#heading) admonitions contain specially-styled HTML instead of heading elements.
 
-## admonitions {: #admonitions }
+## admonition {: #admonition }
 
 ``` tab="Markdown"
 !!! attention
     
-    Admonitions interrupt the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.
+    An admonition interrupts the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.
 ```
 
 ``` tab="HTML"
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>Admonitions interrupt the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
+<p>An admonition interrupts the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
 </div>
 ```
 
 <div class="admonition note">
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
-<p>Admonitions interrupt the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
+<p>An admonition interrupts the flow of a document to communicate something contextually significant. They can be grouped into categories, and are often accompanied by specific icons and colors.</p>
 </div>
 </div>
 
-Admonitions do not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^Mkdqref2] [^Mkdqref3]
+An admonition does not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^Mkdqref2] [^Mkdqref3]
 
 ??? danger "Compatibility hack"
     
     A line containing just four spaces can be added to the beginning of an admonition to make all the lines within the admonition render as an [indented code block](#ibcode) in Markdown implementations that do not support admonitions.
 
-## blockquotes {: #blockquotes }
+## blockquote {: #blockquote }
 
 ``` tab="Markdown"
-> Blockquotes are very handy in email to emulate reply text.
+> A blockquote is very handy in email to emulate reply text.
 > This line is part of the same quote.
 
 Quote break.
@@ -60,7 +60,7 @@ Quote break.
 
 ``` tab="HTML"
 <blockquote>
-<p>Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.</p>
+<p>A blockquote is very handy in email to emulate reply text. This line is part of the same quote.</p>
 </blockquote>
 <p>Quote break.</p>
 <blockquote>
@@ -71,19 +71,19 @@ Quote break.
 !!! note ""
     
     <blockquote>
-    <p>Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.</p>
+    <p>A blockquote is very handy in email to emulate reply text. This line is part of the same quote.</p>
     </blockquote>
     <p>Quote break.</p>
     <blockquote>
     <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
     </blockquote>
 
-## breaks {: #breaks }
-### hard line breaks {: #hlbreak }
+## break {: #break }
+### hard line break {: #hlbreak }
 
-Hard line breaks correspond to [the *br* (line break) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) in HTML.
+A hard line break corresponds to [the *br* (line break) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) in HTML.
 
-#### hard line breaks with two spaces {: #hlbreaktwospace }
+#### hard line break with two spaces {: #hlbreaktwospace }
 
 !!! note
     
@@ -121,7 +121,7 @@ This line is separated by a single newline and two spaces, so it's a separate li
     <p>This line is also a separate paragraph, but…<br />
     This line is separated by a single newline and two spaces, so it's a separate line in the <em>same paragraph</em>.</p>
 
-#### hard line breaks with a backslash {: #hlbreakbslash }
+#### hard line break with a backslash {: #hlbreakbslash }
 
 ``` tab="Markdown"
 Ending a line with a backslash is also possible.\
@@ -138,11 +138,11 @@ This is less pretty, but more visible.
     Ending a line with a backslash is also possible.<br />
     This is less pretty, but more visible.
 
-### page breaks {: #pbreak }
+### page break {: #pbreak }
 
-Page breaks [can be indicated in Markdown using inline HTML or LaTeX formatting](ipbkMkd.md).
+A page break [can be indicated in Markdown using inline HTML or LaTeX formatting](ipbkMkd.md).
 
-### thematic breaks {: #tbreak }
+### thematic break {: #tbreak }
 
 ``` tab="Markdown"
 Three or more...
@@ -180,13 +180,13 @@ Underscores
     <hr />
     <p>Underscores</p>
 
-Thematic breaks correspond to [the *hr* (horizontal rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) in HTML.
+A thematic break corresponds to [the *hr* (horizontal rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) in HTML.
 
 ## code {: #code }
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
 
-### fenced blocks of code {: #fbcode }
+### fenced block of code {: #fbcode }
 Three back-ticks (<code>```</code>) or three tildes (<code>\~\~\~</code>) can function as fences for producing one or more lines of code.
 
 ``` tab="Markdown"
@@ -250,7 +250,7 @@ These fences are more squiggly, but they still work.
     
     <pre><code>These fences are more squiggly, but they still work.</code></pre>
 
-### indented blocks of code {: #ibcode }
+### indented block of code {: #ibcode }
 A four-space indent produces one or more lines of code.
 
 ``` tab="Markdown"
@@ -285,8 +285,8 @@ Inline <code>code</code> has <code>back-ticks around</code> it.
     
     Inline <code>code</code> has <code>back-ticks around</code> it.
 
-## code comments {: codecomments }
-Code comments [can be included in Markdown using HTML formatting](incdcmt.md#Markdowncomment).
+## code comment {: #codecomment }
+A code comment [can be included in Markdown using HTML formatting](incdcmt.md#Markdowncomment).
 
 ## emphasis {: #emphasis }
 
@@ -310,7 +310,7 @@ Combined emphasis with **asterisks and _underscores_**.
     <p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
     <p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
 
-## footnotes {: #footnotes }
+## footnote {: #footnote }
 
 !!! attention
     
@@ -386,7 +386,7 @@ A number often follows the caret, but other characters are also allowed[^charact
     
     [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^Mkdqref5]
 
-## headings {: #headings }
+## heading {: #heading }
 
 ``` tab="Markdown"
 # H1
@@ -441,7 +441,7 @@ Alt-H2
     
     <span class="h2workaround">Alt-H2</span>
 
-## images {: #images }
+## image {: #image }
 
 ``` tab="Markdown"
 Here's our logo (hover to see the title text):
@@ -488,20 +488,20 @@ Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
     Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
     </figure>
 
-## links {: #links }
+## link {: #link }
 ### automatic link {: #alink }
 
 ``` tab="Markdown"
-URLs in angle brackets will automatically get turned into links: <https://freedomdefined.org/Definition>.
+A URL in angle brackets will automatically get turned into a link: <https://freedomdefined.org/Definition>.
 ```
 
 ``` tab="HTML"
-URLs in angle brackets will automatically get turned into links: <a href="https://freedomdefined.org/Definition" class="uri">https://freedomdefined.org/Definition</a>.
+A URL in angle brackets will automatically get turned into a link: <a href="https://freedomdefined.org/Definition" class="uri">https://freedomdefined.org/Definition</a>.
 ```
 
 !!! note ""
     
-    URLs in angle brackets will automatically get turned into links: <a href="https://freedomdefined.org/Definition" class="uri">https://freedomdefined.org/Definition</a>.
+    A URL in angle brackets will automatically get turned into a link: <a href="https://freedomdefined.org/Definition" class="uri">https://freedomdefined.org/Definition</a>.
 
 ### inline-style link {: #ilink }
 
@@ -540,7 +540,7 @@ The link definition for a reference-style link is included separately, usually a
     <p><a href="https://freedomdefined.org/Definition">I'm a reference-style link</a>, and <a href="https://freedomdefined.org/Definition">I'm a reference-style link and definition all in one</a>.</p>
     <p>The link definition for a reference-style link is included separately, usually at the bottom of the document.</p>
 
-## lists {: #lists }
+## list {: #list }
 ### attribute list {: #alist }
 
 An attribute list allows [HTML-style attributes](https://en.wikipedia.org/wiki/HTML_attribute) to be added to Markdown elements with curly brackets (`{}`) and a [CSS-like syntax](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax). More specifically:
@@ -578,10 +578,10 @@ An attribute list allows [HTML-style attributes](https://en.wikipedia.org/wiki/H
     
     Some Markdown implementations specify a colon `:` immediately following the first curly bracket, but may still work without it.
 
-### description lists {: #dlists }
+### description list {: #dlist }
 
 ``` tab="Markdown"
-Description lists are made of terms and details
+A description list is made of terms and details
 : We don't need to go into much detail about it.
 
 Each term and its details can represent attribute-value pairs.
@@ -593,7 +593,7 @@ Here is an attribute.
 
 ``` tab="HTML"
 <dl>
-<dt>Description lists are made of terms and details</dt>
+<dt>A description list is made of terms and details</dt>
 <dd>We don't need to go into much detail about it.
 </dd>
 </dl>
@@ -610,7 +610,7 @@ Here is an attribute.
 !!! note ""
     
     <dl>
-    <dt>Description lists are made of terms and details</dt>
+    <dt>A description list is made of terms and details</dt>
     <dd>We don't need to go into much detail about it.
     </dd>
     </dl>
@@ -623,7 +623,7 @@ Here is an attribute.
     </dd>
     </dl>
 
-### ordered lists {: #olists }
+### ordered list {: #olist }
 
 !!! note
     
@@ -697,17 +697,17 @@ Note that this line is separate, but within the same paragraph.</p></li>
     
     [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^Mkdqref6]
 
-### unordered lists {: #ulists }
+### unordered list {: #ulist }
 
 ``` tab="Markdown"
-* Unordered list can use asterisks
+* An unordered list can use asterisks
 - Or minuses
 + Or pluses
 ```
 
 ``` tab="HTML"
 <ul>
-<li>Unordered list can use asterisks</li>
+<li>An unordered list can use asterisks</li>
 <li>Or minuses</li>
 <li>Or pluses</li>
 </ul>
@@ -716,7 +716,7 @@ Note that this line is separate, but within the same paragraph.</p></li>
 !!! note ""
     
     <ul>
-    <li>Unordered list can use asterisks</li>
+    <li>An unordered list can use asterisks</li>
     <li>Or minuses</li>
     <li>Or pluses</li>
     </ul>
@@ -724,22 +724,22 @@ Note that this line is separate, but within the same paragraph.</p></li>
 ## strikethrough {: #strikethrough }
 
 ``` tab="Markdown"
-Strikethrough uses two tildes. ~~Scratch this.~~
+A strikethrough uses two tildes. ~~Scratch this.~~
 ```
 
 ``` tab="HTML"
-Strikethrough uses two tildes. <del>Scratch this.</del>
+A strikethrough uses two tildes. <del>Scratch this.</del>
 ```
 
 !!! note ""
     
     Strikethrough uses two tildes. <del>Scratch this.</del>
 
-## tables {: #tables }
+## table {: #table }
 Colons can be used to align columns.
 
 ``` tab="Markdown"
-| Tables        | Are           | Cool  |
+| A table       | Is            | Cool  |
 |---------------|:-------------:|------:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
@@ -750,8 +750,8 @@ Colons can be used to align columns.
 <table>
 <thead>
 <tr class="header">
-<th>Tables</th>
-<th style="text-align: center;">Are</th>
+<th>A table</th>
+<th style="text-align: center;">Is</th>
 <th style="text-align: right;">Cool</th>
 </tr>
 </thead>
@@ -780,8 +780,8 @@ Colons can be used to align columns.
     <table>
     <thead>
     <tr class="header">
-    <th>Tables</th>
-    <th style="text-align: center;">Are</th>
+    <th>A table</th>
+    <th style="text-align: center;">Is</th>
     <th style="text-align: right;">Cool</th>
     </tr>
     </thead>
@@ -865,58 +865,58 @@ The table will render correctly even if the raw Markdown does not line up pretti
 
 <!-- This table depends on CSS tweaks to display correctly. -->
 
-|                                                                                       | [GitHub Flavored Markdown]                                             | [John Gruber's Markdown] | [Pandoc's Markdown]                       | [PyMdown]                                      | [Python-Markdown]                      | [Stack Overflow Markdown]                                 |
-|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|:-------------------------|:------------------------------------------|:-----------------------------------------------|:---------------------------------------|:----------------------------------------------------------|
-|{: .fth } [admonitions]                                                                | no{: .no}                                                              | no{: .no}                | no{: .no}                                 | no{: .no}                                      | yes (with extension){: .yes}[^pynadmo] | no{: .no}                                                 |
-|{: .fth } [blockquotes]                                                                | yes{: .yes}[^gfmblkq]                                                  | yes{: .yes}[^jgmblkq]    | yes{: .yes}[^pdmblkq]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somblq1] [^somblq2]                          |
-|{: .fth } [breaks]  [(hard line, with a backslash)][hard line breaks with a backslash] | yes{: .yes}[^gfmbhlk]                                                  | no{: .no}                | yes (with an extension){: .yes}[^pdmbhlk] | no{: .no}                                      | no{: .no}                              | no{: .no}                                                 |
-|{: .fth } [breaks]  [(hard line, with two spaces)][hard line breaks with two spaces]   | yes{: .yes}[^gfmbhlk]                                                  | yes{: .yes} [^jgmbhls]   | yes{: .yes}[^pdmbhlk]                     | yes{: .yes}[^pymbhls]                          | yes{: .yes}                            | yes{: .yes}[^sombhls]                                     |
-|{: .fth } [breaks]  [(thematic)][thematic break]                                       | yes{: .yes}[^gfmtbrk]                                                  | yes{: .yes}[^jgmtbrk]    | yes{: .yes}[^pdmtbrk]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somtbrk]                                     |
-|{: .fth } [code]  [(fenced blocks)][fenced blocks of code]                             | yes{: .yes}[^gfmfcdb]                                                  | no{: .no}                | yes (with extension){: .yes}[^pdmfcdb]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pyncodb] | no{: .no}                                                 |
-|{: .fth } [code]  [(indented blocks)][indented blocks of code]                         | yes{: .yes}[^gfmicdb]                                                  | yes{: .yes}[^jgmcodb]    | yes{: .yes}[^pdmicdb]                     | yes (with extension){: .yes}[^pymexra]         | yes{: .yes}                            | yes{: .yes}[^somicdb]                                     |
-|{: .fth } [code]  [(inline)][inline code]                                              | yes{: .yes}[^gfmcodi]                                                  | yes{: .yes}[^jgmcodi]    | yes{: .yes}[^pdmcodi]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}                                               |
-|{: .fth } [emphasis]                                                                   | yes{: .yes}[^gfmemph]                                                  | yes{: .yes}[^jgmemph]    | yes{: .yes}[^pdmemph]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somemph]                                     |
-|{: .fth } [footnotes]  [(inline-style)][inline-style footnote]                         | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmftnt]    | partial (with extension){: .partial}[^pymfnis] | no{: .no}[^pynfnis]                    | no{: .no}                                                 |
-|{: .fth } [footnotes]  [(reference-style)][reference-style footnote]                   | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmftnt]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pynfnrs] | no{: .no}                                                 |
-|{: .fth } [headings]                                                                   | yes{: .yes}[^gfmhdng]                                                  | yes{: .yes}[^jgmhdng]    | yes{: .yes}[^pdmhdng]                     | yes{: .yes}                                    | yes{: .yes}                            | partial{: .partial}[^somhdng]                             |
-|{: .fth } [images]                                                                     | yes{: .yes}[^gfmimag]                                                  | yes{: .yes}[^jgmimag]    | yes{: .yes}[^pdmimag]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somimag]                                     |
-|{: .fth } [inline HTML]                                                                | partial (some tags are filtered out){: .partial} [^gfmhtm1] [^gfmhtm2] | yes{: .yes}[^jgmhtml]    | yes (with extension){: .yes}[^pdmhtml]    | yes{: .yes}                                    | yes{: .yes}                            | partial (whitelist only){: .partial}[^somhtm1] [^somhtm2] |
-|{: .fth } [links]  [(automatic)][automatic link]                                       | yes{: .yes}[^gfmlka1] [^gfmlka2]                                       | yes{: .yes}[^jgmlkao]    | yes{: .yes}[^pdmlkao]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlkao]                                     |
-|{: .fth } [links]  [(inline-style)][inline-style link]                                 | yes{: .yes}[^gfmlkis]                                                  | yes{: .yes}[^jgmlink]    | yes{: .yes}[^pdmlkis]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlink]                                     |
-|{: .fth } [links]  [(reference-style)][reference-style link]                           | yes{: .yes}[^gfmlkrs]                                                  | yes{: .yes}[^jgmlink]    | yes{: .yes}[^pdmlkrs]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlink]                                     |
-|{: .fth } [lists]  [(description lists)][description lists]                            | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmldsc]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pynldsc] | no{: .no}                                                 |
-|{: .fth } [lists]  [(ordered lists)][ordered lists]                                    | yes{: .yes}[^gfmlist]                                                  | yes{: .yes}[^jgmlist]    | yes{: .yes}[^pdmlord]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlist]                                     |
-|{: .fth } [lists]  [(unordered lists)][unordered lists]                                | yes{: .yes}[^gfmlist]                                                  | yes{: .yes}[^jgmlist]    | yes{: .yes}[^pdmlurd]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlist]                                     |
-|{: .fth } [strikethrough]                                                              | yes (with extension){: .yes}[^gfmstrk]                                 | no{: .no}                | yes (with extension){: .yes}[^pdmstrk]    | yes (with extension){: .yes}[^pymtlde]         | no{: .no}                              | no{: .no}                                                 |
-|{: .fth } [tables]                                                                     | yes (with extension){: .yes}[^gfmtabl]                                 | no{: .no}                | yes (with extension){: .yes}[^pdmtabl]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pyntabl] | no (by design){: .no} [^somhtm2]                          |
+|                                                                                     | [GitHub Flavored Markdown]                                             | [John Gruber's Markdown] | [Pandoc's Markdown]                       | [PyMdown]                                      | [Python-Markdown]                      | [Stack Overflow Markdown]                                 |
+|:------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|:-------------------------|:------------------------------------------|:-----------------------------------------------|:---------------------------------------|:----------------------------------------------------------|
+|{: .fth } [admonition]                                                               | no{: .no}                                                              | no{: .no}                | no{: .no}                                 | no{: .no}                                      | yes (with extension){: .yes}[^pynadmo] | no{: .no}                                                 |
+|{: .fth } [blockquote]                                                               | yes{: .yes}[^gfmblkq]                                                  | yes{: .yes}[^jgmblkq]    | yes{: .yes}[^pdmblkq]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somblq1] [^somblq2]                          |
+|{: .fth } [break]  [(hard line, with a backslash)][hard line break with a backslash] | yes{: .yes}[^gfmbhlk]                                                  | no{: .no}                | yes (with an extension){: .yes}[^pdmbhlk] | no{: .no}                                      | no{: .no}                              | no{: .no}                                                 |
+|{: .fth } [break]  [(hard line, with two spaces)][hard line break with two spaces]   | yes{: .yes}[^gfmbhlk]                                                  | yes{: .yes} [^jgmbhls]   | yes{: .yes}[^pdmbhlk]                     | yes{: .yes}[^pymbhls]                          | yes{: .yes}                            | yes{: .yes}[^sombhls]                                     |
+|{: .fth } [break]  [(thematic)][thematic break]                                      | yes{: .yes}[^gfmtbrk]                                                  | yes{: .yes}[^jgmtbrk]    | yes{: .yes}[^pdmtbrk]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somtbrk]                                     |
+|{: .fth } [code]  [(fenced block)][fenced block of code]                             | yes{: .yes}[^gfmfcdb]                                                  | no{: .no}                | yes (with extension){: .yes}[^pdmfcdb]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pyncodb] | no{: .no}                                                 |
+|{: .fth } [code]  [(indented block)][indented block of code]                         | yes{: .yes}[^gfmicdb]                                                  | yes{: .yes}[^jgmcodb]    | yes{: .yes}[^pdmicdb]                     | yes (with extension){: .yes}[^pymexra]         | yes{: .yes}                            | yes{: .yes}[^somicdb]                                     |
+|{: .fth } [code]  [(inline)][inline code]                                            | yes{: .yes}[^gfmcodi]                                                  | yes{: .yes}[^jgmcodi]    | yes{: .yes}[^pdmcodi]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}                                               |
+|{: .fth } [emphasis]                                                                 | yes{: .yes}[^gfmemph]                                                  | yes{: .yes}[^jgmemph]    | yes{: .yes}[^pdmemph]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somemph]                                     |
+|{: .fth } [footnote]  [(inline-style)][inline-style footnote]                        | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmftnt]    | partial (with extension){: .partial}[^pymfnis] | no{: .no}[^pynfnis]                    | no{: .no}                                                 |
+|{: .fth } [footnote]  [(reference-style)][reference-style footnote]                  | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmftnt]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pynfnrs] | no{: .no}                                                 |
+|{: .fth } [heading]                                                                  | yes{: .yes}[^gfmhdng]                                                  | yes{: .yes}[^jgmhdng]    | yes{: .yes}[^pdmhdng]                     | yes{: .yes}                                    | yes{: .yes}                            | partial{: .partial}[^somhdng]                             |
+|{: .fth } [image]                                                                    | yes{: .yes}[^gfmimag]                                                  | yes{: .yes}[^jgmimag]    | yes{: .yes}[^pdmimag]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somimag]                                     |
+|{: .fth } [inline HTML]                                                              | partial (some tags are filtered out){: .partial} [^gfmhtm1] [^gfmhtm2] | yes{: .yes}[^jgmhtml]    | yes (with extension){: .yes}[^pdmhtml]    | yes{: .yes}                                    | yes{: .yes}                            | partial (whitelist only){: .partial}[^somhtm1] [^somhtm2] |
+|{: .fth } [link]  [(automatic)][automatic link]                                      | yes{: .yes}[^gfmlka1] [^gfmlka2]                                       | yes{: .yes}[^jgmlkao]    | yes{: .yes}[^pdmlkao]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlkao]                                     |
+|{: .fth } [link]  [(inline-style)][inline-style link]                                | yes{: .yes}[^gfmlkis]                                                  | yes{: .yes}[^jgmlink]    | yes{: .yes}[^pdmlkis]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlink]                                     |
+|{: .fth } [link]  [(reference-style)][reference-style link]                          | yes{: .yes}[^gfmlkrs]                                                  | yes{: .yes}[^jgmlink]    | yes{: .yes}[^pdmlkrs]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlink]                                     |
+|{: .fth } [list]  [(description list)][description list]                             | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmldsc]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pynldsc] | no{: .no}                                                 |
+|{: .fth } [list]  [(ordered list)][ordered list]                                     | yes{: .yes}[^gfmlist]                                                  | yes{: .yes}[^jgmlist]    | yes{: .yes}[^pdmlord]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlist]                                     |
+|{: .fth } [list]  [(unordered list)][unordered list]                                 | yes{: .yes}[^gfmlist]                                                  | yes{: .yes}[^jgmlist]    | yes{: .yes}[^pdmlurd]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlist]                                     |
+|{: .fth } [strikethrough]                                                            | yes (with extension){: .yes}[^gfmstrk]                                 | no{: .no}                | yes (with extension){: .yes}[^pdmstrk]    | yes (with extension){: .yes}[^pymtlde]         | no{: .no}                              | no{: .no}                                                 |
+|{: .fth } [table]                                                                    | yes (with extension){: .yes}[^gfmtabl]                                 | no{: .no}                | yes (with extension){: .yes}[^pdmtabl]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pyntabl] | no (by design){: .no} [^somhtm2]                          |
 
-[admonitions]: #admonitions
+[admonition]: #admonition
 [automatic link]: #alink
-[blockquotes]: #blockquotes
-[breaks]: #breaks
+[blockquote]: #blockquote
+[break]: #break
 [code]: #code
-[description lists]: #dlists
+[description list]: #dlist
 [emphasis]: #emphasis
-[fenced blocks of code]: #fbcode
-[footnotes]: #footnotes
-[hard line breaks with a backslash]: #hlbreakbslash
-[hard line breaks with two spaces]: #hlbreaktwospace
-[headings]: #headings
-[images]: #images
-[indented blocks of code]: #ibcode
+[fenced block of code]: #fbcode
+[footnote]: #footnote
+[hard line break with a backslash]: #hlbreakbslash
+[hard line break with two spaces]: #hlbreaktwospace
+[heading]: #heading
+[image]: #image
+[indented block of code]: #ibcode
 [inline-style footnote]: #ifootnote
 [inline-style link]: #ilink
 [inline code]: #icode
 [inline HTML]: #html
-[links]: #links
-[lists]: #lists
-[ordered lists]: #olists
+[link]: #link
+[list]: #list
+[ordered list]: #olist
 [reference-style footnote]: #rfootnote
 [reference-style link]: #rlink
 [strikethrough]: #strikethrough
-[tables]: #tables
+[table]: #table
 [thematic break]: #tbreak
-[unordered lists]: #ulists
+[unordered list]: #ulist
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
 [John Gruber's Markdown]: https://daringfireball.net/projects/markdown/syntax
 [Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown

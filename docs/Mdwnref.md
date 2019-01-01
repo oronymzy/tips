@@ -587,12 +587,19 @@ Each term and its details can represent attribute-value pairs.
 Here is an attribute.
 : And here is a value.
 : It starts with a colon.
+: If a value spans multiple lines,
+  readability is improved by adding indentation
+  from the second line onward,
+but it is not required.
+
+: Values can be separated by blank lines,
+and still have the same attribute.
 ```
 
 ``` tab="HTML"
 <dl>
 <dt>A description list is made of terms and details</dt>
-<dd>We don't need to go into much detail about it.
+<dd>We don’t need to go into much detail about it.
 </dd>
 </dl>
 <p>Each term and its details can represent attribute-value pairs.</p>
@@ -602,6 +609,10 @@ Here is an attribute.
 </dd>
 <dd>It starts with a colon.
 </dd>
+<dd>If a value spans multiple lines, readability is improved by adding indentation from the second line onward, but it is not required.
+</dd>
+<dd><p>Values can be separated by blank lines, and still have the same attribute.</p>
+</dd>
 </dl>
 ```
 
@@ -609,7 +620,7 @@ Here is an attribute.
     
     <dl>
     <dt>A description list is made of terms and details</dt>
-    <dd>We don't need to go into much detail about it.
+    <dd>We don’t need to go into much detail about it.
     </dd>
     </dl>
     <p>Each term and its details can represent attribute-value pairs.</p>
@@ -618,6 +629,10 @@ Here is an attribute.
     <dd>And here is a value.
     </dd>
     <dd>It starts with a colon.
+    </dd>
+    <dd>If a value spans multiple lines, readability is improved by adding indentation from the second line onward, but it is not required.
+    </dd>
+    <dd><p>Values can be separated by blank lines, and still have the same attribute.</p>
     </dd>
     </dl>
 

@@ -1,4 +1,4 @@
-# Definitions
+# Glossary
 These are concepts I find especially confusing, ambiguous, or difficult to remember.
 
 **entry point** {: #entrypointdef }

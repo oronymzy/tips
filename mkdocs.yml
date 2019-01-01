@@ -1,7 +1,7 @@
 site_name: Oronymzy's tips
 nav:
   - Home: 'README.md'
-  - Definitions: 'defntns.md'
+  - Glossary: 'glossry.md'
   - Coding:
     - including code comments: 'incdcmt.md'
     - installing Git: 'instGit.md'

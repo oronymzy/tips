@@ -85,6 +85,7 @@ nav:
     - using Atom text editor: 'usgAtom.md'
     - using Browsersync: 'usBsync.md'
     - using CSS: 'usngCSS.md'
+    - using HTML: 'usgHTML.md'
     - using MkDocs: 'usgMkDc.md'
     - using rsync: 'usrsync.md'
   - Web syndication:

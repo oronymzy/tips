@@ -1,4 +1,4 @@
-# Oronymzy's tips
+# tips
 
 Hope you find them useful.
 

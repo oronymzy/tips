@@ -116,7 +116,7 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/oronymzy'
-repo_name: 'oronymzy/oronymzy.tips'
-repo_url: 'https://github.com/oronymzy/oronymzy.tips'
+repo_name: 'oronymzy/tips'
+repo_url: 'https://github.com/oronymzy/tips'
 edit_uri: ''
 copyright: 'Freely licensed. See <a href="#licensing">§licensing</a> for more information.'

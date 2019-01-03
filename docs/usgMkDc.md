@@ -53,8 +53,8 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/oronymzy'
-repo_name: 'oronymzy/oronymzy.tips'
-repo_url: 'https://github.com/oronymzy/oronymzy.tips'
+repo_name: 'oronymzy/tips'
+repo_url: 'https://github.com/oronymzy/tips'
 edit_uri: ''
 ```
 
@@ -105,8 +105,8 @@ extra:
 is a custom [`extra` setting](https://www.mkdocs.org/user-guide/configuration/#extra) for the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme that [adds a social link](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links) to GitHub.
 - The following:
 ```
-repo_name: 'oronymzy/oronymzy.tips'
-repo_url: 'https://github.com/oronymzy/oronymzy.tips'
+repo_name: 'oronymzy/tips'
+repo_url: 'https://github.com/oronymzy/tips'
 edit_uri: ''
 ```
 [adds a GitHub source repository](https://www.mkdocs.org/user-guide/configuration/#repo_url) and disables automatically-generated edit buttons.  

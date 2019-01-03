@@ -41,7 +41,7 @@ nav:
   - Hardware:
     - getting hardware information: 'ghdinfo.md'
   - Leisure:
-    - finding permissively-licensed content: 'findplc.md'
+    - finding freely-licensed content: 'findflc.md'
     - installing beets: 'insbeet.md'
     - installing Google Chrome: 'insGCrm.md'
     - query API for ccMixter: 'qAPIccx.md'

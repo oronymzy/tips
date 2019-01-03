@@ -1,4 +1,4 @@
-# finding permissively-licensed content
+# finding freely-licensed content
 
 ## [Bandcamp]
 

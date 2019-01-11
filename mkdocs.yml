@@ -46,6 +46,7 @@ nav:
     - installing Google Chrome: 'insGCrm.md'
     - query API for ccMixter: 'qAPIccx.md'
     - using beets: 'usgbeet.md'
+    - using Google: 'usGoogl.md'
   - Package management:
     - installing Bower: 'inBower.md'
     - installing Node.js and npm with nvm: 'inNjspv.md'

@@ -4,7 +4,7 @@ Download the latest [AppImage file](https://en.wikipedia.org/wiki/AppImage) [fro
 
 ??? info "Personal experience"
     
-    [Beaker 0.8.0](https://github.com/beakerbrowser/beaker/releases/tag/0.8.0) and [Beaker 0.8.1](https://github.com/beakerbrowser/beaker/releases/tag/0.8.1) do not work on Kubuntu 17.10, but the following releases do work:
+    [Beaker 0.8.0](https://github.com/beakerbrowser/beaker/releases/tag/0.8.0), [Beaker 0.8.1](https://github.com/beakerbrowser/beaker/releases/tag/0.8.1), and [0.8.2](https://github.com/beakerbrowser/beaker/releases/tag/0.8.2) do not work on Kubuntu 17.10, but the following releases do work:
     
     - [Beaker 0.8.0-prerelease.9](https://github.com/beakerbrowser/beaker/releases/tag/0.8.0-prerelease.9)
     - [Beaker 0.8.0-prerelease.8](https://github.com/beakerbrowser/beaker/releases/tag/0.8.0-prerelease.8)

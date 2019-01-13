@@ -6,6 +6,6 @@ Use `beet ls foo::^$` to list songs with an empty metadata field named *foo*, us
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 ## prior work
-- The method of listing songs with empty metadata fields was introduced to me by [a comment on GitHub by  sampsyo](https://github.com/beetbox/beets/issues/546#issuecomment-35350842).
+- The method of listing songs with empty metadata fields was introduced to me by [a comment on GitHub by sampsyo](https://github.com/beetbox/beets/issues/546#issuecomment-35350842).
 
 [beets]: http://beets.io/

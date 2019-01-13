@@ -14,6 +14,7 @@ nav:
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
   - Data conversion:
+    - replacing non-breaking spaces in a text file: 'rplnbst.md'
     - using FFmpeg: 'usFFmpg.md'
     - using ImageMagick: 'usIMgck.md'
     - using pandoc: 'uspndoc.md'

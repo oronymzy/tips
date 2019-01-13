@@ -10,6 +10,7 @@ Also install additional programs using more specific instructions:
 - [pip](instpip.md)
 - [beets](insbeet.md)
 - Brackets and Pandoc [from the latest GitHub software release](islGHsr.md)
+- [DB Browser for SQLite](inDBSQL.md)
 - [Git (PPA)](instGit.md)
 - [Go](instlGo.md)
 - [Google Chrome](insGCrm.md) (64-bit systems only)

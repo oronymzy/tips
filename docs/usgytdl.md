@@ -2,7 +2,7 @@
 
 !!! note
     
-    - {==foo.bar==} represents the URL of the YouTube video to be downloaded.
+    {==foo.bar==} represents the URL of the YouTube video to be downloaded.
 
 Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-info-json -o "%(uploader)s's %(title)s-%(id)s.%(ext)s" foo.bar` to download a video.
 

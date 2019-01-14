@@ -20,6 +20,7 @@ nav:
     - using pandoc: 'uspndoc.md'
     - using SoX: 'usngSoX.md'
   - Data management:
+    - converting file formats: 'cnvffmt.md'
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing jq: 'instljq.md'
     - installing yq: 'instlyq.md'

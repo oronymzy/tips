@@ -14,13 +14,13 @@ nav:
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
   - Data conversion:
+    - converting file formats: 'cnvffmt.md'
     - replacing non-breaking spaces in a text file: 'rplnbst.md'
     - using FFmpeg: 'usFFmpg.md'
     - using ImageMagick: 'usIMgck.md'
     - using pandoc: 'uspndoc.md'
     - using SoX: 'usngSoX.md'
   - Data management:
-    - converting file formats: 'cnvffmt.md'
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing jq: 'instljq.md'
     - installing yq: 'instlyq.md'

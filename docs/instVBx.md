@@ -1,5 +1,5 @@
 # installing [VirtualBox]
-For Kubuntu 18.04, add `deb https://download.virtualbox.org/virtualbox/debian bionic contrib` to `/etc/apt/sources.list`, then use `wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - && sudo apt-get update ; sudo apt-get install virtualbox-5.2`.
+For Kubuntu 18.04, add `deb https://download.virtualbox.org/virtualbox/debian bionic contrib` to `/etc/apt/sources.list`, then use `wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - && sudo apt-get update && sudo apt-get install virtualbox-5.2`.
 
 !!! attention
     Running a virtual machine may require enabling hardware virtualization in BIOS.

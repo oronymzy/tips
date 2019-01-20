@@ -126,6 +126,10 @@ Additional documentation is available for [Material for MkDocs](https://squidfun
     
     The [Material for MkDocs implementation of lunr.js](https://squidfunk.github.io/mkdocs-material/getting-started/#site-search) may behave differently than the default MkDocs implementation of lunr.js.[^usgMkDc6]
 
+!!! attention
+    
+    Material for MkDocs [uses an older version of Font Awesome that does not include some currently-available icons](https://github.com/squidfunk/mkdocs-material/issues/756). For example, the [social link](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links) for Mastodon `mastodon` does not render, [even though there is a Font Awesome icon for it](https://fontawesome.com/icons/mastodon?style=brands). A workaround is to replace it with something more generic, such as the [*user* icon](https://fontawesome.com/icons/user?style=solid).
+
 ## [admonition extension]
 
 !!! bug

@@ -23,6 +23,7 @@ nav:
   - Data management:
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing jq: 'instljq.md'
+    - installing sqlitebiter: 'inqbitr.md'
     - installing yq: 'instlyq.md'
     - listing all files containing specific text: 'lsfctxt.md'
     - using yq: 'usingyq.md'

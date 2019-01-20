@@ -18,6 +18,7 @@ Also install additional programs using more specific instructions:
 - [Lloyd Brookes's renamer](inLBrnm.md)
 - [MkDocs](insMkDc.md)
 - [qBittorrent (PPA)](insqBtr.md)
+- [sqlitebiter](inqbitr.md)
 - [uGet (PPA)](instuGt.md)
 - [youtube-dl](insytdl.md)
 

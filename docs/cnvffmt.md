@@ -44,7 +44,12 @@ Use `pandoc -f markdown -t html "foo.md" -o "bar.html"` to convert a [Pandoc Mar
     - {==foo.pdf==} represents an input PDF file.
     - {==bar.txt==} represents an output text file.
 
-Use `pdftotext -layout foo.pdf bar.txt` to convert a PDF file to a text file. The `-layout` [option](https://www.mankier.com/1/pdftotext) attempts to preserve the layout of the PDF when converting.
+Use `pdftotext -layout -nopgbrk foo.pdf bar.txt` to convert a PDF file to a text file. 
+
+### explanation
+
+- The `-layout` [option](https://www.mankier.com/1/pdftotext) attempts to preserve the layout of the PDF when converting.
+- The `-nopgbrk` [option](https://www.mankier.com/1/pdftotext) disables the insertion of [form feed](https://en.wikipedia.org/wiki/Page_break#Form_feed) characters to indicate page breaks.
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

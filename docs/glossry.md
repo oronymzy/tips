@@ -32,9 +32,9 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841)
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
-- [Octet (computing)](https://en.wikipedia.org/wiki/Octet_(computing))
+- [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
 
-on Wikipedia, with modifications, and [atomicity](https://en.wiktionary.org/wiki/atomicity) on Wiktionary, with modifications.
+on Wikipedia, with modifications, and [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477) on Wiktionary, with modifications.
 
 [^leadingdef]: https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python
 [^trailingdef]: https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264

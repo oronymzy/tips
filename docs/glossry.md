@@ -14,6 +14,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : Occuring at the beginning[^leadingdef] of a line.
 : ⋅⋅For example, this line contains two **leading** dots.
 
+**literal** {: #literaldef }
+: count noun
+: [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)) is “a notation for representing a fixed value in source code”.
+
 **octet** {: #octetdef }
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)) is “a [unit of digital information](https://en.wikipedia.org/wiki/Units_of_information) in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications) that consists of eight [bits](https://en.wikipedia.org/wiki/Bit). The term is often used when the term [byte](https://en.wikipedia.org/wiki/Byte) might be ambiguous, as the byte has historically been used for storage units of a variety of sizes.”
@@ -27,6 +31,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
 
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841)
+- [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Octet (computing)](https://en.wikipedia.org/wiki/Octet_(computing))
 
 on Wikipedia, with modifications, and [atomicity](https://en.wiktionary.org/wiki/atomicity) on Wiktionary, with modifications.

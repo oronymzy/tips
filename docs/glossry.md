@@ -1,7 +1,7 @@
 # Glossary
 These are concepts I find especially confusing, ambiguous, or difficult to remember.
 
-**atomicity** {: #atomicity }
+**atomicity** {: #atomicitydef }
 : mass noun
 : [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity) is “the state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete”.
 
@@ -14,7 +14,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : Occuring at the beginning[^leadingdef] of a line.
 : ⋅⋅For example, this line contains two **leading** dots.
 
-**octet** {: #octet }
+**octet** {: #octetdef }
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)) is “a [unit of digital information](https://en.wikipedia.org/wiki/Units_of_information) in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications) that consists of eight [bits](https://en.wikipedia.org/wiki/Bit). The term is often used when the term [byte](https://en.wikipedia.org/wiki/Byte) might be ambiguous, as the byte has historically been used for storage units of a variety of sizes.”
 

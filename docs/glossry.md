@@ -20,7 +20,12 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : For example, this line contains two **trailing** dots.⋅⋅
 
 ## licensing
-**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841) on Wikipedia, with modifications.
+**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
+
+- [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841)
+- [Octet (computing)](https://en.wikipedia.org/wiki/Octet_(computing))
+
+on Wikipedia, with modifications.
 
 [^leadingdef]: https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python
 [^trailingdef]: https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264

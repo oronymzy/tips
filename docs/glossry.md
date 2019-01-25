@@ -3,7 +3,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **entry point** {: #entrypointdef }
 : count noun
-: [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point) is <q>where the first instructions in a computer program are executed, and where the program then processes command line arguments, which in most common operating systems, are usually set after the file path to the program in the command shell</q>. [Python-Markdown has a different, unclear definition in the context of extensions](https://python-markdown.github.io/extensions/#officially-supported-extensions).
+: [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point) is “where the first instructions in a computer program are executed, and where the program then processes command line arguments, which in most common operating systems, are usually set after the file path to the program in the command shell”. [Python-Markdown has a different, unclear definition in the context of extensions](https://python-markdown.github.io/extensions/#officially-supported-extensions).
 
 **leading** {: #leadingdef }
 : adjective

@@ -5,22 +5,34 @@ To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt au
 
 To install officially supported programs, use `sudo apt install audacity cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder sox surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
-Also install additional programs using more specific instructions:
+Also install additional programs using more specific instructions and installation methods:
 
-- [pip](instpip.md)
-- [beets](insbeet.md)
-- Brackets and Pandoc [from the latest GitHub software release](islGHsr.md)
-- [DB Browser for SQLite](inDBSQL.md)
-- [Git (PPA)](instGit.md)
 - [Go](instlGo.md)
-- [Google Chrome](insGCrm.md) (64-bit systems only)
-- [Krita (PPA)](insKrta.md)
-- [Lloyd Brookes's renamer](inLBrnm.md)
-- [MkDocs](insMkDc.md)
-- [qBittorrent (PPA)](insqBtr.md)
-- [sqlitebiter](inqbitr.md)
-- [uGet (PPA)](instuGt.md)
+- [Node.js and npm with nvm](inNjspv.md)
+- [pip](instpip.md)
+
+- Pandoc [from the latest GitHub software release](islGHsr.md)
+- [VirtualBox](instVBx.md)
 - [youtube-dl](insytdl.md)
+
+### dpkg
+- [Atom text editor](insAtom.md) (64-bit systems only)
+- [Google Chrome](insGCrm.md) (64-bit systems only)
+
+### npm
+- [Lloyd Brookes's renamer](inLBrnm.md)
+
+### pip
+- [beets](insbeet.md)
+- [MkDocs](insMkDc.md)
+- [sqlitebiter](inqbitr.md)
+
+### PPA
+- [DB Browser for SQLite](inDBSQL.md)
+- [Git](instGit.md)
+- [Krita](insKrta.md)
+- [qBittorrent](insqBtr.md)
+- [uGet](instuGt.md)
 
 For Lubuntu, install additional packages using `sudo apt install dolphin kate openjdk-8-jre`.
 

@@ -39,11 +39,52 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 </div>
 </div>
 
-An admonition does not have a direct HTML equivalent. Closest in meaning is the [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) element.[^Mdwnref2] [^Mdwnref3]
+An admonition does not have a direct HTML equivalent. Closest in meaning is the [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) element.[^Mdwnref2] [^Mdwnref3] Admonitions [are also supported by reStructuredText](http://docutils.sourceforge.net/0.4/docs/ref/rst/directives.html#admonitions), and Wikipedia has them in the form of [article message boxes](https://en.wikipedia.org/wiki/Template:Ambox).
 
 ??? danger "Compatibility hack"
     
-    A line containing just four spaces can be added to the beginning of an admonition to make all the lines within the admonition render as an [indented code block](#ibcode) in Markdown implementations that do not support admonitions.
+    ``` tab="Markdown"
+    | **Note:**
+    |:-
+    | Because most Markdown implementations do not support admonitions, they can be approximated with tables, although these can only contain inline elements.
+    ```
+    
+    ``` tab="HTML"
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="text-align: left;"><strong>Note:</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="text-align: left;">Because most Markdown implementations do not support admonitions, they can be approximated with tables, although these can only contain inline elements.</td>
+    </tr>
+    </tbody>
+    </table>
+    ```
+    
+    <table>
+    <colgroup>
+    <col style="width: 100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="text-align: left;"><strong>Note:</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="text-align: left;">Because most Markdown implementations do not support admonitions, they can be approximated with tables, although these can only contain inline elements.</td>
+    </tr>
+    </tbody>
+    </table>
+    
+    Alternatively, a line containing just four spaces can be added to the beginning of an admonition to make all the lines within the admonition render as an [indented code block](#ibcode) in Markdown implementations that do not support admonitions.
+
 
 ## blockquote {: #blockquote }
 

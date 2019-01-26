@@ -39,7 +39,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 </div>
 </div>
 
-An admonition does not have a direct HTML equivalent, but [the *aside* element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) may suffice.[^Mdwnref2] [^Mdwnref3]
+An admonition does not have a direct HTML equivalent. Closest in meaning is the [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) element.[^Mdwnref2] [^Mdwnref3]
 
 ??? danger "Compatibility hack"
     

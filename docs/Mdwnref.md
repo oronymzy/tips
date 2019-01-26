@@ -15,7 +15,7 @@ Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ??? note
     
     - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for the [admonition](#admonition) and [attribute list](#alist) sections, which were produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.
-    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonition) this is accomplished with an extra nested *div* element. To avoid adding extraneous entries to the table of contents[^Mdwnref1], several [heading](#heading) admonitions contain specially-styled HTML instead of heading elements.
+    - The HTML results of the Markdown examples are presented inside [admonitions without an icon or title](https://squidfunk.github.io/mkdocs-material/extensions/admonition/#removing-the-title), and with [admonitions](#admonition) this is accomplished with an extra nested `<div>` element. To avoid adding extraneous entries to the table of contents[^Mdwnref1], several [heading](#heading) admonitions contain specially-styled HTML instead of heading elements.
 
 ## admonition {: #admonition }
 
@@ -79,7 +79,7 @@ Quote break.
 ## break {: #break }
 ### hard line break {: #hlbreak }
 
-A hard line break corresponds to [the *br* (line break) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) in HTML.
+A hard line break corresponds to the [`<br>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) (line break) element in HTML.
 
 #### hard line break with two spaces {: #hlbreaktwospace }
 
@@ -178,7 +178,7 @@ Underscores
     <hr />
     <p>Underscores</p>
 
-A thematic break corresponds to [the *hr* (horizontal rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) in HTML.
+A thematic break corresponds to the [`<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) (horizontal rule) element in HTML.
 
 ## code {: #code }
 

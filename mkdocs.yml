@@ -96,6 +96,7 @@ nav:
     - using rsync: 'usrsync.md'
   - Web syndication:
     - getting an RSS feed for an iTunes podcast: 'gRSSiTn.md'
+    - list of websites supporting web feeds: 'lstwswf.md'
 markdown_extensions:
   - admonition
   - attr_list

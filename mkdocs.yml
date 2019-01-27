@@ -3,6 +3,7 @@ nav:
   - Home: 'README.md'
   - Glossary: 'glossry.md'
   - Coding:
+    - determining which files have the most Git commits: 'dtnfmGc.md'
     - including code comments: 'incdcmt.md'
     - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'

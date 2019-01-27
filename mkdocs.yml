@@ -3,14 +3,9 @@ nav:
   - Home: 'README.md'
   - Glossary: 'glossry.md'
   - Coding:
-    - determining which files have the most Git commits: 'dtnfmGc.md'
     - including code comments: 'incdcmt.md'
-    - installing Git: 'instGit.md'
     - installing Go: 'instlGo.md'
     - installing Python: 'insPyth.md'
-    - rewriting Git history: 'rGithst.md'
-    - undoing a Git commit: 'undGitc.md'
-    - using Git: 'usngGit.md'
   - Content creation:
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'
@@ -83,6 +78,12 @@ nav:
   - System software:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
+  - Version control:
+    - determining which files have the most Git commits: 'dtnfmGc.md'
+    - installing Git: 'instGit.md'
+    - rewriting Git history: 'rGithst.md'
+    - undoing a Git commit: 'undGitc.md'
+    - using Git: 'usngGit.md'
   - Web development:
     - installing Atom text editor: 'insAtom.md'
     - installing Browsersync: 'inBsync.md'

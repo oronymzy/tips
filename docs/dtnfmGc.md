@@ -1,19 +1,8 @@
 # determining which files have the most [Git] commits
 
-Ha! that's one of these things that is very easy, accidentally (?):
+Use `git rev-list --objects --all | awk '$2' | sort -k2 | uniq -cf1 | sort -rn | head`.
 
-```
-git rev-list --objects --all | awk '$2' | sort -k2 | uniq -cf1 | sort -rn | head
-```
-
-1. give me all objects from all revisions in all branches
-2. ignore any results without a path
-3. sort them by path
-4. make them unique (ignoring the blob hash), prefix lines with duplication count
-5. sort descending on duplication count
-6. show topmost lines
-
-Output similar to
+output:
 
 ```
 1058 fffcba193374a85fd6a3490f800c6901218a950b src
@@ -28,9 +17,15 @@ Output similar to
  155 ff225f6b41f9557d683079c5f9276f497bcb06bd src/lib/libzfscommon/include/sys
 ```
 
-You can take it from here.
+## explanation
+- `git rev-list --objects --all` gives all objects from all revisions in all branches.
+- `awk '$2'` ignores any results without a path.
+- `sort -k2` sorts them by path.
+- `uniq -cf1` makes them unique (ignoring the blob hash), prefixing lines with duplication count.
+- `sort -rn` sorts descending on duplication count.
+- `head` shows topmost lines.
 
-## E.g. if you **wanted to see only file blobs**:
+Alternatively, to see only file blobs, use:
 
 ```
 git rev-list --objects --all | awk '$2' | sort -k2 | uniq -cf1 | sort -rn |
@@ -40,7 +35,7 @@ git rev-list --objects --all | awk '$2' | sort -k2 | uniq -cf1 | sort -rn |
     done
 ```
 
-**output**:
+output:
 
 ```
 135 src/zfs-fuse/zfs_operations.c
@@ -55,16 +50,14 @@ git rev-list --objects --all | awk '$2' | sort -k2 | uniq -cf1 | sort -rn |
 60  src/lib/libzpool/arc.c
 ```
 
-## You wanted to see only specifc range of revisions
-
-You can have a ball with the `rev-list` part:
+Alternatively, to see only specifc range of revisions, use:
 
 ```
 git rev-list --after=2011-01-01 --until='two weeks ago' \
      tag1...remote/hotfix ^master
 ```
 
-Will use only revisions in the specified date range, that are in the symmetric set difference for `tag1` and `remote/hotfix` and are **not** in master
+This will use only revisions in the specified date range, that are in the symmetric set difference for `tag1` and `remote/hotfix` and are **not** in master.
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [an answer on Stack Overflow by sehe](https://stackoverflow.com/questions/5669621/git-find-out-which-files-have-had-the-most-commits/5670168#5670168) with changes made, including converting the original HTML to Markdown.

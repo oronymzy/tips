@@ -53,6 +53,7 @@ nav:
     - installing Node.js and npm with nvm: 'inNjspv.md'
     - installing pip: 'instpip.md'
     - installing Ruby Version Manager: 'insRVMr.md'
+    - using pip: 'usngpip.md'
   - Presentation:
     - indicating page breaks in Markdown: 'ipbkMkd.md'
     - Markdown reference: 'Mdwnref.md'

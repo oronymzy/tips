@@ -27,6 +27,8 @@ To ignore an already-committed directory or file, add it to `.gitignore`, commit
 
 To get the commit count across all branches, use `git rev-list --all --count`.
 
+To set the default text editor for Git, use `git config --global core.editor "foobar"`, where *foobar* is the command that will launch the text editor from the command line.
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Specifically, the following content falls under this license:
 
@@ -52,6 +54,7 @@ If the above content is omitted, the rest is licensed **no rights reserved: [CC0
 - The method of getting the commit count across all branches was introduced to me by [an answer on Stack Overflow](https://stackoverflow.com/questions/677436/how-do-i-get-the-git-commit-count/4061706#4061706).
 - The method of ignoring an already-committed directory or file was introduced to me by [an answer on Stack Overflow by manojlds](https://stackoverflow.com/questions/6535362/gitignore-after-commit/6535459#6535459).
 - The method of searching through commit messages was introduced to me by [an answer on Stack Overflow by hobbs](https://stackoverflow.com/questions/3826748/how-to-search-in-commit-messages-using-command-line/3826800#3826800).
+- The method of setting the default text editor for Git was introduced to me by [an answer on Stack Overflow by digitaldreamer](https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits/2596835#2596835).
 - The method of viewing a specified commit was introduced to me by [an answer on Stack Overflow by Graham Borland](https://stackoverflow.com/questions/7663451/view-a-specific-git-commit/7663506#7663506).
 - The renaming of a shortname of a remote was introduced to me by [a page on git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_renaming_and_removing_remotes).
 - The setting of email and user name was introduced to me by [a page on git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#_your_identity).

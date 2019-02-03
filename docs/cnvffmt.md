@@ -7,7 +7,7 @@
     - {==foo.html==} represents an input HTML file.
     - {==bar.md==} represents an output text file formatted with [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
 
-Use `pandoc -f html -t markdown-escaped_line_breaks --wrap=none "foo.html" -o "bar.md"` to convert an HTML file to a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file.
+Use `pandoc -f html -t markdown-escaped_line_breaks --atx-headers --wrap=none "foo.html" -o "bar.md"` to convert an HTML file to a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file.
 
 ### explanation
 
@@ -15,8 +15,12 @@ Use `pandoc -f html -t markdown-escaped_line_breaks --wrap=none "foo.html" -o "b
     
     This is an incomplete explanation.
 
+- The `--atx-headers` [option](https://pandoc.org/MANUAL.html#option--atx-headers) produces [ATX-style headings](https://pandoc.org/MANUAL.html#atx-style-headers) for all heading levels, overriding the default behavior of producing [Setext-style Markdown headings](https://pandoc.org/MANUAL.html#setext-style-headers) for levels 1 and 2.
 - The `--wrap=none` [option](https://pandoc.org/MANUAL.html#option--wrap) disables text wrapping.
 - `-escaped_line_breaks` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for backslash-escaped line breaks](https://pandoc.org/MANUAL.html#paragraphs).
+
+### prior work
+The method of producing ATX-style headings for all heading levels was introduced to me by [an answer on Stack Overflow by shawnhcorey](https://stackoverflow.com/questions/51015110/pandoc-force-converting-into-markdown-to-use-and-for-h1-and-h2-respective/51023582#51023582).
 
 ## converting Markdown to DOCX {: #MarkdowntoDOCX }
 

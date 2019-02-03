@@ -81,6 +81,7 @@ nav:
     - installing a Linux system: 'insLnxS.md'
   - Version control:
     - determining which files have the most Git commits: 'dtnfmGc.md'
+    - editing a Git commit message: 'edGitcm.md'
     - installing Git: 'instGit.md'
     - rewriting Git history: 'rGithst.md'
     - undoing a Git commit: 'undGitc.md'

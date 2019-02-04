@@ -117,6 +117,8 @@ Quote break.
     <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
     </blockquote>
 
+A blockquote is equivalent to the [`<blockquote>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote) (block quotation) element in HTML.
+
 ## break {: #break }
 ### hard line break {: #hlbreak }
 
@@ -225,7 +227,10 @@ A thematic break is equivalent to the [`<hr>`](https://developer.mozilla.org/en-
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer.
 
-### fenced block of code {: #fbcode }
+### block of code {: #bcode }
+A block of code is equivalent to the [`<pre>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) and [`<code>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) (preformatted code) elements in HTML.[^Mdwnref7]
+
+#### fenced block of code {: #fbcode }
 Three back-ticks (<code>```</code>) or three tildes (<code>\~\~\~</code>) can function as fences for producing one or more lines of code.
 
 ``` tab="Markdown"
@@ -289,7 +294,7 @@ These fences are more squiggly, but they still work.
     
     <pre><code>These fences are more squiggly, but they still work.</code></pre>
 
-### indented block of code {: #ibcode }
+#### indented block of code {: #ibcode }
 A four-space indent produces one or more lines of code.
 
 ``` tab="Markdown"
@@ -324,6 +329,8 @@ Inline <code>code</code> has <code>back-ticks around</code> it.
     
     Inline <code>code</code> has <code>back-ticks around</code> it.
 
+Inline code is equivalent to the [`<code>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) (code) element in HTML.
+
 ## code comment {: #codecomment }
 A code comment [can be included in Markdown using HTML formatting](incdcmt.md#Markdowncomment).
 
@@ -348,6 +355,8 @@ Combined emphasis with **asterisks and _underscores_**.
     <p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
     <p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
     <p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+
+Emphasis is equivalent to the [`<em>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) (emphasis) element in HTML, and strong emphasis is equivalent to the [`<strong>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) (strong importance) element in HTML.
 
 ## footnote {: #footnote }
 
@@ -515,6 +524,8 @@ Reference-style:
     <p>Inline-style: <img src="../Mdwnref.png" title="Logo Title Text 1" alt="alt text" /></p>
     <p>Reference-style: <img src="../Mdwnref.png" title="Logo Title Text 2" alt="alt text" /></p>
 
+An image is equivalent to the [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) (image embed) element in HTML.
+
 ## inline HTML {: #html }
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
@@ -537,6 +548,8 @@ Use HTML <em>tags</em> <strong>instead</strong>.</figcaption>
     </figure>
 
 ## link {: #link }
+A link is equivalent to the [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) (anchor) element in HTML.
+
 ### automatic link {: #alink }
 
 ``` tab="Markdown"
@@ -686,6 +699,8 @@ and still have the same attribute.
     </dd>
     </dl>
 
+A description list is equivalent to the [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl), [`<dt>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt), and [`<dd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd) (description list with one or more terms and details) elements in HTML.
+
 ### ordered list {: #olist }
 
 !!! note
@@ -760,6 +775,8 @@ Note that this line is separate, but within the same paragraph.</p></li>
     
     [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for nested block level elements, which includes lists and sub-lists.[^Mdwnref6]
 
+An ordered list is equivalent to the [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li) (ordered list with one or more list items) elements in HTML.
+
 ### unordered list {: #ulist }
 
 ``` tab="Markdown"
@@ -784,6 +801,8 @@ Note that this line is separate, but within the same paragraph.</p></li>
     <li>Or pluses</li>
     </ul>
 
+An unordered list is equivalent to the [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) and [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li) (unordered list with one or more list items) elements in HTML.
+
 ## strikethrough {: #strikethrough }
 
 ``` tab="Markdown"
@@ -798,7 +817,10 @@ A strikethrough uses two tildes. <del>Scratch this.</del>
     
     Strikethrough uses two tildes. <del>Scratch this.</del>
 
+A strikethrough is equivalent to the [`<del>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del) (deleted text) element in HTML.
+
 ## table {: #table }
+
 Colons can be used to align columns.
 
 ``` tab="Markdown"
@@ -923,6 +945,15 @@ The table will render correctly even if the raw Markdown does not line up pretti
     </tr>
     </tbody>
     </table>
+
+A table is equivalent to the [`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) (table) element in HTML, and possibly one or more of the following elements:
+
+- [`<caption>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
+- [`<colgroup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup)
+- [`<tbody>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
+- [`<tfoot>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)
+- [`<thead>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
+- [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
 
 ## comparison of Markdown implementations
 
@@ -1114,4 +1145,4 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^Mdwnref4]: <https://en.wikipedia.org/wiki/Note_(typography)#HTML>
 [^Mdwnref5]: <https://python-markdown.github.io/extensions/footnotes/#syntax>
 [^Mdwnref6]: <https://python-markdown.github.io/#differences>
-
+[^Mdwnref7]: <https://daringfireball.net/projects/markdown/syntax#precode>

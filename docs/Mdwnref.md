@@ -642,10 +642,10 @@ An attribute list allows [HTML-style attributes](https://en.wikipedia.org/wiki/H
 ### description list {: #dlist }
 
 ``` tab="Markdown"
-A description list is made of terms and details
-: We don't need to go into much detail about it.
+A description list is made of terms and descriptions
+: This is a description, paired with a term.
 
-Each term and its details can represent attribute-value pairs.
+Each term and its description can represent an [attribute-value pair](https://en.wikipedia.org/wiki/Attribute–value_pair).
 
 Here is an attribute.
 : And here is a value.
@@ -661,11 +661,11 @@ and still have the same attribute.
 
 ``` tab="HTML"
 <dl>
-<dt>A description list is made of terms and details</dt>
-<dd>We don’t need to go into much detail about it.
+<dt>A description list is made of terms and descriptions</dt>
+<dd>This is a description, paired with a term.
 </dd>
 </dl>
-<p>Each term and its details can represent attribute-value pairs.</p>
+<p>Each term and its description can represent an <a href="https://en.wikipedia.org/wiki/Attribute–value_pair">attribute-value pair</a>.</p>
 <dl>
 <dt>Here is an attribute.</dt>
 <dd>And here is a value.
@@ -682,11 +682,11 @@ and still have the same attribute.
 !!! note ""
     
     <dl>
-    <dt>A description list is made of terms and details</dt>
-    <dd>We don’t need to go into much detail about it.
+    <dt>A description list is made of terms and descriptions</dt>
+    <dd>This is a description, paired with a term.
     </dd>
     </dl>
-    <p>Each term and its details can represent attribute-value pairs.</p>
+    <p>Each term and its description can represent an <a href="https://en.wikipedia.org/wiki/Attribute–value_pair">attribute-value pair</a>.</p>
     <dl>
     <dt>Here is an attribute.</dt>
     <dd>And here is a value.
@@ -699,7 +699,16 @@ and still have the same attribute.
     </dd>
     </dl>
 
-A description list is equivalent to the [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl), [`<dt>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt), and [`<dd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd) (description list with one or more terms and details) elements in HTML.
+A description list is equivalent to the [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl), [`<dt>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt), and [`<dd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd) (description list with one or more terms and descriptions) elements in HTML.
+
+!!! attention
+    
+    The HTML elements [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl), [`<dt>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt), and [`<dd>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd) that make up a description list are inconsistently named across different sources, possibly because they resemble abbreviations.
+    
+    - The `<dl>` element currently means **description list**[^Mdwnref8], but was referred to as a *definition list* [in the HTML 4.01 specification](https://www.w3.org/TR/html4/struct/lists.html#edef-DL).
+    - The `<dt>` and `<dd>` elements mean **term** and **description**[^Mdwnref8], and make up [term-description groups](https://www.w3.org/TR/html5/grouping-content.html#term-description-groups).
+        - [On Wikipedia](https://en.wikipedia.org/w/index.php?title=HTML_element&oldid=879416218#Lists), `<dt>` is referred to as a *name* or (previously) as a *definition term*, and `<dd>` is referred to as a *value* or (previously) as *definition data*.
+        - [On MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd$revision/1393699), `<dd>` is referred to as *The Description Details element*.
 
 ### ordered list {: #olist }
 
@@ -1146,3 +1155,4 @@ A table is equivalent to the [`<table>`](https://developer.mozilla.org/en-US/doc
 [^Mdwnref5]: <https://python-markdown.github.io/extensions/footnotes/#syntax>
 [^Mdwnref6]: <https://python-markdown.github.io/#differences>
 [^Mdwnref7]: <https://daringfireball.net/projects/markdown/syntax#precode>
+[^Mdwnref8]: <https://www.w3.org/TR/html5/grouping-content.html#the-dl-element>

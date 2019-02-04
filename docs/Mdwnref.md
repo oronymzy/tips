@@ -428,58 +428,62 @@ A number often follows the caret, but other characters are also allowed[^charact
 ## heading {: #heading }
 Headings can make a long document more readable by dividing it into sections, and the sections can be collected into a [table of contents](https://en.wikipedia.org/wiki/Table_of_contents). Most Markdown implementations will assign each heading a unique identifier using [the `id` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) so that each section can be directly hyperlinked to with a [fragment identifier](https://en.wikipedia.org/wiki/Fragment_identifier).
 
+### [ATX]-style headings {: #ATXheading }
 ``` tab="Markdown"
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# ATX level 1
+## ATX level 2
+### ATX level 3
+#### ATX level 4
+##### ATX level 5
+###### ATX level 6
 ```
 
 ``` tab="HTML"
-<h1 id="h1">H1</h1>
-<h2 id="h2">H2</h2>
-<h3 id="h3">H3</h3>
-<h4 id="h4">H4</h4>
-<h5 id="h5">H5</h5>
-<h6 id="h6">H6</h6>
+<h1 id="atx-level-1">ATX level 1</h1>
+<h2 id="atx-level-2">ATX level 2</h2>
+<h3 id="atx-level-3">ATX level 3</h3>
+<h4 id="atx-level-4">ATX level 4</h4>
+<h5 id="atx-level-5">ATX level 5</h5>
+<h6 id="atx-level-6">ATX level 6</h6>
 ```
 
 !!! note ""
     
-    <span class="h1workaround">H1</span>
+    <span class="h1workaround">ATX level 1</span>
     
-    <span class="h2workaround">H2</span>
+    <span class="h2workaround">ATX level 2</span>
     
-    <span class="h3workaround">H3</span>
+    <span class="h3workaround">ATX level 3</span>
     
-    <span class="h4workaround">H4</span>
+    <span class="h4workaround">ATX level 4</span>
     
-    <span class="h5workaround">H5</span>
+    <span class="h5workaround">ATX level 5</span>
     
-    <span class="h6workaround">H6</span>
+    <span class="h6workaround">ATX level 6</span>
 
-Alternatively, for H1 and H2, an underline-ish style:
+[ATX]: http://www.aaronsw.com/2002/atx/intro
 
+### [Setext]-style headings {: #Setextheading }
 ``` tab="Markdown"
-Alt-H1
-======
+Setext level 1
+==============
 
-Alt-H2
-------
+Setext level 2
+--------------
 ```
 
 ``` tab="HTML"
-<h1 id="alt-h1">Alt-H1</h1>
-<h2 id="alt-h2">Alt-H2</h2>
+<h1 id="setext-level-1">Setext level 1</h1>
+<h2 id="setext-level-2">Setext level 2</h2>
 ```
 
 !!! note ""
     
-    <span class="h1workaround">Alt-H1</span>
+    <span class="h1workaround">Setext level 1</span>
     
-    <span class="h2workaround">Alt-H2</span>
+    <span class="h2workaround">Setext level 2</span>
+
+[Setext]: https://en.wikipedia.org/wiki/Setext
 
 ## image {: #image }
 
@@ -933,7 +937,8 @@ The table will render correctly even if the raw Markdown does not line up pretti
 |{: .fth } [emphasis]                                                                 | yes{: .yes}[^gfmemph]                                                  | yes{: .yes}[^jgmemph]    | yes{: .yes}[^pdmemph]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somemph]                                     |
 |{: .fth } [footnote]  [(inline-style)][inline-style footnote]                        | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmftnt]    | partial (with extension){: .partial}[^pymfnis] | no{: .no}[^pynfnis]                    | no{: .no}                                                 |
 |{: .fth } [footnote]  [(reference-style)][reference-style footnote]                  | no{: .no}                                                              | no{: .no}                | yes (with extension){: .yes}[^pdmftnt]    | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pynfnrs] | no{: .no}                                                 |
-|{: .fth } [heading]                                                                  | yes{: .yes}[^gfmhdng]                                                  | yes{: .yes}[^jgmhdng]    | yes{: .yes}[^pdmhdng]                     | yes{: .yes}                                    | yes{: .yes}                            | partial{: .partial}[^somhdng]                             |
+|{: .fth } [heading]  [(ATX-style)][ATX-style heading]                                | yes{: .yes}[^gfmatxh]                                                  | yes{: .yes}[^jgmhdng]    | yes{: .yes}[^pdmatxh]                     | yes{: .yes}                                    | yes{: .yes}                            | no{: .no}                                                 |
+|{: .fth } [heading]  [(Setext-style)][Setext-style heading]                          | yes{: .yes}[^gfmstxh]                                                  | yes{: .yes}[^jgmhdng]    | yes{: .yes}[^pdmstxh]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somstxh]                                     |
 |{: .fth } [image]                                                                    | yes{: .yes}[^gfmimag]                                                  | yes{: .yes}[^jgmimag]    | yes{: .yes}[^pdmimag]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somimag]                                     |
 |{: .fth } [inline HTML]                                                              | partial (some tags are filtered out){: .partial} [^gfmhtm1] [^gfmhtm2] | yes{: .yes}[^jgmhtml]    | yes (with extension){: .yes}[^pdmhtml]    | yes{: .yes}                                    | yes{: .yes}                            | partial (whitelist only){: .partial}[^somhtm1] [^somhtm2] |
 |{: .fth } [link]  [(automatic)][automatic link]                                      | yes{: .yes}[^gfmlka1] [^gfmlka2]                                       | yes{: .yes}[^jgmlkao]    | yes{: .yes}[^pdmlkao]                     | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlkao]                                     |
@@ -972,6 +977,8 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [table]: #table
 [thematic break]: #tbreak
 [unordered list]: #ulist
+[ATX-style heading]: #ATXheading
+[Setext-style heading]: #Setextheading
 [GitHub Flavored Markdown]: https://github.github.com/gfm/
 [John Gruber's Markdown]: https://daringfireball.net/projects/markdown/syntax
 [Pandoc's Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
@@ -983,7 +990,8 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^gfmcodi]: https://github.github.com/gfm/#code-spans
 [^gfmemph]: https://github.github.com/gfm/#emphasis-and-strong-emphasis
 [^gfmfcdb]: https://github.github.com/gfm/#fenced-code-blocks
-[^gfmhdng]: https://github.github.com/gfm/#atx-headings
+[^gfmatxh]: https://github.github.com/gfm/#atx-headings
+[^gfmstxh]: https://github.github.com/gfm/#setext-headings
 [^gfmhtm1]: https://github.github.com/gfm/#raw-html
 [^gfmhtm2]: https://github.github.com/gfm/#disallowed-raw-html-extension-
 [^gfmicdb]: https://github.github.com/gfm/#indented-code-blocks
@@ -1014,7 +1022,8 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^pdmemph]: https://pandoc.org/MANUAL.html#emphasis
 [^pdmfcdb]: https://pandoc.org/MANUAL.html#fenced-code-blocks
 [^pdmftnt]: https://pandoc.org/MANUAL.html#footnotes
-[^pdmhdng]: https://pandoc.org/MANUAL.html#headers
+[^pdmatxh]: https://pandoc.org/MANUAL.html#atx-style-headers
+[^pdmstxh]: https://pandoc.org/MANUAL.html#setext-style-headers
 [^pdmhtml]: https://pandoc.org/MANUAL.html#raw-html
 [^pdmicdb]: https://pandoc.org/MANUAL.html#indented-code-blocks
 [^pdmimag]: https://pandoc.org/MANUAL.html#images
@@ -1041,7 +1050,7 @@ The table will render correctly even if the raw Markdown does not line up pretti
 [^somblq1]: https://stackoverflow.com/editing-help#link-simple-blockquotes
 [^somblq2]: https://stackoverflow.com/editing-help#link-advanced-blockquotes
 [^somemph]: https://stackoverflow.com/editing-help#link-italics-bold
-[^somhdng]: https://stackoverflow.com/editing-help#link-headers
+[^somstxh]: https://stackoverflow.com/editing-help#link-headers
 [^somhtm1]: https://stackoverflow.com/editing-help#link-html
 [^somhtm2]: https://meta.stackexchange.com/questions/1777/what-html-tags-are-allowed-on-stack-exchange-sites/135909#135909
 [^somicdb]: https://stackoverflow.com/editing-help#link-code

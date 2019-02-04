@@ -120,7 +120,7 @@ Quote break.
 ## break {: #break }
 ### hard line break {: #hlbreak }
 
-A hard line break corresponds to the [`<br>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) (line break) element in HTML.
+A hard line break is equivalent to the [`<br>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) (line break) element in HTML.
 
 #### hard line break with two spaces {: #hlbreaktwospace }
 
@@ -219,7 +219,7 @@ Underscores
     <hr />
     <p>Underscores</p>
 
-A thematic break corresponds to the [`<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) (horizontal rule) element in HTML.
+A thematic break is equivalent to the [`<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) (horizontal rule) element in HTML.
 
 ## code {: #code }
 
@@ -353,7 +353,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 !!! attention
     
-    Unlike most other Markdown elements, a footnote does not directly correspond with any existing HTML element.[^Mdwnref4] This means that:
+    Unlike most other Markdown elements, a footnote does not have a direct HTML equivalent.[^Mdwnref4] This means that:
     
     1. Markdown offers a more standardized way of creating footnotes than HTML.
     2. HTML renderings of footnotes will differ significantly between different implementations of Markdown.

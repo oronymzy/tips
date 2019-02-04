@@ -426,6 +426,7 @@ A number often follows the caret, but other characters are also allowed[^charact
     [Python-Markdown](https://python-markdown.github.io/) expects an indentation of four spaces (or one tab) for footnotes with multiple blocks.[^Mdwnref5]
 
 ## heading {: #heading }
+Headings can make a long document more readable by dividing it into sections, and the sections can be collected into a [table of contents](https://en.wikipedia.org/wiki/Table_of_contents). Most Markdown implementations will assign each heading a unique identifier using [the `id` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) so that each section can be directly hyperlinked to with a [fragment identifier](https://en.wikipedia.org/wiki/Fragment_identifier).
 
 ``` tab="Markdown"
 # H1

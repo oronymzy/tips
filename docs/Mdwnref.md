@@ -429,6 +429,8 @@ A number often follows the caret, but other characters are also allowed[^charact
 Headings can make a long document more readable by dividing it into sections, and the sections can be collected into a [table of contents](https://en.wikipedia.org/wiki/Table_of_contents). Most Markdown implementations will assign each heading a unique identifier using [the `id` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) so that each section can be directly hyperlinked to with a [fragment identifier](https://en.wikipedia.org/wiki/Fragment_identifier).
 
 ### [ATX]-style headings {: #ATXheading }
+The use of number signs (`#`) is inspired by [the atx markup language](http://www.aaronsw.com/2002/atx/intro) created by [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz).
+
 ``` tab="Markdown"
 # ATX level 1
 ## ATX level 2
@@ -464,6 +466,8 @@ Headings can make a long document more readable by dividing it into sections, an
 [ATX]: http://www.aaronsw.com/2002/atx/intro
 
 ### [Setext]-style headings {: #Setextheading }
+The use of equality signs (`=`) and dashes (`-`) is inspired by [the Setext markup language](https://en.wikipedia.org/wiki/Setext) by Ian Feldman.
+
 ``` tab="Markdown"
 Setext level 1
 ==============

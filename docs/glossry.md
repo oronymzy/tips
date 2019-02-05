@@ -19,9 +19,13 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete.[^atomicitydef-note1]
 
+**condition** {: #conditiondef }
+: count noun
+: A boolean logical clause or phrase that a [conditional](#conditionaldef) statement uses.[^conditiondef1]
+
 **conditional** {: #conditionaldef }
 : count noun
-: An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth of a [condition](https://en.wiktionary.org/wiki/condition) at that point.[^conditionaldef1]
+: An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth of a [condition](#conditiondef) at that point.[^conditionaldef1]
 
 **entry point** {: #entrypointdef }
 : count noun
@@ -91,6 +95,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
 
+- [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
@@ -107,6 +112,7 @@ on Wikipedia, with changes made, and:
 - [arity](https://en.wiktionary.org/w/index.php?title=arity&oldid=50758406)
 - [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
+- [condition](https://en.wiktionary.org/w/index.php?title=condition&oldid=51410719)
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
@@ -117,6 +123,7 @@ on Wiktionary, with changes made.
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).
 [^atomicitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity).
 [^conditionaldef1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
+[^conditiondef1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009

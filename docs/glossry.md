@@ -19,6 +19,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete.[^atomicitydef-note1]
 
+**conditional** {: #conditionaldef }
+: count noun
+: An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth of a [condition](https://en.wiktionary.org/wiki/condition) at that point.[^conditionaldef1]
+
 **entry point** {: #entrypointdef }
 : count noun
 : The point in a program where the first instructions are executed, and where the program has access to [command line arguments](https://en.wikipedia.org/wiki/Command_line_arguments).[^entrypointdef-note1] [Python-Markdown has a different, unclear definition in the context of extensions](https://python-markdown.github.io/extensions/#officially-supported-extensions).
@@ -103,6 +107,7 @@ on Wikipedia, with changes made, and:
 - [arity](https://en.wiktionary.org/w/index.php?title=arity&oldid=50758406)
 - [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
+- [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
@@ -111,6 +116,7 @@ on Wiktionary, with changes made.
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).
 [^atomicitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity).
+[^conditionaldef1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009

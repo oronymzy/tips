@@ -3,6 +3,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 ## computer science glossary
 
+**arity** {: #aritydef }
+: mass noun
+: [Wiktionary's definition](https://en.wiktionary.org/wiki/arity)[^aritydef-note1] is “the number of [operands](#operanddef) a [function](https://en.wiktionary.org/wiki/function) takes”.
+
 **associativity** {: #associativitydef }
 : mass noun
 : [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity) is “the property of an [operator](#operatordef) which determines how it is grouped with operators of the same [precedence](https://en.wiktionary.org/wiki/precedence) in the absence of parentheses”.
@@ -31,6 +35,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **operand** {: #operanddef }
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science) is “the part of a computer instruction which specifies what data is to be manipulated or operated on, while at the same time representing the data itself”.
+: Operands have [arity](#aritydef).
 
 **operator** {: #operatordef }
 : count noun
@@ -58,12 +63,14 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 on Wikipedia, with changes made, and:
 
+- [arity](https://en.wiktionary.org/w/index.php?title=arity&oldid=50758406)
 - [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 
 on Wiktionary, with changes made.
 
+[^aritydef-note1]: The original definition included the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, but these have been removed as they do not seem to apply in a computer science context.
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^operatordef-note1]: The grammatical number has been modified (plural to singular).
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>

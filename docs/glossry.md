@@ -6,7 +6,6 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **associativity** {: #associativitydef }
 : mass noun
 : [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity) is “the property of an [operator](#operatordef) which determines how it is grouped with operators of the same [precedence](https://en.wiktionary.org/wiki/precedence) in the absence of parentheses”.
-: Morphological derivative of *associative*.
 
 **atomicity** {: #atomicitydef }
 : mass noun
@@ -29,6 +28,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)) is “a [unit of digital information](https://en.wikipedia.org/wiki/Units_of_information) in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications) that consists of eight [bits](https://en.wikipedia.org/wiki/Bit). The term is often used when the term [byte](https://en.wikipedia.org/wiki/Byte) might be ambiguous, as the byte has historically been used for storage units of a variety of sizes.”
 
+**operand** {: #operanddef }
+: count noun
+: [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science) is “the part of a computer instruction which specifies what data is to be manipulated or operated on, while at the same time representing the data itself”.
+
 **operator** {: #operatordef }
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Operator_(computer_programming))[^operatordef-note1] is “a construct which behaves generally like a function, but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual function.”
@@ -49,6 +52,8 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841)
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
+- [Operand§Computer science](https://en.wikipedia.org/w/index.php?title=Operand&oldid=874322196#Computer_science)
+- [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
 
 on Wikipedia, with changes made, and:

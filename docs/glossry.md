@@ -3,6 +3,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 ## computer science glossary
 
+**associativity** {: #associativitydef }
+: mass noun
+: [Wiktionary's definition] is “the property of an [operator](https://en.wiktionary.org/wiki/operator) which determines how it is grouped with operators of the same [precedence](https://en.wiktionary.org/wiki/precedence) in the absence of parentheses”.
+
 **atomicity** {: #atomicitydef }
 : mass noun
 : [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity) is “the state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete”.
@@ -42,6 +46,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 on Wikipedia, with modifications, and:
 
+- [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 

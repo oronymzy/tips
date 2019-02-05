@@ -28,6 +28,11 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)) is “a notation for representing a fixed value in source code”.
 
+**nest** {: #nestdef }
+: verb
+: To [contain an object within a similar object](https://en.wikipedia.org/wiki/Self-similarity).[^nestdef-note1]
+: To organize information into layers.[^nestdef-note1]
+
 **octet** {: #octetdef }
 : count noun
 : [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)) is “a [unit of digital information](https://en.wikipedia.org/wiki/Units_of_information) in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications) that consists of eight [bits](https://en.wikipedia.org/wiki/Bit). The term is often used when the term [byte](https://en.wikipedia.org/wiki/Byte) might be ambiguous, as the byte has historically been used for storage units of a variety of sizes.”
@@ -57,6 +62,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=871836841)
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
+- [Nesting (computing)](https://en.wikipedia.org/w/index.php?title=Nesting_(computing)&oldid=877015415)
 - [Operand§Computer science](https://en.wikipedia.org/w/index.php?title=Operand&oldid=874322196#Computer_science)
 - [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
@@ -72,5 +78,6 @@ on Wiktionary, with changes made.
 
 [^aritydef-note1]: The original definition included the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, but these have been removed as they do not seem to apply in a computer science context.
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
+[^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^operatordef-note1]: The grammatical number has been modified (plural to singular).
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>

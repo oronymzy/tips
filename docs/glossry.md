@@ -1,6 +1,10 @@
 # Glossary
 These are concepts I find especially confusing, ambiguous, or difficult to remember.
 
+**vacuous** {: #vacuousdef }
+: adjective
+: Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef1]
+
 ## computer science glossary
 
 **arity** {: #aritydef }
@@ -100,6 +104,7 @@ on Wikipedia, with changes made, and:
 - [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
+- [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
 on Wiktionary, with changes made.
 
@@ -123,4 +128,5 @@ on Wiktionary, with changes made.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
+[^vacuousdef1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
 [^valuedef-note1]: This is a **personal definition** based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).

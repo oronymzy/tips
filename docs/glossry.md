@@ -5,7 +5,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **arity** {: #aritydef }
 : mass noun
-: The number of [operands](#operanddef) a [function](https://en.wiktionary.org/wiki/function) takes.[^aritydef-note1]
+: The number of [operands](#operanddef) a [subroutine](#subroutinedef) takes.[^aritydef-note1]
 
 **associativity** {: #associativitydef }
 : mass noun
@@ -44,7 +44,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **operator** {: #operatordef }
 : count noun
-: A construct which behaves generally like a function, but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual function.[^operatordef-note1]
+: A construct which behaves generally like a [subroutine](#subroutinedef), but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual subroutine.[^operatordef-note1]
 : Operators have [associativity](#associativitydef). they may be **associative, left-associative, right-associative** or **non-associative**. For **associative** operators, the operations can be grouped arbitrarily. For **left-associative** operators, the operations are grouped from the left. For **right-associative** operators, the operations are grouped from the right. For **non-associative** operators, the operations cannot be chained, often because the output type is incompatible with the input types.[^operatordef-note2]
 : Hypernym of [relational operator](#relationaloperatordef).
 

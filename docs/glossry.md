@@ -5,7 +5,8 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **associativity** {: #associativitydef }
 : mass noun
-: [Wiktionary's definition] is “the property of an [operator](https://en.wiktionary.org/wiki/operator) which determines how it is grouped with operators of the same [precedence](https://en.wiktionary.org/wiki/precedence) in the absence of parentheses”.
+: [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity) is “the property of an [operator](https://en.wiktionary.org/wiki/operator) which determines how it is grouped with operators of the same [precedence](https://en.wiktionary.org/wiki/precedence) in the absence of parentheses”.
+: Morphological derivative of *associative*.
 
 **atomicity** {: #atomicitydef }
 : mass noun

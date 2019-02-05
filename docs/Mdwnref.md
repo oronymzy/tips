@@ -12,6 +12,17 @@ is more human-readable than this:
 Why is there a <code>cat</code> command, but no <em>bird</em> command?
 ```
 
+All the original Markdown elements from [John Gruber's Markdown](https://daringfireball.net/projects/markdown/syntax) are included (excluding the rules on backslash escapes), along with the following additions:
+
+- [admonitions](#admonition)
+- [attribute lists](#alist)
+- [description lists](#dlist)
+- [fenced blocks of code](#fbcode)
+- [footnotes](#footnote)
+- [hard line breaks with a backslash](#hlbreakbslash)
+- [strikethrough](#strikethrough)
+- [tables](#table)
+
 ??? note
     
     - The HTML versions of the Markdown examples were produced with [pandoc](https://pandoc.org/), except for the [admonition](#admonition) and [attribute list](#alist) sections, which were produced with MkDocs, and a result in *blocks of code*, which was left as raw Markdown in order to produce syntax highlighting. For results with only one paragraph, HTML paragraph tags have been removed.

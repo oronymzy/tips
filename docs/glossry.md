@@ -40,7 +40,6 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **operand** {: #operanddef }
 : count noun
 : The part of a computer instruction which specifies what data is to be manipulated or operated on, while at the same time representing the data itself.
-: Operands have [arity](#aritydef).
 
 **operator** {: #operatordef }
 : count noun
@@ -56,6 +55,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **subroutine** {: #subroutinedef }
 : count noun
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
+: Subroutines have [arity](#aritydef).
 
 **trailing** {: #trailingdef }
 : adjective

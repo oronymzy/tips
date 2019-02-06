@@ -25,13 +25,13 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **Boolean data type** {: #Booleandatatypedef }
 : proper noun
-: A [data type](#datatypedef) limited to [Boolean](#Booleandef) [values](#valuedef). The Boolean data type is primarily associated with [conditional](#conditionaldef) statements, which allow different actions by changing [control flow](https://en.wikipedia.org/wiki/Control_flow) depending on whether a programmer-specified Boolean *condition* evaluates to true or false.[^Booleandatatypedef-note1]
+: A [data type](#datatypedef) limited to [Boolean](#Booleandef) [values](#valuedef). The Boolean data type is primarily associated with [conditional](#conditionaldef) [statements](#statementdef), which allow different actions by changing [control flow](https://en.wikipedia.org/wiki/Control_flow) depending on whether a programmer-specified Boolean *condition* evaluates to true or false.[^Booleandatatypedef-note1]
 : For its etymology, it is named after [George Boole](https://en.wikipedia.org/wiki/George_Boole), who first defined an algebraic system of logic in the mid 19th century.[^Booleandatatypedef-note1]
 : Hyponym of [data type](#datatypedef).
 
 **condition** {: #conditiondef }
 : count noun
-: A [Boolean](#Booleandef) logical clause or phrase that a [conditional](#conditionaldef) statement uses.[^conditiondef-note1]
+: A [Boolean](#Booleandef) logical clause or phrase that a [conditional](#conditionaldef) [statement](#statementdef) uses.[^conditiondef-note1]
 
 **conditional** {: #conditionaldef }
 : count noun
@@ -98,6 +98,10 @@ Data can be organized in many different types of [data structures](https://en.wi
 : A [programming language](https://en.wikipedia.org/wiki/Programming_language) construct or [operator](#operatordef) that tests or defines some kind of [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) between [two entities](https://en.wikipedia.org/wiki/Binary_function). These include numerical [equality](https://en.wikipedia.org/wiki/Equality_(mathematics)) (*e.g.*, [5 = 5]) and [inequality](https://en.wikipedia.org/wiki/Inequality_(mathematics)) (*e.g.*, [4 ≥ 3]). Relational operators can be seen as special cases of logical [predicates](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)).[^relationaloperatordef-note1]
 : Hyponym of [operator](#operatordef).
 
+**statement** {: #statementdef }
+: count noun
+: A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that expresses some action to be carried out.[^statementdef1] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). [^statementdef-note1]
+
 **subroutine** {: #subroutinedef }
 : count noun
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
@@ -136,6 +140,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 - [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
 - [Relational operator](https://en.wikipedia.org/w/index.php?title=Relational_operator&oldid=874050383)
+- [Statement (computer science)](https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=863825665)
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 
@@ -179,6 +184,8 @@ on Wiktionary, with changes made.
 [^operatordef-note2]: Based on [information from Wikipedia](https://en.wikipedia.org/wiki/Operator_associativity).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
+[^statementdef1]: ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia. Retrieved 2015-03-03.
+[^statementdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).
 [^subroutinedef1]: [U.S. Election Assistance Commission](https://en.wikipedia.org/wiki/Election_Assistance_Commission "Election Assistance Commission") (2007). ["Definitions of Words with Special Meanings"](https://web.archive.org/web/20121208084203/http://www.eac.gov/vvsg/glossary.aspx). *[Voluntary Voting System Guidelines](https://en.wikipedia.org/wiki/Voluntary_Voting_System_Guidelines "Voluntary Voting System Guidelines")*. Archived from [the original](http://www.eac.gov/vvsg/glossary.aspx) on 2012-12-08. Retrieved 2013-01-14.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
 [^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).

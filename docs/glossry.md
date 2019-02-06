@@ -19,6 +19,12 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete.[^atomicitydef-note1]
 
+**block** {: #blockdef }
+: count noun
+: A group of one or more [expressions](#expressiondef), [declarations](https://en.wikipedia.org/wiki/Declaration_(computer_programming)), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](https://en.wikipedia.org/wiki/Control_structure) are formed from blocks.  
+The function of blocks in programming is to enable groups of statements to be treated as if they were one statement, and to narrow the [lexical scope](https://en.wikipedia.org/wiki/Lexical_scope) of objects such as variables and [subroutines](#subroutinedef) declared in a block so that they do not conflict with those having the same name used elsewhere. In a block-structured programming language, the objects named in outer blocks are visible inside inner blocks, unless they are [masked](https://en.wikipedia.org/wiki/Name_masking) by an object declared with the same name.[^blockdef-note1] Boundaries between blocks are demarcated by [separators](#separatordef).
+: In [C++](https://en.wikipedia.org/wiki/C++), blocks are delimited by **curly brackets** (`{` ... `}`).
+
 **Boolean** {: #Booleandef }
 : adjective
 : Having one of two possible [values](#valuedef) (usually denoted *true* and *false*), intended to represent the two [truth values](https://en.wikipedia.org/wiki/Truth_value) of [logic](https://en.wikipedia.org/wiki/Logic) and [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra).[^Booleandef-note1]
@@ -116,7 +122,7 @@ After either branch has been executed, [control](https://en.wikipedia.org/wiki/C
 
 **separator** {: #separatordef }
 : count noun
-: A token that demarcates boundaries between two separate [statements](#statementdef). A separator is are also known as a **punctuator**.[^separatordef-note1]
+: A token that demarcates boundaries between two separate [statements](#statementdef). A separator is also known as a **punctuator**.[^separatordef-note1]
 
 **statement** {: #statementdef }
 : count noun
@@ -153,7 +159,9 @@ After either branch has been executed, [control](https://en.wikipedia.org/wiki/C
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
 
+- [Block (programming)](https://en.wikipedia.org/w/index.php?title=Block_(programming)&oldid=877703688)
 - [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
+- [Comparison of programming languages (syntax)§Blocks](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Blocks)
 - [Comparison of programming languages (syntax)§Statements](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Statements)
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
@@ -188,6 +196,7 @@ on Wiktionary, with changes made.
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).
 [^atomicitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity).
+[^blockdef-note1]: This definition is based on [Wikipedia's definition of a block as a page](https://en.wikipedia.org/wiki/Block_(programming)) and [as a section of a page](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Blocks).
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).

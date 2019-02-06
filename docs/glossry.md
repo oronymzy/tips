@@ -31,7 +31,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **condition** {: #conditiondef }
 : count noun
-: A Boolean logical clause or phrase that a [conditional](#conditionaldef) statement uses.[^conditiondef-note1]
+: A [Boolean](#Booleandef) logical clause or phrase that a [conditional](#conditionaldef) statement uses.[^conditiondef-note1]
 
 **conditional** {: #conditionaldef }
 : count noun
@@ -118,7 +118,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 
 **value** {: #valuedef }
 : count noun
-: A member of the set of possible results brought about by an act of computation.[^valuedef-note1]
+: A member of the set of possible interpretations of any possibly-infinite sequence of [symbols](#symboldef).[^valuedef-note1]
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
@@ -185,4 +185,4 @@ on Wiktionary, with changes made.
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
 [^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
-[^valuedef-note1]: This is a **personal definition** based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).
+[^valuedef-note1]: This definition is based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).

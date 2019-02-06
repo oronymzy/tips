@@ -31,7 +31,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **condition** {: #conditiondef }
 : count noun
-: A [Boolean](#Booleandef) logical clause or phrase that a [conditional](#conditionaldef) [statement](#statementdef) uses.[^conditiondef-note1]
+: A [Boolean](#Booleandef) logical clause or phrase.[^conditiondef-note1]
 
 **conditional** {: #conditionaldef }
 : count noun
@@ -65,14 +65,14 @@ Data can be organized in many different types of [data structures](https://en.wi
 : A [conditional](#conditionaldef) [statement](#statementdef).
 : 
 ```
-If (boolean condition) Then
+If (condition) Then
     (consequent)
 Else
     (alternative)
 End If
 ```
-: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by *(boolean condition)* constitutes a conditional *expression*, having intrinsic value (for example, it may be substituted by either of the values `True` or `False`) but having no intrinsic meaning. In contrast, the combination of this expression, the `If` and `Then` surrounding it, and the consequent that follows afterward constitute a conditional *statement*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
-When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `If`, it expects a [boolean](https://en.wikipedia.org/wiki/Boolean_datatype) condition (for example, `x > 0`, which means "the variable x contains a number that is greater than zero") and evaluates that condition. If the condition is `true`, the statements following the `then` are executed. Otherwise, the execution continues in the following branch, either in the `else` [block](https://en.wikipedia.org/wiki/Block_(programming)) (which is usually optional), or if there is no `else` branch, then after the `end If`.  
+: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by *(condition)* constitutes a conditional *[expression](#expressiondef)*, having intrinsic value (for example, it may be substituted by either of the [values](#valuedef) `True` or `False`) but having no intrinsic meaning. In contrast, the combination of this expression, the `If` and `Then` surrounding it, and the consequent that follows afterward constitute a conditional *[statement](#statementdef)*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
+When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `If`, it expects a [condition](#conditiondef) (for example, `x > 0`, which means "the variable x contains a number that is greater than zero") and evaluates that condition. If the condition is `true`, the statements following the `then` are executed. Otherwise, the execution continues in the following branch, either in the `else` [block](https://en.wikipedia.org/wiki/Block_(programming)) (which is usually optional), or if there is no `else` branch, then after the `end If`.  
 After either branch has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end If`.[^ifstatementdef-note1]
 : Hyponym of [statement](#statementdef).
 

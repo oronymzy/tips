@@ -60,6 +60,22 @@ Data can be organized in many different types of [data structures](https://en.wi
 : For example, `2+3` is an arithmetic and programming expression which evaluates to `5`. A variable is an expression because it denotes a value in memory, so `y+6` is an expression. An example of a relational expression is `4≠4`, which evaluates to `false`.[^expressiondef-note1] [^expressiondef1] [^expressiondef2]
 : Hypernym of [relational expression](#relationalexpressiondef).
 
+**if-statement** {: #ifstatementdef }
+: count noun
+: A [conditional](#conditionaldef) [statement](#statementdef).
+: 
+```
+If (boolean condition) Then
+    (consequent)
+Else
+    (alternative)
+End If
+```
+: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by *(boolean condition)* constitutes a conditional *expression*, having intrinsic value (for example, it may be substituted by either of the values `True` or `False`) but having no intrinsic meaning. In contrast, the combination of this expression, the `If` and `Then` surrounding it, and the consequent that follows afterward constitute a conditional *statement*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
+When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `If`, it expects a [boolean](https://en.wikipedia.org/wiki/Boolean_datatype) condition (for example, `x > 0`, which means "the variable x contains a number that is greater than zero") and evaluates that condition. If the condition is `true`, the statements following the `then` are executed. Otherwise, the execution continues in the following branch, either in the `else` [block](https://en.wikipedia.org/wiki/Block_(programming)) (which is usually optional), or if there is no `else` branch, then after the `end If`.  
+After either branch has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end If`.[^ifstatementdef-note1]
+: Hyponym of [statement](#statementdef).
+
 **leading** {: #leadingdef }
 : adjective
 : Occuring at the beginning[^leadingdef] of a line.
@@ -101,6 +117,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 **statement** {: #statementdef }
 : count noun
 : A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that expresses some action to be carried out.[^statementdef1] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). [^statementdef-note1]
+: Hypernym of [if-statement](#ifstatementdef).
 
 **subroutine** {: #subroutinedef }
 : count noun
@@ -129,6 +146,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 
 - [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
+- [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
@@ -175,6 +193,7 @@ on Wiktionary, with changes made.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
+[^ifstatementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).

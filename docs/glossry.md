@@ -3,7 +3,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **vacuous** {: #vacuousdef }
 : adjective
-: Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef1]
+: Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef-note1]
 
 ## computer science glossary
 
@@ -19,13 +19,22 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete.[^atomicitydef-note1]
 
+**Boolean**
+: adjective
+: Having the [Boolean data type](#Booleandatatypedef).
+
+**Boolean data type** {: #Booleandatatypedef }
+: proper noun
+: A [data type](https://en.wikipedia.org/wiki/Data_type) whose members have one of two possible [values](#valuedef) (usually denoted *true* and *false*), intended to represent the two [truth values](https://en.wikipedia.org/wiki/Truth_value) of [logic](https://en.wikipedia.org/wiki/Logic) and [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra). The Boolean data type is primarily associated with [conditional](#conditionaldef) statements, which allow different actions by changing [control flow](https://en.wikipedia.org/wiki/Control_flow) depending on whether a programmer-specified Boolean *condition* evaluates to true or false.[^Booleandatatypedef-note1]
+: For its etymology, it is named after [George Boole](https://en.wikipedia.org/wiki/George_Boole), who first defined an algebraic system of logic in the mid 19th century.[^Booleandatatypedef-note1]
+
 **condition** {: #conditiondef }
 : count noun
-: A boolean logical clause or phrase that a [conditional](#conditionaldef) statement uses.[^conditiondef1]
+: A Boolean logical clause or phrase that a [conditional](#conditionaldef) statement uses.[^conditiondef-note1]
 
 **conditional** {: #conditionaldef }
 : count noun
-: An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth of a [condition](#conditiondef) at that point.[^conditionaldef1]
+: An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth value of a [condition](#conditiondef) at that point.[^conditionaldef-note1]
 
 **entry point** {: #entrypointdef }
 : count noun
@@ -95,6 +104,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
 
+- [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
@@ -122,8 +132,9 @@ on Wiktionary, with changes made.
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).
 [^atomicitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity).
-[^conditionaldef1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
-[^conditiondef1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
+[^Booleandatatypedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type), with changes made.
+[^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
+[^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
@@ -141,5 +152,5 @@ on Wiktionary, with changes made.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
-[^vacuousdef1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
+[^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
 [^valuedef-note1]: This is a **personal definition** based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).

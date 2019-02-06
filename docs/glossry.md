@@ -39,7 +39,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **datum** {: #datumdef }
 : count noun, plurally **data**
-: Any sequence of one or more symbols given meaning by one or more specific acts of interpretation.  
+: Any sequence of one or more [symbols](#symboldef) given meaning by one or more specific acts of interpretation.  
 A datum requires interpretation to become [information](https://en.wikipedia.org/wiki/Information). To translate it to information, there must be several known factors considered. The factors involved are determined by the creator of the datum and the desired information. The term [metadata](https://en.wikipedia.org/wiki/Metadata) is used to reference the data about the data. Metadata may be implied, specified or given. Data relating to physical events or processes will also have a temporal component. In almost all cases this temporal component is implied. This is the case when a device such as a temperature logger receives data from a temperature [sensor](https://en.wikipedia.org/wiki/Sensor). When the temperature is received it is assumed that the data has a temporal references of "now". So the device records the date, time and temperature together. When the data logger communicates temperatures, it must also report the date and time ([metadata](https://en.wikipedia.org/wiki/Metadata)) for each temperature.  
 [Digital data](https://en.wikipedia.org/wiki/Digital_data) is data that is represented using the [binary number](https://en.wikipedia.org/wiki/Binary_number) system of ones (1) and zeros (0), as opposed to [analog](https://en.wikipedia.org/wiki/Analog_signal) representation. In modern (post 1960) computer systems, all data is digital. Data within a computer, in most cases, moves as parallel data. Data moving to or from a computer, in most cases, moves as serial data. See [Parallel communication](https://en.wikipedia.org/wiki/Parallel_communication) and [Serial communication](https://en.wikipedia.org/wiki/Serial_communication). Data sourced from an analog device, such as a temperature sensor, must pass through an "[analog to digital converter](https://en.wikipedia.org/wiki/Analog-to-digital_converter)" or "ADC" (see [Analog-to-digital converter] to convert the analog data to digital data.  
 Data representing [quantities](https://en.wikipedia.org/wiki/Quantities), characters, or symbols on which operations are performed by a [computer](https://en.wikipedia.org/wiki/Computer) are [stored](https://en.wikipedia.org/wiki/Data_storage_device) and [recorded](https://en.wikipedia.org/wiki/Record_(computer_science)) on [magnetic](https://en.wikipedia.org/wiki/Magnetic_tape_data_storage), optical, or mechanical recording media, and [transmitted](https://en.wikipedia.org/wiki/Data_transmission) in the form of digital electrical signals.[^datumdef1]  
@@ -103,6 +103,10 @@ Data can be organized in many different types of [data structures](https://en.wi
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
 : Subroutines have [arity](#aritydef).
 
+**symbol** {: #symboldef }
+: count noun
+: A waveform, a state or a significant condition of a communication channel that persists for a fixed period of time. It may be described as either a pulse in digital baseband transmission or a tone in passband transmission using modems. A sending device places symbols on the channel at a fixed and known symbol rate, and the receiving device has the job of detecting the sequence of symbols in order to reconstruct the transmitted [data](#datumdef). There may be a direct correspondence between a symbol and a small unit of data. For example, each symbol may encode one or several binary digits or 'bits'. The data may also be represented by the transitions between symbols, or even by a sequence of many symbols.[^symboldef-note1]
+
 **trailing** {: #trailingdef }
 : adjective
 : Occuring at the end[^trailingdef] of a line.
@@ -132,6 +136,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 - [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
 - [Relational operator](https://en.wikipedia.org/w/index.php?title=Relational_operator&oldid=874050383)
+- [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 
 on Wikipedia, with changes made, and:
@@ -176,6 +181,7 @@ on Wiktionary, with changes made.
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^subroutinedef1]: [U.S. Election Assistance Commission](https://en.wikipedia.org/wiki/Election_Assistance_Commission "Election Assistance Commission") (2007). ["Definitions of Words with Special Meanings"](https://web.archive.org/web/20121208084203/http://www.eac.gov/vvsg/glossary.aspx). *[Voluntary Voting System Guidelines](https://en.wikipedia.org/wiki/Voluntary_Voting_System_Guidelines "Voluntary Voting System Guidelines")*. Archived from [the original](http://www.eac.gov/vvsg/glossary.aspx) on 2012-12-08. Retrieved 2013-01-14.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
+[^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
 [^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).

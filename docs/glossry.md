@@ -145,6 +145,12 @@ end if
 : count noun
 : A notation for representing a fixed value in source code.[^literaldef-note1]
 
+**logical operator** {: #logicaloperatordef }
+: count noun
+: An [operator](#operatordef) used to connect two or more [operands](#operanddef), such that the value of the compound sentence produced depends only on that of the original sentences and on the meaning of the operator. It is also called a **logical connective**, **sentential connective**, or **sentential operator**.  
+The most common logical operators are **[binary](https://en.wikipedia.org/wiki/Binary_relation) operators** (also called **[dyadic](https://en.wikipedia.org/wiki/Dyadics) connectives**) which join two sentences. Also commonly, [negation](https://en.wikipedia.org/wiki/Negation) is considered to be a **[unary](https://en.wikipedia.org/wiki/Unary_function) operator**.[^logicaloperatordef-note1]
+: Hyponym of [operator](#operatordef).
+
 **nest** {: #nestdef }
 : verb
 : To [contain an object within a similar object](https://en.wikipedia.org/wiki/Self-similarity).[^nestdef-note1]
@@ -162,7 +168,7 @@ end if
 : count noun
 : A construct which behaves generally like a [subroutine](#subroutinedef), but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual subroutine.[^operatordef-note1]
 : Operators have [associativity](#associativitydef). They may be **associative, left-associative, right-associative** or **non-associative**. For **associative** operators, the operations can be grouped arbitrarily. For **left-associative** operators, the operations are grouped from the left. For **right-associative** operators, the operations are grouped from the right. For **non-associative** operators, the operations cannot be chained, often because the output type is incompatible with the input types.[^operatordef-note2]
-: Hypernym of [relational operator](#relationaloperatordef).
+: Hypernym of [logical operator](#logicaloperatordef) and [relational operator](#relationaloperatordef).
 
 **relational expression** {: #relationalexpressiondef }
 : count noun
@@ -232,6 +238,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
+- [Logical connective](https://en.wikipedia.org/w/index.php?title=Logical_connective&oldid=881652068)
 - [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
 - [Nesting (computing)](https://en.wikipedia.org/w/index.php?title=Nesting_(computing)&oldid=877015415)
 - [Operand§Computer science](https://en.wikipedia.org/w/index.php?title=Operand&oldid=874322196#Computer_science)
@@ -286,6 +293,7 @@ on Wiktionary, with changes made.
 [^ifstatementdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
+[^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).

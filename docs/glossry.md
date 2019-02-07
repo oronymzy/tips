@@ -80,6 +80,17 @@ end if
 : In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by *(condition)* constitutes a conditional *[expression](#expressiondef)*, having intrinsic value (for example, it may be substituted by either of the [values](#valuedef) `true` or `false`) but having no intrinsic meaning. In contrast, the combination of this expression, the `if` and `then` surrounding it, and the consequent that follows afterward constitute a conditional *[statement](#statementdef)*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
 When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `if`, it expects a [condition](#conditiondef) (for example, `x > 0`, which means "the variable x contains a number that is greater than zero") and evaluates that condition. If the condition is `true`, the statements following the `then` are executed. Otherwise, the execution continues in the following branch, either in the `else` [block](#blockdef) (which is usually optional), or if there is no `else` branch, then after the `end if`.  
 After either branch has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end if`.[^ifstatementdef-note1]
+: 
+```
+if (condition) then
+    (consequent 1)
+else if (condition) then
+    (consequent 2)
+else
+    (alternative)
+end if
+```
+: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several conditions. Only the statements following the first condition that is found to be true will be executed. All other statements will be skipped.[^ifstatementdef-note2]
 : Hyponym of [statement](#statementdef).
 
 **leading** {: #leadingdef }
@@ -164,6 +175,7 @@ After either branch has been executed, [control](https://en.wikipedia.org/wiki/C
 - [Comparison of programming languages (syntax)§Blocks](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Blocks)
 - [Comparison of programming languages (syntax)§Statements](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Statements)
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
+- [Conditional (computer programming)§Else if](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#Else_if)
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
@@ -214,6 +226,7 @@ on Wiktionary, with changes made.
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
 [^ifstatementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
+[^ifstatementdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).

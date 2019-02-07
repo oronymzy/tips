@@ -43,6 +43,10 @@ The function of blocks in programming is to enable groups of statements to be tr
 : count noun
 : An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth value of a [condition](#conditiondef) at that point.[^conditionaldef-note1]
 
+**constant** {: #constantdef }
+: count noun
+: An [identifier](https://en.wiktionary.org/wiki/identifier) that is [bound](https://en.wiktionary.org/wiki/bound) to an [invariant](https://en.wiktionary.org/wiki/invariant) value; a fixed value given a name to aid in readability of [source code](https://en.wiktionary.org/wiki/source_code).[^constantdef-note1]
+
 **datum** {: #datumdef }
 : count noun, plurally **data**
 : Any sequence of one or more [symbols](#symboldef) given meaning by one or more specific acts of interpretation.  
@@ -240,6 +244,7 @@ on Wikipedia, with changes made, and:
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
 - [condition](https://en.wiktionary.org/w/index.php?title=condition&oldid=51410719)
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
+- [constant](https://en.wiktionary.org/wiki/constant)
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
@@ -254,6 +259,7 @@ on Wiktionary, with changes made.
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
+[^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
 [^datatypedef1]: [type](http://foldoc.org/type) at the *[Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)*
 [^datatypedef2]: [Shaffer, C. A. (2011). *Data Structures & Algorithm Analysis in C++* (3rd ed.). Mineola, NY: Dover. 1.2. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-0-486-48582-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-486-48582-9).
 [^datatypedef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Data_type).

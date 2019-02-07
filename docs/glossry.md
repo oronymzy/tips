@@ -57,6 +57,26 @@ Data can be organized in many different types of [data structures](https://en.wi
 : An attribute of [data](#datumdef) which tells the [compiler](https://en.wikipedia.org/wiki/Compiler) or [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) how the programmer intends to use the data. Most programming languages support common data types of [real](https://en.wikipedia.org/wiki/Real_number), [integer](https://en.wikipedia.org/wiki/Integer_(computer_science)) and [Boolean](#Booleandatatypedef). A data type constrains the [values](#valuedef) that an [expression](#expressiondef), such as a variable or a [subroutine](#subroutinedef), might take. This data type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored. A type of value from which an expression may take its value.[^datatypedef1] [^datatypedef2] [^datatypedef-note1]
 : Hypernym of [Boolean data type](#Booleandatatypedef).
 
+**else-clause** {: #elseclausedef }
+: count noun
+: Part of an [if-statement](#ifstatementdef) following an [if-clause](#ifclausedef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
+: 
+```
+else
+    (alternative)
+```
+: Meronym of [if-statement](#ifstatementdef).
+
+**else-if-clause** {: #elseifclausedef }
+: count noun
+: Part of an [if-statement](#ifstatementdef) following an [if-clause](#ifclausedef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
+: 
+```
+else if (condition) then
+    (consequent 2)
+```
+: Meronym of [if-statement](#ifstatementdef).
+
 **entry point** {: #entrypointdef }
 : count noun
 : The point in a program where the first instructions are executed, and where the program has access to [command line arguments](https://en.wikipedia.org/wiki/Command_line_arguments).[^entrypointdef-note1] [Python-Markdown has a different, unclear definition in the context of extensions](https://python-markdown.github.io/extensions/#officially-supported-extensions).
@@ -66,9 +86,19 @@ Data can be organized in many different types of [data structures](https://en.wi
 : For example, `2+3` is an arithmetic and programming expression which evaluates to `5`. A variable is an expression because it denotes a value in memory, so `y+6` is an expression. An example of a relational expression is `4≠4`, which evaluates to `false`.[^expressiondef-note1] [^expressiondef1] [^expressiondef2]
 : Hypernym of [relational expression](#relationalexpressiondef).
 
+**if-clause** {: #ifclausedef }
+: count noun
+: Part of an [if-statement](#ifstatementdef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
+: 
+```
+if (condition) then
+    (consequent)
+```
+: Meronym of [if-statement](#ifstatementdef).
+
 **if-statement** {: #ifstatementdef }
 : count noun
-: A [conditional](#conditionaldef) [statement](#statementdef).
+: A [conditional](#conditionaldef) [statement](#statementdef) made up of an [if-clause](#ifclausedef) and optionally one or more [else-if-clauses](#elseifclausedef) and an [else-clause](#elseclausedef).
 : 
 ```
 if (condition) then
@@ -91,6 +121,7 @@ else
 end if
 ```
 : In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several conditions. Only the statements following the first condition that is found to be true will be executed. All other statements will be skipped.[^ifstatementdef-note2]
+: Holonym of [else-clause](#elseclausedef), [else-clause](#elseifclausedef), and [if-clause](#ifclausedef).
 : Hyponym of [statement](#statementdef).
 
 **leading** {: #leadingdef }
@@ -225,6 +256,8 @@ on Wiktionary, with changes made.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
+[^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
+[^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifstatementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^ifstatementdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>

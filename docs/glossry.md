@@ -148,7 +148,11 @@ end if
 **logical operator** {: #logicaloperatordef }
 : count noun
 : An [operator](#operatordef) used to connect two or more [operands](#operanddef), such that the value of the compound sentence produced depends only on that of the original sentences and on the meaning of the operator. It is also called a **logical connective**, **sentential connective**, or **sentential operator**.  
-The most common logical operators are **[binary](https://en.wikipedia.org/wiki/Binary_relation) operators** (also called **[dyadic](https://en.wikipedia.org/wiki/Dyadics) connectives**) which join two sentences. Also commonly, [negation](https://en.wikipedia.org/wiki/Negation) is considered to be a **[unary](https://en.wikipedia.org/wiki/Unary_function) operator**.[^logicaloperatordef-note1]
+The most common logical operators are **[binary](https://en.wikipedia.org/wiki/Binary_relation) operators** (also called **[dyadic](https://en.wikipedia.org/wiki/Dyadics) connectives**) which join two sentences. Also commonly, [negation](https://en.wikipedia.org/wiki/Negation) is considered to be a **[unary](https://en.wikipedia.org/wiki/Unary_function) operator**.[^logicaloperatordef-note1] [^logicaloperatordef-note2]
+: In [C++](https://en.wikipedia.org/wiki/C++), the [logical negation (NOT)](https://en.wikipedia.org/wiki/Negation) operator is an exclamation mark (`!`), for example `!a` means **not** `a`.[^logicaloperatordef-note3]
+: In [C++](https://en.wikipedia.org/wiki/C++), the [logical AND](https://en.wikipedia.org/wiki/Logical_conjunction) operator is two ampersands (`&&`), for example `a && b` means
+`a` **and** `b`.[^logicaloperatordef-note3]
+: In [C++](https://en.wikipedia.org/wiki/C++), the [logical OR](https://en.wikipedia.org/wiki/Logical_disjunction) operator is two pipe characters (`||`), for example `a || b` means `a` **or** `b`.[^logicaloperatordef-note3]
 : Hyponym of [operator](#operatordef).
 
 **nest** {: #nestdef }
@@ -240,6 +244,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Logical connective](https://en.wikipedia.org/w/index.php?title=Logical_connective&oldid=881652068)
 - [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
+- [Operators in C and C++§Logical operators](https://en.wikipedia.org/w/index.php?title=Operators_in_C_and_C++&oldid=879923250#Logical_operators)
 - [Nesting (computing)](https://en.wikipedia.org/w/index.php?title=Nesting_(computing)&oldid=877015415)
 - [Operand§Computer science](https://en.wikipedia.org/w/index.php?title=Operand&oldid=874322196#Computer_science)
 - [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
@@ -294,6 +299,8 @@ on Wiktionary, with changes made.
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).
+[^logicaloperatordef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Operators_in_C_and_C++#Logical_operators).
+[^logicaloperatordef-note3]: Requires [`iso646.h`](https://en.wikipedia.org/wiki/Iso646.h) in C. See [C++ operator synonyms](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#C.2B.2B_operator_synonyms)
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).

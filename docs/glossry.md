@@ -300,7 +300,7 @@ on Wiktionary, with changes made.
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).
 [^logicaloperatordef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Operators_in_C_and_C++#Logical_operators).
 [^logicaloperatordef-note3]: Requires [`iso646.h`](https://en.wikipedia.org/wiki/Iso646.h) in C. See [C++ operator synonyms](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#C.2B.2B_operator_synonyms)
-[^logicaloperatordef-note4]: Based on information from page 182 of “Starting Out with C++: From Control through Objects - Edition: 9th”, ISBN 978-0-13-4037325.
+[^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 9th”, ISBN 978-0-13-4037325.
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).

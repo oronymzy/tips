@@ -45,7 +45,7 @@ The function of blocks in programming is to enable groups of statements to be tr
 
 **conditional expression** {: #conditionalexpressiondef }
 : count noun
-: An [expression](#expressiondef) that is similar to an if-statement, but returns a [value](#valuedef) as a result.[^conditionalexpressiondef-note1]
+: An [expression](#expressiondef) that is similar to an [if-construct](#ifconstructdef), but returns a [value](#valuedef) as a result.[^conditionalexpressiondef-note1]
 : 
 ```
 if (condition) then
@@ -62,6 +62,7 @@ else
 : count noun
 : A [ternary operator](https://en.wikipedia.org/wiki/Ternary_operator) that is part of the syntax for basic [conditional expressions](#conditionalexpressiondef) in several [programming languages](https://en.wikipedia.org/wiki/Programming_language).[^conditionaloperatordef-note2] A conditional operator is similar to, but not equivalent to, a [logical operator](#logicaloperatordef).[^conditionaloperatordef1] [^conditionaloperatordef-note1] It is commonly referred to as an **inline if (iif)**, or **ternary if**.[^conditionaloperatordef-note2]
 : For example, `a ? b : c` evaluates to `b` if the value of `a` is true, and otherwise to `c`.[^conditionaloperatordef-note2]
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is a question mark and a colon (`?:`).
 : Hyponym of [operator](#operatordef).
 
 **constant** {: #constantdef }

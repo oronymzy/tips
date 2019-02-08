@@ -55,7 +55,7 @@ else
 ```
 : 
 `(condition) ? (consequent) : (alternative)`
-: The two [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) constructs above are equivalent.[^conditionalexpressiondef1] If either `(consequent)` or `(alternative)` is an [expression](#expressiondef), the [value](#valuedef) of the if-construct is the value of `(consequent)`.[^conditionalexpressiondef-note2]
+: The two [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) constructs above are equivalent.[^conditionalexpressiondef1]
 : Hyponym of [expression](#expressiondef).
 
 **conditional operator** {: #conditionaloperatordef }
@@ -323,7 +323,6 @@ on Wiktionary, with changes made.
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
-[^conditionalexpressiondef-note2]: Based on information from page 200 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).

@@ -43,9 +43,14 @@ The function of blocks in programming is to enable groups of statements to be tr
 : count noun
 : An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth value of a [condition](#conditiondef) at that point.[^conditionaldef-note1]
 
+**conditional expression** {: #conditionalexpressiondef }
+: count noun
+: An [expression](#expressiondef) that is similar to an [if-statement](#ifstatementdef), but returns a [value](#valuedef) as a result.[^conditionalexpressiondef-note1]
+: Hyponym of [expression](#expressiondef).
+
 **conditional operator** {: #conditionaloperatordef }
 : count noun
-: A [ternary operator](https://en.wikipedia.org/wiki/Ternary_operator) that is part of the syntax for basic [conditional expressions](#ifexpressiondef) in several [programming languages](https://en.wikipedia.org/wiki/Programming_language).[^conditionaloperatordef-note2] A conditional operator is similar to, but not equivalent to, a [logical operator](#logicaloperatordef).[^conditionaloperatordef1] [^conditionaloperatordef-note1] It is commonly referred to as an **inline if (iif)**, or **ternary if**.[^conditionaloperatordef-note2]
+: A [ternary operator](https://en.wikipedia.org/wiki/Ternary_operator) that is part of the syntax for basic [conditional expressions](#conditionalexpressiondef) in several [programming languages](https://en.wikipedia.org/wiki/Programming_language).[^conditionaloperatordef-note2] A conditional operator is similar to, but not equivalent to, a [logical operator](#logicaloperatordef).[^conditionaloperatordef1] [^conditionaloperatordef-note1] It is commonly referred to as an **inline if (iif)**, or **ternary if**.[^conditionaloperatordef-note2]
 : For example, `a ? b : c` evaluates to `b` if the value of `a` is true, and otherwise to `c`.[^conditionaloperatordef-note2]
 : Hyponym of [operator](#operatordef).
 
@@ -98,7 +103,7 @@ else if (condition) then
 **expression** {: #expressiondef }
 : A combination of one or more [constants](https://en.wikipedia.org/wiki/Constant_(programming)), [variables](https://en.wikipedia.org/wiki/Variable_(programming)), [operators](https://en.wikipedia.org/wiki/Operator_(programming)), and [subroutines](#subroutinedef) that a [programming language](https://en.wikipedia.org/wiki/Programming_language) interprets (according to its particular [rules of precedence](https://en.wikipedia.org/wiki/Order_of_operations) and of [association](#associativitydef)) and computes to produce ("to return", in a [stateful](https://en.wikipedia.org/wiki/State_(computer_science)) environment) another [value](#valuedef). This process, as for [mathematical expressions](https://en.wikipedia.org/wiki/Mathematical_expression), is called evaluation. In simple settings, the [resulting value](https://en.wikipedia.org/wiki/Return_type) is usually one of various [primitive types](https://en.wikipedia.org/wiki/Primitive_data_type), such as numerical, [string](https://en.wikipedia.org/wiki/String_(computer_science)), and [logical](https://en.wikipedia.org/wiki/Boolean_expression); in more elaborate settings, it can be an arbitrary [complex data type](https://en.wikipedia.org/wiki/Complex_data_type).[^expressiondef-note1]
 : For example, `2+3` is an arithmetic and programming expression which evaluates to `5`. A variable is an expression because it denotes a value in memory, so `y+6` is an expression. An example of a relational expression is `4≠4`, which evaluates to `false`.[^expressiondef-note1] [^expressiondef1] [^expressiondef2]
-: Hypernym of [if-expression](#ifexpressiondef) and [relational expression](#relationalexpressiondef).
+: Hypernym of [conditional expression](#conditionalexpressiondef) and [relational expression](#relationalexpressiondef).
 
 **flag** {: #flagdef }
 : count noun
@@ -113,11 +118,6 @@ if (condition) then
     (consequent)
 ```
 : Meronym of [if-statement](#ifstatementdef).
-
-**if-expression** {: #ifexpressiondef }
-: count noun
-: An [expression](#expressiondef) that is similar to an [if-statement](#ifstatementdef), but returns a [value](#valuedef) as a result.[^ifexpressiondef-note1]
-: Hyponym of [expression](#expressiondef).
 
 **if-statement** {: #ifstatementdef }
 : count noun
@@ -308,7 +308,7 @@ on Wiktionary, with changes made.
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
 [^flagdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/flag#Noun).
-[^ifexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
+[^conditionalexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifstatementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).

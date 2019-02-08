@@ -46,6 +46,16 @@ The function of blocks in programming is to enable groups of statements to be tr
 **conditional expression** {: #conditionalexpressiondef }
 : count noun
 : An [expression](#expressiondef) that is similar to an [if-statement](#ifstatementdef), but returns a [value](#valuedef) as a result.[^conditionalexpressiondef-note1]
+: 
+```
+if (condition) then
+    (consequent)
+else
+    (alternative)
+```
+: 
+`(condition) ? (consequent) : (alternative)`
+: The two [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) constructs above are equivalent.[^conditionalexpressiondef1]
 : Hyponym of [expression](#expressiondef).
 
 **conditional operator** {: #conditionaloperatordef }
@@ -130,7 +140,7 @@ else
     (alternative)
 end if
 ```
-: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by *(condition)* constitutes a conditional *[expression](#expressiondef)*, having intrinsic value (for example, it may be substituted by either of the [values](#valuedef) `true` or `false`) but having no intrinsic meaning. In contrast, the combination of this expression, the `if` and `then` surrounding it, and the consequent that follows afterward constitute a conditional *[statement](#statementdef)*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
+: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by `(condition)` constitutes a [conditional](#conditionalexpressiondef) *[expression](#expressiondef)*, having intrinsic value (for example, it may be substituted by either of the [values](#valuedef) `true` or `false`) but having no intrinsic meaning. In contrast, the combination of this expression, the `if` and `then` surrounding it, and the `(consequent)` that follows afterward constitute a conditional *[statement](#statementdef)*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
 When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `if`, it expects a [condition](#conditiondef) (for example, `x > 0`, which means "the variable x contains a number that is greater than zero") and evaluates that condition. If the condition is `true`, the statements following the `then` are executed. Otherwise, the execution continues in the following branch, either in the `else` [block](#blockdef) (which is usually optional), or if there is no `else` branch, then after the `end if`.  
 After either branch has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end if`.[^ifstatementdef-note1]
 : 
@@ -289,6 +299,7 @@ on Wiktionary, with changes made.
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
+[^conditionalexpressiondef1]: Based on information from page 199 of “Starting Out with C++: From Control through Objects - Edition: 9th”, ISBN 978-0-13-4037325.
 [^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.
 [^conditionaloperatordef-note1]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/Conditional_operator).
 [^conditionaloperatordef-note2]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/%3F:).

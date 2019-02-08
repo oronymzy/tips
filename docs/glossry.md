@@ -45,7 +45,7 @@ The function of blocks in programming is to enable groups of statements to be tr
 
 **conditional operator** {: #conditionaloperatordef }
 : count noun
-: A [ternary operator](https://en.wikipedia.org/wiki/Ternary_operator) that is part of the syntax for basic [conditional expressions](https://en.wikipedia.org/wiki/Conditional_(programming)) in several [programming languages](https://en.wikipedia.org/wiki/Programming_language).[^conditionaloperatordef-note2] A conditional operator is similar to, but not equivalent to, a [logical operator](#logicaloperatordef).[^conditionaloperatordef1] [^conditionaloperatordef-note1] It is commonly referred to as an **inline if (iif)**, or **ternary if**.[^conditionaloperatordef-note2]
+: A [ternary operator](https://en.wikipedia.org/wiki/Ternary_operator) that is part of the syntax for basic [conditional expressions](#ifexpressiondef) in several [programming languages](https://en.wikipedia.org/wiki/Programming_language).[^conditionaloperatordef-note2] A conditional operator is similar to, but not equivalent to, a [logical operator](#logicaloperatordef).[^conditionaloperatordef1] [^conditionaloperatordef-note1] It is commonly referred to as an **inline if (iif)**, or **ternary if**.[^conditionaloperatordef-note2]
 : For example, `a ? b : c` evaluates to `b` if the value of `a` is true, and otherwise to `c`.[^conditionaloperatordef-note2]
 : Hyponym of [operator](#operatordef).
 
@@ -98,7 +98,7 @@ else if (condition) then
 **expression** {: #expressiondef }
 : A combination of one or more [constants](https://en.wikipedia.org/wiki/Constant_(programming)), [variables](https://en.wikipedia.org/wiki/Variable_(programming)), [operators](https://en.wikipedia.org/wiki/Operator_(programming)), and [subroutines](#subroutinedef) that a [programming language](https://en.wikipedia.org/wiki/Programming_language) interprets (according to its particular [rules of precedence](https://en.wikipedia.org/wiki/Order_of_operations) and of [association](#associativitydef)) and computes to produce ("to return", in a [stateful](https://en.wikipedia.org/wiki/State_(computer_science)) environment) another [value](#valuedef). This process, as for [mathematical expressions](https://en.wikipedia.org/wiki/Mathematical_expression), is called evaluation. In simple settings, the [resulting value](https://en.wikipedia.org/wiki/Return_type) is usually one of various [primitive types](https://en.wikipedia.org/wiki/Primitive_data_type), such as numerical, [string](https://en.wikipedia.org/wiki/String_(computer_science)), and [logical](https://en.wikipedia.org/wiki/Boolean_expression); in more elaborate settings, it can be an arbitrary [complex data type](https://en.wikipedia.org/wiki/Complex_data_type).[^expressiondef-note1]
 : For example, `2+3` is an arithmetic and programming expression which evaluates to `5`. A variable is an expression because it denotes a value in memory, so `y+6` is an expression. An example of a relational expression is `4≠4`, which evaluates to `false`.[^expressiondef-note1] [^expressiondef1] [^expressiondef2]
-: Hypernym of [relational expression](#relationalexpressiondef).
+: Hypernym of [if-expression](#ifexpressiondef) and [relational expression](#relationalexpressiondef).
 
 **flag** {: #flagdef }
 : count noun
@@ -113,6 +113,11 @@ if (condition) then
     (consequent)
 ```
 : Meronym of [if-statement](#ifstatementdef).
+
+**if-expression** {: #ifexpressiondef }
+: count noun
+: An [expression](#expressiondef) that is similar to an [if-statement](#ifstatementdef), but returns a [value](#valuedef) as a result.[^ifexpressiondef-note1]
+: Hyponym of [expression](#expressiondef).
 
 **if-statement** {: #ifstatementdef }
 : count noun
@@ -195,7 +200,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **statement** {: #statementdef }
 : count noun
-: A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that expresses some action to be carried out.[^statementdef1] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). Boundaries between statements are demarcated by [separators](#separatordef), and the end of a statement is demarcated by a [terminator](#terminatordef). [^statementdef-note1]
+: A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that changes the program state or performs some kind of action.[^statementdef1] [^statementdef-note2] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). Boundaries between statements are demarcated by [separators](#separatordef), and the end of a statement is demarcated by a [terminator](#terminatordef). [^statementdef-note1]
 : Hypernym of [if-statement](#ifstatementdef) and [switch statement](#switchstatementdef).
 
 **subroutine** {: #subroutinedef }
@@ -240,6 +245,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Conditional (computer programming)§Else if](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#Else_if)
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
+- [Conditional (computer programming)§If–then–else expressions](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#If%E2%80%93then%E2%80%93else_expressions)
 - [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
@@ -302,6 +308,7 @@ on Wiktionary, with changes made.
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
 [^flagdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/flag#Noun).
+[^ifexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifstatementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
@@ -321,7 +328,8 @@ on Wiktionary, with changes made.
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^separatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement separator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
 [^statementdef1]: ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia. Retrieved 2015-03-03.
-[^statementdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).
+[^statementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).
+[^statementdef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^subroutinedef1]: [U.S. Election Assistance Commission](https://en.wikipedia.org/wiki/Election_Assistance_Commission "Election Assistance Commission") (2007). ["Definitions of Words with Special Meanings"](https://web.archive.org/web/20121208084203/http://www.eac.gov/vvsg/glossary.aspx). *[Voluntary Voting System Guidelines](https://en.wikipedia.org/wiki/Voluntary_Voting_System_Guidelines "Voluntary Voting System Guidelines")*. Archived from [the original](http://www.eac.gov/vvsg/glossary.aspx) on 2012-12-08. Retrieved 2013-01-14.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
 [^switchstatementdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).

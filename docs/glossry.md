@@ -45,7 +45,7 @@ The function of blocks in programming is to enable groups of statements to be tr
 
 **conditional expression** {: #conditionalexpressiondef }
 : count noun
-: An [expression](#expressiondef) that is similar to an [if-statement](#ifstatementdef), but returns a [value](#valuedef) as a result.[^conditionalexpressiondef-note1]
+: An [expression](#expressiondef) that is similar to an if-statement, but returns a [value](#valuedef) as a result.[^conditionalexpressiondef-note1]
 : 
 ```
 if (condition) then
@@ -55,7 +55,7 @@ else
 ```
 : 
 `(condition) ? (consequent) : (alternative)`
-: The two [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) constructs above are equivalent.[^conditionalexpressiondef1]
+: The two [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) constructs above are equivalent.[^conditionalexpressiondef1] If either `(consequent)` or `(alternative)` is an [expression](#expressiondef), the [value](#valuedef) of the if-construct is the value of `(consequent)`.[^conditionalexpressiondef-note2]
 : Hyponym of [expression](#expressiondef).
 
 **conditional operator** {: #conditionaloperatordef }
@@ -84,23 +84,23 @@ Data can be organized in many different types of [data structures](https://en.wi
 
 **else-clause** {: #elseclausedef }
 : count noun
-: Part of an [if-statement](#ifstatementdef) following an [if-clause](#ifclausedef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
+: Part of an [if-construct](#ifconstructdef) following an [if-clause](#ifclausedef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
 : 
 ```
 else
     (alternative)
 ```
-: Meronym of [if-statement](#ifstatementdef).
+: Meronym of [if-construct](#ifconstructdef).
 
 **else-if-clause** {: #elseifclausedef }
 : count noun
-: Part of an [if-statement](#ifstatementdef) following an [if-clause](#ifclausedef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
+: Part of an [if-construct](#ifconstructdef) following an [if-clause](#ifclausedef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
 : 
 ```
 else if (condition) then
     (consequent 2)
 ```
-: Meronym of [if-statement](#ifstatementdef).
+: Meronym of [if-construct](#ifconstructdef).
 
 **entity** {: #entitydef }
 : count noun
@@ -121,17 +121,17 @@ else if (condition) then
 
 **if-clause** {: #ifclausedef }
 : count noun
-: Part of an [if-statement](#ifstatementdef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
+: Part of an [if-construct](#ifconstructdef).[^iforelseorelseiforclausedef-note1] [^iforelseorelseiforclausedef-note2]
 : 
 ```
 if (condition) then
     (consequent)
 ```
-: Meronym of [if-statement](#ifstatementdef).
+: Meronym of [if-construct](#ifconstructdef).
 
-**if-statement** {: #ifstatementdef }
+**if-construct** {: #ifconstructdef }
 : count noun
-: A [conditional](#conditionaldef) [statement](#statementdef) made up of an [if-clause](#ifclausedef) and optionally one or more [else-if-clauses](#elseifclausedef) and an [else-clause](#elseclausedef).
+: A [conditional](#conditionaldef) [construct](https://en.wikipedia.org/wiki/Data_structure) made up of an [if-clause](#ifclausedef) and optionally one or more [else-if-clauses](#elseifclausedef) and an [else-clause](#elseclausedef).
 : 
 ```
 if (condition) then
@@ -140,9 +140,8 @@ else
     (alternative)
 end if
 ```
-: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, the part represented by `(condition)` constitutes a [conditional](#conditionalexpressiondef) *[expression](#expressiondef)*, having intrinsic value (for example, it may be substituted by either of the [values](#valuedef) `true` or `false`) but having no intrinsic meaning. In contrast, the combination of this expression, the `if` and `then` surrounding it, and the `(consequent)` that follows afterward constitute a conditional *[statement](#statementdef)*, having intrinsic meaning (for example, expressing a coherent logical rule) but no intrinsic value.  
-When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `if`, it expects a [condition](#conditiondef) (for example, `x > 0`, which means "the variable x contains a number that is greater than zero") and evaluates that condition. If the condition is `true`, the statements following the `then` are executed. Otherwise, the execution continues in the following branch, either in the `else` [block](#blockdef) (which is usually optional), or if there is no `else` branch, then after the `end if`.  
-After either branch has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end if`.[^ifstatementdef-note1]
+: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `(condition)` represents a [conditional](#conditionaldef) [statement](#statementdef), `(consequent)` represents an [expression](#expressiondef) or [statement](#statementdef), and `(alternative)` represents an [expression](#expressiondef) or [statement](#statementdef).  
+When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `if`, it expects a [condition](#conditiondef) (`(condition)`) and evaluates that condition. If the condition is `true`, the statements following the `then` (`(consequent)`) are executed. Otherwise, the execution continues in the following clause, either in the [else clause](#elseclausedef) (which is usually optional, and in this case contains `(alternative)`) or, if there is no else clause, then after the `end if`. After either clause has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end if`.[^ifconstructdef-note1]  
 : 
 ```
 if (condition) then
@@ -153,9 +152,8 @@ else
     (alternative)
 end if
 ```
-: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several conditions. Only the statements following the first condition that is found to be true will be executed. All other statements will be skipped.[^ifstatementdef-note2]
+: In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several [conditionals](#conditionaldef). Only the statements following the first `(condition)` that is found to be true will be executed. All other statements will be skipped.[^ifconstructdef-note2]
 : Holonym of [else-clause](#elseclausedef), [else-clause](#elseifclausedef), and [if-clause](#ifclausedef).
-: Hyponym of [statement](#statementdef).
 
 **leading** {: #leadingdef }
 : adjective
@@ -210,8 +208,8 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **statement** {: #statementdef }
 : count noun
-: A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that changes the program state or performs some kind of action.[^statementdef1] [^statementdef-note2] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). Boundaries between statements are demarcated by [separators](#separatordef), and the end of a statement is demarcated by a [terminator](#terminatordef). [^statementdef-note1]
-: Hypernym of [if-statement](#ifstatementdef) and [switch statement](#switchstatementdef).
+: A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that changes the program state or performs some kind of action.[^statementdef1] [^statementdef-note2] It also has meaning.[^statementdef-note3] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). Boundaries between statements are demarcated by [separators](#separatordef), and the end of a statement is demarcated by a [terminator](#terminatordef). [^statementdef-note1]
+: Hypernym of [switch statement](#switchstatementdef).
 
 **subroutine** {: #subroutinedef }
 : count noun
@@ -299,7 +297,7 @@ on Wiktionary, with changes made.
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
-[^conditionalexpressiondef1]: Based on information from page 199 of “Starting Out with C++: From Control through Objects - Edition: 9th”, ISBN 978-0-13-4037325.
+[^conditionalexpressiondef1]: Based on information from page 199 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.
 [^conditionaloperatordef-note1]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/Conditional_operator).
 [^conditionaloperatordef-note2]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/%3F:).
@@ -322,14 +320,15 @@ on Wiktionary, with changes made.
 [^conditionalexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
-[^ifstatementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
-[^ifstatementdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
+[^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
+[^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
+[^conditionalexpressiondef-note2]: Based on information from page 200 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).
 [^logicaloperatordef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Operators_in_C_and_C++#Logical_operators).
 [^logicaloperatordef-note3]: Requires [`iso646.h`](https://en.wikipedia.org/wiki/Iso646.h) in C. See [C++ operator synonyms](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#C.2B.2B_operator_synonyms)
-[^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 9th”, ISBN 978-0-13-4037325.
+[^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).
@@ -341,6 +340,7 @@ on Wiktionary, with changes made.
 [^statementdef1]: ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia. Retrieved 2015-03-03.
 [^statementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).
 [^statementdef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
+[^statementdef-note3]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^subroutinedef1]: [U.S. Election Assistance Commission](https://en.wikipedia.org/wiki/Election_Assistance_Commission "Election Assistance Commission") (2007). ["Definitions of Words with Special Meanings"](https://web.archive.org/web/20121208084203/http://www.eac.gov/vvsg/glossary.aspx). *[Voluntary Voting System Guidelines](https://en.wikipedia.org/wiki/Voluntary_Voting_System_Guidelines "Voluntary Voting System Guidelines")*. Archived from [the original](http://www.eac.gov/vvsg/glossary.aspx) on 2012-12-08. Retrieved 2013-01-14.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
 [^switchstatementdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).

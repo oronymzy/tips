@@ -43,6 +43,12 @@ The function of blocks in programming is to enable groups of statements to be tr
 : count noun
 : An [instruction](https://en.wiktionary.org/wiki/instruction) that [branches](https://en.wiktionary.org/wiki/branch) depending on the truth value of a [condition](#conditiondef) at that point.[^conditionaldef-note1]
 
+**conditional operator** {: #conditionaloperatordef }
+: count noun
+: A [ternary operator](https://en.wikipedia.org/wiki/Ternary_operator) that is part of the syntax for basic [conditional expressions](https://en.wikipedia.org/wiki/Conditional_(programming)) in several [programming languages](https://en.wikipedia.org/wiki/Programming_language).[^conditionaloperatordef-note2] A conditional operator is similar to, but not equivalent to, a [logical operator](#logicaloperatordef).[^conditionaloperatordef1] [^conditionaloperatordef-note1] It is commonly referred to as an **inline if (iif)**, or **ternary if**.[^conditionaloperatordef-note2]
+: For example, `a ? b : c` evaluates to `b` if the value of `a` is true, and otherwise to `c`.[^conditionaloperatordef-note2]
+: Hyponym of [operator](#operatordef).
+
 **constant** {: #constantdef }
 : count noun
 : An [identifier](https://en.wiktionary.org/wiki/identifier) that is [bound](https://en.wiktionary.org/wiki/bound) to an [invariant](https://en.wiktionary.org/wiki/invariant) value; a fixed value given a name to aid in readability of [source code](https://en.wiktionary.org/wiki/source_code).[^constantdef-note1]
@@ -171,7 +177,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A construct which behaves generally like a [subroutine](#subroutinedef), but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual subroutine.[^operatordef-note1]
 : Operators have [associativity](#associativitydef). They may be **associative, left-associative, right-associative** or **non-associative**. For **associative** operators, the operations can be grouped arbitrarily. For **left-associative** operators, the operations are grouped from the left. For **right-associative** operators, the operations are grouped from the right. For **non-associative** operators, the operations cannot be chained, often because the output type is incompatible with the input types.[^operatordef-note2]
-: Hypernym of [logical operator](#logicaloperatordef) and [relational operator](#relationaloperatordef).
+: Hypernym of [conditional operator](#conditionaloperatordef), [logical operator](#logicaloperatordef) and [relational operator](#relationaloperatordef).
 
 **relational expression** {: #relationalexpressiondef }
 : count noun
@@ -234,6 +240,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Conditional (computer programming)§Else if](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#Else_if)
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
+- [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147).
@@ -252,7 +259,8 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Statement (computer science)](https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=863825665)
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
-- [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445).
+- [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
+- [?:](https://en.wikipedia.org/w/index.php?title=%3F:&oldid=880334289)
 
 on Wikipedia, with changes made, and:
 
@@ -275,6 +283,9 @@ on Wiktionary, with changes made.
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
+[^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.
+[^conditionaloperatordef-note1]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/Conditional_operator).
+[^conditionaloperatordef-note2]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/%3F:).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
 [^datatypedef1]: [type](http://foldoc.org/type) at the *[Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)*

@@ -18,11 +18,11 @@ Use `pandoc -f html-native_divs-native_spans -t markdown-escaped_line_breaks-fen
 - The `--atx-headers` [option](https://pandoc.org/MANUAL.html#option--atx-headers) produces [ATX-style headings](https://pandoc.org/MANUAL.html#atx-style-headers) for all heading levels, overriding the default behavior of producing [Setext-style Markdown headings](https://pandoc.org/MANUAL.html#setext-style-headers) for levels 1 and 2.
 - The `--wrap=none` [option](https://pandoc.org/MANUAL.html#option--wrap) disables text wrapping.
 - Pandoc Markdown output
+    - `-bracketed_spans` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans).
     - `-escaped_line_breaks` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for backslash-escaped line breaks](https://pandoc.org/MANUAL.html#paragraphs).
     - `-fenced_code_attributes` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for assigning attribute lists to fenced code blocks](https://pandoc.org/MANUAL.html#extension-fenced_code_attributes).
     - `-header_attributes` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for assigning attribute lists to headings](https://pandoc.org/MANUAL.html#extension-header_attributes).
     - `-inline_code_attributes` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for assigning attribute lists to inline code](https://pandoc.org/MANUAL.html#extension-inline_code_attributes).
-    - `-bracketed_spans` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans).
 - HTML input
     - `-native_divs` [disables](https://pandoc.org/MANUAL.html#extensions) [the raw HTML extension for preserving native `<div>` HTML elements](https://pandoc.org/MANUAL.html#native_divs).
     - `-native_spans` [disables](https://pandoc.org/MANUAL.html#extensions) [the raw HTML extension for preserving some native `<span>` HTML elements](https://pandoc.org/MANUAL.html#native_spans). Some `<span>` HTML elements are still preserved as [bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans) (see the admonition below).

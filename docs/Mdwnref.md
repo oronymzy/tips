@@ -1089,7 +1089,7 @@ A table is equivalent to the [`<table>`](https://developer.mozilla.org/en-US/doc
 [^pdmlkao]: <https://pandoc.org/MANUAL.html#automatic-links>
 [^pdmlkis]: <https://pandoc.org/MANUAL.html#inline-links>
 [^pdmlkrs]: <https://pandoc.org/MANUAL.html#reference-links>
-[^pdmlatr]: Attribute lists are supported only with [bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans), [fenced divs](https://pandoc.org/MANUAL.html#extension-fenced_divs), [fenced code blocks](https://pandoc.org/MANUAL.html#extension-fenced_code_attributes), [headings](https://pandoc.org/MANUAL.html#header-identifiers), [images](https://pandoc.org/MANUAL.html#extension-link_attributes), [links](https://pandoc.org/MANUAL.html#extension-link_attributes) using extensions.
+[^pdmlatr]: Attribute lists are supported only with [bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans), [fenced divs](https://pandoc.org/MANUAL.html#extension-fenced_divs), [fenced code blocks](https://pandoc.org/MANUAL.html#extension-fenced_code_attributes), [headings](https://pandoc.org/MANUAL.html#header-identifiers), [images](https://pandoc.org/MANUAL.html#extension-link_attributes), [inline code](https://pandoc.org/MANUAL.html#extension-inline_code_attributes), [links](https://pandoc.org/MANUAL.html#extension-link_attributes) using extensions.
 [^pdmlord]: <https://pandoc.org/MANUAL.html#ordered-lists>
 [^pdmlurd]: <https://pandoc.org/MANUAL.html#bullet-lists>
 [^pdmstrk]: <https://pandoc.org/MANUAL.html#strikeout>

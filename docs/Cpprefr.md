@@ -5,7 +5,7 @@ This is a list of [operators](https://en.wikipedia.org/wiki/Operator_(programmin
 
 When not overloaded, for the operators `&&`, `||`, and `,` (the [comma operator](https://en.wikipedia.org/wiki/Comma_operator)), there is a [sequence point](https://en.wikipedia.org/wiki/Sequence_point) after the evaluation of the first operand.
 
-C++ also contains the [type conversion](https://en.wikipedia.org/wiki/Type_conversion "Type conversion") operators `const_cast`, `static_cast`, `dynamic_cast`, and `reinterpret_cast`. The formatting of these operators means that their precedence level is unimportant.
+C++ also contains the [type conversion](https://en.wikipedia.org/wiki/Type_conversion) operators `const_cast`, `static_cast`, `dynamic_cast`, and `reinterpret_cast`. The formatting of these operators means that their precedence level is unimportant.
 
 Most of the operators available in C and C++ are also available in other languages such as [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), [D](https://en.wikipedia.org/wiki/D_(programming_language)), [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [Perl](https://en.wikipedia.org/wiki/Perl), and [PHP](https://en.wikipedia.org/wiki/PHP) with the same precedence, associativity, and semantics.
 

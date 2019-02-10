@@ -3,6 +3,7 @@ nav:
   - Home: 'README.md'
   - Glossary: 'glossry.md'
   - Coding:
+    - C++ reference: 'Cpprefr.md'
     - including code comments: 'incdcmt.md'
     - installing Go: 'instlGo.md'
     - installing Python: 'insPyth.md'

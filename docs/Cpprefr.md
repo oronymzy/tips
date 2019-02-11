@@ -13,7 +13,7 @@ For the purposes of these tables, `a`, `b`, and `c` represent valid values (lite
 
 | Type               | Name                                                                            | Syntax                                                 | Can overload in C++ | Included in [C] | C++ prototype example: as member of K | C++ prototype example: outside class definitions
 |:-------------------|:--------------------------------------------------------------------------------|:-------------------------------------------------------|:--------------------|:----------------|:-|:-
-| arithmetic         | [Basic assignment]                                                              | `a = b`                                                | Yes{: .yes}         | Yes{: .yes}     | `R& K::operator =(S b);` | N/A
+| arithmetic         | [Assignment]                                                                    | `a = b`                                                | Yes{: .yes}         | Yes{: .yes}     | `R& K::operator =(S b);` | N/A
 | arithmetic         | [Addition]                                                                      | `a + b`                                                | Yes{: .yes}         | Yes{: .yes}     | `R K::operator +(S b);` | `R operator +(K a, S b);`
 | arithmetic         | [Subtraction]                                                                   | `a - b`                                                | Yes{: .yes}         | Yes{: .yes}     | `R K::operator -(S b);` | `R operator -(K a, S b);`
 | arithmetic         | [Unary] plus ([integer promotion])                                              | `+a`                                                   | Yes{: .yes}         | Yes{: .yes}     | `R K::operator +();` | `R operator +(K a);`
@@ -68,12 +68,29 @@ For the purposes of these tables, `a`, `b`, and `c` represent valid values (lite
 | relational         | Greater than or equal to                                                        | `a >= b`                                               | Yes{: .yes}         | Yes{: .yes}     | `bool K::operator >=(S const& b) const;` | `bool operator >=(K const& a, S const& b);`
 | relational         | Less than or equal to                                                           | `a <= b`                                               | Yes{: .yes}         | Yes{: .yes}     | `bool K::operator <=(S const& b);` | `bool operator <=(K const& a, S const& b);`
 
+## augmented assignment operators
+
+In [C](https://en.wikipedia.org/wiki/C_(programming_language)), [C++](https://en.wikipedia.org/wiki/C%2B%2B), and [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), the assignment operator is `=`, which is augmented as follows:
+
+| Operator` | Description
+|:-|:-
+| `+=` | Addition
+| `-=` | Subtraction
+| `*=` | Multiplication
+| `/=` | Division
+| `%=` | Modulus
+| `<<=` | Left bit shift
+| `>>=` | Right bit shift
+| `&=` | Bitwise AND
+| `^=` | Bitwise exclusive OR
+| `|=` | Bitwise inclusive OR
+
 ## licensing
-**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C++) on Wikipedia, with changes made.
+**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [Augmented assignment§C descendants](https://en.wikipedia.org/wiki/Augmented_assignment#C_descendants) and [Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C++) on Wikipedia, with changes made.
 
 [Addition]: https://en.wikipedia.org/wiki/Addition
 [Allocate storage]: https://en.wikipedia.org/wiki/New_(c++)
-[Basic assignment]: https://en.wikipedia.org/wiki/Assignment_operator_in_C++
+[Assignment]: https://en.wikipedia.org/wiki/Assignment_operator_in_C++
 [Bitwise AND]: https://en.wikipedia.org/wiki/Bitwise_operation#AND
 [Bitwise NOT]: https://en.wikipedia.org/wiki/Bitwise_operation#NOT
 [Bitwise OR]: https://en.wikipedia.org/wiki/Bitwise_operation#OR

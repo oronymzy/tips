@@ -156,6 +156,12 @@ end if
 : In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several [conditionals](#conditionaldef). Only the statements following the first `(condition)` that is found to be true will be executed. All other statements will be skipped.[^ifconstructdef-note2]
 : Holonym of [else-clause](#elseclausedef), [else-clause](#elseifclausedef), and [if-clause](#ifclausedef).
 
+**increment operator** {: #incrementoperatordef }
+: count noun
+: A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that increases the [value](#valuedef) of its operand by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are increased by an amount that makes them point to the next element adjacent in memory.[^incrementoperatordef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [plus signs](https://en.wikipedia.org/wiki/Plus_and_minus_signs#Plus_sign) (`++`).
+: Hyponym of [operator](#operatordef).
+
 **leading** {: #leadingdef }
 : adjective
 : Occuring at the beginning[^leadingdef] of a line.
@@ -191,7 +197,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A construct which behaves generally like a [subroutine](#subroutinedef), but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual subroutine.[^operatordef-note1]
 : Operators have [associativity](#associativitydef). They may be **associative, left-associative, right-associative** or **non-associative**. For **associative** operators, the operations can be grouped arbitrarily. For **left-associative** operators, the operations are grouped from the left. For **right-associative** operators, the operations are grouped from the right. For **non-associative** operators, the operations cannot be chained, often because the output type is incompatible with the input types.[^operatordef-note2]
-: Hypernym of [conditional operator](#conditionaloperatordef), [logical operator](#logicaloperatordef) and [relational operator](#relationaloperatordef).
+: Hypernym of [conditional operator](#conditionaloperatordef), [increment operator](#incrementoperatordef), [logical operator](#logicaloperatordef), and [relational operator](#relationaloperatordef).
 
 **relational expression** {: #relationalexpressiondef }
 : count noun
@@ -261,6 +267,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147).
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
+- [Increment and decrement operators](https://en.wikipedia.org/w/index.php?title=Increment_and_decrement_operators&oldid=879445217)
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Logical connective](https://en.wikipedia.org/w/index.php?title=Logical_connective&oldid=881652068)
@@ -323,6 +330,7 @@ on Wiktionary, with changes made.
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
+[^incrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).

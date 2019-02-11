@@ -11,6 +11,17 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The number of [operands](#operanddef) a [subroutine](#subroutinedef) takes.[^aritydef-note1]
 
+**assignment construct** {: #assignmentconstructdef }
+: A [construct](https://en.wikipedia.org/wiki/Data_structure) that sets and/or re-sets the [value](#valuedef) stored in the storage location(s) denoted by a variable name (in other words, it copies a value into the variable). In most [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming languages](https://en.wikipedia.org/wiki/Programming_language) it is a fundamental construct. Assignment constructs can be [expressions](#expressiondef), [statements](#statementdef), or [operators](#assignmentoperatordef).[^assignmentconstructdef-note1]
+: Hypernym of [assignment operator](#assignmentoperatordef).
+
+**assignment operator** {: #assignmentoperatordef }
+: count noun
+: An [assignment construct](#assignmentconstructdef) that is an [operator](#operatordef).
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is an [equality sign](https://en.wikipedia.org/wiki/Equals_sign) (`=`).[^assignmentoperatordef-note1]
+: Hypernym of [augmented assignment operator](#augmentedassignmentoperatordef).
+: Hyponym of [assignment construct](#assignmentconstructdef) and [operator](#operatordef).
+
 **associativity** {: #associativitydef }
 : mass noun
 : The property of an [operator](#operatordef) which determines how it is grouped with operators of the same [precedence](https://en.wiktionary.org/wiki/precedence) in the absence of parentheses.[^associativitydef-note1]
@@ -18,6 +29,12 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 **atomicity** {: #atomicitydef }
 : mass noun
 : The state of a [system](https://en.wiktionary.org/wiki/system) (often a [database](https://en.wiktionary.org/wiki/database) system) in which either all stages [complete](https://en.wiktionary.org/wiki/complete) or [none](https://en.wiktionary.org/wiki/none) complete.[^atomicitydef-note1]
+
+**augmented assignment operator** {: #augmentedassignmentoperatordef }
+: count noun
+: An [assignment operator](#assignmentoperatordef) that is generally used to replace a [statement](#statementdef) where an operator takes a [variable](https://en.wikipedia.org/wiki/Variable_(programming)) as one of its arguments and then assigns the result back to the same variable. In [expression-oriented programming languages](https://en.wikipedia.org/wiki/Expression-oriented_programming_language) such as C, assignment and augmented assignment are expressions, which have a value. This allows their use in complex expressions. However, this can produce sequences of symbols that are difficult to read or understand, and worse, a mistype can easily produce a different sequence of gibberish that although accepted by the compiler does not produce desired results. In other languages, such as Python, assignment and augmented assignment are statements, not expressions, and thus cannot be used in complex expressions. As with assignment, in these languages augmented assignment is a form of [right-associative](https://en.wikipedia.org/wiki/Operator_associativity#Right-associativity_of_assignment_operators) assignment.
+: For example, `x += 1` is expanded to `x = x + (1)`.[^augmentedassignmentoperatordef-note1]
+: Hyponym of [assignment operator](#assignmentoperatordef).
 
 **block** {: #blockdef }
 : count noun
@@ -203,7 +220,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A construct which behaves generally like a [subroutine](#subroutinedef), but which differs [syntactically](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) or [semantically](https://en.wikipedia.org/wiki/Semantics_(computer_science)) from a usual subroutine.[^operatordef-note1]
 : Operators have [associativity](#associativitydef). They may be **associative, left-associative, right-associative** or **non-associative**. For **associative** operators, the operations can be grouped arbitrarily. For **left-associative** operators, the operations are grouped from the left. For **right-associative** operators, the operations are grouped from the right. For **non-associative** operators, the operations cannot be chained, often because the output type is incompatible with the input types.[^operatordef-note2]
-: Hypernym of [conditional operator](#conditionaloperatordef), [decrement operator](#decrementoperatordef), [increment operator](#incrementoperatordef), [logical operator](#logicaloperatordef), and [relational operator](#relationaloperatordef).
+: Hypernym of [assignment operator](#assignmentoperatordef), [conditional operator](#conditionaloperatordef), [decrement operator](#decrementoperatordef), [increment operator](#incrementoperatordef), [logical operator](#logicaloperatordef), and [relational operator](#relationaloperatordef).
 
 **relational expression** {: #relationalexpressiondef }
 : count noun
@@ -259,6 +276,9 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
 
+- [Assignment (computer science)](https://en.wikipedia.org/w/index.php?title=Assignment_(computer_science)&oldid=882172626)
+- [Assignment operator (C++)](https://en.wikipedia.org/w/index.php?title=Assignment_operator_(C%2B%2B)&oldid=873288112)
+- [Augmented assignment](https://en.wikipedia.org/w/index.php?title=Augmented_assignment&oldid=879453644)
 - [Block (programming)](https://en.wikipedia.org/w/index.php?title=Block_(programming)&oldid=877703688)
 - [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
 - [Comparison of programming languages (syntax)§Blocks](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Blocks)
@@ -305,8 +325,11 @@ on Wikipedia, with changes made, and:
 on Wiktionary, with changes made.
 
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
+[^assignmentconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Assignment_(computer_science)).
+[^assignmentoperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Assignment_operator_(C++)).
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).
 [^atomicitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity).
+[^augmentedassignmentoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Augmented_assignment).
 [^blockdef-note1]: This definition is based on [Wikipedia's definition of a block as a page](https://en.wikipedia.org/wiki/Block_(programming)) and [as a section of a page](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Blocks).
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).

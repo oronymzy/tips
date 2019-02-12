@@ -213,7 +213,8 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **loop construct** {: #loopconstructdef }
 : count noun
-: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of four possible ways: a specified number of times, once for each of a collection of items, until some condition is met, or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
+: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of five possible ways: a specified number of times, once for each of a collection of items, [while some condition is met](#whileloopconstructdef), until some condition is met, or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
+: Hypernym of [while-loop construct](#whileloopconstructdef).
 
 **lvalue** {: #lvaluedef }
 : count noun
@@ -299,6 +300,35 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 : A member of the set of possible interpretations of any possibly-infinite sequence of [symbols](#symboldef).[^valuedef-note1]
 : Hypernym of [lvalue](#lvaluedef) and [rvalue](#rvaluedef).
 
+**while-loop construct** {: #whileloopconstructdef }
+: count noun
+: A [control flow](https://en.wikipedia.org/wiki/Control_flow) [statement](#statementdef) that allows code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the control structure is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop](https://en.wikipedia.org/wiki/Do_while_loop), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
+: 
+```
+int x = 0;
+while (x < 5) 
+{
+    printf ("x = %d\n", x);
+    x++;
+}
+```
+: For example, the code fragment above first checks whether `x` is less than 5, which it is, so then the loop body within the curly brackets is entered, where the `printf` [subroutine](#subroutinedef) is run and `x` is [incremented](#incrementoperatordef) by 1. After completing all the statements in the loop body, the condition, (x < 5), is checked again, and the loop is executed again, this process repeating until the [variable](https://en.wikipedia.org/wiki/Variable_(programming)) `x` has the value 5.  
+: 
+```
+while (true)
+{
+    //do complicated stuff
+    if (someCondition) break;
+    //more stuff
+}
+```
+: The code fragment above shows that it is possible, and in some cases desirable, for the condition to *always* evaluate to true, creating an [infinite loop](https://en.wikipedia.org/wiki/Infinite_loop). When such a loop is created intentionally, there is usually another control structure (such as a [break](https://en.wikipedia.org/wiki/Control_flow) statement) that controls termination of the loop.  
+The code fragments above are written in the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)) (as well as [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)),[^whileloopconstructdef2] [Objective-C](https://en.wikipedia.org/wiki/Objective-C), and [C++](https://en.wikipedia.org/wiki/C++), which [use the same syntax](https://en.wikipedia.org/wiki/Polyglot_(computing)) in this case).
+: Hyponym of [loop construct](#loopconstructdef).
+
+[^whileloopconstructdef1]: ["The while and do-while Statements (The Java™ Tutorials > Learning the Java Language > Language Basics)"](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html). *Dosc.oracle.com*. Retrieved 2016-10-21.
+[^whileloopconstructdef2]: ["while (C# reference)"](http://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx). *Msdn.microsoft.com*. Retrieved 2016-10-21.
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
 
@@ -337,6 +367,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
 - [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
+- [While loop](https://en.wikipedia.org/w/index.php?title=While_loop&oldid=881424645)
 - [?:](https://en.wikipedia.org/w/index.php?title=%3F:&oldid=880334289)
 
 on Wikipedia, with changes made, and:
@@ -431,3 +462,4 @@ on Wiktionary, with changes made.
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
 [^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
 [^valuedef-note1]: This definition is based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).
+[^whileloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/While_loop).

@@ -185,6 +185,10 @@ end if
 : In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [plus signs](https://en.wikipedia.org/wiki/Plus_and_minus_signs#Plus_sign) (`++`), and its operand must be an [lvalue](#lvaluedef) [^incrementoperatordef-note2]. It can be used as a prefix (`++foo`) or a postfix (`foo++`). As a prefix, it increases the [value](#valuedef) of its operand by 1, and the value of the expression is the resulting incremented value. As a postfix, it increases the value of its operand by 1, but the value of the expression is the operand's original value *prior* to the increment operation.[^incrementoperatordef-note1]
 : Hyponym of [operator](#operatordef).
 
+**iteration** {: #iterationdef }
+: count noun
+: A single repetition of the [statements](#statementdef) within a repetitive process, especially a [loop construct](#loopconstructdef).[^iterationdef-note1]
+
 **leading** {: #leadingdef }
 : adjective
 : Occuring at the beginning[^leadingdef] of a line.
@@ -202,6 +206,10 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : In [C++](https://en.wikipedia.org/wiki/C++), the [logical AND](https://en.wikipedia.org/wiki/Logical_conjunction) operator connects the logic of multiple expressions using [short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation).[^logicaloperatordef-note4] The operator is two ampersands (`&&`), for example `a && b` means `a` **and** `b`.[^logicaloperatordef-note3]
 : In [C++](https://en.wikipedia.org/wiki/C++), the [logical inclusive OR](https://en.wiktionary.org/wiki/inclusive_or) operator connects the logic of multiple expressions using [short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation).[^logicaloperatordef-note4] The operator is two pipe characters (`||`), for example `a || b` means `a` **or** `b`.[^logicaloperatordef-note3]
 : Hyponym of [operator](#operatordef).
+
+**loop construct** {: #loopconstructdef }
+: count noun
+: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of four possible ways: a specified number of times, once for each of a collection of items, until some condition is met, or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
 
 **lvalue** {: #lvaluedef }
 : count noun
@@ -302,9 +310,10 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Conditional (computer programming)§If–then–else expressions](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#If%E2%80%93then%E2%80%93else_expressions)
 - [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
+- [Control flow§Loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Loops)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
-- [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147).
+- [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
 - [Increment and decrement operators](https://en.wikipedia.org/w/index.php?title=Increment_and_decrement_operators&oldid=879445217)
@@ -334,6 +343,7 @@ on Wikipedia, with changes made, and:
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [constant](https://en.wiktionary.org/w/index.php?title=constant&oldid=51246036)
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
+- [iteration](https://en.wiktionary.org/w/index.php?title=iteration&oldid=51175255)
 - [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
@@ -379,12 +389,14 @@ on Wiktionary, with changes made.
 [^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
 [^incrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^incrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
+[^iterationdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/iteration).
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).
 [^logicaloperatordef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Operators_in_C_and_C++#Logical_operators).
 [^logicaloperatordef-note3]: Requires [`iso646.h`](https://en.wikipedia.org/wiki/Iso646.h) in C. See [C++ operator synonyms](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#C.2B.2B_operator_synonyms)
 [^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
+[^loopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Loops).
 [^lvaluedef1]: <https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/>
 [^lvaluedef2]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
 [^lvaluedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/lvalue).

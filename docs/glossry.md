@@ -86,6 +86,10 @@ else
 : count noun
 : An [identifier](https://en.wiktionary.org/wiki/identifier) that is [bound](https://en.wiktionary.org/wiki/bound) to an [invariant](https://en.wiktionary.org/wiki/invariant) value; a fixed value given a name to aid in readability of [source code](https://en.wiktionary.org/wiki/source_code).[^constantdef-note1]
 
+**control variable** {: #controlvariabledef }
+: count noun
+: A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
+
 **datum** {: #datumdef }
 : count noun, plurally **data**
 : Any sequence of one or more [symbols](#symboldef) given meaning by one or more specific acts of interpretation.  
@@ -311,6 +315,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Conditional (computer programming)§If–then–else expressions](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#If%E2%80%93then%E2%80%93else_expressions)
 - [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
 - [Control flow§Loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Loops)
+- [Control variable (programming)](https://en.wikipedia.org/w/index.php?title=Control_variable_(programming)&oldid=868177931)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147)
@@ -366,6 +371,8 @@ on Wiktionary, with changes made.
 [^conditionaloperatordef-note2]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/%3F:).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
+[^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.
+[^controlvariabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_variable_(programming)).
 [^datatypedef1]: [type](http://foldoc.org/type) at the *[Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)*
 [^datatypedef2]: [Shaffer, C. A. (2011). *Data Structures & Algorithm Analysis in C++* (3rd ed.). Mineola, NY: Dover. 1.2. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-0-486-48582-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-486-48582-9).
 [^datatypedef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Data_type).

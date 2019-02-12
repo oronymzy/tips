@@ -52,6 +52,12 @@ The function of blocks in programming is to enable groups of statements to be tr
 : For its etymology, it is named after [George Boole](https://en.wikipedia.org/wiki/George_Boole), who first defined an algebraic system of logic in the mid 19th century.[^Booleandatatypedef-note1]
 : Hyponym of [data type](#datatypedef).
 
+**condition-controlled loop construct** {: #conditioncontrolledloopconstructdef }
+: count noun
+: A [loop construct](#loopconstructdef) that [iterates](#iterationdef) while some condition is met.[^conditioncontrolledloopconstructdef-note1]
+: Hypernym of [while-loop construct](#whileloopconstructdef).
+: Hyponym of [loop construct](#loopconstructdef).
+
 **condition** {: #conditiondef }
 : count noun
 : A [Boolean](#Booleandef) logical clause or phrase.[^conditiondef-note1]
@@ -214,7 +220,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 **loop construct** {: #loopconstructdef }
 : count noun
 : A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of five possible ways: a specified number of times, once for each of a collection of items, [while some condition is met](#whileloopconstructdef), until some condition is met, or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
-: Hypernym of [while-loop construct](#whileloopconstructdef).
+: Hypernym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 
 **lvalue** {: #lvaluedef }
 : count noun
@@ -324,7 +330,7 @@ while (true)
 ```
 : The code fragment above shows that it is possible, and in some cases desirable, for the condition to *always* evaluate to true, creating an [infinite loop](https://en.wikipedia.org/wiki/Infinite_loop). When such a loop is created intentionally, there is usually another control structure (such as a [break](https://en.wikipedia.org/wiki/Control_flow) statement) that controls termination of the loop.  
 The code fragments above are written in the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)) (as well as [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)),[^whileloopconstructdef2] [Objective-C](https://en.wikipedia.org/wiki/Objective-C), and [C++](https://en.wikipedia.org/wiki/C++), which [use the same syntax](https://en.wikipedia.org/wiki/Polyglot_(computing)) in this case).
-: Hyponym of [loop construct](#loopconstructdef).
+: Hyponym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 
 [^whileloopconstructdef1]: ["The while and do-while Statements (The Java™ Tutorials > Learning the Java Language > Language Basics)"](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html). *Dosc.oracle.com*. Retrieved 2016-10-21.
 [^whileloopconstructdef2]: ["while (C# reference)"](http://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx). *Msdn.microsoft.com*. Retrieved 2016-10-21.
@@ -345,6 +351,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Conditional (computer programming)§If–then–else expressions](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#If%E2%80%93then%E2%80%93else_expressions)
 - [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
 - [Control flow§Loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Loops)
+- [Control flow§Condition-controlled loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Condition-controlled_loops)
 - [Control variable (programming)](https://en.wikipedia.org/w/index.php?title=Control_variable_(programming)&oldid=868177931)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
@@ -400,6 +407,7 @@ on Wiktionary, with changes made.
 [^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.
 [^conditionaloperatordef-note1]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/Conditional_operator).
 [^conditionaloperatordef-note2]: This definition is based on a definition from [Wikipedia](https://en.wikipedia.org/wiki/%3F:).
+[^conditioncontrolledloopconstructdef-note1]: This definition is loosely based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.

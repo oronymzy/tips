@@ -102,8 +102,8 @@ Data can be organized in many different types of [data structures](https://en.wi
 
 **decrement operator** {: #decrementoperatordef }
 : count noun
-: A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that decreases the [value](#valuedef) of its operand by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are decreased by an amount that makes them point to the next element adjacent in memory.[^decrementoperatordef-note1]
-: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`).
+: A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that decreases the [value](#valuedef) of its [operand](#operanddef) by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are decreased by an amount that makes them point to the next element adjacent in memory.[^decrementoperatordef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`), and its operand must be an [lvalue](#lvaluedef) [^decrementoperatordef-note2].
 : Hyponym of [operator](#operatordef).
 
 **else-clause** {: #elseclausedef }
@@ -181,8 +181,8 @@ end if
 
 **increment operator** {: #incrementoperatordef }
 : count noun
-: A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that increases the [value](#valuedef) of its operand by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are increased by an amount that makes them point to the next element adjacent in memory.[^incrementoperatordef-note1]
-: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [plus signs](https://en.wikipedia.org/wiki/Plus_and_minus_signs#Plus_sign) (`++`).
+: A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that increases the [value](#valuedef) of its operand by 1. The [operand](#operanddef) must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef). Pointer values are increased by an amount that makes them point to the next element adjacent in memory.[^incrementoperatordef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [plus signs](https://en.wikipedia.org/wiki/Plus_and_minus_signs#Plus_sign) (`++`), and its operand must be an [lvalue](#lvaluedef) [^incrementoperatordef-note2].
 : Hyponym of [operator](#operatordef).
 
 **leading** {: #leadingdef }
@@ -202,6 +202,13 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : In [C++](https://en.wikipedia.org/wiki/C++), the [logical AND](https://en.wikipedia.org/wiki/Logical_conjunction) operator connects the logic of multiple expressions using [short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation).[^logicaloperatordef-note4] The operator is two ampersands (`&&`), for example `a && b` means `a` **and** `b`.[^logicaloperatordef-note3]
 : In [C++](https://en.wikipedia.org/wiki/C++), the [logical inclusive OR](https://en.wiktionary.org/wiki/inclusive_or) operator connects the logic of multiple expressions using [short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation).[^logicaloperatordef-note4] The operator is two pipe characters (`||`), for example `a || b` means `a` **or** `b`.[^logicaloperatordef-note3]
 : Hyponym of [operator](#operatordef).
+
+**lvalue** {: #lvaluedef }
+: count noun
+: A [value](#valuedef) that refers to a [data object](https://en.wikipedia.org/wiki/Data_object) that persists beyond a single [expression](#expressiondef).[^lvaluedef2] In many languages, notably the [C family](https://en.wikipedia.org/wiki/C_programming_language), an lvalue has a [storage address](https://en.wikipedia.org/wiki/Memory_address) that is programmatically accessible to the running program (for example, via some address-of operator like `&` in C/C++), meaning that it is a variable or dereferenced reference to a certain memory location.[^lvaluedef-note2]
+: For its etymology, it comes from *[L](https://en.wiktionary.org/wiki/L#English)* +‎ *[value](#valuedef)*, where *L* stands for *left-hand side*, deriving from the typical mode of evaluation on the left and [right](#rvaluedef) hand side of an [assignment](#assignmentconstructdef) [statement](#statementdef).[^lvaluedef-note2] In context of the [C programming language](https://en.wiktionary.org/wiki/C#English-programming_language) it is usually expanded as *[locator](https://en.wiktionary.org/wiki/locator#English)* *value*.[^lvaluedef-note1]
+: In [C](https://en.wikipedia.org/wiki/C_(programming_language)), if an lvalue refers to a modifiable data object, it is called a **modifiable lvalue**.[^lvaluedef1]
+: Hyponym of [value](#valuedef).
 
 **nest** {: #nestdef }
 : verb
@@ -231,6 +238,12 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A [programming language](https://en.wikipedia.org/wiki/Programming_language) construct or [operator](#operatordef) that tests or defines some kind of [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) between [two entities](https://en.wikipedia.org/wiki/Binary_function). These include numerical [equality](https://en.wikipedia.org/wiki/Equality_(mathematics)) (*e.g.*, [5 = 5]) and [inequality](https://en.wikipedia.org/wiki/Inequality_(mathematics)) (*e.g.*, [4 ≥ 3]). Relational operators can be seen as special cases of logical [predicates](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)).[^relationaloperatordef-note1]
 : Hyponym of [operator](#operatordef).
+
+**rvalue** {: #rvaluedef }
+: count noun
+: A temporary [value](#valuedef) that does not persist beyond the [expression](#expressiondef) that uses it.[^rvaluedef1]
+: For its etymology, it comes from *[R](https://en.wiktionary.org/wiki/R#English)* +‎ *[value](#valuedef)*, where *R* stands for *right-hand side*, deriving from the typical mode of evaluation on the [left](#lvaluedef) and right hand side of an [assignment](#assignmentconstructdef) [statement](#statementdef).[^rvaluedef-note1]
+: Hyponym of [value](#valuedef).
 
 **separator** {: #separatordef }
 : count noun
@@ -272,6 +285,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 **value** {: #valuedef }
 : count noun
 : A member of the set of possible interpretations of any possibly-infinite sequence of [symbols](#symboldef).[^valuedef-note1]
+: Hypernym of [lvalue](#lvaluedef) and [rvalue](#rvaluedef).
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
@@ -308,6 +322,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
+- [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
 - [?:](https://en.wikipedia.org/w/index.php?title=%3F:&oldid=880334289)
 
 on Wikipedia, with changes made, and:
@@ -319,6 +334,7 @@ on Wikipedia, with changes made, and:
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [constant](https://en.wiktionary.org/w/index.php?title=constant&oldid=51246036)
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
+- [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
@@ -349,6 +365,7 @@ on Wiktionary, with changes made.
 [^datumdef4]: Gantz, John F.; et al. (2008). ["The Diverse and Exploding Digital Universe"](https://web.archive.org/web/20080311234210/http://www.emc.com/leadership/digital-universe/expanding-digital-universe.htm). International Data Corporation via EMC. Archived from [the original](http://www.emc.com/leadership/digital-universe/expanding-digital-universe.htm) on 2008-03-11. Retrieved 2008-03-12.
 [^datumdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Data_(computing)).
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
+[^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^entitydef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entity).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
@@ -361,12 +378,17 @@ on Wiktionary, with changes made.
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
 [^incrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
+[^incrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).
 [^logicaloperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Logical_connective).
 [^logicaloperatordef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Operators_in_C_and_C++#Logical_operators).
 [^logicaloperatordef-note3]: Requires [`iso646.h`](https://en.wikipedia.org/wiki/Iso646.h) in C. See [C++ operator synonyms](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#C.2B.2B_operator_synonyms)
 [^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
+[^lvaluedef1]: <https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/>
+[^lvaluedef2]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
+[^lvaluedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/lvalue).
+[^lvaluedef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Value_(computer_science)#Assignment:_l-values_and_r-values).
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).
@@ -374,6 +396,8 @@ on Wiktionary, with changes made.
 [^operatordef-note2]: Based on [information from Wikipedia](https://en.wikipedia.org/wiki/Operator_associativity).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
+[^rvaluedef1]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
+[^rvaluedef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Value_(computer_science)#Assignment:_l-values_and_r-values).
 [^separatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement separator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
 [^statementdef1]: ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia. Retrieved 2015-03-03.
 [^statementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).

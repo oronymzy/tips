@@ -103,7 +103,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 **decrement operator** {: #decrementoperatordef }
 : count noun
 : A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that decreases the [value](#valuedef) of its [operand](#operanddef) by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are decreased by an amount that makes them point to the next element adjacent in memory.[^decrementoperatordef-note1]
-: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`), and its operand must be an [lvalue](#lvaluedef) [^decrementoperatordef-note2].
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`), and its operand must be an [lvalue](#lvaluedef) [^decrementoperatordef-note2]. It can be used as a prefix (`--foo`) or a postfix (`foo--`). As a prefix, it decreases the [value](#valuedef) of its operand by 1, and the value of the expression is the resulting decremented value. As a postfix, it decreases the value of its operand by 1, but the value of the expression is the operand's original value *prior* to the decrement operation.[^decrementoperatordef-note1]
 : Hyponym of [operator](#operatordef).
 
 **else-clause** {: #elseclausedef }
@@ -182,7 +182,7 @@ end if
 **increment operator** {: #incrementoperatordef }
 : count noun
 : A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that increases the [value](#valuedef) of its operand by 1. The [operand](#operanddef) must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef). Pointer values are increased by an amount that makes them point to the next element adjacent in memory.[^incrementoperatordef-note1]
-: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [plus signs](https://en.wikipedia.org/wiki/Plus_and_minus_signs#Plus_sign) (`++`), and its operand must be an [lvalue](#lvaluedef) [^incrementoperatordef-note2].
+: In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [plus signs](https://en.wikipedia.org/wiki/Plus_and_minus_signs#Plus_sign) (`++`), and its operand must be an [lvalue](#lvaluedef) [^incrementoperatordef-note2]. It can be used as a prefix (`++foo`) or a postfix (`foo++`). As a prefix, it increases the [value](#valuedef) of its operand by 1, and the value of the expression is the resulting incremented value. As a postfix, it increases the value of its operand by 1, but the value of the expression is the operand's original value *prior* to the increment operation.[^incrementoperatordef-note1]
 : Hyponym of [operator](#operatordef).
 
 **leading** {: #leadingdef }

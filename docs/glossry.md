@@ -114,6 +114,10 @@ Data representing [quantities](https://en.wikipedia.org/wiki/Quantities), charac
 A [program](https://en.wikipedia.org/wiki/Computer_program) is a set of data that consists of a series of coded software instructions to control the operation of a computer or other machine.[^datumdef2] Physical [computer memory](https://en.wikipedia.org/wiki/Computer_memory) elements consist of an address and a byte/word of data storage. Digital data are often stored in [relational databases](https://en.wikipedia.org/wiki/RDBMS), like [tables](https://en.wikipedia.org/wiki/Table_(database)) or SQL databases, and can generally be represented as abstract key/value pairs.  
 Data can be organized in many different types of [data structures](https://en.wikipedia.org/wiki/Data_structures), including arrays, [graphs](https://en.wikipedia.org/wiki/Graph_(data_structure)), and [objects](https://en.wikipedia.org/wiki/Object_(computer_science)). Data structures can store data of many different [types](#datatypedef), including [numbers](https://en.wikipedia.org/wiki/Floating_point), [strings](https://en.wikipedia.org/wiki/String_(computer_science)) and even other [data structures](https://en.wikipedia.org/wiki/Recursive_type). Data pass in and out of computers via [peripheral devices](https://en.wikipedia.org/wiki/Peripheral). The total amount of digital data in 2007 was estimated to be 281 billion [gigabytes](https://en.wikipedia.org/wiki/Gigabytes) (= 281 [exabytes](https://en.wikipedia.org/wiki/Exabytes)).[^datumdef3] [^datumdef4] [Digital data](https://en.wikipedia.org/wiki/Digital_data) comes in these three states: [data at rest](https://en.wikipedia.org/wiki/Data_at_rest), [data in transit](https://en.wikipedia.org/wiki/Data_in_transit) and [data in use](https://en.wikipedia.org/wiki/Data_in_use). [^datumdef-note1]
 
+**decrement** {: #decrementdef }
+: verb
+: To decrease in [value](#valuedef) by a basic quantity unit, especially by 1.[^decrementdef-note1]
+
 **decrement operator** {: #decrementoperatordef }
 : count noun
 : A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that decreases the [value](#valuedef) of its [operand](#operanddef) by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are decreased by an amount that makes them point to the next element adjacent in memory.[^decrementoperatordef-note1]
@@ -192,6 +196,10 @@ end if
 ```
 : In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several [conditionals](#conditionaldef). Only the statements following the first `(condition)` that is found to be true will be executed. All other statements will be skipped.[^ifconstructdef-note2]
 : Holonym of [else-clause](#elseclausedef), [else-clause](#elseifclausedef), and [if-clause](#ifclausedef).
+
+**increment** {: #incrementdef }
+: verb
+: To increase in [value](#valuedef) by a basic quantity unit, especially by 1.[^incrementdef-note1]
 
 **increment operator** {: #incrementoperatordef }
 : count noun
@@ -322,7 +330,7 @@ while (x < 5)
     x++;
 }
 ```
-: For example, the code fragment above first checks whether `x` is less than 5, which it is, so then the loop body within the curly brackets is entered, where the `printf` [subroutine](#subroutinedef) is run and `x` is [incremented](#incrementoperatordef) by 1. After completing all the statements in the loop body, the condition, (x < 5), is checked again, and the loop is executed again, this process repeating until the [variable](https://en.wikipedia.org/wiki/Variable_(programming)) `x` has the value 5.  
+: For example, the code fragment above first checks whether `x` is less than 5, which it is, so then the loop body within the curly brackets is entered, where the `printf` [subroutine](#subroutinedef) is run and `x` is [incremented](#incrementdef) by 1. After completing all the statements in the loop body, the condition, (x < 5), is checked again, and the loop is executed again, this process repeating until the [variable](https://en.wikipedia.org/wiki/Variable_(programming)) `x` has the value 5.  
 : 
 ```
 while (true)
@@ -390,7 +398,9 @@ on Wikipedia, with changes made, and:
 - [condition](https://en.wiktionary.org/w/index.php?title=condition&oldid=51410719)
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [constant](https://en.wiktionary.org/w/index.php?title=constant&oldid=51246036)
+- [decrement§verb](https://en.wiktionary.org/w/index.php?title=decrement&oldid=50276969#Verb)
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
+- [increment§verb](https://en.wiktionary.org/w/index.php?title=increment&oldid=51035067#Verb)
 - [iteration](https://en.wiktionary.org/w/index.php?title=iteration&oldid=51175255)
 - [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
@@ -428,6 +438,7 @@ on Wiktionary, with changes made.
 [^datumdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Data_(computing)).
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
+[^decrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
 [^entitydef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entity).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
@@ -439,6 +450,7 @@ on Wiktionary, with changes made.
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
+[^incrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
 [^incrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^incrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^iterationdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/iteration).

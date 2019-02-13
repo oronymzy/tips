@@ -58,11 +58,6 @@ The function of blocks in programming is to enable groups of statements to be tr
 : Hypernym of [do-while-loop construct](#dowhileloopconstructdef) and [while-loop construct](#whileloopconstructdef).
 : Hyponym of [loop construct](#loopconstructdef).
 
-**count-controlled loop construct** {: #countcontrolledloopconstructdef }
-: count noun
-: A [loop construct](#loopconstructdef) that [iterates](#iterationdef) a certain number of times.[^countcontrolledloopconstructdef-note1]
-: Hyponym of [loop construct](#loopconstructdef).
-
 **condition** {: #conditiondef }
 : count noun
 : A [Boolean](#Booleandef) logical clause or phrase.[^conditiondef-note1]
@@ -100,6 +95,12 @@ else
 **control variable** {: #controlvariabledef }
 : count noun
 : A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
+
+**count-controlled loop construct** {: #countcontrolledloopconstructdef }
+: count noun
+: A [loop construct](#loopconstructdef) that [iterates](#iterationdef) a certain number of times.[^countcontrolledloopconstructdef-note1]
+: Hypernym of [for-loop construct](#forloopconstructdef).
+: Hyponym of [loop construct](#loopconstructdef).
 
 **counter** {: #counterdef }
 : count noun
@@ -175,6 +176,11 @@ else if (condition) then
 **flag** {: #flagdef }
 : count noun
 : A variable or memory location that stores a [Boolean](#Booleandef) [value](#valuedef), typically either recording the fact that a certain event has occurred or requesting that a certain optional action take place.[^flagdef-note1]
+
+**for-loop construct** {: #forloopconstructdef }
+: count noun
+: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly, typically when the number of [iterations](#iterationdef) is known before entering the loop. A for-loop construct can be thought of as shorthand for a [while-loop construct](#whileloopconstructdef). A for-loop construct has two parts: a **for-loop header** specifying the iteration, and a **for-loop body** which is executed once per iteration. The header often declares an explicit [loop counter](#loopcounterdef), which allows the body to know which iteration is being executed.[^forloopconstructdef-note1]
+: Hyponym of [count-controlled loop construct](#countcontrolledloopconstructdef).
 
 **if-clause** {: #ifclausedef }
 : count noun
@@ -392,6 +398,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
+- [For loop](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986).
 - [For loop§Loop counters](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986#Loop_counters)
 - [Increment and decrement operators](https://en.wikipedia.org/w/index.php?title=Increment_and_decrement_operators&oldid=879445217)
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
@@ -472,6 +479,7 @@ on Wiktionary, with changes made.
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
 [^flagdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/flag#Noun).
+[^forloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/For_loop).
 [^conditionalexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).

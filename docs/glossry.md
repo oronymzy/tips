@@ -58,6 +58,11 @@ The function of blocks in programming is to enable groups of statements to be tr
 : Hypernym of [do-while-loop construct](#dowhileloopconstructdef) and [while-loop construct](#whileloopconstructdef).
 : Hyponym of [loop construct](#loopconstructdef).
 
+**count-controlled loop construct** {: #countcontrolledloopconstructdef }
+: count noun
+: A [loop construct](#loopconstructdef) that [iterates](#iterationdef) a certain number of times.[^countcontrolledloopconstructdef-note1]
+: Hyponym of [loop construct](#loopconstructdef).
+
 **condition** {: #conditiondef }
 : count noun
 : A [Boolean](#Booleandef) logical clause or phrase.[^conditiondef-note1]
@@ -241,9 +246,9 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **loop construct** {: #loopconstructdef }
 : count noun
-: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of four possible ways: a specified number of times, [once for each of a collection of items](https://en.wikipedia.org/wiki/Foreach_loop), [while some condition is met](#conditioncontrolledloopconstructdef), or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
+: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of four possible ways: [a specified number of times](#countcontrolledloopconstructdef), [once for each of a collection of items](https://en.wikipedia.org/wiki/Foreach_loop), [while some condition is met](#conditioncontrolledloopconstructdef), or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
 : A loop construct has a [loop counter](#loopcounterdef).
-: Hypernym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
+: Hypernym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef) and [count-controlled loop construct](#countcontrolledloopconstructdef).
 
 **loop counter** {: #loopcounterdef }
 : count noun
@@ -378,6 +383,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
 - [Control flow§Loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Loops)
 - [Control flow§Condition-controlled loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Condition-controlled_loops)
+- [Control flow§Count-controlled loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Count-controlled_loops)
 - [Control variable (programming)](https://en.wikipedia.org/w/index.php?title=Control_variable_(programming)&oldid=868177931)
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
@@ -444,6 +450,7 @@ on Wiktionary, with changes made.
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.
 [^controlvariabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_variable_(programming)).
+[^countcontrolledloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Count-controlled_loops).
 [^counterdef-note1]: Based on information from page 241 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^counterdef-note2]: This definition is based on a definition from [Wiktionary](https://en.wiktionary.org/wiki/counter).
 [^datatypedef1]: [type](http://foldoc.org/type) at the *[Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)*

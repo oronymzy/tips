@@ -242,7 +242,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **loop counter** {: #loopcounterdef }
 : count noun
-: A [counter](#counterdef) that controls the [iterations](#iterationdef) of a [loop construct](#loopconstructdef). Most uses of a loop construct result in the loop counter taking on a range of integer values in some orderly sequences (for example, starting at 0 and ending at 10 in [increments](#incrementdef) of 1). Loop counters change with each iteration of a loop, providing a unique value for each individual iteration. The loop counter is used to decide when the loop should terminate and for the program flow to continue to the next instruction after the loop.[^loopcounterdef-note1]
+: A [counter](#counterdef) that controls the [iterations](#iterationdef) of a [loop construct](#loopconstructdef). Most uses of a loop construct result in the loop counter taking on a range of integer values in some orderly sequences (for example, starting at 0 and ending at 10 in [increments](#incrementdef) of 1). Loop counters change with each iteration of a loop, providing a unique value for each individual iteration. The loop counter is used to decide when the loop should terminate and for the program flow to continue to the next instruction after the loop.[^loopcounterdef-note1] A loop counter must be [initialized](https://en.wikipedia.org/wiki/Initialization_(programming)) before it is used.[^loopcounterdef-note2]
 : Hyponym of [counter](#counterdef).
 
 **lvalue** {: #lvaluedef }
@@ -477,6 +477,7 @@ on Wiktionary, with changes made.
 [^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^loopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Loops).
 [^loopcounterdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/For_loop#Loop_counters).
+[^loopcounterdef-note2]: Based on information from page 242 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^lvaluedef1]: <https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/>
 [^lvaluedef2]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
 [^lvaluedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/lvalue).

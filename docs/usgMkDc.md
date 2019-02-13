@@ -11,7 +11,7 @@ MkDocs uses [lunr.js](https://lunrjs.com/) as its search engine[^usgMkDc2], but 
     
     By design, MkDocs does not provide the option of excluding any of the files in `docs_dir` when building `site_dir`.[^usgMkDc3] [^usgMkDc4]
 
-## [`mkdocs.yml` configuration file]
+## [`mkdocs.yml` configuration file](https://www.mkdocs.org/user-guide/configuration/)
 The MkDocs configuration file is formatted with [YAML](https://yaml.org/).
 
 MkDocs supports a number of [Python-Markdown](https://python-markdown.github.io/extensions/)[^usgMkDc1] and [PyMdown](https://facelessuser.github.io/PyMdown/) extensions, with documentation available from [facelessuser](https://facelessuser.github.io/pymdown-extensions/) and [squidfunk](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/). They are enabled and customized through the `mkdocs.yml` configuration file.
@@ -158,7 +158,6 @@ Additional documentation is available for [Material for MkDocs](https://squidfun
 - The method of disabling automatically-generated edit buttons was introduced to me by [a page on the MkDocs website](https://www.mkdocs.org/user-guide/configuration/#edit_uri) and [the Getting started page on the Material for MkDocs website](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-a-source-repository).
 - The possibility of using an additional stylesheet to change the appearance of MkDocs was introduced to me by [a comment on GitHub by squidfunk](https://github.com/squidfunk/mkdocs-material/issues/466#issuecomment-330044473).
 
-[`mkdocs.yml` configuration file]: https://www.mkdocs.org/user-guide/configuration/
 [admonition extension]: https://squidfunk.github.io/mkdocs-material/extensions/admonition/
 [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
 [MkDocs]: https://www.mkdocs.org/

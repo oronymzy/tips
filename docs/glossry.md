@@ -99,6 +99,7 @@ else
 **counter** {: #counterdef }
 : count noun
 : A variable whose contents are incremented or decremented[^counterdef-note1] to keep a count.[^counterdef-note2]
+: Hypernym of [loop counter](#loopcounterdef).
 
 **data type** {: #datatypedef }
 : count noun
@@ -236,7 +237,13 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 **loop construct** {: #loopconstructdef }
 : count noun
 : A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of five possible ways: a specified number of times, once for each of a collection of items, [while some condition is met](#whileloopconstructdef), until some condition is met, or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
+: A loop construct has a [loop counter](#loopcounterdef).
 : Hypernym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
+
+**loop counter** {: #loopcounterdef }
+: count noun
+: A [counter](#counterdef) that controls the [iterations](#iterationdef) of a [loop construct](#loopconstructdef). Most uses of a loop construct result in the loop counter taking on a range of integer values in some orderly sequences (for example, starting at 0 and ending at 10 in [increments](#incrementdef) of 1). Loop counters change with each iteration of a loop, providing a unique value for each individual iteration. The loop counter is used to decide when the loop should terminate and for the program flow to continue to the next instruction after the loop.[^loopcounterdef-note1]
+: Hyponym of [counter](#counterdef).
 
 **lvalue** {: #lvaluedef }
 : count noun
@@ -292,7 +299,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 **subroutine** {: #subroutinedef }
 : count noun
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
-: Subroutines have [arity](#aritydef).
+: A subroutine has [arity](#aritydef).
 
 **switch statement** {: #switchstatementdef }
 : count noun
@@ -375,6 +382,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
+- [For loop§Loop counters](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986#Loop_counters)
 - [Increment and decrement operators](https://en.wikipedia.org/w/index.php?title=Increment_and_decrement_operators&oldid=879445217)
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
@@ -468,6 +476,7 @@ on Wiktionary, with changes made.
 [^logicaloperatordef-note3]: Requires [`iso646.h`](https://en.wikipedia.org/wiki/Iso646.h) in C. See [C++ operator synonyms](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#C.2B.2B_operator_synonyms)
 [^logicaloperatordef-note4]: Based on information from pages 182-187 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^loopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Loops).
+[^loopcounterdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/For_loop#Loop_counters).
 [^lvaluedef1]: <https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/>
 [^lvaluedef2]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
 [^lvaluedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/lvalue).

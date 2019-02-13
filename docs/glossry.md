@@ -54,7 +54,7 @@ The function of blocks in programming is to enable groups of statements to be tr
 
 **condition-controlled loop construct** {: #conditioncontrolledloopconstructdef }
 : count noun
-: A [loop construct](#loopconstructdef) that [iterates](#iterationdef) while some condition is met.[^conditioncontrolledloopconstructdef-note1]
+: A [loop construct](#loopconstructdef) that [iterates](#iterationdef) while some [condition](#conditiondef) is met.[^conditioncontrolledloopconstructdef-note1]
 : Hypernym of [do-while-loop construct](#dowhileloopconstructdef) and [while-loop construct](#whileloopconstructdef).
 : Hyponym of [loop construct](#loopconstructdef).
 
@@ -241,7 +241,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **loop construct** {: #loopconstructdef }
 : count noun
-: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of five possible ways: a specified number of times, once for each of a collection of items, [while some condition is met](#whileloopconstructdef), until some condition is met, or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
+: A construct, made up of one or more [statements](#statementdef), that may be carried out multiple successive times in a sequence of [iterations](#iterationdef). The statements “inside” the loop construct (also known as the **body** of the loop construct) are executed in one of four possible ways: a specified number of times, [once for each of a collection of items](https://en.wikipedia.org/wiki/Foreach_loop), [while some condition is met](#conditioncontrolledloopconstructdef), or [indefinitely](https://en.wikipedia.org/wiki/Infinite_loop).[^loopconstructdef-note1]
 : A loop construct has a [loop counter](#loopcounterdef).
 : Hypernym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 

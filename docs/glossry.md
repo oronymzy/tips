@@ -299,17 +299,15 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 **statement** {: #statementdef }
 : count noun
 : A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that changes the program state or performs some kind of action.[^statementdef1] [^statementdef-note2] It also has meaning.[^statementdef-note3] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). Boundaries between statements are demarcated by [separators](#separatordef), and the end of a statement is demarcated by a [terminator](#terminatordef). [^statementdef-note1]
-: Hypernym of [switch statement](#switchstatementdef).
 
 **subroutine** {: #subroutinedef }
 : count noun
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
 : A subroutine has [arity](#aritydef).
 
-**switch statement** {: #switchstatementdef }
+**switch construct** {: #switchconstructdef }
 : count noun
-A type of selection control mechanism used to allow the value of a [variable](https://en.wikipedia.org/wiki/Variable_(programming)) or [expression](#expressiondef) to change the [control flow](https://en.wikipedia.org/wiki/Control_flow) of program execution via search and map.[^switchstatementdef-note1]
-: Hyponym of [statement](#statementdef).
+A type of selection control mechanism used to allow the value of a [variable](https://en.wikipedia.org/wiki/Variable_(programming)) or [expression](#expressiondef) to change the [control flow](https://en.wikipedia.org/wiki/Control_flow) of program execution via search and map.[^switchconstructdef-note1]
 
 **symbol** {: #symboldef }
 : count noun
@@ -505,7 +503,7 @@ on Wiktionary, with changes made.
 [^statementdef-note3]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^subroutinedef1]: [U.S. Election Assistance Commission](https://en.wikipedia.org/wiki/Election_Assistance_Commission "Election Assistance Commission") (2007). ["Definitions of Words with Special Meanings"](https://web.archive.org/web/20121208084203/http://www.eac.gov/vvsg/glossary.aspx). *[Voluntary Voting System Guidelines](https://en.wikipedia.org/wiki/Voluntary_Voting_System_Guidelines "Voluntary Voting System Guidelines")*. Archived from [the original](http://www.eac.gov/vvsg/glossary.aspx) on 2012-12-08. Retrieved 2013-01-14.
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
-[^switchstatementdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).
+[^switchconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).
 [^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).
 [^terminatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement terminator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>

@@ -68,7 +68,7 @@ For the purposes of these tables, `a`, `b`, and `c` represent valid values (lite
 | relational         | Greater than or equal to                                                        | `a >= b`                                               | Yes{: .yes}         | Yes{: .yes}     | `bool K::operator >=(S const& b) const;` | `bool operator >=(K const& a, S const& b);`
 | relational         | Less than or equal to                                                           | `a <= b`                                               | Yes{: .yes}         | Yes{: .yes}     | `bool K::operator <=(S const& b);` | `bool operator <=(K const& a, S const& b);`
 
-## augmented assignment operators
+### augmented assignment operators
 
 In [C](https://en.wikipedia.org/wiki/C_(programming_language)), [C++](https://en.wikipedia.org/wiki/C%2B%2B), and [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), the assignment operator is `=`, which is augmented as follows:
 

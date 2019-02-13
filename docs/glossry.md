@@ -96,6 +96,10 @@ else
 : count noun
 : A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
 
+**counter** {: #counterdef }
+: count noun
+: A variable whose contents are incremented or decremented[^counterdef-note1] to keep a count.[^counterdef-note2]
+
 **data type** {: #datatypedef }
 : count noun
 : An attribute of [data](#datumdef) which tells the [compiler](https://en.wikipedia.org/wiki/Compiler) or [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) how the programmer intends to use the data. Most programming languages support common data types of [real](https://en.wikipedia.org/wiki/Real_number), [integer](https://en.wikipedia.org/wiki/Integer_(computer_science)) and [Boolean](#Booleandatatypedef). A data type constrains the [values](#valuedef) that an [expression](#expressiondef), such as a variable or a [subroutine](#subroutinedef), might take. This data type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored. A type of value from which an expression may take its value.[^datatypedef1] [^datatypedef2] [^datatypedef-note1]
@@ -398,6 +402,7 @@ on Wikipedia, with changes made, and:
 - [condition](https://en.wiktionary.org/w/index.php?title=condition&oldid=51410719)
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [constant](https://en.wiktionary.org/w/index.php?title=constant&oldid=51246036)
+- [counter](https://en.wiktionary.org/w/index.php?title=counter&oldid=51103193)
 - [decrement§verb](https://en.wiktionary.org/w/index.php?title=decrement&oldid=50276969#Verb)
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
 - [increment§verb](https://en.wiktionary.org/w/index.php?title=increment&oldid=51035067#Verb)
@@ -427,6 +432,8 @@ on Wiktionary, with changes made.
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.
 [^controlvariabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_variable_(programming)).
+[^counterdef-note1]: Based on information from page 241 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
+[^counterdef-note2]: This definition is based on a definition from [Wiktionary](https://en.wiktionary.org/wiki/counter).
 [^datatypedef1]: [type](http://foldoc.org/type) at the *[Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)*
 [^datatypedef2]: [Shaffer, C. A. (2011). *Data Structures & Algorithm Analysis in C++* (3rd ed.). Mineola, NY: Dover. 1.2. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-0-486-48582-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-486-48582-9).
 [^datatypedef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Data_type).

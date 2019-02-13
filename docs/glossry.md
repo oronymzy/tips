@@ -55,7 +55,7 @@ The function of blocks in programming is to enable groups of statements to be tr
 **condition-controlled loop construct** {: #conditioncontrolledloopconstructdef }
 : count noun
 : A [loop construct](#loopconstructdef) that [iterates](#iterationdef) while some condition is met.[^conditioncontrolledloopconstructdef-note1]
-: Hypernym of [while-loop construct](#whileloopconstructdef).
+: Hypernym of [do-while-loop construct](#dowhileloopconstructdef) and [while-loop construct](#whileloopconstructdef).
 : Hyponym of [loop construct](#loopconstructdef).
 
 **condition** {: #conditiondef }
@@ -128,6 +128,11 @@ Data can be organized in many different types of [data structures](https://en.wi
 : A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that decreases the [value](#valuedef) of its [operand](#operanddef) by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are decreased by an amount that makes them point to the next element adjacent in memory.[^decrementoperatordef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`), and its operand must be an [lvalue](#lvaluedef) [^decrementoperatordef-note2]. It can be used as a prefix (`--foo`) or a postfix (`foo--`). As a prefix, it decreases the [value](#valuedef) of its operand by 1, and the value of the expression is the resulting decremented value. As a postfix, it decreases the value of its operand by 1, but the value of the expression is the operand's original value *prior* to the decrement operation.[^decrementoperatordef-note1]
 : Hyponym of [operator](#operatordef).
+
+**do-while-loop construct** {: #dowhileloopconstructdef }
+: count noun
+: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that executes a [block](#blockdef) of code at least once, and then repeatedly executes the block, or not, depending on a given [Boolean](#Booleandef) [condition](#conditiondef) at the end of the block. Because the do-while-loop construct checks the condition after the block is executed, the control structure is often also known as a **posttest loop**. Compare this with the [*while* loop construct](#whileloopconstructdef), which tests the condition *before* the code within the block is executed.[^dowhileloopconstructdef-note1]
+: Hyponym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 
 **else-clause** {: #elseclausedef }
 : count noun
@@ -331,7 +336,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 
 **while-loop construct** {: #whileloopconstructdef }
 : count noun
-: A [control flow](https://en.wikipedia.org/wiki/Control_flow) [statement](#statementdef) that allows code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the control structure is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop](https://en.wikipedia.org/wiki/Do_while_loop), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
+: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the control structure is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop construct](#dowhileloopconstructdef), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
 : 
 ```
 int x = 0;
@@ -379,6 +384,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
 - [Data validation](https://en.wikipedia.org/w/index.php?title=Data_validation&oldid=880736882)
+- [Do while loop](https://en.wikipedia.org/w/index.php?title=Do_while_loop&oldid=870917166)
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
@@ -454,6 +460,7 @@ on Wiktionary, with changes made.
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^decrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
+[^dowhileloopconstructdef-note1]: This definition is based on [Wikipedia's definition of “Do while loop”](https://en.wikipedia.org/wiki/Do_while_loop) and [Wikipedia's definition of “While loop”](https://en.wikipedia.org/wiki/While_loop).
 [^entitydef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entity).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]

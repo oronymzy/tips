@@ -7,6 +7,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 ## computer science glossary
 
+**accumulator** {: #accumulatordef }
+: count noun
+: A variable whose contents are [incremented](#incrementdef) to represent the results of a [running total](#runningtotaldef).[^accumulatordef-note1]
+
 **arity** {: #aritydef }
 : mass noun
 : The number of [operands](#operanddef) a [subroutine](#subroutinedef) takes.[^aritydef-note1]
@@ -104,7 +108,7 @@ else
 
 **counter** {: #counterdef }
 : count noun
-: A variable whose contents are incremented or decremented[^counterdef-note1] to keep a count.[^counterdef-note2]
+: A variable whose contents are [incremented](#incrementdef) or [decremented](#decrementdef)[^counterdef-note1] by a fixed number[^counterdef] to represent the results of [counting](https://en.wikipedia.org/wiki/Counting).[^counterdef-note2]
 : Hypernym of [loop counter](#loopcounterdef).
 
 **data type** {: #datatypedef }
@@ -298,6 +302,9 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : A [programming language](https://en.wikipedia.org/wiki/Programming_language) construct or [operator](#operatordef) that tests or defines some kind of [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) between [two entities](https://en.wikipedia.org/wiki/Binary_function). These include numerical [equality](https://en.wikipedia.org/wiki/Equality_(mathematics)) (*e.g.*, [5 = 5]) and [inequality](https://en.wikipedia.org/wiki/Inequality_(mathematics)) (*e.g.*, [4 ≥ 3]). Relational operators can be seen as special cases of logical [predicates](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)).[^relationaloperatordef-note1]
 : Hyponym of [operator](#operatordef).
 
+**running total** {: #runningtotaldef }
+: A [summation](https://en.wikipedia.org/wiki/Summation) of a sequence of numbers which is updated each time a new number is added to the sequence, by adding the value of the new number to the previous running total. Another term for it is [partial sum](https://en.wikipedia.org/wiki/Series_(mathematics)#Definition).[^runningtotaldef-note1]
+
 **rvalue** {: #rvaluedef }
 : count noun
 : A temporary [value](#valuedef) that does not persist beyond the [expression](#expressiondef) that uses it.[^rvaluedef1]
@@ -412,6 +419,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
 - [Relational operator](https://en.wikipedia.org/w/index.php?title=Relational_operator&oldid=874050383)
+- [Running total](https://en.wikipedia.org/w/index.php?title=Running_total&oldid=855615611)
 - [Statement (computer science)](https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=863825665)
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
@@ -439,6 +447,8 @@ on Wikipedia, with changes made, and:
 
 on Wiktionary, with changes made.
 
+[^runningtotaldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Running_total).
+[^accumulatordef-note1]: This definition is based on [an answer on Stack Overflow by Alberto Moriconi](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator/12983603#12983603) and on information from page 257 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
 [^assignmentconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Assignment_(computer_science)).
 [^assignmentoperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Assignment_operator_(C++)).
@@ -459,6 +469,7 @@ on Wiktionary, with changes made.
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.
 [^controlvariabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_variable_(programming)).
 [^countcontrolledloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Count-controlled_loops).
+[^counterdef]: <https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator/12983603#12983603>
 [^counterdef-note1]: Based on information from page 241 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^counterdef-note2]: This definition is based on a definition from [Wiktionary](https://en.wiktionary.org/wiki/counter).
 [^datatypedef1]: [type](http://foldoc.org/type) at the *[Free On-line Dictionary of Computing](https://en.wikipedia.org/wiki/Free_On-line_Dictionary_of_Computing)*

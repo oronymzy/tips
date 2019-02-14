@@ -48,9 +48,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | package name | program name | program category | licensing
 |:-|:-|:-|:-
 | `bless` | [Bless](https://github.com/afrantzis/bless) | [hex editor](https://en.wikipedia.org/wiki/Hex_editor) | [GNU GPL v.20](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS2]
-| `gprename` | [GPRename](http://gprename.sourceforge.net/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming)
-| `krename` | [KRename](https://www.krename.net/home/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming)
-| `net-tools` | [ifconfig](https://en.wikipedia.org/wiki/Ifconfig)
+| `gprename` | [GPRename](http://gprename.sourceforge.net/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming) | [GNU GPL v.30](https://choosealicense.com/licenses/gpl-3.0/)[^insLnxS4]
+| `krename` | [KRename](https://www.krename.net/home/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming) |  [GNU GPL v.20](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS5]
+| `net-tools` | [ifconfig](https://en.wikipedia.org/wiki/Ifconfig), part of [net-tools](https://sourceforge.net/p/net-tools/code/ci/master/tree/README) | administration utility | [GNU GPL v.20](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit](https://en.wikipedia.org/wiki/OpenJDK) Java Runtime Environment
 
 ## licensing
@@ -64,3 +64,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [^insLnxS1]: <http://openjdk.java.net/install/>
 [^insLnxS2]: <https://github.com/afrantzis/bless/blob/master/COPYING>
+[^insLnxS3]: <https://sourceforge.net/p/net-tools/code/ci/master/tree/COPYING>
+[^insLnxS4]: <https://sourceforge.net/p/gprename/code/HEAD/tree/trunk/COPYING.TXT>
+[^insLnxS5]: <https://sourceforge.net/p/krename/code/HEAD/tree/trunk/COPYING>

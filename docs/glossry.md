@@ -311,6 +311,12 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : For its etymology, it comes from *[R](https://en.wiktionary.org/wiki/R#English)* +‎ *[value](#valuedef)*, where *R* stands for *right-hand side*, deriving from the typical mode of evaluation on the [left](#lvaluedef) and right hand side of an [assignment](#assignmentconstructdef) [statement](#statementdef).[^rvaluedef-note1]
 : Hyponym of [value](#valuedef).
 
+**sentinel value** {: #sentinelvaluedef }
+: count noun
+: A [value](#valuedef) that marks the end of sequence, typically in a [loop construct](#loopconstructdef) or recursive [algorithm](https://en.wikipedia.org/wiki/Algorithm).[^sentinelvaluedef-note1]
+: A sentinel value is also referred to as a **flag value**, **trip value**, **rogue value**, **signal value**, or **dummy data**[^sentinelvaluedef1], and is sometimes known as an **[Elephant in Cairo](https://en.wikipedia.org/wiki/Elephant_in_Cairo)** due to a joke where this is used as a physical sentinel. In safe languages, most uses of sentinel values could be replaced with [option types](https://en.wikipedia.org/wiki/Option_type), which enforce explicit handling of the exceptional case.
+: Hyponym of [value](#valuedef).
+
 **separator** {: #separatordef }
 : count noun
 : A token that demarcates boundaries between two separate [statements](#statementdef). A separator is also known as a **punctuator**.[^separatordef-note1]
@@ -349,7 +355,7 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 **value** {: #valuedef }
 : count noun
 : A member of the set of possible interpretations of any possibly-infinite sequence of [symbols](#symboldef).[^valuedef-note1]
-: Hypernym of [lvalue](#lvaluedef) and [rvalue](#rvaluedef).
+: Hypernym of [lvalue](#lvaluedef), [rvalue](#rvaluedef), and [sentinel value](#sentinelvaluedef).
 
 **while-loop construct** {: #whileloopconstructdef }
 : count noun
@@ -420,6 +426,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
 - [Relational operator](https://en.wikipedia.org/w/index.php?title=Relational_operator&oldid=874050383)
 - [Running total](https://en.wikipedia.org/w/index.php?title=Running_total&oldid=855615611)
+- [Sentinel value](https://en.wikipedia.org/w/index.php?title=Sentinel_value&oldid=866344491)
 - [Statement (computer science)](https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=863825665)
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
@@ -525,6 +532,8 @@ on Wiktionary, with changes made.
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^rvaluedef1]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
 [^rvaluedef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Value_(computer_science)#Assignment:_l-values_and_r-values).
+[^sentinelvaluedef1]: [Knuth, Donald](https://en.wikipedia.org/wiki/Donald_Knuth) (1973). *The Art of Computer Programming, Volume 1: Fundamental Algorithms (second edition)*. [Addison-Wesley](https://en.wikipedia.org/wiki/Addison-Wesley). pp. 213–214, also p. 631. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-201-03809-9](https://en.wikipedia.org/wiki/Special:BookSources/0-201-03809-9).
+[^sentinelvaluedef-note1]: This definition is based on [Wikipedia's definition of a sentinel value](https://en.wikipedia.org/wiki/Sentinel_value) and [an answer on Stack Overflow by Tony the Pony](https://stackoverflow.com/questions/21666508/can-someone-explain-to-me-what-a-sentinel-does-in-java-or-how-it-works/21666543#21666543).
 [^separatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement separator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
 [^statementdef1]: ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia. Retrieved 2015-03-03.
 [^statementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).

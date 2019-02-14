@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder sox surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese csstidy curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder sox surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -45,6 +45,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
     
     This is an incomplete explanation.
 
+- `bless` installs [Bless](https://github.com/afrantzis/bless), a [hex editor](https://en.wikipedia.org/wiki/Hex_editor) available under the [GNU GPL v.20](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS2].
 - `gprename` installs [GPRename](http://gprename.sourceforge.net/), a [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming).
 - `krename` installs [KRename](https://www.krename.net/home/), a [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming).
 - `net-tools` installs [ifconfig](https://en.wikipedia.org/wiki/Ifconfig).
@@ -60,3 +61,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Linux]: https://en.wikipedia.org/wiki/Linux_distribution
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [^insLnxS1]: http://openjdk.java.net/install/
+[^insLnxS2]: https://github.com/afrantzis/bless/blob/master/COPYING

@@ -60,5 +60,5 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 
 [Linux]: https://en.wikipedia.org/wiki/Linux_distribution
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
-[^insLnxS1]: http://openjdk.java.net/install/
-[^insLnxS2]: https://github.com/afrantzis/bless/blob/master/COPYING
+[^insLnxS1]: <http://openjdk.java.net/install/>
+[^insLnxS2]: <https://github.com/afrantzis/bless/blob/master/COPYING>

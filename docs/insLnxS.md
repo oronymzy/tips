@@ -45,11 +45,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
     
     This is an incomplete explanation.
 
-- `bless` installs [Bless](https://github.com/afrantzis/bless), a [hex editor](https://en.wikipedia.org/wiki/Hex_editor) available under the [GNU GPL v.20](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS2].
-- `gprename` installs [GPRename](http://gprename.sourceforge.net/), a [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming).
-- `krename` installs [KRename](https://www.krename.net/home/), a [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming).
-- `net-tools` installs [ifconfig](https://en.wikipedia.org/wiki/Ifconfig).
-- `openjdk-8-jre`[^insLnxS1] installs the [Open Java Development Kit](https://en.wikipedia.org/wiki/OpenJDK) Java Runtime Environment.
+| package name | program name | program category | licensing
+|:-|:-|:-|:-
+| `bless` | [Bless](https://github.com/afrantzis/bless) | [hex editor](https://en.wikipedia.org/wiki/Hex_editor) | [GNU GPL v.20](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS2]
+| `gprename` | [GPRename](http://gprename.sourceforge.net/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming)
+| `krename` | [KRename](https://www.krename.net/home/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming)
+| `net-tools` | [ifconfig](https://en.wikipedia.org/wiki/Ifconfig)
+| `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit](https://en.wikipedia.org/wiki/OpenJDK) Java Runtime Environment
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

@@ -177,6 +177,10 @@ else if (condition) then
 : For example, `2+3` is an arithmetic and programming expression which evaluates to `5`. A variable is an expression because it denotes a value in memory, so `y+6` is an expression. An example of a relational expression is `4≠4`, which evaluates to `false`.[^expressiondef-note1] [^expressiondef1] [^expressiondef2]
 : Hypernym of [conditional expression](#conditionalexpressiondef) and [relational expression](#relationalexpressiondef).
 
+**file** {: #filedef }
+: count noun
+: An [aggregation](https://en.wiktionary.org/wiki/aggregation) of [data](#datumdef) on a [storage](https://en.wiktionary.org/wiki/storage) [device](https://en.wiktionary.org/wiki/device), identified by a [name](https://en.wiktionary.org/wiki/name). On most modern [operating systems](https://en.wikipedia.org/wiki/Operating_syste), files are organized into one-dimensional arrays of [bytes](https://en.wikipedia.org/wiki/Byte). By using computer programs, a person can open, read, change, save, and close a computer file. Computer files may be reopened, modified, and copied an arbitrary number of times. Typically, files are organised in a [file system](https://en.wikipedia.org/wiki/File_system), which keeps track of where the files are located on disk and enables user access. The [format](https://en.wikipedia.org/wiki/File_format) of a file is defined by its content since a file is solely a container for data, although, on some platforms the format is usually indicated by its [filename extension](https://en.wikipedia.org/wiki/Filename_extension), specifying the rules for how the bytes must be organized and interpreted meaningfully. For example, the bytes of a plain text file (`.txt` in Windows) are associated with either [ASCII](https://en.wikipedia.org/wiki/ASCII) or [UTF-8](https://en.wikipedia.org/wiki/UTF-8) characters, while the bytes of image, video, and audio files are interpreted otherwise. Most file types also allocate a few bytes for [metadata](https://en.wikipedia.org/wiki/Metadata), which allows a file to carry some basic information about itself.[^filedef-note1]
+
 **flag** {: #flagdef }
 : count noun
 : A variable or memory location that stores a [Boolean](#Booleandef) [value](#valuedef), typically either recording the fact that a certain event has occurred or requesting that a certain optional action take place.[^flagdef-note1]
@@ -396,6 +400,8 @@ The code fragments above are written in the [C programming language](https://en.
 - [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
 - [Comparison of programming languages (syntax)§Blocks](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Blocks)
 - [Comparison of programming languages (syntax)§Statements](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Statements)
+- [Computer file](https://en.wikipedia.org/w/index.php?title=Computer_file&oldid=883194383)
+- [Computer file§File contents](https://en.wikipedia.org/w/index.php?title=Computer_file&oldid=883194383#File_contents)
 - [Conditional (computer programming)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Conditional (computer programming)§Else if](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#Else_if)
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
@@ -445,6 +451,7 @@ on Wikipedia, with changes made, and:
 - [constant](https://en.wiktionary.org/w/index.php?title=constant&oldid=51246036)
 - [counter](https://en.wiktionary.org/w/index.php?title=counter&oldid=51103193)
 - [decrement§verb](https://en.wiktionary.org/w/index.php?title=decrement&oldid=50276969#Verb)
+- [file](https://en.wiktionary.org/w/index.php?title=file&oldid=51417152)
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
 - [increment§verb](https://en.wiktionary.org/w/index.php?title=increment&oldid=51035067#Verb)
 - [iteration](https://en.wiktionary.org/w/index.php?title=iteration&oldid=51175255)
@@ -497,6 +504,7 @@ on Wiktionary, with changes made.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009
 [^expressiondef-note1]: This definition is similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Expression_(computer_science)), with changes made.
+[^filedef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/file) and [Wikipedia's definition](https://en.wikipedia.org/wiki/Computer_file).
 [^flagdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/flag#Noun).
 [^forloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/For_loop).
 [^forloopconstructdef-note2]: Based on information from page 251 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.

@@ -40,6 +40,12 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : For example, `x += 1` is expanded to `x = x + (1)`.[^augmentedassignmentoperatordef-note1]
 : Hyponym of [assignment operator](#assignmentoperatordef).
 
+**binary file** {: #binaryfiledef }
+: count noun
+: A type of [file](#filedef) that is not a [text file](#textfiledef).[^binaryfiledef1] Binary files are usually thought of as being a sequence of [octets](#octetdef), and typically contain octets that are intended to be interpreted as something other than text [characters](https://en.wikipedia.org/wiki/Character_(computing)). [Compiled](https://en.wikipedia.org/wiki/Compiled "Compiled") computer programs are typical examples; indeed, compiled applications are sometimes referred to, particularly by programmers, as **binaries**. But binary files can also mean that they contain any type of file content[^binaryfiledef1], including (but not limited to) images, sounds, and compressed versions of other files.  
+Some binary files contain [headers](https://en.wikipedia.org/wiki/Header_(computing)), blocks of [metadata](https://en.wikipedia.org/wiki/Metadata) used by a [computer program](https://en.wikipedia.org/wiki/Computer_program) to interpret the [data](#datumdef) in the file. The header often contains a [signature or *magic* number](https://en.wikipedia.org/wiki/List_of_file_signatures) which can identify the [format](https://en.wikipedia.org/wiki/File_format). For example, a [GIF](https://en.wikipedia.org/wiki/GIF) file can contain multiple images, and headers are used to identify and describe each block of image data. The leading bytes of the header would contain text like *GIF87a* or *GIF89a* that can identify the binary as a GIF file. If a binary file does not contain any headers, it may be called a **flat binary file**.[^binaryfiledef-note1]
+: Hyponym of [file](#filedef).
+
 **block** {: #blockdef }
 : count noun
 : A group of one or more [expressions](#expressiondef), [declarations](https://en.wikipedia.org/wiki/Declaration_(computer_programming)), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](https://en.wikipedia.org/wiki/Control_structure) are formed from blocks.  
@@ -139,6 +145,13 @@ Data can be organized in many different types of [data structures](https://en.wi
 : In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`), and its operand must be an [lvalue](#lvaluedef) [^decrementoperatordef-note2]. It can be used as a prefix (`--foo`) or a postfix (`foo--`). As a prefix, it decreases the [value](#valuedef) of its operand by 1, and the value of the expression is the resulting decremented value. As a postfix, it decreases the value of its operand by 1, but the value of the expression is the operand's original value *prior* to the decrement operation.[^decrementoperatordef-note1]
 : Hyponym of [operator](#operatordef).
 
+**direct access** {: #directaccessdef }
+: mass noun
+: The ability to access an arbitrary element of a sequence in equal time or any item of data from a population of [addressable](https://en.wikipedia.org/wiki/Address_space) elements roughly as easily and efficiently as any other, no matter how many elements may be in the set. It is typically contrasted to [sequential access](https://en.wikipedia.org/wiki/Sequential_access).  
+For example, data might be stored notionally in a single sequence like a row, in two dimensions like rows and columns on a surface, or in multiple dimensions. However, given all the coordinates, a program can access each record about as quickly and easily as any other. In this sense the choice of data item is arbitrary in the sense that no matter which item is sought, all that is needed to find it, is its address, that is to say, the coordinates at which it is located, such as its row and column (or its track and record number on a [magnetic drum](https://en.wikipedia.org/wiki/Drum_memory)). The opposite is [sequential access](https://en.wikipedia.org/wiki/Sequential_access), where a remote element takes longer time to access.[\[1\]](https://technet.microsoft.com/en-us/library/cc938619.aspx) For example, compare an ancient [scroll](https://en.wikipedia.org/wiki/Scroll_(parchment) (sequential: all material prior to the data needed must be unrolled) and a [book](https://en.wikipedia.org/wiki/Book) (direct: can be immediately flipped open to any arbitrary [page](https://en.wikipedia.org/wiki/Page_(paper))). A more modern example is a cassette tape (sequential: one must fast forward through earlier songs to get to later ones) and a [CD](https://en.wikipedia.org/wiki/CD) (direct access: one can skip to the track wanted, knowing that it would be the one retrieved).  
+In [data structures](https://en.wikipedia.org/wiki/Data_structure), direct access implies the ability to access any entry in a [list](https://en.wikipedia.org/wiki/List_(computing)) in [constant time](https://en.wikipedia.org/wiki/Constant_time) (independent of its position in the list and of list's size). Very few data structures can guarantee this, other than [arrays](https://en.wikipedia.org/wiki/Array_data_structure) (and related structures like [dynamic arrays](https://en.wikipedia.org/wiki/Dynamic_array)). Direct access is required, or at least valuable, in many algorithms such as [binary search](https://en.wikipedia.org/wiki/Binary_search), [integer sorting](https://en.wikipedia.org/wiki/Integer_sorting) or certain versions of [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).[^directaccessdef3] Other data structures, such as [linked lists](https://en.wikipedia.org/wiki/Linked_list), sacrifice direct access to permit efficient inserts, deletes, or reordering of data. [Self-balancing binary search trees](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree) may provide an acceptable compromise, where access time is not equal for all members of a collection, but the maximum time to retrieve a given member grows only [logarithmically](https://en.wikipedia.org/wiki/Logarithmically) with its size.[^directaccessdef-note1]
+: It is also less precisely known as **random access**. At first the term was used because the process had to be capable of finding records no matter in which sequence they were required.[^directaccessdef1] However, soon the term "direct access" gained favor because one could directly retrieve a record, no matter what its position might be.[^directaccessdef2] The operative attribute however is that the device can access any required record immediately on demand.[^directaccessdef-note1]
+
 **do-while-loop construct** {: #dowhileloopconstructdef }
 : count noun
 : A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that executes a [block](#blockdef) of code at least once, and then repeatedly executes the block, or not, depending on a given [Boolean](#Booleandef) [condition](#conditiondef) at the end of the block. Because the do-while-loop construct checks the condition after the block is executed, the control structure is often also known as a **posttest loop**. Compare this with the [*while* loop construct](#whileloopconstructdef), which tests the condition *before* the code within the block is executed.[^dowhileloopconstructdef-note1]
@@ -180,6 +193,8 @@ else if (condition) then
 **file** {: #filedef }
 : count noun
 : An [aggregation](https://en.wiktionary.org/wiki/aggregation) of [data](#datumdef) on a [storage](https://en.wiktionary.org/wiki/storage) [device](https://en.wiktionary.org/wiki/device), identified by a [name](https://en.wiktionary.org/wiki/name). On most modern [operating systems](https://en.wikipedia.org/wiki/Operating_syste), files are organized into one-dimensional arrays of [bytes](https://en.wikipedia.org/wiki/Byte). By using computer programs, a person can open, read, change, save, and close a computer file. Computer files may be reopened, modified, and copied an arbitrary number of times. Typically, files are organised in a [file system](https://en.wikipedia.org/wiki/File_system), which keeps track of where the files are located on disk and enables user access. The [format](https://en.wikipedia.org/wiki/File_format) of a file is defined by its content since a file is solely a container for data, although, on some platforms the format is usually indicated by its [filename extension](https://en.wikipedia.org/wiki/Filename_extension), specifying the rules for how the bytes must be organized and interpreted meaningfully. For example, the bytes of a plain text file (`.txt` in Windows) are associated with either [ASCII](https://en.wikipedia.org/wiki/ASCII) or [UTF-8](https://en.wikipedia.org/wiki/UTF-8) characters, while the bytes of image, video, and audio files are interpreted otherwise. Most file types also allocate a few bytes for [metadata](https://en.wikipedia.org/wiki/Metadata), which allows a file to carry some basic information about itself.[^filedef-note1]
+: The six most basic **file operations** a program can perform on a file are: create a new file, change the [access permissions](https://en.wikipedia.org/wiki/File_system_permissions) and [attributes](https://en.wikipedia.org/wiki/File_attribute) of a file, [open](https://en.wikipedia.org/wiki/Open_(system_call)) a file and make the file contents available to the program, [read](https://en.wikipedia.org/wiki/Read_(system_call)) data from a file, [write](https://en.wikipedia.org/wiki/Write_(system_call)) data to a file, or [close](https://en.wikipedia.org/wiki/Close_(system_call)) a file and terminate the association between it and the program.
+: Hypernym of [binary file](#binaryfiledef) and [text file](#textfiledef).
 
 **flag** {: #flagdef }
 : count noun
@@ -347,6 +362,11 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 : A token that demarcates the end of an individual [statement](#statementdef).[^terminatordef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), it is a semicolon (`;`).
 
+**text file** {: #textfiledef }
+: count noun
+: A type of [file](#filedef) that is structured as a sequence of [lines](https://en.wikipedia.org/wiki/Line_(text_file)) of [electronic text](https://en.wikipedia.org/wiki/Electronic_text). A text file exists [stored as data](https://en.wikipedia.org/wiki/Data_storage) within a [file system](https://en.wikipedia.org/wiki/File_system). It refers to a type of container, while [plain text](https://en.wikipedia.org/wiki/Plain_text) refers to a type of content.[^textfiledef-note1]
+: Hyponym of [file](#filedef).
+
 **trailing** {: #trailingdef }
 : adjective
 : Occuring at the end[^trailingdef] of a line.
@@ -396,6 +416,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Assignment (computer science)](https://en.wikipedia.org/w/index.php?title=Assignment_(computer_science)&oldid=882172626)
 - [Assignment operator (C++)](https://en.wikipedia.org/w/index.php?title=Assignment_operator_(C%2B%2B)&oldid=873288112)
 - [Augmented assignment](https://en.wikipedia.org/w/index.php?title=Augmented_assignment&oldid=879453644)
+- [Binary file](https://en.wikipedia.org/w/index.php?title=Binary_file&oldid=876032410)
 - [Block (programming)](https://en.wikipedia.org/w/index.php?title=Block_(programming)&oldid=877703688)
 - [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
 - [Comparison of programming languages (syntax)§Blocks](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Blocks)
@@ -430,6 +451,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Operand§Computer science](https://en.wikipedia.org/w/index.php?title=Operand&oldid=874322196#Computer_science)
 - [Operator (computer programming)](https://en.wikipedia.org/w/index.php?title=Operator_(computer_programming)&oldid=879934681)
 - [Operator associativity](https://en.wikipedia.org/w/index.php?title=Operator_associativity&oldid=876220651)
+- [Random access](https://en.wikipedia.org/w/index.php?title=Random_access&oldid=863225048)
 - [Relational operator](https://en.wikipedia.org/w/index.php?title=Relational_operator&oldid=874050383)
 - [Running total](https://en.wikipedia.org/w/index.php?title=Running_total&oldid=855615611)
 - [Sentinel value](https://en.wikipedia.org/w/index.php?title=Sentinel_value&oldid=866344491)
@@ -437,6 +459,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
+- [Text file](https://en.wikipedia.org/w/index.php?title=Text_file&oldid=881932349)
 - [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
 - [While loop](https://en.wikipedia.org/w/index.php?title=While_loop&oldid=881424645)
 - [?:](https://en.wikipedia.org/w/index.php?title=%3F:&oldid=880334289)
@@ -469,6 +492,8 @@ on Wiktionary, with changes made.
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).
 [^atomicitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/atomicity).
 [^augmentedassignmentoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Augmented_assignment).
+[^binaryfiledef1]: ["Binary file definition by The Linux Information Project (LINFO)"](http://www.linfo.org/binary_file.html). *www.linfo.org*. Retrieved 2017-10-12.
+[^binaryfiledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Binary_file).
 [^blockdef-note1]: This definition is based on [Wikipedia's definition of a block as a page](https://en.wikipedia.org/wiki/Block_(programming)) and [as a section of a page](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Blocks).
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
@@ -498,6 +523,10 @@ on Wiktionary, with changes made.
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^decrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
+[^directaccessdef1]: National Computer Conference and Exposition (1957). [*Proceedings*](https://books.google.com/books?id=lQQrAQAAIAAJ). Retrieved 2 October 2013.
+[^directaccessdef2]: International Business Machines Corporation. Data Processing Division (1966). [*Introduction to IBM Direct-access Storage Devices and Organization Methods*](https://books.google.com/books?id=i6vWAAAAMAAJ&pg=SA3-PA24). International Business Machines Corporation. pp. 3–. Retrieved 2 October 2013.
+[^directaccessdef3]: D. E. KNUTH (1969). [*The Art of Computer Programming. Vol. 3. Sorting and Searching*](https://books.google.com/books?id=ZQu9mgEACAAJ). Addison-Wesley. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-0-201-03803-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-03803-3). Retrieved 2 October 2013.
+[^directaccessdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Random_access).
 [^dowhileloopconstructdef-note1]: This definition is based on [Wikipedia's definition of “Do while loop”](https://en.wikipedia.org/wiki/Do_while_loop) and [Wikipedia's definition of “While loop”](https://en.wikipedia.org/wiki/While_loop).
 [^entitydef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entity).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
@@ -552,6 +581,7 @@ on Wiktionary, with changes made.
 [^switchconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).
 [^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).
 [^terminatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement terminator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
+[^textfiledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Text_file).
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
 [^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).

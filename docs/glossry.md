@@ -340,6 +340,11 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A token that demarcates boundaries between two separate [statements](#statementdef). A separator is also known as a **punctuator**.[^separatordef-note1]
 
+**sequential access** {: #sequentialaccessdef }
+: mass noun
+: Accessing a group of elements (such as data in a memory array or a [disk](https://en.wikipedia.org/wiki/Hard_disk_drive) file or on [magnetic tape data storage](https://en.wikipedia.org/wiki/Magnetic_tape_data_storage) in a predetermined, ordered [sequence](https://en.wikipedia.org/wiki/Sequence). Sequential access is sometimes the only way of accessing the data, for example if it is on a tape. It may also be the access method of choice, for example if all that is wanted is to process a sequence of data elements in order.[^sequentialaccessdef1] However, there is no consistent definition of sequential access or sequentiality.[^sequentialaccessdef2] [^sequentialaccessdef3] [^sequentialaccessdef4] [^sequentialaccessdef5] [^sequentialaccessdef6] [^sequentialaccessdef7] [^sequentialaccessdef8] [^sequentialaccessdef9] In fact, different sequentiality definitions can lead to different sequentiality quantification results. In spatial dimension, request size, strided distance, backward accesses, re-accesses can affect sequentiality. For temporal sequentiality, characteristics such as multi-stream and inter-arrival time threshold has impact on the definition of sequentiality.[^sequentialaccessdef10] [^sequentialaccessdef-note1]  
+: In [data structures](https://en.wikipedia.org/wiki/Data_structure), a data structure is said to have sequential access if one can only visit the values it contains in one particular order. The canonical example is the [linked list](https://en.wikipedia.org/wiki/Linked_list). Indexing into a list that has sequential access requires [O](https://en.wikipedia.org/wiki/Big_O_notation)(*n*) time, where *n* is the index. As a result, many algorithms such as [quicksort](https://en.wikipedia.org/wiki/Quicksort) and [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm") degenerate into bad algorithms that are even less efficient than their naive alternatives; these algorithms are impractical without [direct access](#directaccessdef). On the other hand, some algorithms, typically those that do not have index, require only sequential access, such as [mergesort](https://en.wikipedia.org/wiki/Mergesort, and face no penalty.[^sequentialaccessdef-note1]
+
 **statement** {: #statementdef }
 : count noun
 : A syntactic unit of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming language](https://en.wikipedia.org/wiki/Programming_language) that changes the program state or performs some kind of action.[^statementdef1] [^statementdef-note2] It also has meaning.[^statementdef-note3] A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., [expressions](#expressiondef)). Boundaries between statements are demarcated by [separators](#separatordef), and the end of a statement is demarcated by a [terminator](#terminatordef). [^statementdef-note1]
@@ -455,6 +460,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Relational operator](https://en.wikipedia.org/w/index.php?title=Relational_operator&oldid=874050383)
 - [Running total](https://en.wikipedia.org/w/index.php?title=Running_total&oldid=855615611)
 - [Sentinel value](https://en.wikipedia.org/w/index.php?title=Sentinel_value&oldid=866344491)
+- [Sequential access](https://en.wikipedia.org/w/index.php?title=Sequential_access&oldid=877118050)
 - [Statement (computer science)](https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=863825665)
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
@@ -572,6 +578,17 @@ on Wiktionary, with changes made.
 [^sentinelvaluedef1]: [Knuth, Donald](https://en.wikipedia.org/wiki/Donald_Knuth) (1973). *The Art of Computer Programming, Volume 1: Fundamental Algorithms (second edition)*. [Addison-Wesley](https://en.wikipedia.org/wiki/Addison-Wesley). pp. 213–214, also p. 631. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-201-03809-9](https://en.wikipedia.org/wiki/Special:BookSources/0-201-03809-9).
 [^sentinelvaluedef-note1]: This definition is based on [Wikipedia's definition of a sentinel value](https://en.wikipedia.org/wiki/Sentinel_value) and [an answer on Stack Overflow by Tony the Pony](https://stackoverflow.com/questions/21666508/can-someone-explain-to-me-what-a-sentinel-does-in-java-or-how-it-works/21666543#21666543).
 [^separatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement separator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
+[^sequentialaccessdef1]: [Random and Sequential Data Access](https://technet.microsoft.com/en-us/library/cc938619.aspx), Microsoft TechNet
+[^sequentialaccessdef2]: *Irfan Ahmad*, [Easy and Efficient Disk I/O Workload Characterization in VMware ESX Server](http://www.vmware.com/files/pdf/iiswc_2007_distribute.pdf), IISWC, 2007.
+[^sequentialaccessdef3]: *Eric Anderson*, [Capture, Conversion, and Analysis of an Intense NFS Workload](https://www.usenix.org/legacy/event/fast09/tech/full_papers/anderson/anderson.pdf), FAST, 2009.
+[^sequentialaccessdef4]: *Yanpei Chen et al.* [Design Implications for Enterprise Storage Systems via Multi-dimensional Trace Analysis](http://dl.acm.org/citation.cfm?id=2043562). SOSP. 2011
+[^sequentialaccessdef5]: *Andrew Leung et al.* [Measurement and Analysis of Large-scale Network File System Workloads](http://www.ssrc.ucsc.edu/Papers/leung-usenix08.pdf). USENIX ATC. 2008
+[^sequentialaccessdef6]: *Frank Schmuck and Roger Haskin*, [GPFS: A Shared-Disk File System for Large Computing Clusters](https://www.usenix.org/legacy/events/fast02/full_papers/schmuck/schmuck.pdf), FAST. 2002
+[^sequentialaccessdef7]: *Alan Smith*. [Sequentiality and Prefetching in Database Systems](http://www-inst.eecs.berkeley.edu/~cs266/sp10/readings/smith78.pdf). ACM TOS
+[^sequentialaccessdef8]: *Hyong Shim et al.* [Characterization of Incremental Data Changes for Efficient Data Protection](http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/11747-atc13-shim.pdf). USENIX ATC. 2013.
+[^sequentialaccessdef9]: *Avishay Traeger et al.* [A Nine Year Study of File System and Storage Benchmarking](http://www.fsl.cs.sunysb.edu/docs/fsbench/fsbench.pdf). ACM TOS. 2007.
+[^sequentialaccessdef10]: *Cheng Li et al.* [Assert(!Defined(Sequential I/O))](https://www.usenix.org/node/183622). HotStorage. 2014
+[^sequentialaccessdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Sequential_access)
 [^statementdef1]: ["statement"](http://www.webopedia.com/TERM/S/statement.html). webopedia. Retrieved 2015-03-03.
 [^statementdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Statement_(computer_science)).
 [^statementdef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).

@@ -45,16 +45,33 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
     
     This is an incomplete explanation.
 
-| package name | program name | program category | licensing
-|:-|:-|:-|:-
-| `audacity` | [Audacity](https://www.audacityteam.org/) | [audio editor](https://en.wikipedia.org/wiki/Audio_editing_software) | [GNU GPL v2.0](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS6]
-| `bless` | [Bless](https://github.com/afrantzis/bless) | [hex editor](https://en.wikipedia.org/wiki/Hex_editor) | [GNU GPL v2.0](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS2]
-| `cheese` | [Cheese](https://wiki.gnome.org/Apps/Cheese) | [webcam](https://en.wikipedia.org/wiki/Webcam) software | [GNU GPL v2.0](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS7]
-| `codeblocks` | [Code::Blocks](http://codeblocks.org/) | [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) | [GNU GPL v3.0](https://choosealicense.com/licenses/gpl-3.0/)[^insLnxS8]
-| `gprename` | [GPRename](http://gprename.sourceforge.net/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming) | [GNU GPL v3.0](https://choosealicense.com/licenses/gpl-3.0/)[^insLnxS4]
-| `krename` | [KRename](https://www.krename.net/home/) | [batch renamer](https://en.wikipedia.org/wiki/Batch_renaming) |  [GNU GPL v2.0](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS5]
-| `net-tools` | [ifconfig](https://en.wikipedia.org/wiki/Ifconfig), part of [net-tools](https://sourceforge.net/p/net-tools/code/ci/master/tree/README) | administration utility | [GNU GPL v2.0](https://choosealicense.com/licenses/gpl-2.0/)[^insLnxS3]
-| `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit](https://en.wikipedia.org/wiki/OpenJDK) Java Runtime Environment
+| package name               | program name                                             | program category       | licensing
+|:---------------------------|:---------------------------------------------------------|:-----------------------|:-
+| `audacity`                 | [Audacity]                                               | [audio editor]         | [GNU GPL v2.0][^insLnxS6]
+| `bless`                    | [Bless]                                                  | [hex editor]           | [GNU GPL v2.0][^insLnxS2]
+| `cheese`                   | [Cheese]                                                 | [webcam] software      | [GNU GPL v2.0][^insLnxS7]
+| `codeblocks`               | [Code::Blocks]                                           | [IDE]                  | [GNU GPL v3.0][^insLnxS8]
+| `gprename`                 | [GPRename]                                               | [batch renamer]        | [GNU GPL v3.0][^insLnxS4]
+| `krename`                  | [KRename]                                                | [batch renamer]        | [GNU GPL v2.0][^insLnxS5]
+| `net-tools`                | [ifconfig], part of [net-tools]                          | administration utility | [GNU GPL v2.0][^insLnxS3]
+| `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit] Java Runtime Environment
+
+[Audacity]: https://www.audacityteam.org/
+[Bless]: https://github.com/afrantzis/bless
+[Cheese]: https://wiki.gnome.org/Apps/Cheese
+[Code::Blocks]: http://codeblocks.org/
+[GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
+[GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
+[GPRename]: http://gprename.sourceforge.net/
+[IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
+[KRename]: https://www.krename.net/home/
+[Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
+[audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
+[batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
+[hex editor]: https://en.wikipedia.org/wiki/Hex_editor
+[ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
+[net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
+[webcam]: https://en.wikipedia.org/wiki/Webcam
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

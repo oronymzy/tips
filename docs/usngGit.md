@@ -29,9 +29,13 @@ To get the commit count across all branches, use `git rev-list --all --count`.
 
 To set the default text editor for Git, use `git config --global core.editor "foobar"`, where *foobar* is the command that will launch the text editor from the command line.
 
+To undo the initial Git commit, use `git update-ref -d HEAD` to delete the branch you are on.
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Specifically, the following content falls under this license:
 
+- [An answer on Stack Overflow by CB Bailey](https://stackoverflow.com/questions/6632191/how-to-revert-initial-git-commit/6637891#6637891), with changes made, including rewording of the original text:
+> To undo the initial Git commit, use `git update-ref -d HEAD` to delete the branch you are on.
 - [An answer on Stack Overflow by karlphillip](https://stackoverflow.com/questions/8533202/list-files-in-local-git-repo/8533413#8533413), with changes made, including rewording of the original text:
 > To list all of the already committed files being tracked by your git repository, use `git ls-tree --full-tree -r HEAD`.
 - [A question on Stack Overflow by Readonly](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) and [an answer on Stack Overflow by Greg Hewgill](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git/52719#52719), with changes made:

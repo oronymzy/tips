@@ -51,6 +51,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `bless`                    | [Bless]                                                  | [hex editor]               | [GNU GPL v2.0][^insLnxS2]
 | `cheese`                   | [Cheese]                                                 | [webcam] software          | [GNU GPL v2.0][^insLnxS7]
 | `codeblocks`               | [Code::Blocks]                                           | [IDE]                      | [GNU GPL v3.0][^insLnxS8]
+| `curl`                     | [Curl]                                                   | data transfer tool         | MIT/X-inspired license[^insLnxS10]
 | `git-cola`                 | [Git Cola]                                               | [version control] software | [GNU GPL v2.0][^insLnxS9]
 | `gprename`                 | [GPRename]                                               | [batch renamer]            | [GNU GPL v3.0][^insLnxS4]
 | `krename`                  | [KRename]                                                | [batch renamer]            | [GNU GPL v2.0][^insLnxS5]
@@ -61,6 +62,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Bless]: https://github.com/afrantzis/bless
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
 [Code::Blocks]: http://codeblocks.org/
+[Curl]: https://curl.haxx.se/
 [Git Cola]: http://git-cola.github.io/
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
@@ -94,3 +96,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS7]: <https://gitlab.gnome.org/GNOME/cheese/blob/master/COPYING>
 [^insLnxS8]: <http://codeblocks.org/license>
 [^insLnxS9]: <https://github.com/git-cola/git-cola/blob/master/COPYING>
+[^insLnxS10]: <https://curl.haxx.se/docs/copyright.html>

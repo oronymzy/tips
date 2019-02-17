@@ -76,7 +76,7 @@ The CSS strategy for arranging images into columns with padding was introduced t
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
 
-[^tips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
-[^tips2]: https://www.mkdocs.org/about/license/
-[^tips3]: https://github.com/mkdocs/mkdocs/blob/master/LICENSE
-[^tips4]: https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE
+[^tips1]: <https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown>
+[^tips2]: <https://www.mkdocs.org/about/license/>
+[^tips3]: <https://github.com/mkdocs/mkdocs/blob/master/LICENSE>
+[^tips4]: <https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE>

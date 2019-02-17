@@ -302,6 +302,11 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : To [contain an object within a similar object](https://en.wikipedia.org/wiki/Self-similarity).[^nestdef-note1]
 : To organize information into layers.[^nestdef-note1]
 
+**object** {: #objectdef }
+: count noun
+: A [value](#valuedef) in [memory](https://en.wikipedia.org/wiki/Memory_address) referenced by an [identifier](https://en.wikipedia.org/wiki/Identifier_(computer_programming)), such as a [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)), a [data structure](https://en.wikipedia.org/wiki/Data_structure), a [subroutine](https://en.wikipedia.org/wiki/Subroutine), or a [method](https://en.wikipedia.org/wiki/Method_(computer_programming)).[^objectdef-note1]
+: In [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (a [class-based](https://en.wikipedia.org/wiki/Class-based_programming) paradigm), *object* refers to a particular [instance](https://en.wikipedia.org/wiki/Instance_(computer_science)) of a [class](https://en.wikipedia.org/wiki/Class_(computer_science)), where the object can be a combination of variables, [subroutines](https://en.wikipedia.org/wiki/Subroutine), and data structures.[^objectdef-note1]
+
 **octet** {: #octetdef }
 : count noun
 : A [unit of digital information](https://en.wikipedia.org/wiki/Units_of_information) that consists of eight [bits](https://en.wikipedia.org/wiki/Bit). The term is often used when the term [byte](https://en.wikipedia.org/wiki/Byte) might be ambiguous, as the byte has historically been used for storage units of a variety of sizes.[^octetdef-note1]
@@ -462,6 +467,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Logical connective](https://en.wikipedia.org/w/index.php?title=Logical_connective&oldid=881652068)
+- [Object (computer science)](https://en.wikipedia.org/w/index.php?title=Object_(computer_science)&oldid=875165207)
 - [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
 - [Operators in C and C++§Logical operators](https://en.wikipedia.org/w/index.php?title=Operators_in_C_and_C++&oldid=879923250#Logical_operators)
 - [Nesting (computing)](https://en.wikipedia.org/w/index.php?title=Nesting_(computing)&oldid=877015415)
@@ -583,6 +589,7 @@ on Wiktionary, with changes made.
 [^lvaluedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/lvalue).
 [^lvaluedef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Value_(computer_science)#Assignment:_l-values_and_r-values).
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
+[^objectdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Object_(computer_science)).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).
 [^operatordef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operator_(computer_programming), except for modification of the grammatical number (plural to singular).

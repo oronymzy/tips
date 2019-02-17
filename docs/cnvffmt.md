@@ -36,6 +36,10 @@ Use `pandoc -f html-native_divs-native_spans -t markdown-escaped_line_breaks-fen
     
     Using `-link_attributes` to [disable](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for assigning attribute lists to hyperlinks](https://pandoc.org/MANUAL.html#extension-link_attributes) prevents hyperlinks with attributes from being converted to Markdown-style links.
 
+!!! attention
+    
+    Even when `+fenced_code_blocks` is used for Pandoc Markdown output, [indented code blocks](https://pandoc.org/MANUAL.html#indented-code-blocks) are still produced instead of [fenced code blocks](https://pandoc.org/MANUAL.html#fenced-code-blocks).
+
 ### prior work
 The method of producing ATX-style headings for all heading levels was introduced to me by [an answer on Stack Overflow by shawnhcorey](https://stackoverflow.com/questions/51015110/pandoc-force-converting-into-markdown-to-use-and-for-h1-and-h2-respective/51023582#51023582).
 

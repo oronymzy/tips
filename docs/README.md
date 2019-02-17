@@ -8,7 +8,7 @@ Hope you find them useful.
 
 !!! note
     
-    [MkDocs](https://www.mkdocs.org/) pages are designed to be generated from [Python-Markdown](https://python-markdown.github.io/)-formatted text files[^Orotips1], but I tend to use [Pandoc Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown), and I'm also using [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/), so it's a bit of a mess.
+    [MkDocs](https://www.mkdocs.org/) pages are designed to be generated from [Python-Markdown](https://python-markdown.github.io/)-formatted text files[^tips1], but I tend to use [Pandoc Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown), and I'm also using [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/), so it's a bit of a mess.
 
 ## disclosure of bias
 My operating system of choice is [Kubuntu](https://kubuntu.org/) for desktop and laptop computers and [Android](https://en.wikipedia.org/wiki/Android_(operating_system)) for mobile devices. These operating systems are both (arguably) [Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution), and are therefore [Unix-like](https://en.wikipedia.org/wiki/Unix-like). Consequently, much material relies on the [Unix shell](https://en.wikipedia.org/wiki/Unix_shell), though some material will use a graphical user interface. Proprietary operating systems like Windows and Mac will appear only occasionally. There is also an almost exclusive use of freely-licensed software, even to the point of sacrificing functionality. The rationale for this is as follows:
@@ -19,7 +19,7 @@ My operating system of choice is [Kubuntu](https://kubuntu.org/) for desktop and
 ## licensing
 All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) **unless otherwise noted**, and will always be more permissive than all rights reserved. The *licensing* heading denotes the license for each page. Additionally, the website generated from the content falls under the following licenses:
 
-??? note "[BSD 2-Clause “Simplified” License](https://choosealicense.com/licenses/bsd-2-clause/) for [MkDocs](https://www.mkdocs.org/) [^Orotips2] [^Orotips3]"
+??? note "[BSD 2-Clause “Simplified” License](https://choosealicense.com/licenses/bsd-2-clause/) for [MkDocs](https://www.mkdocs.org/) [^tips2] [^tips3]"
     
     Copyright © 2014, Tom Christie. All rights reserved.
     
@@ -48,7 +48,7 @@ All content is licensed [CC0 1.0](https://creativecommons.org/publicdomain/zero/
     ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
     POSSIBILITY OF SUCH DAMAGE.
 
-??? note "[MIT License](https://choosealicense.com/licenses/mit/) for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [^Orotips4]"
+??? note "[MIT License](https://choosealicense.com/licenses/mit/) for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [^tips4]"
     
     Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
     
@@ -76,7 +76,7 @@ The CSS strategy for arranging images into columns with padding was introduced t
 ## regarding prior work
 I will always make an effort to recognize prior work, regardless of licensing, and I hope others will do the same as we all [share knowledge](https://en.wikipedia.org/wiki/Knowledge_sharing) together.
 
-[^Orotips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
-[^Orotips2]: https://www.mkdocs.org/about/license/
-[^Orotips3]: https://github.com/mkdocs/mkdocs/blob/master/LICENSE
-[^Orotips4]: https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE
+[^tips1]: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
+[^tips2]: https://www.mkdocs.org/about/license/
+[^tips3]: https://github.com/mkdocs/mkdocs/blob/master/LICENSE
+[^tips4]: https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE

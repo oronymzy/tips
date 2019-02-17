@@ -167,13 +167,13 @@ Additional documentation is available for [Material for MkDocs](https://squidfun
 [admonition extension]: https://squidfunk.github.io/mkdocs-material/extensions/admonition/
 [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
 [MkDocs]: https://www.mkdocs.org/
-[^usgMkDc1]: https://www.mkdocs.org/user-guide/configuration/#markdown_extensions
-[^usgMkDc2]: https://www.mkdocs.org/user-guide/configuration/#search
-[^usgMkDc3]: https://github.com/mkdocs/mkdocs/issues/1152
-[^usgMkDc4]: https://github.com/mkdocs/mkdocs/issues/1500
-[^usgMkDc5]: https://github.com/mkdocs/mkdocs/issues/1139#issuecomment-281483739
-[^usgMkDc6]: https://github.com/mkdocs/mkdocs/issues/1704#event-2031239880
-[^usgMkDc7]: https://www.mkdocs.org/#preview-your-site-as-you-work
-[^usgMkDc8]: http://learn.openwaterfoundation.org/owf-learn-mkdocs/edit/#starting-local-web-server-to-review-content
-[^usgMkDc9]: https://github.com/mkdocs/mkdocs/issues/1239#issuecomment-307383410
-[^usgMkDc10]: https://www.mkdocs.org/#getting-started
+[^usgMkDc1]: <https://www.mkdocs.org/user-guide/configuration/#markdown_extensions>
+[^usgMkDc2]: <https://www.mkdocs.org/user-guide/configuration/#search>
+[^usgMkDc3]: <https://github.com/mkdocs/mkdocs/issues/1152>
+[^usgMkDc4]: <https://github.com/mkdocs/mkdocs/issues/1500>
+[^usgMkDc5]: <https://github.com/mkdocs/mkdocs/issues/1139#issuecomment-281483739>
+[^usgMkDc6]: <https://github.com/mkdocs/mkdocs/issues/1704#event-2031239880>
+[^usgMkDc7]: <https://www.mkdocs.org/#preview-your-site-as-you-work>
+[^usgMkDc8]: <http://learn.openwaterfoundation.org/owf-learn-mkdocs/edit/#starting-local-web-server-to-review-content>
+[^usgMkDc9]: <https://github.com/mkdocs/mkdocs/issues/1239#issuecomment-307383410>
+[^usgMkDc10]: <https://www.mkdocs.org/#getting-started>

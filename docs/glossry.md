@@ -1,6 +1,11 @@
 # Glossary
 These are concepts I find especially confusing, ambiguous, or difficult to remember.
 
+**greenfield project** {: #greenfieldprojectdef }
+: count noun
+: A project that lacks constraints imposed by prior work.
+: The analogy is to that of construction on [greenfield land](https://en.wikipedia.org/wiki/Greenfield_land) where there is no need to work within the constraints of existing buildings or infrastructure.[^greenfieldprojectdef1] [^greenfieldprojectdef-note1]
+
 **vacuous** {: #vacuousdef }
 : adjective
 : Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef-note1]
@@ -452,6 +457,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
 - [For loop](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986).
 - [For loop§Loop counters](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986#Loop_counters)
+- [Greenfield project](https://en.wikipedia.org/w/index.php?title=Greenfield_project&oldid=859894075)
 - [Increment and decrement operators](https://en.wikipedia.org/w/index.php?title=Increment_and_decrement_operators&oldid=879445217)
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
@@ -553,6 +559,8 @@ on Wiktionary, with changes made.
 [^forloopconstructdef-note2]: Based on information from page 251 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^conditionalexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^forloopconstructdef1]: <https://en.cppreference.com/w/cpp/language/for>
+[^greenfieldprojectdef1]: Gupta, Rajeev (2011). *Project Management*. Prentice-Hall of India. p. 21. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-8120344259](https://en.wikipedia.org/wiki/Special:BookSources/978-8120344259).
+[^greenfieldprojectdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Greenfield_project).
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).

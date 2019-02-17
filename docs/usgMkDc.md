@@ -3,6 +3,12 @@ MkDocs converts Markdown to HTML using [Python-Markdown](https://python-markdown
 
 MkDocs uses [lunr.js](https://lunrjs.com/) as its search engine[^usgMkDc2], but different themes may have different search plugins.
 
+The `serve` command starts a [web server](https://en.wikipedia.org/wiki/Web_server) for local development, generating an HTML preview of changes made to the Markdown-formatted source files.[^usgMkDc7] These changes generally appear in real time.[^usgMkDc8] To access the site, use `http://127.0.0.1:8000/`[^usgMkDc10] or `http://localhost:8000/`.
+
+!!! warning
+    
+    The `serve` command is only intended for local development[^usgMkDc9] but, because it is not impossible that the site will be accessed by another device on the network, **MkDocs should not be used for local management of [sensitive information](https://en.wikipedia.org/wiki/Information_sensitivity).**
+
 !!! warning
     
     After being [built](https://www.mkdocs.org/#building-the-site), the site assumes it will come from a server, so when it is opened locally using the [file URI scheme](https://en.wikipedia.org/wiki/File_URI_scheme) there will be problems. Pages will show an "Index of" directory page instead of the actual page, and the search bar will not work.
@@ -167,3 +173,7 @@ Additional documentation is available for [Material for MkDocs](https://squidfun
 [^usgMkDc4]: https://github.com/mkdocs/mkdocs/issues/1500
 [^usgMkDc5]: https://github.com/mkdocs/mkdocs/issues/1139#issuecomment-281483739
 [^usgMkDc6]: https://github.com/mkdocs/mkdocs/issues/1704#event-2031239880
+[^usgMkDc7]: https://www.mkdocs.org/#preview-your-site-as-you-work
+[^usgMkDc8]: http://learn.openwaterfoundation.org/owf-learn-mkdocs/edit/#starting-local-web-server-to-review-content
+[^usgMkDc9]: https://github.com/mkdocs/mkdocs/issues/1239#issuecomment-307383410
+[^usgMkDc10]: https://www.mkdocs.org/#getting-started

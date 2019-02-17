@@ -311,6 +311,11 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : Operators have [associativity](#associativitydef). They may be **associative, left-associative, right-associative** or **non-associative**. For **associative** operators, the operations can be grouped arbitrarily. For **left-associative** operators, the operations are grouped from the left. For **right-associative** operators, the operations are grouped from the right. For **non-associative** operators, the operations cannot be chained, often because the output type is incompatible with the input types.[^operatordef-note2]
 : Hypernym of [assignment operator](#assignmentoperatordef), [conditional operator](#conditionaloperatordef), [decrement operator](#decrementoperatordef), [increment operator](#incrementoperatordef), [logical operator](#logicaloperatordef), and [relational operator](#relationaloperatordef).
 
+**performant** {: #performantdef }
+: adjective
+: Capable of or characterized by an [adequate](https://en.wiktionary.org/wiki/adequate) or [excellent](https://en.wiktionary.org/wiki/excellent) level of [performance](https://en.wiktionary.org/wiki/performance) or [efficiency](https://en.wiktionary.org/wiki/efficiency).
+: Usage notes: In computing jargon, something *performant* is not necessarily *[efficient](https://en.wiktionary.org/wiki/efficient)* or *[optimal](https://en.wiktionary.org/wiki/optimal#English)*; it is “good enough” in a sense that performance levels meet or exceed the expectations of end users.[^performantdef-note1]
+
 **relational expression** {: #relationalexpressiondef }
 : count noun
 : An [expression](#expressiondef) created using a [relational operator](#relationaloperatordef), also called a **condition**.[^relationalexpressiondef-note1]
@@ -353,6 +358,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
 : A subroutine has [arity](#aritydef).
+: In [C++](https://en.wikipedia.org/wiki/C++), subroutines are called [functions](https://en.cppreference.com/w/cpp/language/functions) (further classified as *member functions* when associated with a [class](https://en.wikipedia.org/wiki/Class_(computer_programming)), or *free functions*[^subroutinedef2] when not). These languages use the special keyword `void` to indicate that a function takes no parameters or does not return any value. Note that C++ functions can have side-effects, including modifying any variables whose addresses are passed as parameters (that is, *passed by reference*).[^subroutinedef-note1]
 
 **switch construct** {: #switchconstructdef }
 : count noun
@@ -464,6 +470,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Statement (computer science)](https://en.wikipedia.org/w/index.php?title=Statement_(computer_science)&oldid=863825665)
 - [Symbol rate§Symbols](https://en.wikipedia.org/w/index.php?title=Symbol_rate&oldid=870702760#Symbols)
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
+- [Subroutine§C and C++ examples](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=883485600#C_and_C++_examples)
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
 - [Text file](https://en.wikipedia.org/w/index.php?title=Text_file&oldid=881932349)
 - [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
@@ -485,6 +492,7 @@ on Wikipedia, with changes made, and:
 - [increment§verb](https://en.wiktionary.org/w/index.php?title=increment&oldid=51035067#Verb)
 - [iteration](https://en.wiktionary.org/w/index.php?title=iteration&oldid=51175255)
 - [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
+- [performant](https://en.wiktionary.org/w/index.php?title=performant&oldid=51350068)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
@@ -571,6 +579,7 @@ on Wiktionary, with changes made.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).
 [^operatordef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operator_(computer_programming), except for modification of the grammatical number (plural to singular).
 [^operatordef-note2]: Based on [information from Wikipedia](https://en.wikipedia.org/wiki/Operator_associativity).
+[^performantdef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/performant).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^rvaluedef1]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.
@@ -594,7 +603,9 @@ on Wiktionary, with changes made.
 [^statementdef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^statementdef-note3]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
 [^subroutinedef1]: [U.S. Election Assistance Commission](https://en.wikipedia.org/wiki/Election_Assistance_Commission "Election Assistance Commission") (2007). ["Definitions of Words with Special Meanings"](https://web.archive.org/web/20121208084203/http://www.eac.gov/vvsg/glossary.aspx). *[Voluntary Voting System Guidelines](https://en.wikipedia.org/wiki/Voluntary_Voting_System_Guidelines "Voluntary Voting System Guidelines")*. Archived from [the original](http://www.eac.gov/vvsg/glossary.aspx) on 2012-12-08. Retrieved 2013-01-14.
+[^subroutinedef2]: [""what is meant by a free function""](https://stackoverflow.com/questions/4861914/what-is-the-meaning-of-the-term-free-function-in-c).
 [^subroutinedef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine), with some rewording.
+[^subroutinedef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine#C_and_C++_examples).
 [^switchconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).
 [^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).
 [^terminatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement terminator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).

@@ -1,17 +1,5 @@
 # [Markdown] reference
 
-The idea is that this:
-
-```
-Why is there a `cat` command, but no *bird* command?
-```
-
-is more human-readable than this:
-
-```
-Why is there a <code>cat</code> command, but no <em>bird</em> command?
-```
-
 All the original Markdown elements from [John Gruber's Markdown](https://daringfireball.net/projects/markdown/syntax) are included (excluding the rules on backslash escapes), along with the following additions:
 
 - [admonitions](#admonition)

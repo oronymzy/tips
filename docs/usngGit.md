@@ -31,6 +31,8 @@ To set the default text editor for Git, use `git config --global core.editor "fo
 
 To undo the initial Git commit, use `git update-ref -d HEAD` to delete the branch you are on.
 
+To download a copy of all the versioned data in a Git repository to the `/foo/bar` directory, use `git clone git://foo.bar/baz.git /foo/bar`.[^usngGit2] If `/foo/bar` is omitted, the data will be downloaded to a newly-created `baz` directory.
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Specifically, the following content falls under this license:
 
@@ -55,6 +57,7 @@ If the above content is omitted, the rest is licensed **no rights reserved: [CC0
 - The importance of starting a repository with a `README.md`, `LICENSE.md`, and `.gitignore` file was introduced to me by the default repository instructions on [GitHub](https://github.com/).
 - The listing of files in Git was introduced to me by [an answer on Stack Overflow by karlphillip](https://stackoverflow.com/questions/8533202/list-files-in-local-git-repo/8533413#8533413).
 - The method of discarding unstaged changes that are not in the index was introduced to me by [a question on Stack Overflow by Readonly](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) and [an answer on Stack Overflow by Greg Hewgill](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git/52719#52719).
+- The method of downloading a copy of all the versioned data in a Git repository was introduced to me by [a page on git-scm.com](https://git-scm.com/book/en/v1/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository).
 - The method of getting the commit count across all branches was introduced to me by [an answer on Stack Overflow](https://stackoverflow.com/questions/677436/how-do-i-get-the-git-commit-count/4061706#4061706).
 - The method of ignoring an already-committed directory or file was introduced to me by [an answer on Stack Overflow by manojlds](https://stackoverflow.com/questions/6535362/gitignore-after-commit/6535459#6535459).
 - The method of searching through commit messages was introduced to me by [an answer on Stack Overflow by hobbs](https://stackoverflow.com/questions/3826748/how-to-search-in-commit-messages-using-command-line/3826800#3826800).
@@ -65,3 +68,4 @@ If the above content is omitted, the rest is licensed **no rights reserved: [CC0
 
 [Git]: https://git-scm.com/
 [^usngGit1]: https://github.com/erlang/otp/wiki/writing-good-commit-messages
+[^usngGit2]: https://git-scm.com/book/en/v1/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository

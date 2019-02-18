@@ -9,9 +9,9 @@ The `serve` command starts a [web server](https://en.wikipedia.org/wiki/Web_serv
     
     The `serve` command is only intended for local development[^usgMkDc9] but, because it is not impossible that the site will be accessed by another device on the network, **MkDocs should not be used for local management of [sensitive information](https://en.wikipedia.org/wiki/Information_sensitivity).**
 
-!!! warning
+!!! attention
     
-    After being [built](https://www.mkdocs.org/#building-the-site), the site assumes it will come from a server, so when it is opened locally using the [file URI scheme](https://en.wikipedia.org/wiki/File_URI_scheme) there will be problems. Pages will show an "Index of" directory page instead of the actual page, and the search bar will not work.
+    After being [built](https://www.mkdocs.org/#building-the-site), the site assumes it will come from a server, so when it is opened locally using the [file URI scheme](https://en.wikipedia.org/wiki/File_URI_scheme) there will be problems. Pages will show an "Index of" directory page instead of the actual page, and the search bar will not work. To allow the site to be opened locally, a workaround is to modify the generated site by adding [`use_directory_urls: false`](https://www.mkdocs.org/user-guide/configuration/#use_directory_urls) to the MkDocs configuration file and building the site again. This workaround will not change the search bar functionality.
 
 !!! note
     

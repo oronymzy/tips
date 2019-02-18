@@ -1,6 +1,24 @@
 # [Markdown] reference
 
-All the original Markdown elements from [John Gruber's Markdown](https://daringfireball.net/projects/markdown/syntax) are included (excluding the rules on backslash escapes), along with the following additions:
+The fifteen original Markdown elements from [John Gruber's Markdown](https://daringfireball.net/projects/markdown/syntax) are included (excluding the rules on backslash escapes):
+
+- [ATX-style headings](#ATXheading)
+- [Setext-style headings](#Setextheading)
+- [automatic links](#alink)
+- [blockquotes](#blockquote)
+- [emphasis](#emphasis)
+- [hard line breaks with two spaces](#hlbreaktwospace)
+- [images](#image)
+- [indented blocks of code](#ibcode)
+- [inline HTML](#html)
+- [inline code](#icode)
+- [inline-style links](#ilink)
+- [ordered lists](#olist)
+- [reference-style links](#rlink)
+- [thematic breaks](#tbreak)
+- [unordered lists](#ulist)
+
+along with the following additions:
 
 - [admonitions](#admonition)
 - [attribute lists](#alist)

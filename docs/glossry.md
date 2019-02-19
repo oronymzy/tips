@@ -53,7 +53,7 @@ Some binary files contain [headers](https://en.wikipedia.org/wiki/Header_(comput
 
 **block** {: #blockdef }
 : count noun
-: A group of one or more [expressions](#expressiondef), [declarations](https://en.wikipedia.org/wiki/Declaration_(computer_programming)), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](https://en.wikipedia.org/wiki/Control_structure) are formed from blocks.  
+: A group of one or more [expressions](#expressiondef), [declarations](#declarationdef), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](https://en.wikipedia.org/wiki/Control_structure) are formed from blocks.  
 The function of blocks in programming is to enable groups of statements to be treated as if they were one statement, and to narrow the [lexical scope](https://en.wikipedia.org/wiki/Lexical_scope) of objects such as variables and [subroutines](#subroutinedef) declared in a block so that they do not conflict with those having the same name used elsewhere. In a block-structured programming language, the objects named in outer blocks are visible inside inner blocks, unless they are [masked](https://en.wikipedia.org/wiki/Name_masking) by an object declared with the same name.[^blockdef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), blocks are delimited by **curly brackets** (`{` ... `}`).
 
@@ -140,6 +140,10 @@ Data representing [quantities](https://en.wikipedia.org/wiki/Quantities), charac
 A [program](https://en.wikipedia.org/wiki/Computer_program) is a set of data that consists of a series of coded software instructions to control the operation of a computer or other machine.[^datumdef2] Physical [computer memory](https://en.wikipedia.org/wiki/Computer_memory) elements consist of an address and a byte/word of data storage. Digital data are often stored in [relational databases](https://en.wikipedia.org/wiki/RDBMS), like [tables](https://en.wikipedia.org/wiki/Table_(database)) or SQL databases, and can generally be represented as abstract key/value pairs.  
 Data can be organized in many different types of [data structures](https://en.wikipedia.org/wiki/Data_structures), including arrays, [graphs](https://en.wikipedia.org/wiki/Graph_(data_structure)), and [objects](https://en.wikipedia.org/wiki/Object_(computer_science)). Data structures can store data of many different [types](#datatypedef), including [numbers](https://en.wikipedia.org/wiki/Floating_point), [strings](https://en.wikipedia.org/wiki/String_(computer_science)) and even other [data structures](https://en.wikipedia.org/wiki/Recursive_type). Data pass in and out of computers via [peripheral devices](https://en.wikipedia.org/wiki/Peripheral). The total amount of digital data in 2007 was estimated to be 281 billion [gigabytes](https://en.wikipedia.org/wiki/Gigabytes) (= 281 [exabytes](https://en.wikipedia.org/wiki/Exabytes)).[^datumdef3] [^datumdef4] [Digital data](https://en.wikipedia.org/wiki/Digital_data) comes in these three states: [data at rest](https://en.wikipedia.org/wiki/Data_at_rest), [data in transit](https://en.wikipedia.org/wiki/Data_in_transit) and [data in use](https://en.wikipedia.org/wiki/Data_in_use). [^datumdef-note1]
 
+**declaration** {: #declarationdef }
+: count noun
+: A [language construct](https://en.wikipedia.org/wiki/Language_construct) that specifies properties of an [identifier](https://en.wikipedia.org/wiki/Identifier_(computer_programming)), declaring its meaning.[^declarationdef1] Declarations are most commonly used for [subroutines](https://en.wikipedia.org/wiki/Subroutine), [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)), [constants](#constantdef), and [classes](https://en.wikipedia.org/wiki/Class_(computer_programming)), but can also be used for other entities such as enumerations and type definitions.[^declarationdef1] Beyond the name (the identifier itself) and the kind of entity (function, variable, etc.), declarations typically specify the [data type](#datatypedef) for variables and constants, or the [type signature](https://en.wikipedia.org/wiki/Type_signature) for subroutines. Types may also include dimensions, such as for arrays. A declaration is used to announce the existence of the entity to the [compiler](https://en.wikipedia.org/wiki/Compiler); this is important in those [strongly typed](https://en.wikipedia.org/wiki/Strongly_typed) languages that require functions, variables, and constants, and their types to be specified with a declaration before use, and is used in [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration).[^declarationdef2] The term "declaration" is frequently contrasted with the term "definition",[^declarationdef1] but meaning and usage varies significantly between programming languages.[^declarationdef-note1]
+
 **decrement** {: #decrementdef }
 : verb
 : To decrease in [value](#valuedef) by a basic quantity unit, especially by 1.[^decrementdef-note1]
@@ -207,7 +211,7 @@ else if (condition) then
 
 **for-loop construct** {: #forloopconstructdef }
 : count noun
-: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly, typically when the number of [iterations](#iterationdef) is known before entering the loop. A for-loop construct can be thought of as shorthand for a [while-loop construct](#whileloopconstructdef). A for-loop construct has two parts: a **for-loop header** specifying the iteration, and a **for-loop body** which is executed once per iteration. The header often declares an explicit [loop counter](#loopcounterdef), which allows the body to know which iteration is being executed.[^forloopconstructdef-note1]
+: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly, typically when the number of [iterations](#iterationdef) is known before entering the loop. A for-loop construct can be thought of as shorthand for a [while-loop construct](#whileloopconstructdef). A for-loop construct has two parts: a **for-loop header** specifying the iteration, and a **for-loop body** which is executed once per iteration. The header often [declares](#declarationdef) an explicit [loop counter](#loopcounterdef), which allows the body to know which iteration is being executed.[^forloopconstructdef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), the for-loop construct is a **pretest-loop construct**.[^forloopconstructdef1] [^forloopconstructdef-note2]
 : Hyponym of [count-controlled loop construct](#countcontrolledloopconstructdef).
 
@@ -456,6 +460,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Data (computing)](https://en.wikipedia.org/w/index.php?title=Data_(computing)&oldid=881080086)
 - [Data type](https://en.wikipedia.org/w/index.php?title=Data_type&oldid=879519751)
 - [Data validation](https://en.wikipedia.org/w/index.php?title=Data_validation&oldid=880736882)
+- [Declaration (computer programming)](https://en.wikipedia.org/w/index.php?title=Declaration_(computer_programming)&oldid=839247186)
 - [Do while loop](https://en.wikipedia.org/w/index.php?title=Do_while_loop&oldid=870917166)
 - [Entity](https://en.wikipedia.org/w/index.php?title=Entity&oldid=880867147)
 - [Entry point](https://en.wikipedia.org/w/index.php?title=Entry_point&oldid=881544189)
@@ -546,6 +551,17 @@ on Wiktionary, with changes made.
 [^datumdef3]: Paul, Ryan (March 12, 2008). ["Study: amount of digital info > global storage capacity"](https://arstechnica.com/news.ars/post/20080312-study-amount-of-digital-info-global-storage-capacity.html). Ars Technics. [Archived](https://web.archive.org/web/20080313111238/http://arstechnica.com/news.ars/post/20080312-study-amount-of-digital-info-global-storage-capacity.html) from the original on March 13, 2008. Retrieved 2008-03-12.
 [^datumdef4]: Gantz, John F.; et al. (2008). ["The Diverse and Exploding Digital Universe"](https://web.archive.org/web/20080311234210/http://www.emc.com/leadership/digital-universe/expanding-digital-universe.htm). International Data Corporation via EMC. Archived from [the original](http://www.emc.com/leadership/digital-universe/expanding-digital-universe.htm) on 2008-03-11. Retrieved 2008-03-12.
 [^datumdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Data_(computing)).
+[^declarationdef1]:
+    "A declaration specifies the interpretation and attributes of a set of identifiers. A *definition* of an identifier is a declaration for that identifier that:
+
+    - for an object [variable or constant], causes storage to be reserved for that object;
+    - for a function, includes the function body;
+    - for an enumeration constant, is the (only) declaration of the identifier;
+    - for a typedef name, is the first (or only) declaration of the identifier."
+
+    C11 specification, 6.7: Declarations, paragraph 5.
+[^declarationdef2]: Mike Banahan. ["2.5. Declaration of variables"](http://publications.gbdirect.co.uk/c_book/chapter2/variable_declaration.html). <http://publications.gbdirect.co.uk/c_book/>: GBdirect. Retrieved 2011-06-08. “[A] declaration [...] introduces just the name and type of something but allocates no storage[...].”
+[^declarationdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Declaration_(computer_programming)).
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^decrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
@@ -570,7 +586,7 @@ on Wiktionary, with changes made.
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
-[^ifconstructdef-note2]: This definition is based on [Wikipedia's definition]https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
+[^ifconstructdef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#Else_if)
 [^incrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
 [^incrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^incrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.

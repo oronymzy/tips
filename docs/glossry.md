@@ -142,7 +142,9 @@ Data can be organized in many different types of [data structures](https://en.wi
 
 **declaration** {: #declarationdef }
 : count noun
-: A [language construct](https://en.wikipedia.org/wiki/Language_construct) that specifies properties of an [identifier](https://en.wikipedia.org/wiki/Identifier_(computer_programming)), declaring its meaning.[^declarationdef1] Declarations are most commonly used for [subroutines](https://en.wikipedia.org/wiki/Subroutine), [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)), [constants](#constantdef), and [classes](https://en.wikipedia.org/wiki/Class_(computer_programming)), but can also be used for other entities such as enumerations and type definitions.[^declarationdef1] Beyond the name (the identifier itself) and the kind of entity (function, variable, etc.), declarations typically specify the [data type](#datatypedef) for variables and constants, or the [type signature](https://en.wikipedia.org/wiki/Type_signature) for subroutines. Types may also include dimensions, such as for arrays. A declaration is used to announce the existence of the entity to the [compiler](https://en.wikipedia.org/wiki/Compiler); this is important in those [strongly typed](https://en.wikipedia.org/wiki/Strongly_typed) languages that require functions, variables, and constants, and their types to be specified with a declaration before use, and is used in [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration).[^declarationdef2] The term "declaration" is frequently contrasted with the term "definition",[^declarationdef1] but meaning and usage varies significantly between programming languages.[^declarationdef-note1]
+: A [language construct](https://en.wikipedia.org/wiki/Language_construct) that introduces an [identifier](https://en.wikipedia.org/wiki/Identifier_(computer_programming)), specifies its properties, and declares its meaning.[^declarationdef1] Declarations are most commonly used for [subroutines](https://en.wikipedia.org/wiki/Subroutine), [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)), [constants](#constantdef), and [classes](https://en.wikipedia.org/wiki/Class_(computer_programming)), but can also be used for other entities such as enumerations and type definitions.[^declarationdef1] Beyond the name (the identifier itself) and the kind of entity (function, variable, etc.), declarations typically specify the [data type](#datatypedef) for variables and constants, or the [type signature](https://en.wikipedia.org/wiki/Type_signature) for subroutines. Types may also include dimensions, such as for arrays. A declaration is used to announce the existence of the entity to the [compiler](https://en.wikipedia.org/wiki/Compiler); this is important in those [strongly typed](https://en.wikipedia.org/wiki/Strongly_typed) languages that require functions, variables, and constants, and their types to be specified with a declaration before use, and is used in [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration).[^declarationdef2] The term "declaration" is frequently contrasted with the term "[definition](#definitiondef)",[^declarationdef1] but meaning and usage varies significantly between programming languages.[^declarationdef-note1]
+: In informal usage, it refers only to a pure declaration (types only, no value or body).[^declarationdef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), declarations introduce (or re-introduce) names into a C++ program. Each kind of entity is declared differently. [Definitions](#definitiondef) are declarations that are sufficient to use the entity identified by the name.[^declarationdef-note2] A declaration of a function that does not include a body is called a [function prototype](https://en.wikipedia.org/wiki/Function_prototype).[^declarationdef-note1]
 
 **decrement** {: #decrementdef }
 : verb
@@ -153,6 +155,12 @@ Data can be organized in many different types of [data structures](https://en.wi
 : A [unary](https://en.wikipedia.org/wiki/Unary_operator) [operator](#operatordef) that decreases the [value](#valuedef) of its [operand](#operanddef) by 1. The operand must have an arithmetic or [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) [data type](#datatypedef), and must refer to a modifiable [data object](https://en.wikipedia.org/wiki/Data_object). Pointer values are decreased by an amount that makes them point to the next element adjacent in memory.[^decrementoperatordef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), the operator is two [hyphen-minuses](https://en.wikipedia.org/wiki/Hyphen-minus) (`--`), and its operand must be an [lvalue](#lvaluedef) [^decrementoperatordef-note2]. It can be used as a prefix (`--foo`) or a postfix (`foo--`). As a prefix, it decreases the [value](#valuedef) of its operand by 1, and the value of the expression is the resulting decremented value. As a postfix, it decreases the value of its operand by 1, but the value of the expression is the operand's original value *prior* to the decrement operation.[^decrementoperatordef-note1]
 : Hyponym of [operator](#operatordef).
+
+**definition** {: #definitiondef }
+: count noun
+: A [language construct](https://en.wikipedia.org/wiki/Language_construct) that instantiates or implements an [identifier](https://en.wikipedia.org/wiki/Identifier_(computer_programming)).[^definitiondef-note1]
+: In informal usage, it refers to a [declaration](#declarationdef) that includes a [value](#valuedef) or body.[^definitiondef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), definitions are [declarations](#declarationdef) that fully define the entity introduced by the declaration.[^definitiondef-note2]
 
 **direct access** {: #directaccessdef }
 : mass noun
@@ -513,7 +521,16 @@ on Wikipedia, with changes made, and:
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
-on Wiktionary, with changes made.
+on Wiktionary, with changes made, and:
+
+- [an answer on Stack Overflow by sbi](https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration/1410632#1410632)
+
+on Stack Overflow, with changes made, and:
+
+- [Declarations](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&oldid=107424)
+- [Definitions and ODR](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&oldid=108342)
+
+on cppreference.com, with changes made.
 
 [^runningtotaldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Running_total).
 [^accumulatordef-note1]: This definition is based on [an answer on Stack Overflow by Alberto Moriconi](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator/12983603#12983603) and on information from page 257 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
@@ -561,10 +578,13 @@ on Wiktionary, with changes made.
 
     C11 specification, 6.7: Declarations, paragraph 5.
 [^declarationdef2]: Mike Banahan. ["2.5. Declaration of variables"](http://publications.gbdirect.co.uk/c_book/chapter2/variable_declaration.html). <http://publications.gbdirect.co.uk/c_book/>: GBdirect. Retrieved 2011-06-08. “[A] declaration [...] introduces just the name and type of something but allocates no storage[...].”
-[^declarationdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Declaration_(computer_programming)).
+[^declarationdef-note1]: This definition is based on [Wikipedia's definition of a declaration](https://en.wikipedia.org/wiki/Declaration_(computer_programming)) and [an answer on Stack Overflow by sbi](https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration/1410632#1410632).
+[^declarationdef-note2]: This definition is based on [the “Declarations” page on cppreference.com](https://en.cppreference.com/w/cpp/language/declarations).
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^decrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
+[^definitiondef-note1]: This definition is based on [Wikipedia's definition of a declaration](https://en.wikipedia.org/wiki/Declaration_(computer_programming)) and [an answer on Stack Overflow by sbi](https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration/1410632#1410632).
+[^definitiondef-note2]: This definition is based on [the “Definitions and ODR” page on cppreference.com](https://en.cppreference.com/w/cpp/language/definition).
 [^directaccessdef1]: National Computer Conference and Exposition (1957). [*Proceedings*](https://books.google.com/books?id=lQQrAQAAIAAJ). Retrieved 2 October 2013.
 [^directaccessdef2]: International Business Machines Corporation. Data Processing Division (1966). [*Introduction to IBM Direct-access Storage Devices and Organization Methods*](https://books.google.com/books?id=i6vWAAAAMAAJ&pg=SA3-PA24). International Business Machines Corporation. pp. 3–. Retrieved 2 October 2013.
 [^directaccessdef3]: D. E. KNUTH (1969). [*The Art of Computer Programming. Vol. 3. Sorting and Searching*](https://books.google.com/books?id=ZQu9mgEACAAJ). Addison-Wesley. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-0-201-03803-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-03803-3). Retrieved 2 October 2013.

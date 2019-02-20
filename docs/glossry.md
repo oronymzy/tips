@@ -200,6 +200,7 @@ else if (condition) then
 **entity** {: #entitydef }
 : count noun
 : Anything that claims independent [existence](https://en.wikipedia.org/wiki/Existence), as opposed to merely being part of a whole. It can exist as a subject or as an object, actually or potentially, concretely or abstractly.[^entitydef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), entities include [values](#valuedef), [objects](https://en.cppreference.com/w/cpp/language/objects), [references](https://en.cppreference.com/w/cpp/language/reference), [structured bindings](https://en.cppreference.com/w/cpp/language/structured_binding) (since C++17), [functions](https://en.cppreference.com/w/cpp/language/functions), [enumerators](https://en.cppreference.com/w/cpp/language/enum), [types](https://en.cppreference.com/w/cpp/language/type), class members, [templates](https://en.cppreference.com/w/cpp/language/templates), [template specializations](https://en.cppreference.com/w/cpp/language/template_specialization), [namespaces](https://en.cppreference.com/w/cpp/language/namespace), and [parameter packs](https://en.cppreference.com/w/cpp/language/parameter_pack). Preprocessor [macros](https://en.cppreference.com/w/cpp/preprocessor/replace) are not C++ entities.[^entitydef-note2]
 
 **entry point** {: #entrypointdef }
 : count noun
@@ -545,6 +546,7 @@ on Wiktionary, with changes made, and:
 
 on Stack Overflow, with changes made, and:
 
+- [Basic concepts](https://en.cppreference.com/mwiki/index.php?title=cpp/language/basic_concepts&oldid=108663)
 - [Declarations](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&oldid=107424)
 - [Definitions and ODR](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&oldid=108342)
 
@@ -597,18 +599,19 @@ on cppreference.com, with changes made.
     C11 specification, 6.7: Declarations, paragraph 5.
 [^declarationdef2]: Mike Banahan. ["2.5. Declaration of variables"](http://publications.gbdirect.co.uk/c_book/chapter2/variable_declaration.html). <http://publications.gbdirect.co.uk/c_book/>: GBdirect. Retrieved 2011-06-08. “[A] declaration [...] introduces just the name and type of something but allocates no storage[...].”
 [^declarationdef-note1]: This definition is based on [Wikipedia's definition of a declaration](https://en.wikipedia.org/wiki/Declaration_(computer_programming)) and [an answer on Stack Overflow by sbi](https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration/1410632#1410632).
-[^declarationdef-note2]: This definition is based on [the “Declarations” page on cppreference.com](https://en.cppreference.com/w/cpp/language/declarations).
+[^declarationdef-note2]: This definition is based on information from [the “Declarations” page on cppreference.com](https://en.cppreference.com/w/cpp/language/declarations).
 [^decrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^decrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^decrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
 [^definitiondef-note1]: This definition is based on [Wikipedia's definition of a declaration](https://en.wikipedia.org/wiki/Declaration_(computer_programming)) and [an answer on Stack Overflow by sbi](https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration/1410632#1410632).
-[^definitiondef-note2]: This definition is based on [the “Definitions and ODR” page on cppreference.com](https://en.cppreference.com/w/cpp/language/definition).
+[^definitiondef-note2]: This definition is based on information from [the “Definitions and ODR” page on cppreference.com](https://en.cppreference.com/w/cpp/language/definition).
 [^directaccessdef1]: National Computer Conference and Exposition (1957). [*Proceedings*](https://books.google.com/books?id=lQQrAQAAIAAJ). Retrieved 2 October 2013.
 [^directaccessdef2]: International Business Machines Corporation. Data Processing Division (1966). [*Introduction to IBM Direct-access Storage Devices and Organization Methods*](https://books.google.com/books?id=i6vWAAAAMAAJ&pg=SA3-PA24). International Business Machines Corporation. pp. 3–. Retrieved 2 October 2013.
 [^directaccessdef3]: D. E. KNUTH (1969). [*The Art of Computer Programming. Vol. 3. Sorting and Searching*](https://books.google.com/books?id=ZQu9mgEACAAJ). Addison-Wesley. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-0-201-03803-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-03803-3). Retrieved 2 October 2013.
 [^directaccessdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Random_access).
 [^dowhileloopconstructdef-note1]: This definition is based on [Wikipedia's definition of “Do while loop”](https://en.wikipedia.org/wiki/Do_while_loop) and [Wikipedia's definition of “While loop”](https://en.wikipedia.org/wiki/While_loop).
 [^entitydef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entity).
+[^entitydef-note2]: This definition is based on information from [the “Basic concepts” page on cppreference.com](https://en.cppreference.com/w/cpp/language/basic_concepts).
 [^entrypointdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Entry_point), with some rewording.
 [^expressiondef1]: [Javascript expressions, Mozilla](https://developer.mozilla.org/en/Core_JavaScript_1.5_Guide/Expressions) Accessed July 6, 2009]
 [^expressiondef2]: [Programming in C](https://www.cs.drexel.edu/~rweaver/COURSES/ISTC-2/TOPICS/expr.html) Accessed July 6, 2009

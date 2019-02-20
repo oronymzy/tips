@@ -233,6 +233,8 @@ else if (condition) then
 : count noun
 : A [lexical](https://en.wikipedia.org/wiki/Lexical_(semiotics)) [token](https://en.wikipedia.org/wiki/Token_(parser)) that names an [entity](#entitydef). Identifiers are used extensively in virtually all [information processing systems](https://en.wikipedia.org/wiki/Information_processing_system). Identifying entities makes it possible to refer to them, which is essential for any kind of symbolic processing.[^identifierdef-note1]
 : In [computer languages](https://en.wikipedia.org/wiki/Computer_language), an identifier is a token that names a computer language entity. Some of the kinds of entities an identifier might denote include [variables](#variabledef), [constants](#constantdef), [data types](#datatypedef), [labels](https://en.wikipedia.org/wiki/Label_(programming_language)), [subroutines](#subroutinedef), and [packages](https://en.wikipedia.org/wiki/Modular_programming).[^identifierdef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++) identifiers are labels used for various things, including [functions](#subroutinedef), classes, namespaces, and [variables](#variabledef). The rules for identifiers are the same whether the identifier refers to a variable, function, or whatever else. In general, the name of an identifier must consist of the characters `a-z`, `A-Z`, `0-9` and `_`, not begin with a digit or `_` and not be a [keyword](https://en.cppreference.com/book/glossary#keyword). There are more rules that must be followed.  
+Identifiers are usually not stored in the final program (unless certain debugging settings are used) so the user need not worry about descriptive names giving hackers clues. They also don't have to worry about the size of identifiers; if they're stripped out, they take up no space in the final program.[^identifierdef-note2]
 
 **if-clause** {: #ifclausedef }
 : count noun
@@ -422,13 +424,15 @@ A type of selection control mechanism used to allow the value of a [variable](#v
 
 **value** {: #valuedef }
 : count noun
-: A member of the set of possible interpretations of any possibly-infinite sequence of [symbols](#symboldef).[^valuedef-note1]
+: A known or unknown quantity of information.[^valuedef-note1]
 : Hypernym of [lvalue](#lvaluedef), [rvalue](#rvaluedef), and [sentinel value](#sentinelvaluedef).
 
 **variable** {: #variabledef }
 : count noun
-: A storage location (identified by a [memory address](https://en.wikipedia.org/wiki/Memory_address)) paired with an associated [symbolic name](https://en.wikipedia.org/wiki/Symbol) (an *[identifier](#identifierdef)*), which contains some known or unknown quantity of information referred to as a *[value](#valuedef)*. The variable name is the usual way to [reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) the stored value, in addition to referring to the variable itself, depending on the context. This separation of name and content allows the name to be used independently of the exact information it represents. The identifier in computer [source code](https://en.wikipedia.org/wiki/Source_code) can be [bound](https://en.wikipedia.org/wiki/Name_binding) to a [value](#valuedef) during [run time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)), and the value of the variable may thus change during the course of [program execution](https://en.wikipedia.org/wiki/Execution_(computing)).[^variabledef1] [^variabledef2] [^variabledef-note1]
+: An [object](#objectdef) whose [value](#valuedef) can change. This is in contrast with a [constant](#constantdef), whose value cannot change. Variables are fundamental to programming, because without them, a program's behavior could not change (it would run the same way every time) and even simple programs would require enormous amounts of memory because, if objects' values cannot change, each new value needed would need a new object.  
+The variable [identifier](#identifierdef) is the usual way to [reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) the stored value, in addition to referring to the variable itself, depending on the context. This separation of identifier and content allows the identifier to be used independently of the exact information it represents. The variable identifier in computer [source code](https://en.wikipedia.org/wiki/Source_code) can be [bound](https://en.wikipedia.org/wiki/Name_binding) to a [value](#valuedef) during [run time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)), and the value of the variable may thus change during the course of [program execution](https://en.wikipedia.org/wiki/Execution_(computing)).[^variabledef1] [^variabledef2] [^variabledef-note1]
 : A variable is also known as a **scalar**.[^variabledef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), a variable is a quantity of memory that has been reserved for the program's use. It is referred to using a variable [identifier](#identifierdef), so the user doesn't need to worry about where it is in memory (though they can find out its memory address, and even specify its location, if they want). The C++ type system keeps track of the size of the memory block, and how to interpret the value in it (that is, it will know whether the value `65` in a certain memory block actually refers to the number 65, the letter '`A`' (the ASCII/Unicode code number for the character 'A' is `65`), or even perhaps a complex number with real part 6 and imaginary part 5). Creating a variable in C++ requires at least two things: a variable [identifier](#identifierdef) and a type.[^variabledef-note2]
 : Hypernym of [accumulator](#accumulatordef), [control variable](#controlvariabledef), [counter](#counterdef), and [flag](#flagdef).
 
 **while-loop construct** {: #whileloopconstructdef }
@@ -550,6 +554,9 @@ on Stack Overflow, with changes made, and:
 - [Basic concepts](https://en.cppreference.com/mwiki/index.php?title=cpp/language/basic_concepts&oldid=108663)
 - [Declarations](https://en.cppreference.com/mwiki/index.php?title=cpp/language/declarations&oldid=107424)
 - [Definitions and ODR](https://en.cppreference.com/mwiki/index.php?title=cpp/language/definition&oldid=108342)
+- [Variables](https://en.cppreference.com/bookwiki/index.php?title=intro/variables&oldid=870)
+- [Variables§Identifiers](https://en.cppreference.com/bookwiki/index.php?title=intro/variables&oldid=870#Identifiers)
+- [Variables§Variables in C++](https://en.cppreference.com/bookwiki/index.php?title=intro/variables&oldid=870#Variables_in_C.2B.2B)
 
 on cppreference.com, with changes made.
 
@@ -628,6 +635,7 @@ on cppreference.com, with changes made.
 [^greenfieldprojectdef1]: Gupta, Rajeev (2011). *Project Management*. Prentice-Hall of India. p. 21. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-8120344259](https://en.wikipedia.org/wiki/Special:BookSources/978-8120344259).
 [^greenfieldprojectdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Greenfield_project).
 [^identifierdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Identifier).
+[^identifierdef-note2]: This definition is based on [a definition from the “Identifiers” section of the “Variables” page on cppreference.com](https://en.cppreference.com/book/intro/variables#Identifiers).
 [^iforelseorelseiforclausedef-note1]: This definition is based on [an answer on Stack Overflow by tvanfosson](https://stackoverflow.com/questions/4877903/the-term-clause-in-the-context-of-programming/4877948#4877948).
 [^iforelseorelseiforclausedef-note2]: This definition is based on [an answer on Software Engineering Stack Exchange by Robert Harvey](https://softwareengineering.stackexchange.com/questions/234331/in-an-if-statement-what-are-an-if-clause-and-a-then-clause/234337#234337).
 [^ifconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then(%E2%80%93else)).
@@ -689,8 +697,9 @@ on cppreference.com, with changes made.
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
 [^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
-[^valuedef-note1]: This definition is based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).
+[^valuedef-note1]: This definition is based on information from [Wikipedia's definition of a variable](https://en.wikipedia.org/wiki/Variable_(computer_science)).
 [^variabledef1]: *[Compilers: Principles, Techniques, and Tools](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)*, pp. 26–28
 [^variabledef2]: Knuth, Donald (1997). *The Art of Computer Programming*. **1** (3rd ed.). Reading, Massachusetts: Addison-Wesley. p. 3-4. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-201-89683-4](https://en.wikipedia.org/wiki/Special:BookSources/0-201-89683-4).
-[^variabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Variable_(computer_science)).
+[^variabledef-note1]: This definition is based on [a definition from the “Variables” page on cppreference.com](https://en.cppreference.com/book/intro/variables) and [a definition from Wikipedia's “Variable (computer science” page](https://en.wikipedia.org/wiki/Variable_(computer_science)).
+[^variabledef-note2]: This definition is based on [a definition from the “Variables in C++” section of the “Variables” page on cppreference.com](https://en.cppreference.com/book/intro/variables#Variables_in_C.2B.2B)
 [^whileloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/While_loop).

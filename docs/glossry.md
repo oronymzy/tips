@@ -459,7 +459,7 @@ The code fragments above are written in the [C programming language](https://en.
 [^whileloopconstructdef2]: ["while (C# reference)"](http://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx). *Msdn.microsoft.com*. Retrieved 2016-10-21.
 
 ## licensing
-**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from:
+**Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).**[^glossry1] Includes significant content from:
 
 - [Assignment (computer science)](https://en.wikipedia.org/w/index.php?title=Assignment_(computer_science)&oldid=882172626)
 - [Assignment operator (C++)](https://en.wikipedia.org/w/index.php?title=Assignment_operator_(C%2B%2B)&oldid=873288112)
@@ -619,6 +619,7 @@ on cppreference.com, with changes made.
 [^forloopconstructdef-note2]: Based on information from page 251 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^conditionalexpressiondef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Conditional_(computer_programming)#If%E2%80%93then%E2%80%93else_expressions).
 [^forloopconstructdef1]: <https://en.cppreference.com/w/cpp/language/for>
+[^glossry1]: <https://en.cppreference.com/w/Cppreference:FAQ>
 [^greenfieldprojectdef1]: Gupta, Rajeev (2011). *Project Management*. Prentice-Hall of India. p. 21. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [978-8120344259](https://en.wikipedia.org/wiki/Special:BookSources/978-8120344259).
 [^greenfieldprojectdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Greenfield_project).
 [^identifierdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Identifier).

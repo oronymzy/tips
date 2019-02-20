@@ -14,14 +14,15 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **accumulator** {: #accumulatordef }
 : count noun
-: A variable whose contents are [incremented](#incrementdef) to represent the results of a [running total](#runningtotaldef).[^accumulatordef-note1]
+: A [variable](#variabledef) whose contents are [incremented](#incrementdef) to represent the results of a [running total](#runningtotaldef).[^accumulatordef-note1]
+: Hyponym of [variable](#variabledef).
 
 **arity** {: #aritydef }
 : mass noun
 : The number of [operands](#operanddef) a [subroutine](#subroutinedef) takes.[^aritydef-note1]
 
 **assignment construct** {: #assignmentconstructdef }
-: A [construct](https://en.wikipedia.org/wiki/Data_structure) that sets and/or re-sets the [value](#valuedef) stored in the storage location(s) denoted by a variable name (in other words, it copies a value into the variable). In most [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming languages](https://en.wikipedia.org/wiki/Programming_language) it is a fundamental construct. Assignment constructs can be [expressions](#expressiondef), [statements](#statementdef), or [operators](#assignmentoperatordef).[^assignmentconstructdef-note1]
+: A [construct](https://en.wikipedia.org/wiki/Data_structure) that sets and/or re-sets the [value](#valuedef) stored in the storage location(s) denoted by a variable name (in other words, it copies a value into the [variable](#variabledef)). In most [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming languages](https://en.wikipedia.org/wiki/Programming_language) it is a fundamental construct. Assignment constructs can be [expressions](#expressiondef), [statements](#statementdef), or [operators](#assignmentoperatordef).[^assignmentconstructdef-note1]
 : Hypernym of [assignment operator](#assignmentoperatordef).
 
 **assignment operator** {: #assignmentoperatordef }
@@ -41,7 +42,7 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 
 **augmented assignment operator** {: #augmentedassignmentoperatordef }
 : count noun
-: An [assignment operator](#assignmentoperatordef) that is generally used to replace a [statement](#statementdef) where an operator takes a [variable](https://en.wikipedia.org/wiki/Variable_(programming)) as one of its arguments and then assigns the result back to the same variable. In [expression-oriented programming languages](https://en.wikipedia.org/wiki/Expression-oriented_programming_language) such as C, assignment and augmented assignment are expressions, which have a value. This allows their use in complex expressions. However, this can produce sequences of symbols that are difficult to read or understand, and worse, a mistype can easily produce a different sequence of gibberish that although accepted by the compiler does not produce desired results. In other languages, such as Python, assignment and augmented assignment are statements, not expressions, and thus cannot be used in complex expressions. As with assignment, in these languages augmented assignment is a form of [right-associative](https://en.wikipedia.org/wiki/Operator_associativity#Right-associativity_of_assignment_operators) assignment.
+: An [assignment operator](#assignmentoperatordef) that is generally used to replace a [statement](#statementdef) where an operator takes a [variable](#variabledef) as one of its arguments and then assigns the result back to the same variable. In [expression-oriented programming languages](https://en.wikipedia.org/wiki/Expression-oriented_programming_language) such as C, assignment and augmented assignment are expressions, which have a value. This allows their use in complex expressions. However, this can produce sequences of symbols that are difficult to read or understand, and worse, a mistype can easily produce a different sequence of gibberish that although accepted by the compiler does not produce desired results. In other languages, such as Python, assignment and augmented assignment are statements, not expressions, and thus cannot be used in complex expressions. As with assignment, in these languages augmented assignment is a form of [right-associative](https://en.wikipedia.org/wiki/Operator_associativity#Right-associativity_of_assignment_operators) assignment.
 : For example, `x += 1` is expanded to `x = x + (1)`.[^augmentedassignmentoperatordef-note1]
 : Hyponym of [assignment operator](#assignmentoperatordef).
 
@@ -54,7 +55,7 @@ Some binary files contain [headers](https://en.wikipedia.org/wiki/Header_(comput
 **block** {: #blockdef }
 : count noun
 : A group of one or more [expressions](#expressiondef), [declarations](#declarationdef), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](https://en.wikipedia.org/wiki/Control_structure) are formed from blocks.  
-The function of blocks in programming is to enable groups of statements to be treated as if they were one statement, and to narrow the [lexical scope](https://en.wikipedia.org/wiki/Lexical_scope) of objects such as variables and [subroutines](#subroutinedef) declared in a block so that they do not conflict with those having the same name used elsewhere. In a block-structured programming language, the objects named in outer blocks are visible inside inner blocks, unless they are [masked](https://en.wikipedia.org/wiki/Name_masking) by an object declared with the same name.[^blockdef-note1]
+The function of blocks in programming is to enable groups of statements to be treated as if they were one statement, and to narrow the [lexical scope](https://en.wikipedia.org/wiki/Lexical_scope) of objects such as [variables](#variabledef) and [subroutines](#subroutinedef) declared in a block so that they do not conflict with those having the same name used elsewhere. In a block-structured programming language, the objects named in outer blocks are visible inside inner blocks, unless they are [masked](https://en.wikipedia.org/wiki/Name_masking) by an object declared with the same name.[^blockdef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), blocks are delimited by **curly brackets** (`{` ... `}`).
 
 **Boolean** {: #Booleandef }
@@ -109,7 +110,8 @@ else
 
 **control variable** {: #controlvariabledef }
 : count noun
-: A [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
+: A [variable](#variabledef) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
+: Hypernym of [variable](#variabledef).
 
 **count-controlled loop construct** {: #countcontrolledloopconstructdef }
 : count noun
@@ -119,12 +121,13 @@ else
 
 **counter** {: #counterdef }
 : count noun
-: A variable whose contents are [incremented](#incrementdef) or [decremented](#decrementdef)[^counterdef-note1] by a fixed number[^counterdef] to represent the results of [counting](https://en.wikipedia.org/wiki/Counting).[^counterdef-note2]
+: A [variable](#variabledef) whose contents are [incremented](#incrementdef) or [decremented](#decrementdef)[^counterdef-note1] by a fixed number[^counterdef] to represent the results of [counting](https://en.wikipedia.org/wiki/Counting).[^counterdef-note2]
 : Hypernym of [loop counter](#loopcounterdef).
+: Hyponym of [variable](#variabledef).
 
 **data type** {: #datatypedef }
 : count noun
-: An attribute of [data](#datumdef) which tells the [compiler](https://en.wikipedia.org/wiki/Compiler) or [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) how the programmer intends to use the data. Most programming languages support common data types of [real](https://en.wikipedia.org/wiki/Real_number), [integer](https://en.wikipedia.org/wiki/Integer_(computer_science)) and [Boolean](#Booleandatatypedef). A data type constrains the [values](#valuedef) that an [expression](#expressiondef), such as a variable or a [subroutine](#subroutinedef), might take. This data type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored. A type of value from which an expression may take its value.[^datatypedef1] [^datatypedef2] [^datatypedef-note1]
+: An attribute of [data](#datumdef) which tells the [compiler](https://en.wikipedia.org/wiki/Compiler) or [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) how the programmer intends to use the data. Most programming languages support common data types of [real](https://en.wikipedia.org/wiki/Real_number), [integer](https://en.wikipedia.org/wiki/Integer_(computer_science)) and [Boolean](#Booleandatatypedef). A data type constrains the [values](#valuedef) that an [expression](#expressiondef), such as a [variable](#variabledef) or a [subroutine](#subroutinedef), might take. This data type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored. A type of value from which an expression may take its value.[^datatypedef1] [^datatypedef2] [^datatypedef-note1]
 : Hypernym of [Boolean data type](#Booleandatatypedef).
 
 **data validation** {: #datavalidationdef }
@@ -142,7 +145,7 @@ Data can be organized in many different types of [data structures](https://en.wi
 
 **declaration** {: #declarationdef }
 : count noun
-: A [language construct](https://en.wikipedia.org/wiki/Language_construct) that introduces an [identifier](#identifierdef), specifies its properties, and declares its meaning.[^declarationdef1] Declarations are most commonly used for [subroutines](https://en.wikipedia.org/wiki/Subroutine), [variables](https://en.wikipedia.org/wiki/Variable_(computer_science)), [constants](#constantdef), and [classes](https://en.wikipedia.org/wiki/Class_(computer_programming)), but can also be used for other entities such as enumerations and type definitions.[^declarationdef1] Beyond the name (the identifier itself) and the kind of entity (function, variable, etc.), declarations typically specify the [data type](#datatypedef) for variables and constants, or the [type signature](https://en.wikipedia.org/wiki/Type_signature) for subroutines. Types may also include dimensions, such as for arrays. A declaration is used to announce the existence of the entity to the [compiler](https://en.wikipedia.org/wiki/Compiler); this is important in those [strongly typed](https://en.wikipedia.org/wiki/Strongly_typed) languages that require functions, variables, and constants, and their types to be specified with a declaration before use, and is used in [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration).[^declarationdef2] The term "declaration" is frequently contrasted with the term "[definition](#definitiondef)",[^declarationdef1] but meaning and usage varies significantly between programming languages.[^declarationdef-note1]
+: A [language construct](https://en.wikipedia.org/wiki/Language_construct) that introduces an [identifier](#identifierdef), specifies its properties, and declares its meaning.[^declarationdef1] Declarations are most commonly used for [subroutines](https://en.wikipedia.org/wiki/Subroutine), [variables](#variabledef), [constants](#constantdef), and [classes](https://en.wikipedia.org/wiki/Class_(computer_programming)), but can also be used for other entities such as enumerations and type definitions.[^declarationdef1] Beyond the name (the identifier itself) and the kind of entity (function, variable, etc.), declarations typically specify the [data type](#datatypedef) for variables and constants, or the [type signature](https://en.wikipedia.org/wiki/Type_signature) for subroutines. Types may also include dimensions, such as for arrays. A declaration is used to announce the existence of the entity to the [compiler](https://en.wikipedia.org/wiki/Compiler); this is important in those [strongly typed](https://en.wikipedia.org/wiki/Strongly_typed) languages that require functions, variables, and constants, and their types to be specified with a declaration before use, and is used in [forward declaration](https://en.wikipedia.org/wiki/Forward_declaration).[^declarationdef2] The term "declaration" is frequently contrasted with the term "[definition](#definitiondef)",[^declarationdef1] but meaning and usage varies significantly between programming languages.[^declarationdef-note1]
 : In informal usage, it refers only to a pure declaration (types only, no value or body).[^declarationdef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), declarations introduce (or re-introduce) names into a C++ program. Each kind of entity is declared differently. [Definitions](#definitiondef) are declarations that are sufficient to use the entity identified by the name.[^declarationdef-note2] A declaration of a function that does not include a body is called a [function prototype](https://en.wikipedia.org/wiki/Function_prototype).[^declarationdef-note1]
 
@@ -203,7 +206,7 @@ else if (condition) then
 : The point in a program where the first instructions are executed, and where the program has access to [command line arguments](https://en.wikipedia.org/wiki/Command_line_arguments).[^entrypointdef-note1] [Python-Markdown has a different, unclear definition in the context of extensions](https://python-markdown.github.io/extensions/#officially-supported-extensions).
 
 **expression** {: #expressiondef }
-: A combination of one or more [constants](https://en.wikipedia.org/wiki/Constant_(programming)), [variables](https://en.wikipedia.org/wiki/Variable_(programming)), [operators](https://en.wikipedia.org/wiki/Operator_(programming)), and [subroutines](#subroutinedef) that a [programming language](https://en.wikipedia.org/wiki/Programming_language) interprets (according to its particular [rules of precedence](https://en.wikipedia.org/wiki/Order_of_operations) and of [association](#associativitydef)) and computes to produce ("to return", in a [stateful](https://en.wikipedia.org/wiki/State_(computer_science)) environment) another [value](#valuedef). This process, as for [mathematical expressions](https://en.wikipedia.org/wiki/Mathematical_expression), is called evaluation. In simple settings, the [resulting value](https://en.wikipedia.org/wiki/Return_type) is usually one of various [primitive types](https://en.wikipedia.org/wiki/Primitive_data_type), such as numerical, [string](https://en.wikipedia.org/wiki/String_(computer_science)), and [logical](https://en.wikipedia.org/wiki/Boolean_expression); in more elaborate settings, it can be an arbitrary [complex data type](https://en.wikipedia.org/wiki/Complex_data_type).[^expressiondef-note1]
+: A combination of one or more [constants](#constantdef), [variables](#variabledef), [operators](#operatordef), and [subroutines](#subroutinedef) that a [programming language](https://en.wikipedia.org/wiki/Programming_language) interprets (according to its particular [rules of precedence](https://en.wikipedia.org/wiki/Order_of_operations) and of [association](#associativitydef)) and computes to produce ("to return", in a [stateful](https://en.wikipedia.org/wiki/State_(computer_science)) environment) another [value](#valuedef). This process, as for [mathematical expressions](https://en.wikipedia.org/wiki/Mathematical_expression), is called evaluation. In simple settings, the [resulting value](https://en.wikipedia.org/wiki/Return_type) is usually one of various [primitive types](https://en.wikipedia.org/wiki/Primitive_data_type), such as numerical, [string](https://en.wikipedia.org/wiki/String_(computer_science)), and [logical](https://en.wikipedia.org/wiki/Boolean_expression); in more elaborate settings, it can be an arbitrary [complex data type](https://en.wikipedia.org/wiki/Complex_data_type).[^expressiondef-note1]
 : For example, `2+3` is an arithmetic and programming expression which evaluates to `5`. A variable is an expression because it denotes a value in memory, so `y+6` is an expression. An example of a relational expression is `4≠4`, which evaluates to `false`.[^expressiondef-note1] [^expressiondef1] [^expressiondef2]
 : Hypernym of [conditional expression](#conditionalexpressiondef) and [relational expression](#relationalexpressiondef).
 
@@ -215,7 +218,8 @@ else if (condition) then
 
 **flag** {: #flagdef }
 : count noun
-: A variable or memory location that stores a [Boolean](#Booleandef) [value](#valuedef), typically either recording the fact that a certain event has occurred or requesting that a certain optional action take place.[^flagdef-note1]
+: A [variable](#variabledef) or memory location that stores a [Boolean](#Booleandef) [value](#valuedef), typically either recording the fact that a certain event has occurred or requesting that a certain optional action take place.[^flagdef-note1]
+: Hyponym of [variable](#variabledef).
 
 **for-loop construct** {: #forloopconstructdef }
 : count noun
@@ -226,7 +230,7 @@ else if (condition) then
 **identifier** {: #identifierdef }
 : count noun
 : A [lexical](https://en.wikipedia.org/wiki/Lexical_(semiotics)) [token](https://en.wikipedia.org/wiki/Token_(parser)) that names an [entity](#entitydef). Identifiers are used extensively in virtually all [information processing systems](https://en.wikipedia.org/wiki/Information_processing_system). Identifying entities makes it possible to refer to them, which is essential for any kind of symbolic processing.[^identifierdef-note1]
-: In [computer languages](https://en.wikipedia.org/wiki/Computer_language), an identifier is a token that names a computer language entity. Some of the kinds of entities an identifier might denote include [variables](https://en.wikipedia.org/wiki/Variable_(programming)), [data types](#datatypedef), [labels](https://en.wikipedia.org/wiki/Label_(programming_language)), [subroutines](#subroutinedef), and [packages](https://en.wikipedia.org/wiki/Modular_programming).[^identifierdef-note1]
+: In [computer languages](https://en.wikipedia.org/wiki/Computer_language), an identifier is a token that names a computer language entity. Some of the kinds of entities an identifier might denote include [variables](#variabledef), [constants](#constantdef), [data types](#datatypedef), [labels](https://en.wikipedia.org/wiki/Label_(programming_language)), [subroutines](#subroutinedef), and [packages](https://en.wikipedia.org/wiki/Modular_programming).[^identifierdef-note1]
 
 **if-clause** {: #ifclausedef }
 : count noun
@@ -309,7 +313,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **lvalue** {: #lvaluedef }
 : count noun
-: A [value](#valuedef) that refers to a [data object](https://en.wikipedia.org/wiki/Data_object) that persists beyond a single [expression](#expressiondef).[^lvaluedef2] In many languages, notably the [C family](https://en.wikipedia.org/wiki/C_programming_language), an lvalue has a [storage address](https://en.wikipedia.org/wiki/Memory_address) that is programmatically accessible to the running program (for example, via some address-of operator like `&` in C/C++), meaning that it is a variable or dereferenced reference to a certain memory location.[^lvaluedef-note2]
+: A [value](#valuedef) that refers to a [data object](https://en.wikipedia.org/wiki/Data_object) that persists beyond a single [expression](#expressiondef).[^lvaluedef2] In many languages, notably the [C family](https://en.wikipedia.org/wiki/C_programming_language), an lvalue has a [storage address](https://en.wikipedia.org/wiki/Memory_address) that is programmatically accessible to the running program (for example, via some address-of operator like `&` in C/C++), meaning that it is a [variable](#variabledef) or dereferenced reference to a certain memory location.[^lvaluedef-note2]
 : For its etymology, it comes from *[L](https://en.wiktionary.org/wiki/L#English)* +‎ *[value](#valuedef)*, where *L* stands for *left-hand side*, deriving from the typical mode of evaluation on the left and [right](#rvaluedef) hand side of an [assignment](#assignmentconstructdef) [statement](#statementdef).[^lvaluedef-note2] In context of the [C programming language](https://en.wiktionary.org/wiki/C#English-programming_language) it is usually expanded as *[locator](https://en.wiktionary.org/wiki/locator#English)* *value*.[^lvaluedef-note1]
 : In [C](https://en.wikipedia.org/wiki/C_(programming_language)), if an lvalue refers to a modifiable data object, it is called a **modifiable lvalue**.[^lvaluedef1]
 : Hyponym of [value](#valuedef).
@@ -321,8 +325,8 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **object** {: #objectdef }
 : count noun
-: A [value](#valuedef) in [memory](https://en.wikipedia.org/wiki/Memory_address) referenced by an [identifier](#identifierdef), such as a [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)), a [data structure](https://en.wikipedia.org/wiki/Data_structure), a [subroutine](https://en.wikipedia.org/wiki/Subroutine), or a [method](https://en.wikipedia.org/wiki/Method_(computer_programming)).[^objectdef-note1]
-: In [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (a [class-based](https://en.wikipedia.org/wiki/Class-based_programming) paradigm), *object* refers to a particular [instance](https://en.wikipedia.org/wiki/Instance_(computer_science)) of a [class](https://en.wikipedia.org/wiki/Class_(computer_science)), where the object can be a combination of variables, [subroutines](https://en.wikipedia.org/wiki/Subroutine), and data structures.[^objectdef-note1]
+: A [value](#valuedef) in [memory](https://en.wikipedia.org/wiki/Memory_address) referenced by an [identifier](#identifierdef), such as a [variable](#variabledef), a [data structure](https://en.wikipedia.org/wiki/Data_structure), a [subroutine](#subroutinedef), or a [method](https://en.wikipedia.org/wiki/Method_(computer_programming)).[^objectdef-note1]
+: In [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (a [class-based](https://en.wikipedia.org/wiki/Class-based_programming) paradigm), *object* refers to a particular [instance](https://en.wikipedia.org/wiki/Instance_(computer_science)) of a [class](https://en.wikipedia.org/wiki/Class_(computer_science)), where the object can be a combination of [variables](#variabledef), [subroutines](#subroutinedef), and data structures.[^objectdef-note1]
 
 **octet** {: #octetdef }
 : count noun
@@ -385,11 +389,11 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : count noun
 : A sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed. It may be defined within a single program, or separately in a [library](https://en.wikipedia.org/wiki/Library_(computer_science)) that can be used by many programs. In different programming languages, a subroutine may be called a **procedure**, a **function**, a **routine**, a [method](https://en.wikipedia.org/wiki/Method_(computing)), or a **subprogram**. The generic term **callable unit** is sometimes used.[^subroutinedef1] [^subroutinedef-note1]
 : A subroutine has [arity](#aritydef).
-: In [C++](https://en.wikipedia.org/wiki/C++), subroutines are called [functions](https://en.cppreference.com/w/cpp/language/functions) (further classified as *member functions* when associated with a [class](https://en.wikipedia.org/wiki/Class_(computer_programming)), or *free functions*[^subroutinedef2] when not). These languages use the special keyword `void` to indicate that a function takes no parameters or does not return any value. Note that C++ functions can have side-effects, including modifying any variables whose addresses are passed as parameters (that is, *passed by reference*).[^subroutinedef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), subroutines are called [functions](https://en.cppreference.com/w/cpp/language/functions) (further classified as *member functions* when associated with a [class](https://en.wikipedia.org/wiki/Class_(computer_programming)), or *free functions*[^subroutinedef2] when not). These languages use the special keyword `void` to indicate that a function takes no parameters or does not return any value. Note that C++ functions can have side-effects, including modifying any [variables](#variabledef) whose addresses are passed as parameters (that is, *passed by reference*).[^subroutinedef-note1]
 
 **switch construct** {: #switchconstructdef }
 : count noun
-A type of selection control mechanism used to allow the value of a [variable](https://en.wikipedia.org/wiki/Variable_(programming)) or [expression](#expressiondef) to change the [control flow](https://en.wikipedia.org/wiki/Control_flow) of program execution via search and map.[^switchconstructdef-note1]
+A type of selection control mechanism used to allow the value of a [variable](#variabledef) or [expression](#expressiondef) to change the [control flow](https://en.wikipedia.org/wiki/Control_flow) of program execution via search and map.[^switchconstructdef-note1]
 
 **symbol** {: #symboldef }
 : count noun
@@ -419,6 +423,12 @@ A type of selection control mechanism used to allow the value of a [variable](ht
 : A member of the set of possible interpretations of any possibly-infinite sequence of [symbols](#symboldef).[^valuedef-note1]
 : Hypernym of [lvalue](#lvaluedef), [rvalue](#rvaluedef), and [sentinel value](#sentinelvaluedef).
 
+**variable** {: #variabledef }
+: count noun
+: A storage location (identified by a [memory address](https://en.wikipedia.org/wiki/Memory_address)) paired with an associated [symbolic name](https://en.wikipedia.org/wiki/Symbol) (an *[identifier](#identifierdef)*), which contains some known or unknown quantity of information referred to as a *[value](#valuedef)*. The variable name is the usual way to [reference](https://en.wikipedia.org/wiki/Reference_(computer_science)) the stored value, in addition to referring to the variable itself, depending on the context. This separation of name and content allows the name to be used independently of the exact information it represents. The identifier in computer [source code](https://en.wikipedia.org/wiki/Source_code) can be [bound](https://en.wikipedia.org/wiki/Name_binding) to a [value](#valuedef) during [run time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)), and the value of the variable may thus change during the course of [program execution](https://en.wikipedia.org/wiki/Execution_(computing)).[^variabledef1] [^variabledef2] [^variabledef-note1]
+: A variable is also known as a **scalar**.[^variabledef-note1]
+: Hypernym of [accumulator](#accumulatordef), [control variable](#controlvariabledef), [counter](#counterdef), and [flag](#flagdef).
+
 **while-loop construct** {: #whileloopconstructdef }
 : count noun
 : A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the control structure is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop construct](#dowhileloopconstructdef), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
@@ -431,7 +441,7 @@ while (x < 5)
     x++;
 }
 ```
-: For example, the code fragment above first checks whether `x` is less than 5, which it is, so then the loop body within the curly brackets is entered, where the `printf` [subroutine](#subroutinedef) is run and `x` is [incremented](#incrementdef) by 1. After completing all the statements in the loop body, the condition, (x < 5), is checked again, and the loop is executed again, this process repeating until the [variable](https://en.wikipedia.org/wiki/Variable_(programming)) `x` has the value 5.  
+: For example, the code fragment above first checks whether `x` is less than 5, which it is, so then the loop body within the curly brackets is entered, where the `printf` [subroutine](#subroutinedef) is run and `x` is [incremented](#incrementdef) by 1. After completing all the statements in the loop body, the condition, (x < 5), is checked again, and the loop is executed again, this process repeating until the [variable](#variabledef) `x` has the value 5.  
 : 
 ```
 while (true)
@@ -506,6 +516,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
 - [Text file](https://en.wikipedia.org/w/index.php?title=Text_file&oldid=881932349)
 - [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
+- [Variable (computer science)](https://en.wikipedia.org/w/index.php?title=Variable_(computer_science)&oldid=882244717)
 - [While loop](https://en.wikipedia.org/w/index.php?title=While_loop&oldid=881424645)
 - [?:](https://en.wikipedia.org/w/index.php?title=%3F:&oldid=880334289)
 
@@ -673,4 +684,7 @@ on cppreference.com, with changes made.
 [^truncatedef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/truncate).
 [^vacuousdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/vacuous).
 [^valuedef-note1]: This definition is based on the definition proposed on [an answer on Stack Overflow](https://stackoverflow.com/questions/3300726/what-is-a-value-in-the-context-of-programming/3301073#3301073).
+[^variabledef1]: *[Compilers: Principles, Techniques, and Tools](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)*, pp. 26–28
+[^variabledef2]: Knuth, Donald (1997). *The Art of Computer Programming*. **1** (3rd ed.). Reading, Massachusetts: Addison-Wesley. p. 3-4. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-201-89683-4](https://en.wikipedia.org/wiki/Special:BookSources/0-201-89683-4).
+[^variabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Variable_(computer_science)).
 [^whileloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/While_loop).

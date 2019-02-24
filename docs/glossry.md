@@ -351,6 +351,10 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : Capable of or characterized by an [adequate](https://en.wiktionary.org/wiki/adequate) or [excellent](https://en.wiktionary.org/wiki/excellent) level of [performance](https://en.wiktionary.org/wiki/performance) or [efficiency](https://en.wiktionary.org/wiki/efficiency).
 : Usage notes: In computing jargon, something *performant* is not necessarily *[efficient](https://en.wiktionary.org/wiki/efficient)* or *[optimal](https://en.wiktionary.org/wiki/optimal#English)*; it is “good enough” in a sense that performance levels meet or exceed the expectations of end users.[^performantdef-note1]
 
+**programmatical freedom** {: #programmaticalfreedomdef }
+: mass noun
+: The ability to run a program for any purpose and to study, change, and distribute it and any adapted versions.[^programmaticalfreedomdef-note1] This ability can be explained in more detail with **four freedoms** that specify the actions that can be taken on or with a program. The first action that can be performed (or **freedom zero**) is to run a program as one wishes, for any purpose. The second action that can be performed (or **freedom one**) is to study how a program works and change it to do one's computing as one wishes. The third action that can be performed (or **freedom two**) is to redistribute copies of a program. The fourth action that can be performed (or **freedom three**) is to distribute copies of a program one has changed. Actions two and four require the program's [source code](https://en.wikipedia.org/wiki/Source_code) to be available.[^programmaticalfreedomdef-note2]
+
 **relational expression** {: #relationalexpressiondef }
 : count noun
 : An [expression](#expressiondef) created using a [relational operator](#relationaloperatordef), also called a **condition**.[^relationalexpressiondef-note1]
@@ -496,6 +500,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Expression (computer science)](https://en.wikipedia.org/w/index.php?title=Expression_(computer_science)&oldid=878391104)
 - [For loop](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986).
 - [For loop§Loop counters](https://en.wikipedia.org/w/index.php?title=For_loop&oldid=876221986#Loop_counters)
+- [Free software](https://en.wikipedia.org/w/index.php?title=Free_software&oldid=882024123)
 - [Greenfield project](https://en.wikipedia.org/w/index.php?title=Greenfield_project&oldid=859894075)
 - [Identifier§In computer languages](https://en.wikipedia.org/w/index.php?title=Identifier&oldid=882722496#In_computer_languages)
 - [Identifier§In computer science](https://en.wikipedia.org/w/index.php?title=Identifier&oldid=882722496#In_computer_science)
@@ -664,6 +669,8 @@ on cppreference.com, with changes made.
 [^operatordef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operator_(computer_programming), except for modification of the grammatical number (plural to singular).
 [^operatordef-note2]: Based on [information from Wikipedia](https://en.wikipedia.org/wiki/Operator_associativity).
 [^performantdef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/performant).
+[^programmaticalfreedomdef-note1]: This definition is based on [Wikipedia's definition of free software](https://en.wikipedia.org/wiki/Free_software) and [Wikipedia's definition of freedom](https://en.wikipedia.org/wiki/Freedom).
+[^programmaticalfreedomdef-note2]: This definition is based on [the GNU prject's definition of free software](https://www.gnu.org/philosophy/free-sw.html.en).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^rvaluedef1]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.

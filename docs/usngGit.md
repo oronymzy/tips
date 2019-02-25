@@ -5,20 +5,26 @@ Create a repository in a local directory, ideally including a `README.md` and a 
 
 To ignore an already-committed directory or file, add it to `.gitignore`, commit the `.gitignore` file, then use `git rm --cached foobar`, where *foobar* is the directory or file to be ignored. The directory or file will not be deleted, and it will now be ignored by Git.
 
-| action                                                                        | script                                                  | representation                                                                                                                     | notes
-|:------------------------------------------------------------------------------|:--------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|:-
-| amend the most recent commit message before pushing it to a remote repository | `git commit --amend -m "foobar"`                        | {==foobar==} represents the new message
-| change the remote repository on GitHub                                        | `git remote set-url baz https://github.com/foo/bar.git` | {==foo==} represents the username, {==bar==} represents the repository name, and {==baz==} represents the shortname of the remote.
-| connect a local repository with a remote repository on GitHub                 | `git remote add baz https://github.com/foo/bar.git`     | {==foo==} represents the username, {==bar==} represents the repository name, and {==baz==} represents the shortname of the remote.
-| create a maximally-compressed [zip] archive of the local repository           | `git archive --format=zip -9 -o /foo/bar/baz.zip HEAD`  | {==/foo/bar/baz.zip==} represents the path to the zip archive file.
+| action                                                                        | script                                                 | representation                                                                                                                                    | notes
+|:------------------------------------------------------------------------------|:-------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-
+| amend the most recent commit message before pushing it to a remote repository | `git commit --amend -m "foobar"`                       | {==foobar==} represents the new message
+| create a maximally-compressed [zip] archive of the local repository           | `git archive --format=zip -9 -o /foo/bar/baz.zip HEAD` | {==/foo/bar/baz.zip==} represents the path to the zip archive file.
 | detect changes                                                                | `git ls-files -m`
-| download a copy of all the versioned data in a Git repository                 | `git clone git://foo.bar/baz.git /foo/bar`[^usngGit2]   | {==/foo/bar==} represents the directory the data will be downloaded to.                                                            | If {==/foo/bar==} is omitted, the data will be downloaded to a newly-created {==baz==} directory.
+| download a copy of all the versioned data in a Git repository                 | `git clone git://foo.bar/baz.git /foo/bar`[^usngGit2]  | {==git://foo.bar/baz.git==} represents the URI of the Git repository, and {==/foo/bar==} represents the directory the data will be downloaded to. | If {==/foo/bar==} is omitted, the data will be downloaded to a newly-created {==baz==} directory.
 | get the commit count across all branches                                      | `git rev-list --all --count`
-| push the local repository to the connected remote repository on GitHub        | `git push -u baz master`                                | {==baz==} represents the shortname of the remote.                                                                                  | Enter the user's GitHub username and password at the resulting prompt. It may be useful to first simulate the Git command by including the “dry run” `-n` option, as with `git push -n -u baz master`.
-| rename the shortname of a remote                                              | `git remote rename foo bar`                             | {==foo==} represents the original shortname and {==bar==} represents the new shortname.
-| search through commit messages                                                | `git log --grep="foobar"`                               | {==foobar==} represents the pattern to search for.                                                                                 | Regular expressions are supported.
-| set the default text editor                                                   | `git config --global core.editor "foobar"`              | {==foobar==} represents the command that will launch the text editor from the command line.
-| view a specified commit                                                       | `git show foobar`                                       | {==foobar==} represents the 40-character commit object name.
+| rename the shortname of a remote                                              | `git remote rename foo bar`                            | {==foo==} represents the original shortname and {==bar==} represents the new shortname.
+| search through commit messages                                                | `git log --grep="foobar"`                              | {==foobar==} represents the pattern to search for.                                                                                                | Regular expressions are supported.
+| set the default text editor                                                   | `git config --global core.editor "foobar"`             | {==foobar==} represents the command that will launch the text editor from the command line.
+| view a specified commit                                                       | `git show foobar`                                      | {==foobar==} represents the 40-character commit object name.
+
+## [GitHub]-specific information
+
+| action                                                                 | script                                                  | representation                                                                                                                     | notes
+|:-----------------------------------------------------------------------|:--------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|:-
+| change the remote repository on GitHub                                 | `git remote set-url baz https://github.com/foo/bar.git` | {==foo==} represents the username, {==bar==} represents the repository name, and {==baz==} represents the shortname of the remote.
+| connect a local repository with a remote repository on GitHub          | `git remote add baz https://github.com/foo/bar.git`     | {==foo==} represents the username, {==bar==} represents the repository name, and {==baz==} represents the shortname of the remote.
+| push the local repository to the connected remote repository on GitHub | `git push -u baz master`                                | {==baz==} represents the shortname of the remote.                                                                                  | Enter the user's GitHub username and password at the resulting prompt. It may be useful to first simulate the Git command by including the “dry run” `-n` option, as with `git push -n -u baz master`.
+
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/),** excepting [the section below](#lps).
@@ -41,11 +47,10 @@ To ignore an already-committed directory or file, add it to `.gitignore`, commit
 - The method of viewing a specified commit was introduced to me by [an answer on Stack Overflow by Graham Borland](https://stackoverflow.com/questions/7663451/view-a-specific-git-commit/7663506#7663506).
 
 [Git]: https://git-scm.com/
+[GitHub]: https://github.com/
 [zip]: https://en.wikipedia.org/wiki/Zip_(file_format)
 [^usngGit1]: <https://github.com/erlang/otp/wiki/writing-good-commit-messages>
 [^usngGit2]: <https://git-scm.com/book/en/v1/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository>
-
----
 
 ## [less-freely-licensed](https://creativecommons.org/licenses/by-sa/3.0/) section {: #lps }
 
@@ -53,7 +58,7 @@ To discard unstaged changes that are not in the index, use `git stash save --kee
 
 | action                                                                        | script                            | representation | notes
 |:------------------------------------------------------------------------------|:----------------------------------|:---------------|:-
-| list all of the already committed files being tracked by one's git repository | `git ls-tree --full-tree -r HEAD`
+| list all of the already committed files being tracked by one's Git repository | `git ls-tree --full-tree -r HEAD`
 | show files managed by Git                                                     | `git ls-files`                    |                | It is limited to the current directory and any subdirectories.
 | undo the initial Git commit by deleting the branch one is on                  | `git update-ref -d HEAD`
 

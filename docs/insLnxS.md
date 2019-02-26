@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount qtqr recode retext searchmonkey simplescreenrecorder sox surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -57,6 +57,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `krename`                  | [KRename]                                                | [batch renamer]            | [GNU GPL v2.0][^insLnxS5]
 | `net-tools`                | [ifconfig], part of [net-tools]                          | administration utility     | [GNU GPL v2.0][^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit] Java Runtime Environment
+| `pngcrush`                 | [pngcrush]                                               | [PNG] image optimizer      | libpng-like license
 
 [Audacity]: https://www.audacityteam.org/
 [Bless]: https://github.com/afrantzis/bless
@@ -70,11 +71,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [KRename]: https://www.krename.net/home/
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
+[PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
 [batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
+[pngcrush]: https://pmt.sourceforge.io/pngcrush/
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 

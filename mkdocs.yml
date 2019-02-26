@@ -43,6 +43,7 @@ nav:
     - using youtube-dl: 'usgytdl.md'
   - Hardware:
     - getting hardware information: 'ghdinfo.md'
+    - using an image scanner: 'usiscnr.md'
   - Leisure:
     - finding freely-licensed content: 'findflc.md'
     - installing beets: 'insbeet.md'

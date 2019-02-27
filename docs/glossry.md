@@ -54,9 +54,10 @@ Some binary files contain [headers](https://en.wikipedia.org/wiki/Header_(comput
 
 **block** {: #blockdef }
 : count noun
-: A group of one or more [expressions](#expressiondef), [declarations](#declarationdef), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](https://en.wikipedia.org/wiki/Control_structure) are formed from blocks.  
+: A group of one or more [expressions](#expressiondef), [declarations](#declarationdef), [statements](#statementdef) or other units of code that are related in such a way as to comprise a whole. A programming language that permits the creation of blocks, including blocks nested within other blocks, is called a **block-structured programming language**. Blocks are fundamental to [structured programming](https://en.wikipedia.org/wiki/Structured_programming), where [control structures](#controlstructuredef) are formed from blocks.  
 The function of blocks in programming is to enable groups of statements to be treated as if they were one statement, and to narrow the [lexical scope](https://en.wikipedia.org/wiki/Lexical_scope) of objects such as [variables](#variabledef) and [subroutines](#subroutinedef) declared in a block so that they do not conflict with those having the same name used elsewhere. In a block-structured programming language, the objects named in outer blocks are visible inside inner blocks, unless they are [masked](https://en.wikipedia.org/wiki/Name_masking) by an object declared with the same name.[^blockdef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), blocks are delimited by **curly brackets** (`{` ... `}`).
+: Hypernym of [control structure](#controlstructuredef).
 
 **Boolean** {: #Booleandef }
 : adjective
@@ -108,10 +109,17 @@ else
 : count noun
 : An [identifier](#identifierdef) that is [bound](https://en.wiktionary.org/wiki/bound) to an [invariant](https://en.wiktionary.org/wiki/invariant) [value](#valuedef); a fixed value given a name to aid in readability of [source code](https://en.wiktionary.org/wiki/source_code).[^constantdef-note1]
 
+**control structure** {: #controlstructuredef }
+: count noun
+: A [block](#blockdef) that analyzes [variables](#variabledef) and chooses a direction in which to go based on given parameters. The term *[flow of control](https://en.wikipedia.org/wiki/Control_flow)* details the direction the program takes (which way program control "flows"). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters.  
+Those initial conditions and parameters are called *preconditions.* Preconditions are the state of variables before entering a control structure. Based on those preconditions, the computer runs an *algorithm* (the control structure) to determine what to do. The result is called a *postcondition.* Postconditions are the state of variables after the algorithm is run.[^controlstructuredef-note1]
+: For example, flow of control can be analyzed by using traffic flow as a model. A vehicle is arriving at an intersection. Thus, the precondition is the vehicle is in motion. Suppose the traffic light at the intersection is red. The control structure must determine the proper course of action to assign to the vehicle. **Precondition:** The vehicle is in motion. **Treatment of information through a control structure begins.** Is the traffic light green? If so, then the vehicle may stay in motion. Is the traffic light red? If so, then the vehicle must stop. **Treatment ends. Postcondition:** The vehicle comes to a stop. Thus, upon exiting the control structure, the vehicle is stopped.[^controlstructuredef-note1]
+: Hyponym of [block](#blockdef).
+
 **control variable** {: #controlvariabledef }
 : count noun
 : A [variable](#variabledef) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
-: Hypernym of [variable](#variabledef).
+: Hyponym of [variable](#variabledef).
 
 **count-controlled loop construct** {: #countcontrolledloopconstructdef }
 : count noun
@@ -387,7 +395,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 **sequential access** {: #sequentialaccessdef }
 : mass noun
 : Accessing a group of elements (such as data in a memory array or a [disk](https://en.wikipedia.org/wiki/Hard_disk_drive) file or on [magnetic tape data storage](https://en.wikipedia.org/wiki/Magnetic_tape_data_storage) in a predetermined, ordered [sequence](https://en.wikipedia.org/wiki/Sequence). Sequential access is sometimes the only way of accessing the data, for example if it is on a tape. It may also be the access method of choice, for example if all that is wanted is to process a sequence of data elements in order.[^sequentialaccessdef1] However, there is no consistent definition of sequential access or sequentiality.[^sequentialaccessdef2] [^sequentialaccessdef3] [^sequentialaccessdef4] [^sequentialaccessdef5] [^sequentialaccessdef6] [^sequentialaccessdef7] [^sequentialaccessdef8] [^sequentialaccessdef9] In fact, different sequentiality definitions can lead to different sequentiality quantification results. In spatial dimension, request size, strided distance, backward accesses, re-accesses can affect sequentiality. For temporal sequentiality, characteristics such as multi-stream and inter-arrival time threshold has impact on the definition of sequentiality.[^sequentialaccessdef10] [^sequentialaccessdef-note1]  
-: In [data structures](https://en.wikipedia.org/wiki/Data_structure), a data structure is said to have sequential access if one can only visit the values it contains in one particular order. The canonical example is the [linked list](https://en.wikipedia.org/wiki/Linked_list). Indexing into a list that has sequential access requires [O](https://en.wikipedia.org/wiki/Big_O_notation)(*n*) time, where *n* is the index. As a result, many algorithms such as [quicksort](https://en.wikipedia.org/wiki/Quicksort) and [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm") degenerate into bad algorithms that are even less efficient than their naive alternatives; these algorithms are impractical without [direct access](#directaccessdef). On the other hand, some algorithms, typically those that do not have index, require only sequential access, such as [mergesort](https://en.wikipedia.org/wiki/Mergesort, and face no penalty.[^sequentialaccessdef-note1]
+: In [data structures](https://en.wikipedia.org/wiki/Data_structure), a data structure is said to have sequential access if one can only visit the values it contains in one particular order. The canonical example is the [linked list](https://en.wikipedia.org/wiki/Linked_list). Indexing into a list that has sequential access requires [O](https://en.wikipedia.org/wiki/Big_O_notation)(*n*) time, where *n* is the index. As a result, many algorithms such as [quicksort](https://en.wikipedia.org/wiki/Quicksort) and [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm") degenerate into bad algorithms that are even less efficient than their naive alternatives; these algorithms are impractical without [direct access](#directaccessdef). On the other hand, some algorithms, typically those that do not have index, require only sequential access, such as [mergesort](https://en.wikipedia.org/wiki/Mergesort), and face no penalty.[^sequentialaccessdef-note1]
 
 **statement** {: #statementdef }
 : count noun
@@ -441,7 +449,7 @@ The variable [identifier](#identifierdef) is the usual way to [reference](https:
 
 **while-loop construct** {: #whileloopconstructdef }
 : count noun
-: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the control structure is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop construct](#dowhileloopconstructdef), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
+: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the [control structure](#controlstructuredef) is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop construct](#dowhileloopconstructdef), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
 : 
 ```
 int x = 0;
@@ -461,7 +469,7 @@ while (true)
     //more stuff
 }
 ```
-: The code fragment above shows that it is possible, and in some cases desirable, for the condition to *always* evaluate to true, creating an [infinite loop](https://en.wikipedia.org/wiki/Infinite_loop). When such a loop is created intentionally, there is usually another control structure (such as a [break](https://en.wikipedia.org/wiki/Control_flow) statement) that controls termination of the loop.  
+: The code fragment above shows that it is possible, and in some cases desirable, for the condition to *always* evaluate to true, creating an [infinite loop](https://en.wikipedia.org/wiki/Infinite_loop). When such a loop is created intentionally, there is usually another [control structure](#controlstructuredef) (such as a [break](https://en.wikipedia.org/wiki/Control_flow) statement) that controls termination of the loop.  
 The code fragments above are written in the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)) (as well as [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)),[^whileloopconstructdef2] [Objective-C](https://en.wikipedia.org/wiki/Objective-C), and [C++](https://en.wikipedia.org/wiki/C++), which [use the same syntax](https://en.wikipedia.org/wiki/Polyglot_(computing)) in this case).
 : Hyponym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 
@@ -533,6 +541,10 @@ The code fragments above are written in the [C programming language](https://en.
 
 on Wikipedia, with changes made, and:
 
+- [Control structures](https://en.wikiversity.org/w/index.php?title=Control_structures&oldid=1856357)
+
+on Wikiversity, with changes made, and:
+
 - [arity](https://en.wiktionary.org/w/index.php?title=arity&oldid=50758406)
 - [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
@@ -586,6 +598,7 @@ on cppreference.com, with changes made.
 [^conditioncontrolledloopconstructdef-note1]: This definition is loosely based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
+[^controlstructuredef-note1]: This definition is based on information from [Wikiversity's definition of “control structure”](https://en.wikiversity.org/wiki/Control_structures).
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.
 [^controlvariabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_variable_(programming)).
 [^countcontrolledloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Count-controlled_loops).

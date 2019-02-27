@@ -109,6 +109,11 @@ else
 : count noun
 : An [identifier](#identifierdef) that is [bound](https://en.wiktionary.org/wiki/bound) to an [invariant](https://en.wiktionary.org/wiki/invariant) [value](#valuedef); a fixed value given a name to aid in readability of [source code](https://en.wiktionary.org/wiki/source_code).[^constantdef-note1]
 
+**control flow** {: #controlflowdef }
+: mass noun
+: The order in which individual [statements](#statementdef), [instructions](https://en.wikipedia.org/wiki/Instruction_(computer_science)) or [function calls](https://en.wikipedia.org/wiki/Function_call) of an [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [program](https://en.wikipedia.org/wiki/Computer_program) are [executed](https://en.wikipedia.org/wiki/Execution_(computing)) or evaluated. The emphasis on explicit control flow distinguishes an *[imperative programming](https://en.wikipedia.org/wiki/Imperative_programming)* language from a *[declarative programming](https://en.wikipedia.org/wiki/Declarative_programming)* language. Within an imperative [programming language](https://en.wikipedia.org/wiki/Programming_language), a *control flow statement* is a [statement](#statementdef), the execution of which results in a choice being made as to which of two or more paths to follow. For [non-strict](https://en.wikipedia.org/wiki/Strict_programming_language) functional languages, functions and language constructs exist to achieve the same result, but they are usually not termed control flow statements. A set of statements is in turn generally structured as a [block](https://en.wikipedia.org/wiki/Block_(programming)) which, in addition to grouping, also defines a [lexical scope](https://en.wikipedia.org/wiki/Lexical_scope). [Interrupts](https://en.wikipedia.org/wiki/Interrupt) and [signals](https://en.wikipedia.org/wiki/Signal_(computing)) are low-level mechanisms that can alter the flow of control in a way similar to a [subroutine](#subroutinedef), but usually occur as a response to some external stimulus or event (that can occur [asynchronously](https://en.wikipedia.org/wiki/Asynchronous_systems)), rather than execution of an *in-line* control flow statement.[^controlflowdef-note1]
+: Control flow is also known as **flow of control**.[^controlflowdef-note1]
+
 **control structure** {: #controlstructuredef }
 : count noun
 : A [block](#blockdef) that analyzes [variables](#variabledef) and chooses a direction in which to go based on given parameters. The term *[flow of control](https://en.wikipedia.org/wiki/Control_flow)* details the direction the program takes (which way program control "flows"). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters.  
@@ -494,6 +499,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Conditional (computer programming)§If–then(–else)](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=881570939)
 - [Conditional (computer programming)§If–then–else expressions](https://en.wikipedia.org/w/index.php?title=Conditional_(computer_programming)&oldid=882062344#If%E2%80%93then%E2%80%93else_expressions)
 - [Conditional operator](https://en.wikipedia.org/w/index.php?title=Conditional_operator&oldid=846889637)
+- [Control flow](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=885162294)
 - [Control flow§Loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Loops)
 - [Control flow§Condition-controlled loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Condition-controlled_loops)
 - [Control flow§Count-controlled loops](https://en.wikipedia.org/w/index.php?title=Control_flow&oldid=882692944#Count-controlled_loops)
@@ -598,6 +604,7 @@ on cppreference.com, with changes made.
 [^conditioncontrolledloopconstructdef-note1]: This definition is loosely based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
+[^controlflowdef-note1]: This definition is based on information from [Wikipedia's definition of “control flow”](https://en.wikipedia.org/wiki/Control_flow).
 [^controlstructuredef-note1]: This definition is based on information from [Wikiversity's definition of “control structure”](https://en.wikiversity.org/wiki/Control_structures).
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.
 [^controlvariabledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_variable_(programming)).

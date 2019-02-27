@@ -65,7 +65,7 @@ The function of blocks in programming is to enable groups of statements to be tr
 
 **Boolean data type** {: #Booleandatatypedef }
 : proper noun
-: A [data type](#datatypedef) limited to [Boolean](#Booleandef) [values](#valuedef). The Boolean data type is primarily associated with [conditional](#conditionaldef) [statements](#statementdef), which allow different actions by changing [control flow](https://en.wikipedia.org/wiki/Control_flow) depending on whether a programmer-specified Boolean *condition* evaluates to true or false.[^Booleandatatypedef-note1]
+: A [data type](#datatypedef) limited to [Boolean](#Booleandef) [values](#valuedef). The Boolean data type is primarily associated with [conditional](#conditionaldef) [statements](#statementdef), which allow different actions by changing [control flow](#controlflowdef) depending on whether a programmer-specified Boolean *condition* evaluates to true or false.[^Booleandatatypedef-note1]
 : For its etymology, it is named after [George Boole](https://en.wikipedia.org/wiki/George_Boole), who first defined an algebraic system of logic in the mid 19th century.[^Booleandatatypedef-note1]
 : Hyponym of [data type](#datatypedef).
 
@@ -116,14 +116,14 @@ else
 
 **control structure** {: #controlstructuredef }
 : count noun
-: A [block](#blockdef) that analyzes [variables](#variabledef) and chooses a direction in which to go based on given parameters. The term *[flow of control](https://en.wikipedia.org/wiki/Control_flow)* details the direction the program takes (which way program control "flows"). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters.  
+: A [block](#blockdef) that analyzes [variables](#variabledef) and chooses a direction in which to go based on given parameters. The term *[flow of control](#controlflowdef)* details the direction the program takes (which way program control "flows"). Hence it is the basic decision-making process in computing; flow control determines how a computer will respond when given certain conditions and parameters.  
 Those initial conditions and parameters are called *preconditions.* Preconditions are the state of variables before entering a control structure. Based on those preconditions, the computer runs an *algorithm* (the control structure) to determine what to do. The result is called a *postcondition.* Postconditions are the state of variables after the algorithm is run.[^controlstructuredef-note1]
 : For example, flow of control can be analyzed by using traffic flow as a model. A vehicle is arriving at an intersection. Thus, the precondition is the vehicle is in motion. Suppose the traffic light at the intersection is red. The control structure must determine the proper course of action to assign to the vehicle. **Precondition:** The vehicle is in motion. **Treatment of information through a control structure begins.** Is the traffic light green? If so, then the vehicle may stay in motion. Is the traffic light red? If so, then the vehicle must stop. **Treatment ends. Postcondition:** The vehicle comes to a stop. Thus, upon exiting the control structure, the vehicle is stopped.[^controlstructuredef-note1]
 : Hyponym of [block](#blockdef).
 
 **control variable** {: #controlvariabledef }
 : count noun
-: A [variable](#variabledef) that is used to regulate the [flow of control](https://en.wikipedia.org/wiki/Control_flow) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
+: A [variable](#variabledef) that is used to regulate the [flow of control](#controlflowdef) of a program. In definite [iteration](#iterationdef), control variables are variables which are successively assigned (or bound to) [values](#valuedef) from a predetermined sequence of values.[^controlvariabledef1] [^controlvariabledef-note1]
 : Hyponym of [variable](#variabledef).
 
 **count-controlled loop construct** {: #countcontrolledloopconstructdef }
@@ -187,7 +187,7 @@ In [data structures](https://en.wikipedia.org/wiki/Data_structure), direct acces
 
 **do-while-loop construct** {: #dowhileloopconstructdef }
 : count noun
-: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that executes a [block](#blockdef) of code at least once, and then repeatedly executes the block, or not, depending on a given [Boolean](#Booleandef) [condition](#conditiondef) at the end of the block. Because the do-while-loop construct checks the condition after the block is executed, the control structure is often also known as a **posttest loop**. Compare this with the [*while* loop construct](#whileloopconstructdef), which tests the condition *before* the code within the block is executed.[^dowhileloopconstructdef-note1]
+: A [control flow](#controlflowdef) construct that executes a [block](#blockdef) of code at least once, and then repeatedly executes the block, or not, depending on a given [Boolean](#Booleandef) [condition](#conditiondef) at the end of the block. Because the do-while-loop construct checks the condition after the block is executed, the control structure is often also known as a **posttest loop**. Compare this with the [*while* loop construct](#whileloopconstructdef), which tests the condition *before* the code within the block is executed.[^dowhileloopconstructdef-note1]
 : Hyponym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 
 **else-clause** {: #elseclausedef }
@@ -238,7 +238,7 @@ else if (condition) then
 
 **for-loop construct** {: #forloopconstructdef }
 : count noun
-: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly, typically when the number of [iterations](#iterationdef) is known before entering the loop. A for-loop construct can be thought of as shorthand for a [while-loop construct](#whileloopconstructdef). A for-loop construct has two parts: a **for-loop header** specifying the iteration, and a **for-loop body** which is executed once per iteration. The header often [declares](#declarationdef) an explicit [loop counter](#loopcounterdef), which allows the body to know which iteration is being executed.[^forloopconstructdef-note1]
+: A [control flow](#controlflowdef) construct that allows a [block](#blockdef) of code to be executed repeatedly, typically when the number of [iterations](#iterationdef) is known before entering the loop. A for-loop construct can be thought of as shorthand for a [while-loop construct](#whileloopconstructdef). A for-loop construct has two parts: a **for-loop header** specifying the iteration, and a **for-loop body** which is executed once per iteration. The header often [declares](#declarationdef) an explicit [loop counter](#loopcounterdef), which allows the body to know which iteration is being executed.[^forloopconstructdef-note1]
 : In [C++](https://en.wikipedia.org/wiki/C++), the for-loop construct is a **pretest-loop construct**.[^forloopconstructdef1] [^forloopconstructdef-note2]
 : Hyponym of [count-controlled loop construct](#countcontrolledloopconstructdef).
 
@@ -271,7 +271,7 @@ else
 end if
 ```
 : In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `(condition)` represents a [conditional](#conditionaldef) [statement](#statementdef), `(consequent)` represents an [expression](#expressiondef) or [statement](#statementdef), and `(alternative)` represents an [expression](#expressiondef) or [statement](#statementdef).  
-When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `if`, it expects a [condition](#conditiondef) (`(condition)`) and evaluates that condition. If the condition is `true`, the statements following the `then` (`(consequent)`) are executed. Otherwise, the execution continues in the following clause, either in the [else clause](#elseclausedef) (which is usually optional, and in this case contains `(alternative)`) or, if there is no else clause, then after the `end if`. After either clause has been executed, [control](https://en.wikipedia.org/wiki/Control_flow) returns to the point after the `end if`.[^ifconstructdef-note1]  
+When an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)) finds an `if`, it expects a [condition](#conditiondef) (`(condition)`) and evaluates that condition. If the condition is `true`, the statements following the `then` (`(consequent)`) are executed. Otherwise, the execution continues in the following clause, either in the [else clause](#elseclausedef) (which is usually optional, and in this case contains `(alternative)`) or, if there is no else clause, then after the `end if`. After either clause has been executed, [control](#controlflowdef) returns to the point after the `end if`.[^ifconstructdef-note1]  
 : 
 ```
 if (condition) then
@@ -325,7 +325,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **loop counter** {: #loopcounterdef }
 : count noun
-: A [counter](#counterdef) that controls the [iterations](#iterationdef) of a [loop construct](#loopconstructdef). Most uses of a loop construct result in the loop counter taking on a range of integer values in some orderly sequences (for example, starting at 0 and ending at 10 in [increments](#incrementdef) of 1). Loop counters change with each iteration of a loop, providing a unique value for each individual iteration. The loop counter is used to decide when the loop should terminate and for the program flow to continue to the next instruction after the loop.[^loopcounterdef-note1] A loop counter must be [initialized](https://en.wikipedia.org/wiki/Initialization_(programming)) before it is used.[^loopcounterdef-note2]
+: A [counter](#counterdef) that controls the [iterations](#iterationdef) of a [loop construct](#loopconstructdef). Most uses of a loop construct result in the loop counter taking on a range of integer values in some orderly sequences (for example, starting at 0 and ending at 10 in [increments](#incrementdef) of 1). Loop counters change with each iteration of a loop, providing a unique value for each individual iteration. The loop counter is used to decide when the loop should terminate and for the [program flow](#controlflowdef) to continue to the next instruction after the loop.[^loopcounterdef-note1] A loop counter must be [initialized](https://en.wikipedia.org/wiki/Initialization_(programming)) before it is used.[^loopcounterdef-note2]
 : Hyponym of [counter](#counterdef).
 
 **lvalue** {: #lvaluedef }
@@ -414,7 +414,7 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 
 **switch construct** {: #switchconstructdef }
 : count noun
-A type of selection control mechanism used to allow the value of a [variable](#variabledef) or [expression](#expressiondef) to change the [control flow](https://en.wikipedia.org/wiki/Control_flow) of program execution via search and map.[^switchconstructdef-note1]
+A type of selection control mechanism used to allow the value of a [variable](#variabledef) or [expression](#expressiondef) to change the [control flow](#controlflowdef) of program execution via search and map.[^switchconstructdef-note1]
 
 **symbol** {: #symboldef }
 : count noun
@@ -454,7 +454,7 @@ The variable [identifier](#identifierdef) is the usual way to [reference](https:
 
 **while-loop construct** {: #whileloopconstructdef }
 : count noun
-: A [control flow](https://en.wikipedia.org/wiki/Control_flow) construct that allows a [block](#blockdef) of code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the [control structure](#controlstructuredef) is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop construct](#dowhileloopconstructdef), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
+: A [control flow](#controlflowdef) construct that allows a [block](#blockdef) of code to be executed repeatedly based on a given [Boolean](#Booleandef) [condition](#conditiondef). It can be thought of as a repeating [if-construct](#ifconstructdef). It consists of a [block](#blockdef) of code and a [condition](#conditiondef)/[expression](#expressiondef).[^whileloopconstructdef1] The condition/expression is evaluated, and if the condition/expression is *true*,[^whileloopconstructdef1] the code within the block is executed. This repeats until the condition/expression becomes [false](https://en.wikipedia.org/wiki/False_(logic)). Because the *while* loop construct checks the condition/expression before the block is executed, the [control structure](#controlstructuredef) is often also known as a **pretest-loop construct**. Compare this with the [*do while* loop construct](#dowhileloopconstructdef), which tests the condition/expression *after* the loop has executed.[^whileloopconstructdef-note1]
 : 
 ```
 int x = 0;

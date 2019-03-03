@@ -62,6 +62,26 @@ Use `pandoc -f markdown -t docx "foo.md" --reference-doc="baz.docx" --lua-filter
 
 Use `pandoc -f markdown -t html "foo.md" -o "bar.html"` to convert a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file to an HTML file.
 
+## converting Markdown to plain text {: #Markdowntoplaintext }
+
+!!! note
+    
+    - {==foo.md==} represents an input text file formatted with [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
+    - {==bar.txt==} represents an output plain text file.
+
+Use `pandoc -f markdown -t plain --wrap=none "foo.md" | cat -s - | sponge "bar.txt"` to convert a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file to a [plain text](https://en.wikipedia.org/wiki/Plain_text) file.
+
+### explanation
+
+!!! note
+    
+    This is an incomplete explanation.
+
+- `cat -s` produces a single blank line in place of multiple adjacent blank lines.[^cnvffmt1]
+- The `--wrap=none` [option](https://pandoc.org/MANUAL.html#option--wrap) disables text wrapping.
+
+[^cnvffmt1]: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>
+
 ## converting PDF to text {: #PDFtotext }
 
 !!! note

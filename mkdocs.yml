@@ -13,6 +13,7 @@ nav:
   - Data conversion:
     - converting character encodings: 'cnvcenc.md'
     - converting file formats: 'cnvffmt.md'
+    - converting multiple files: 'cnvmfle.md'
     - converting tabular data: 'cnvtbld.md'
     - replacing non-breaking spaces in a text file: 'rplnbst.md'
     - using FFmpeg: 'usFFmpg.md'

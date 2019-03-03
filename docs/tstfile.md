@@ -4,6 +4,14 @@ In Ubuntu, the [`test`](https://en.wikipedia.org/wiki/Test_(Unix)) command can b
 
 `FNAME="foo.bar" ; if test ! -s "$FNAME" ; then echo "$FNAME does not exist or is empty." ; else echo "$FNAME exists." ; fi`
 
+### explanation
+
+!!! note
+    
+    This is an incomplete explanation.
+
+- The `test ! -s "$FNAME"` [command](https://en.wikipedia.org/wiki/Test_(Unix)) tests for the existence of a file with a name stored in the `$FNAME` variable, returning true if the filename exists. This directs the script's control flow to either show a message indicating that the file does not exist or is empty, or show a message indicating that the file exists.
+
 ## prior work
 - The `test` command was introduced to me by [a comment on a question I asked on Stack Overflow by fmw42](https://stackoverflow.com/questions/53981630/can-imagemagick-be-prevented-from-overwriting-an-existing-image#comment94802728_53981630).
 - The bulk of the contents of the script's if-construct was introduced to me by [the test (Unix)§Examples page on Wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)#Examples).

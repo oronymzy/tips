@@ -4,7 +4,9 @@
 `for i in !(*-small.png) ; do if test ! -s "${i%.*}-small.png" ; then convert "$i" -resize '400' "${i%.*}-small.png" ; fi ; done`
 
 ## converting multiple TIFF files to PNG files
-`for i in !(*.png) ; do if test ! -s "${i%.*}.png" ; then convert "$i" "${i%.*}-intermediate.png" && pngcrush "${i%.*}-intermediate.png" "${i%.*}.png" ; fi ; done`
+In the current directory, each file with the `.tiff` file extension not already accompanied by a file with `.png` in place of `.tiff` or `-intermediate.png` in place of `.tiff` will be converted into two PNG files.
+
+`for i in *.tiff ; do if { test ! -s "${i%.*}-intermediate.png" && test ! -s "${i%.*}.png"; } ; then convert "$i" "${i%.*}-intermediate.png" && pngcrush "${i%.*}-intermediate.png" "${i%.*}.png" ; fi ; done`
 
 ## explanation
 

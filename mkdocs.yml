@@ -25,6 +25,7 @@ nav:
     - installing sqlitebiter: 'inqbitr.md'
     - installing yq: 'instlyq.md'
     - listing all files containing specific text: 'lsfctxt.md'
+    - testing for the existence of a file: 'tstfile.md'
     - using yq: 'usingyq.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'

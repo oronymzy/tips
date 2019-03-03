@@ -4,6 +4,7 @@ Use `for i in *.flac ; do ffmpeg -i "$i" -acodec libmp3lame -q:a 0 $(basename "$
 ## explanation
 
 !!! note
+    
     This is an incomplete explanation.
 
 - `-q:a 0` encodes the MP3 file at variable bitrate with a range between 220-260 kbit/s, the highest available quality.[^usFFmpg1]

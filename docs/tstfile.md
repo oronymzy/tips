@@ -2,7 +2,7 @@
 
 In Ubuntu, the [`test`](https://en.wikipedia.org/wiki/Test_(Unix)) command can be used to test for the existence of a file. For example, the following script uses `test` and an if-construct to test for the existence of a file named {==foo.bar==}:
 
-`FNAME="foo.bar" ; if test ! -s "$FNAME" ; then echo "$FNAME does not exist or is empty."; fi`
+`FNAME="foo.bar" ; if test ! -s "$FNAME" ; then echo "$FNAME does not exist or is empty." ; else echo "$FNAME exists." ; fi`
 
 ## prior work
 - The `test` command was introduced to me by [a comment on a question I asked on Stack Overflow by fmw42](https://stackoverflow.com/questions/53981630/can-imagemagick-be-prevented-from-overwriting-an-existing-image#comment94802728_53981630).

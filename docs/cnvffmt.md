@@ -97,5 +97,24 @@ Use `pdftotext -layout -nopgbrk foo.pdf bar.txt` to convert a PDF file to a text
 - The `-layout` [option](https://www.mankier.com/1/pdftotext) attempts to preserve the layout of the PDF when converting.
 - The `-nopgbrk` [option](https://www.mankier.com/1/pdftotext) disables the insertion of [form feed](https://en.wikipedia.org/wiki/Page_break#Form_feed) characters to indicate page breaks.
 
+## converting plain text to [synthesized-speech]-FLAC {: #plaintexttossFLAC }
+
+!!! note
+    
+    - {==foo.txt==} represents an input plain text file.
+    - {==bar.flac==} represents an output FLAC file.
+
+Use `text2wave -otype aiff foo.txt | sox - bar.flac` to convert a plain text file to a [synthesized-speech]-FLAC file.
+
+### explanation
+
+!!! note
+    
+    This is an incomplete explanation.
+
+- The `-otype aiff` option produces synthesized speech in [AIFF](https://en.wikipedia.org/wiki/Audio_Interchange_File_Format) format.
+
+[synthesized-speech]: https://en.wikipedia.org/wiki/Speech_synthesis
+
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

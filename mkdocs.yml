@@ -2,6 +2,8 @@ site_name: tips
 nav:
   - Home: 'README.md'
   - Glossary: 'glossry.md'
+  - Accessibility:
+    - using speech synthesis: 'usgspsy.md'
   - Coding:
     - C++ reference: 'Cpprefr.md'
     - including code comments: 'incdcmt.md'

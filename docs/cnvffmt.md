@@ -69,7 +69,7 @@ Use `pandoc -f markdown -t html "foo.md" -o "bar.html"` to convert a [Pandoc Mar
     - {==foo.md==} represents an input text file formatted with [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
     - {==bar.txt==} represents an output plain text file.
 
-Use `pandoc -f markdown -t plain --wrap=none "foo.md" | cat -s - | sponge "bar.txt"` to convert a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file to a [plain text](https://en.wikipedia.org/wiki/Plain_text) file.
+Use `pandoc -f markdown -t plain --wrap=none "foo.md" | sed 's/\xC2\xA0/ /g' - | cat -s - | sponge "bar.txt"` to convert a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file to a [plain text](https://en.wikipedia.org/wiki/Plain_text) file.
 
 ### explanation
 
@@ -77,7 +77,8 @@ Use `pandoc -f markdown -t plain --wrap=none "foo.md" | cat -s - | sponge "bar.t
     
     This is an incomplete explanation.
 
-- `cat -s` produces a single blank line in place of multiple adjacent blank lines.[^cnvffmt1]
+- The `cat -s` [command](https://en.wikipedia.org/wiki/Cat_(Unix)) produces a single blank line in place of multiple adjacent blank lines.[^cnvffmt1]
+- The `sed 's/\xC2\xA0/ /g'` [command](https://en.wikipedia.org/wiki/Sed) replaces any [non-breaking spaces](https://en.wikipedia.org/wiki/Non-breaking_space) with ordinary spaces, using the `U+C2A0` [UTF-8](https://en.wikipedia.org/wiki/UTF-8) code point.
 - The `--wrap=none` [option](https://pandoc.org/MANUAL.html#option--wrap) disables text wrapping.
 
 [^cnvffmt1]: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>

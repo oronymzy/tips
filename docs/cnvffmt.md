@@ -111,7 +111,7 @@ Use `text2wave -otype aiff foo.txt | sox --no-clobber - bar.flac` to convert a p
 
 !!! attention
     
-    `text2wave` does not seem to handle [contractions](https://en.wikipedia.org/wiki/Contraction_(grammar)) correctly, reading out each individual character if an apostrophe is encountered in the middle of a word.
+    `text2wave` does not seem to handle [contractions](https://en.wikipedia.org/wiki/Contraction_(grammar)) correctly, reading out each individual character if an apostrophe is encountered in the middle of a word. A workaround is to omit [apostrophes](https://en.wiktionary.org/wiki/%27) (`'`) from the plain text input file, eliminating any contractions that rely on apostrophes.
 
 ### explanation
 

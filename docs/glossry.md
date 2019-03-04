@@ -21,6 +21,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The number of [operands](#operanddef) a [subroutine](#subroutinedef) takes.[^aritydef-note1]
 
+**array** {: #arraydef }
+: count noun
+: A collection of same-type data items that can be selected by indices computed at run-time.[^arraydef-note1]
+
 **assignment construct** {: #assignmentconstructdef }
 : A [construct](https://en.wikipedia.org/wiki/Data_structure) that sets and/or re-sets the [value](#valuedef) stored in the storage location(s) denoted by a variable name (in other words, it copies a value into the [variable](#variabledef)). In most [imperative](https://en.wikipedia.org/wiki/Imperative_programming) [programming languages](https://en.wikipedia.org/wiki/Programming_language) it is a fundamental construct. Assignment constructs can be [expressions](#expressiondef), [statements](#statementdef), or [operators](#assignmentoperatordef).[^assignmentconstructdef-note1]
 : Hypernym of [assignment operator](#assignmentoperatordef).
@@ -481,6 +485,7 @@ The code fragments above are written in the [C programming language](https://en.
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).**[^glossry1] Includes significant content from:
 
+- [Array§Computer science](https://en.wikipedia.org/w/index.php?title=Array&oldid=874587697#Computer_science)
 - [Assignment (computer science)](https://en.wikipedia.org/w/index.php?title=Assignment_(computer_science)&oldid=882172626)
 - [Assignment operator (C++)](https://en.wikipedia.org/w/index.php?title=Assignment_operator_(C%2B%2B)&oldid=873288112)
 - [Augmented assignment](https://en.wikipedia.org/w/index.php?title=Augmented_assignment&oldid=879453644)
@@ -583,6 +588,7 @@ on cppreference.com, with changes made.
 [^runningtotaldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Running_total).
 [^accumulatordef-note1]: This definition is based on [an answer on Stack Overflow by Alberto Moriconi](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator/12983603#12983603) and on information from page 257 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
+[^arraydef-note1]: This definition is based on information from [Wikipedia's definition of an array in the context of computer science](https://en.wikipedia.org/wiki/Array#Computer_science).
 [^assignmentconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Assignment_(computer_science)).
 [^assignmentoperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Assignment_operator_(C++)).
 [^associativitydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/associativity).

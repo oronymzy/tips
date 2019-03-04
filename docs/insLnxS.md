@@ -52,6 +52,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `cheese`                   | [Cheese]                                                 | [webcam] software          | [GNU GPL v2.0][^insLnxS7]
 | `codeblocks`               | [Code::Blocks]                                           | [IDE]                      | [GNU GPL v3.0][^insLnxS8]
 | `curl`                     | [Curl]                                                   | data transfer tool         | MIT/X-inspired license[^insLnxS10]
+| `festival`                 | [Festival Speech Synthesis System]                       | [speech synthesis]         | MIT-like license[^insLnxS11]
 | `git-cola`                 | [Git Cola]                                               | [version control] software | [GNU GPL v2.0][^insLnxS9]
 | `gprename`                 | [GPRename]                                               | [batch renamer]            | [GNU GPL v3.0][^insLnxS4]
 | `krename`                  | [KRename]                                                | [batch renamer]            | [GNU GPL v2.0][^insLnxS5]
@@ -64,6 +65,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
+[Festival Speech Synthesis System]: http://www.cstr.ed.ac.uk/projects/festival/
 [Git Cola]: http://git-cola.github.io/
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
@@ -78,6 +80,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [pngcrush]: https://pmt.sourceforge.io/pngcrush/
+[speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 
@@ -100,3 +103,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS8]: <http://codeblocks.org/license>
 [^insLnxS9]: <https://github.com/git-cola/git-cola/blob/master/COPYING>
 [^insLnxS10]: <https://curl.haxx.se/docs/copyright.html>
+[^insLnxS11]: <http://www.cstr.ed.ac.uk/projects/festival/freecopyright.html>

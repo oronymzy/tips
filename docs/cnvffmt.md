@@ -107,7 +107,11 @@ Use `pdftotext -layout -nopgbrk foo.pdf bar.txt` to convert a PDF file to a text
     - {==foo.txt==} represents an input plain text file.
     - {==bar.flac==} represents an output FLAC file.
 
-Use `text2wave -otype aiff foo.txt | sox - bar.flac` to convert a plain text file to a [synthesized-speech]-FLAC file.
+Use `text2wave -otype aiff foo.txt | sox --no-clobber - bar.flac` to convert a plain text file to a [synthesized-speech]-FLAC file.
+
+!!! attention
+    
+    `text2wave` does not seem to handle [contractions](https://en.wikipedia.org/wiki/Contraction_(grammar)) correctly, reading out each individual character if an apostrophe is encountered in the middle of a word.
 
 ### explanation
 
@@ -116,6 +120,7 @@ Use `text2wave -otype aiff foo.txt | sox - bar.flac` to convert a plain text fil
     This is an incomplete explanation.
 
 - The `-otype aiff` option produces synthesized speech in [AIFF](https://en.wikipedia.org/wiki/Audio_Interchange_File_Format) format.
+- The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a FLAC output file if a file with the same name already exists.
 
 [synthesized-speech]: https://en.wikipedia.org/wiki/Speech_synthesis
 

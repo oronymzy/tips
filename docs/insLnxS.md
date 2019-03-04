@@ -59,6 +59,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `net-tools`                | [ifconfig], part of [net-tools]                          | administration utility     | [GNU GPL v2.0][^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit] Java Runtime Environment
 | `pngcrush`                 | [pngcrush]                                               | [PNG] image optimizer      | libpng-like license
+| `sox`                      | [SoX]                                                    | [audio editor]             | [GNU GPL v2.0] or later[^insLnxS12]
 
 [Audacity]: https://www.audacityteam.org/
 [Bless]: https://github.com/afrantzis/bless
@@ -74,6 +75,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [KRename]: https://www.krename.net/home/
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
+[SoX]: http://sox.sourceforge.net/
 [audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
 [batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
@@ -104,3 +106,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS9]: <https://github.com/git-cola/git-cola/blob/master/COPYING>
 [^insLnxS10]: <https://curl.haxx.se/docs/copyright.html>
 [^insLnxS11]: <http://www.cstr.ed.ac.uk/projects/festival/freecopyright.html>
+[^insLnxS12]: <http://sox.sourceforge.net/sox.html#LICENSE>

@@ -1,4 +1,4 @@
-# searching [Git] repositories
+# searching a [Git] repository
 
 ## searching for Git commits applied to a single file
 

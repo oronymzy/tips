@@ -92,6 +92,7 @@ nav:
     - editing a Git commit message: 'edGitcm.md'
     - installing Git: 'instGit.md'
     - rewriting Git history: 'rGithst.md'
+    - searching a Git repository: 'sGitrpo.md'
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
   - Web development:

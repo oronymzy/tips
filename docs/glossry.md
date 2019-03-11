@@ -6,6 +6,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : A project that lacks constraints imposed by prior work.
 : The analogy is to that of construction on [greenfield land](https://en.wikipedia.org/wiki/Greenfield_land) where there is no need to work within the constraints of existing buildings or infrastructure.[^greenfieldprojectdef1] [^greenfieldprojectdef-note1]
 
+**playback** {: #playbackdef }
+: mass noun
+: The [replaying](https://en.wiktionary.org/wiki/replay) of something previously recorded, especially [sound](https://en.wiktionary.org/wiki/sound) or moving [images](https://en.wiktionary.org/wiki/image).[^playbackdef-note1]
+
 **vacuous** {: #vacuousdef }
 : adjective
 : Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef-note1]
@@ -297,7 +301,7 @@ else
 end if
 ```
 : In the [pseudocode](https://en.wikipedia.org/wiki/Pseudocode) construct above, `else if` is added, making it possible to combine several [conditionals](#conditionaldef). Only the statements following the first `(condition)` that is found to be true will be executed. All other statements will be skipped.[^ifconstructdef-note2]
-: Holonym of [else-clause](#elseclausedef), [else-clause](#elseifclausedef), and [if-clause](#ifclausedef).
+: Holonym of [else-clause](#elseclausedef), [else-if-clause](#elseifclausedef), and [if-clause](#ifclausedef).
 
 **increment** {: #incrementdef }
 : verb
@@ -581,6 +585,7 @@ on Wikiversity, with changes made, and:
 - [iteration](https://en.wiktionary.org/w/index.php?title=iteration&oldid=51175255)
 - [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
 - [performant](https://en.wiktionary.org/w/index.php?title=performant&oldid=51350068)
+- [playback](https://en.wiktionary.org/w/index.php?title=playback&oldid=50652068)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
@@ -712,6 +717,7 @@ on cppreference.com, with changes made.
 [^operatordef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operator_(computer_programming), except for modification of the grammatical number (plural to singular).
 [^operatordef-note2]: Based on [information from Wikipedia](https://en.wikipedia.org/wiki/Operator_associativity).
 [^performantdef-note1]: This definition is essentially the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/performant).
+[^playbackdef-note1]: This definition is the same as [Wiktionary's definition of “playback”](https://en.wikipedia.org/wiki/Array_data_structure).
 [^programmaticalfreedomdef-note1]: This definition is based on [Wikipedia's definition of free software](https://en.wikipedia.org/wiki/Free_software) and [Wikipedia's definition of freedom](https://en.wikipedia.org/wiki/Freedom).
 [^programmaticalfreedomdef-note2]: This definition is based on [the GNU prject's definition of free software](https://www.gnu.org/philosophy/free-sw.html.en).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).

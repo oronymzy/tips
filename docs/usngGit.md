@@ -18,6 +18,7 @@ To ignore an already-committed directory or file, add it to `.gitignore`, commit
 | rename the shortname of a remote                                              | `git remote rename foo bar`                            | {==foo==} represents the original shortname and {==bar==} represents the new shortname.
 | search through commit messages                                                | `git log --grep="foobar"`                              | {==foobar==} represents the pattern to search for.                                                                                                | Regular expressions are supported.
 | set the default text editor                                                   | `git config --global core.editor "foobar"`             | {==foobar==} represents the command that will launch the text editor from the command line.
+| verify the data integrity of a Git repository                                 | `git fsck`                                             |                                                                                                                                                   | **fsck** is an abbreviation of **f**ile **s**ystem **c**onsistency **c**heck.[^usngGit-note1] The `--full` [option](https://git-scm.com/docs/git-fsck#Documentation/git-fsck.txt---full) is enabled by default.
 | view a specified commit                                                       | `git show foobar`                                      | {==foobar==} represents the 40-character commit object name.
 
 ## [GitHub]-specific information
@@ -51,6 +52,7 @@ To ignore an already-committed directory or file, add it to `.gitignore`, commit
 - The method of searching through commit messages was introduced to me by [an answer on Stack Overflow by hobbs](https://stackoverflow.com/questions/3826748/how-to-search-in-commit-messages-using-command-line/3826800#3826800).
 - The method of setting the default text editor for Git was introduced to me by [an answer on Stack Overflow by digitaldreamer](https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits/2596835#2596835).
 - The method of setting the email and user name was introduced to me by [a page on git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#_your_identity).
+- The method of verifying the data integrity of a Git repository was introduced to me by [an answer on Stack Overflow by CodeWizard](https://stackoverflow.com/questions/42479034/how-to-verify-integrity-of-a-git-folder/42480222#42480222).
 - The method of viewing a specified commit was introduced to me by [an answer on Stack Overflow by Graham Borland](https://stackoverflow.com/questions/7663451/view-a-specific-git-commit/7663506#7663506).
 
 [Git]: https://git-scm.com/
@@ -58,6 +60,7 @@ To ignore an already-committed directory or file, add it to `.gitignore`, commit
 [zip]: https://en.wikipedia.org/wiki/Zip_(file_format)
 [^usngGit1]: <https://github.com/erlang/otp/wiki/writing-good-commit-messages>
 [^usngGit2]: <https://git-scm.com/book/en/v1/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository>
+[^usngGit-note1]: This is based on information from [Wikipedia's “fsck” page](https://en.wikipedia.org/wiki/Fsck).
 
 ## [less-freely-licensed](https://creativecommons.org/licenses/by-sa/3.0/) section {: #lps }
 

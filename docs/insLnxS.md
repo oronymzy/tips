@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag elinks exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter fortune gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -45,22 +45,25 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
     
     This is an incomplete explanation.
 
-| package name               | program name                                             | program category                         | licensing
-|:---------------------------|:---------------------------------------------------------|:-----------------------------------------|:-
-| `audacity`                 | [Audacity]                                               | [audio editor]                           | [GNU GPL v2.0][^insLnxS6]
-| `bless`                    | [Bless]                                                  | [hex editor]                             | [GNU GPL v2.0][^insLnxS2]
-| `cheese`                   | [Cheese]                                                 | [webcam] software                        | [GNU GPL v2.0][^insLnxS7]
-| `codeblocks`               | [Code::Blocks]                                           | [IDE]                                    | [GNU GPL v3.0][^insLnxS8]
-| `curl`                     | [Curl]                                                   | data transfer tool                       | MIT/X-inspired license[^insLnxS10]
-| `festival`                 | [Festival Speech Synthesis System]                       | [speech synthesis]                       | MIT-like license[^insLnxS11]
-| `git-cola`                 | [Git Cola]                                               | [version control] software               | [GNU GPL v2.0][^insLnxS9]
-| `gprename`                 | [GPRename]                                               | [batch renamer]                          | [GNU GPL v3.0][^insLnxS4]
-| `krename`                  | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0][^insLnxS5]
-| `net-tools`                | [ifconfig], part of [net-tools]                          | administration utility                   | [GNU GPL v2.0][^insLnxS3]
-| `openjdk-8-jre`[^insLnxS1] | the [Open Java Development Kit] Java Runtime Environment
-| `pngcrush`                 | [pngcrush]                                               | [PNG] image optimizer                    | libpng-like license
-| `sox`                      | [SoX]                                                    | [audio editor]                           | [GNU GPL v2.0] or later[^insLnxS12]
-| `tesseract-ocr`            | [Tesseract]                                              | [optical character recognition] software | [Apache License 2.0][^insLnxS13]
+| package name                   | program name                                             | program category                         | licensing
+|:-------------------------------|:---------------------------------------------------------|:-----------------------------------------|:-
+| `audacity`                     | [Audacity]                                               | [audio editor]                           | [GNU GPL v2.0][^insLnxS6]
+| `bless`                        | [Bless]                                                  | [hex editor]                             | [GNU GPL v2.0][^insLnxS2]
+| `cheese`                       | [Cheese]                                                 | [webcam] software                        | [GNU GPL v2.0][^insLnxS7]
+| `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                    | [GNU GPL v3.0][^insLnxS8]
+| `curl`                         | [Curl]                                                   | data transfer tool                       | MIT/X-inspired license[^insLnxS10]
+| `easytag`                      | [EasyTag]                                                | [tag editor]                             | [GNU GPL v2.0] or later[^insLnxS14]
+| `exfat-fuse` and `exfat-utils` | [exfat]                                                  | [exFAT] [file system] implementation     | [GNU GPL v2.0][^insLnxS15]
+| `exiftool`                     | [ExifTool]                                               | [tag editor]                             | [GNU GPL v1.0] or later[^insLnxS16]
+| `festival`                     | [Festival Speech Synthesis System]                       | [speech synthesis]                       | MIT-like license[^insLnxS11]
+| `git-cola`                     | [Git Cola]                                               | [version control] software               | [GNU GPL v2.0][^insLnxS9]
+| `gprename`                     | [GPRename]                                               | [batch renamer]                          | [GNU GPL v3.0][^insLnxS4]
+| `krename`                      | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0][^insLnxS5]
+| `net-tools`                    | [ifconfig], part of [net-tools]                          | administration utility                   | [GNU GPL v2.0][^insLnxS3]
+| `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
+| `pngcrush`                     | [pngcrush]                                               | [PNG] image optimizer                    | libpng-like license
+| `sox`                          | [SoX]                                                    | [audio editor]                           | [GNU GPL v2.0] or later[^insLnxS12]
+| `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition] software | [Apache License 2.0][^insLnxS13]
 
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Audacity]: https://www.audacityteam.org/
@@ -68,11 +71,14 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
+[EasyTag]: https://wiki.gnome.org/Apps/EasyTAG
+[ExifTool]: https://owl.phy.queensu.ca/~phil/exiftool/
 [Festival Speech Synthesis System]: http://www.cstr.ed.ac.uk/projects/festival/
-[Git Cola]: http://git-cola.github.io/
+[GNU GPL v1.0]: https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
 [GPRename]: http://gprename.sourceforge.net/
+[Git Cola]: http://git-cola.github.io/
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [KRename]: https://www.krename.net/home/
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
@@ -81,12 +87,16 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
 [batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
+[exFAT]: https://en.wikipedia.org/wiki/ExFAT
+[exfat]: https://github.com/relan/exfat
+[file system]: https://en.wikipedia.org/wiki/File_system
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
 [pngcrush]: https://pmt.sourceforge.io/pngcrush/
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
+[tag editor]: https://en.wikipedia.org/wiki/Tag_editor
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 
@@ -112,3 +122,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS11]: <http://www.cstr.ed.ac.uk/projects/festival/freecopyright.html>
 [^insLnxS12]: <http://sox.sourceforge.net/sox.html#LICENSE>
 [^insLnxS13]: <https://github.com/tesseract-ocr/tesseract/blob/master/LICENSE>
+[^insLnxS14]: <https://gitlab.gnome.org/GNOME/easytag/blob/master/README>
+[^insLnxS15]: <https://github.com/relan/exfat/blob/master/COPYING>
+[^insLnxS16]: <https://owl.phy.queensu.ca/~phil/exiftool/#license>

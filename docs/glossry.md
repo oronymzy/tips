@@ -6,6 +6,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : A project that lacks constraints imposed by prior work.
 : The analogy is to that of construction on [greenfield land](https://en.wikipedia.org/wiki/Greenfield_land) where there is no need to work within the constraints of existing buildings or infrastructure.[^greenfieldprojectdef1] [^greenfieldprojectdef-note1]
 
+**obsolescence** {: #obsolescencedef }
+: mass noun
+: The state of being which occurs when an object, service, or practice is no longer wanted even though it may still be in good working order.[^obsolescencedef-note1]
+
 **playback** {: #playbackdef }
 : mass noun
 : The [replaying](https://en.wiktionary.org/wiki/replay) of something previously recorded, especially [sound](https://en.wiktionary.org/wiki/sound) or moving [images](https://en.wiktionary.org/wiki/image).[^playbackdef-note1]
@@ -543,6 +547,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Logical connective](https://en.wikipedia.org/w/index.php?title=Logical_connective&oldid=881652068)
 - [Object (computer science)](https://en.wikipedia.org/w/index.php?title=Object_(computer_science)&oldid=875165207)
+- [Obsolescence](https://en.wikipedia.org/w/index.php?title=Obsolescence&oldid=886476203)
 - [Octet (computing)](https://en.wikipedia.org/w/index.php?title=Octet_(computing)&oldid=852309529)
 - [Operators in C and C++§Logical operators](https://en.wikipedia.org/w/index.php?title=Operators_in_C_and_C++&oldid=879923250#Logical_operators)
 - [Nesting (computing)](https://en.wikipedia.org/w/index.php?title=Nesting_(computing)&oldid=877015415)
@@ -712,6 +717,7 @@ on cppreference.com, with changes made.
 [^lvaluedef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Value_(computer_science)#Assignment:_l-values_and_r-values).
 [^nestdef-note1]: This definition is loosely based on [Wikipedia's definition of “nesting”](https://en.wikipedia.org/wiki/Nesting_(computing)).
 [^objectdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Object_(computer_science)).
+[^obsolescencedef-note1]: This definition is based on information from [Wikipedia's definition of “obsolescence”](https://en.wikipedia.org/wiki/Obsolescence).
 [^octetdef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Octet_(computing)), except for the removal of the phrase “in [computing](https://en.wikipedia.org/wiki/Computing) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications)”.
 [^operanddef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operand#Computer_science).
 [^operatordef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Operator_(computer_programming), except for modification of the grammatical number (plural to singular).

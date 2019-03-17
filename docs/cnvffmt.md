@@ -102,6 +102,25 @@ Use `pdftotext -layout -nopgbrk foo.pdf bar.txt` to convert a PDF file to a text
 
 ## converting plain text to [synthesized-speech]-FLAC {: #plaintexttossFLAC }
 
+### synthesizing speech using [eSpeak NG](https://github.com/espeak-ng/espeak-ng)
+
+!!! note
+    
+    - {==foo.txt==} represents an input plain text file.
+    - {==bar.flac==} represents an output FLAC file.
+
+Use `espeak-ng -f foo.txt --stdout | sox --no-clobber - bar.flac` to convert a plain text file to a [synthesized-speech]-FLAC file.
+
+#### explanation
+
+!!! note
+    
+    This is an incomplete explanation.
+
+- The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a FLAC output file if a file with the same name already exists.
+
+### synthesizing speech using the [Festival Speech Synthesis System](http://www.cstr.ed.ac.uk/projects/festival/)
+
 !!! note
     
     - {==foo.txt==} represents an input plain text file.
@@ -113,7 +132,7 @@ Use `text2wave -otype aiff foo.txt | sox --no-clobber - bar.flac` to convert a p
     
     `text2wave` does not seem to handle [contractions](https://en.wikipedia.org/wiki/Contraction_(grammar)) correctly, reading out each individual character if an apostrophe is encountered in the middle of a word. A workaround is to omit [apostrophes](https://en.wiktionary.org/wiki/%27) (`'`) from the plain text input file, eliminating any contractions that rely on apostrophes.
 
-### explanation
+#### explanation
 
 !!! note
     

@@ -61,6 +61,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `filelight`                    | [Filelight]                                              | [computer data storage] analyzer         | [GNU GPL v2.0][^insLnxS19]
 | `filezilla`                    | [FileZilla]                                              | [FTP] software                           | [GNU GPL v2.0] or later[^insLnxS20]
 | `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]   | [GNU GPL][^insLnxS21]
+| `focuswriter`                  | [FocusWriter]                                            | [word processor]                         | [GNU GPL v3.0][^insLnxS22]
 | `git-cola`                     | [Git Cola]                                               | [version control] software               | [GNU GPL v2.0][^insLnxS9]
 | `gprename`                     | [GPRename]                                               | [batch renamer]                          | [GNU GPL v3.0][^insLnxS4]
 | `krename`                      | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0][^insLnxS5]
@@ -83,6 +84,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Festival Speech Synthesis System]: http://www.cstr.ed.ac.uk/projects/festival/
 [FileZilla]: https://filezilla-project.org/
 [Filelight]: https://utils.kde.org/projects/filelight/
+[FocusWriter]: https://gottcode.org/focuswriter/
 [GNU GPL v1.0]: https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
@@ -116,6 +118,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
+[word processor]: https://en.wikipedia.org/wiki/Word_processor
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
@@ -147,3 +150,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS19]: <https://github.com/KDE/filelight/blob/master/COPYING>
 [^insLnxS20]: <https://filezilla-project.org/license.php>
 [^insLnxS21]: <https://xiph.org/flac/license.html>
+[^insLnxS22]: <https://github.com/gottcode/focuswriter/blob/master/COPYING>

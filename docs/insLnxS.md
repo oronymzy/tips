@@ -55,7 +55,12 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `easytag`                      | [EasyTag]                                                | [tag editor]                             | [GNU GPL v2.0] or later[^insLnxS14]
 | `exfat-fuse` and `exfat-utils` | [exfat]                                                  | [exFAT] [file system] implementation     | [GNU GPL v2.0][^insLnxS15]
 | `exiftool`                     | [ExifTool]                                               | [tag editor]                             | [GNU GPL v1.0] or later[^insLnxS16]
+| `extundelete`                  | [extundelete]                                            | [undeletion] software                    | [GNU GPL v2.0][^insLnxS17]
+| `eyed3`                        | [eyeD3]                                                  | [tag editor]                             | [GNU GPL v3.0][^insLnxS18]
 | `festival`                     | [Festival Speech Synthesis System]                       | [speech synthesis]                       | MIT-like license[^insLnxS11]
+| `filelight`                    | [Filelight]                                              | [computer data storage] analyzer         | [GNU GPL v2.0][^insLnxS19]
+| `filezilla`                    | [FileZilla]                                              | [FTP] software                           | [GNU GPL v2.0] or later[^insLnxS20]
+| `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]   | [GNU GPL][^insLnxS21]
 | `git-cola`                     | [Git Cola]                                               | [version control] software               | [GNU GPL v2.0][^insLnxS9]
 | `gprename`                     | [GPRename]                                               | [batch renamer]                          | [GNU GPL v3.0][^insLnxS4]
 | `krename`                      | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0][^insLnxS5]
@@ -73,10 +78,15 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Curl]: https://curl.haxx.se/
 [EasyTag]: https://wiki.gnome.org/Apps/EasyTAG
 [ExifTool]: https://owl.phy.queensu.ca/~phil/exiftool/
+[FLAC]: https://xiph.org/flac/
+[FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
 [Festival Speech Synthesis System]: http://www.cstr.ed.ac.uk/projects/festival/
+[FileZilla]: https://filezilla-project.org/
+[Filelight]: https://utils.kde.org/projects/filelight/
 [GNU GPL v1.0]: https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
+[GNU GPL]: http://www.gnu.org/licenses/licenses.html#GPL
 [GPRename]: http://gprename.sourceforge.net/
 [Git Cola]: http://git-cola.github.io/
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
@@ -86,17 +96,24 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [SoX]: http://sox.sourceforge.net/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
+[audio]: https://en.wikipedia.org/wiki/Digital_audio
 [batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
+[codec]: https://en.wikipedia.org/wiki/Codec
+[computer data storage]: https://en.wikipedia.org/wiki/Computer_data_storage
 [exFAT]: https://en.wikipedia.org/wiki/ExFAT
 [exfat]: https://github.com/relan/exfat
+[extundelete]: http://extundelete.sourceforge.net/
+[eyeD3]: https://github.com/nicfit/eyeD3
 [file system]: https://en.wikipedia.org/wiki/File_system
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
+[lossless]: https://en.wikipedia.org/wiki/Lossless_compression
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
 [pngcrush]: https://pmt.sourceforge.io/pngcrush/
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [tag editor]: https://en.wikipedia.org/wiki/Tag_editor
+[undeletion]: https://en.wikipedia.org/wiki/Undeletion
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 
@@ -125,3 +142,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS14]: <https://gitlab.gnome.org/GNOME/easytag/blob/master/README>
 [^insLnxS15]: <https://github.com/relan/exfat/blob/master/COPYING>
 [^insLnxS16]: <https://owl.phy.queensu.ca/~phil/exiftool/#license>
+[^insLnxS17]: <https://sourceforge.net/p/extundelete/code/ci/master/tree/LICENSE>
+[^insLnxS18]: <https://github.com/nicfit/eyeD3/blob/master/LICENSE>
+[^insLnxS19]: <https://github.com/KDE/filelight/blob/master/COPYING>
+[^insLnxS20]: <https://filezilla-project.org/license.php>
+[^insLnxS21]: <https://xiph.org/flac/license.html>

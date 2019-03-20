@@ -102,7 +102,7 @@ Use `pdftotext -layout -nopgbrk foo.pdf bar.txt` to convert a PDF file to a text
 
 ## converting plain text to [synthesized-speech]-FLAC {: #plaintexttossFLAC }
 
-### synthesizing speech using [eSpeak NG]
+### converting plain text to [synthesized-speech]-FLAC using [eSpeak NG]
 
 !!! note
     
@@ -119,7 +119,10 @@ Use `espeak-ng -f foo.txt --stdout | sox --no-clobber - bar.flac` to convert a p
 
 - The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a FLAC output file if a file with the same name already exists.
 
-### synthesizing speech using the [Festival Speech Synthesis System]
+### prior work
+The `-f` and `--stdout` [options](https://github.com/espeak-ng/espeak-ng/blob/master/src/espeak-ng.1.ronn#options) were introduced to me by [an answer on Stack Overflow by user76204](https://askubuntu.com/questions/178736/generate-mp3-file-from-espeak/178768#178768).
+
+### converting plain text to [synthesized-speech]-FLAC using the [Festival Speech Synthesis System]
 
 !!! note
     

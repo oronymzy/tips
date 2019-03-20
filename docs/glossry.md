@@ -22,6 +22,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : The [replaying](https://en.wiktionary.org/wiki/replay) of something previously recorded, especially [sound](https://en.wiktionary.org/wiki/sound) or moving [images](https://en.wiktionary.org/wiki/image).[^playbackdef-note1]
 
+**rabbit hole** {: #rabbitholedef }
+: count noun
+: A [time-consuming](https://en.wiktionary.org/wiki/time-consuming) [tangent](https://en.wiktionary.org/wiki/tangent) or [detour](https://en.wiktionary.org/wiki/detour), often from which it is difficult to extricate oneself.[^rabbitholedef-note1]
+
 **vacuous** {: #vacuousdef }
 : adjective
 : Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef-note1]
@@ -601,6 +605,7 @@ on Wikiversity, with changes made, and:
 - [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
 - [performant](https://en.wiktionary.org/w/index.php?title=performant&oldid=51350068)
 - [playback](https://en.wiktionary.org/w/index.php?title=playback&oldid=50652068)
+- [rabbit hole](https://en.wiktionary.org/w/index.php?title=rabbit_hole&oldid=51654654)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
@@ -739,6 +744,7 @@ on cppreference.com, with changes made.
 [^playbackdef-note1]: This definition is the same as [Wiktionary's definition of “playback”](https://en.wikipedia.org/wiki/Array_data_structure).
 [^programmaticalfreedomdef-note1]: This definition is based on [Wikipedia's definition of free software](https://en.wikipedia.org/wiki/Free_software) and [Wikipedia's definition of freedom](https://en.wikipedia.org/wiki/Freedom).
 [^programmaticalfreedomdef-note2]: This definition is based on [the GNU prject's definition of free software](https://www.gnu.org/philosophy/free-sw.html.en).
+[^rabbitholedef-note1]: This definition is based on information from [Wiktionary's definition of “rabbit hole”](https://en.wiktionary.org/wiki/rabbit_hole).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^rvaluedef1]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.

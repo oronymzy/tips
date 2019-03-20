@@ -1,6 +1,10 @@
 # Glossary
 These are concepts I find especially confusing, ambiguous, or difficult to remember.
 
+**abstraction** {: #abstractiondef }
+: mass noun
+: A process or result of generalization, removal of properties, or distancing of ideas from objects.[^abstractiondef-note1]
+
 **greenfield project** {: #greenfieldprojectdef }
 : count noun
 : A project that lacks constraints imposed by prior work.
@@ -506,6 +510,7 @@ The code fragments above are written in the [C programming language](https://en.
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).**[^glossry1] Includes significant content from:
 
+- [Abstraction (disambiguation)](https://en.wikipedia.org/w/index.php?title=Abstraction_(disambiguation)&oldid=864262592)
 - [Array§Computer science](https://en.wikipedia.org/w/index.php?title=Array&oldid=874587697#Computer_science)
 - [Array data structure](https://en.wikipedia.org/w/index.php?title=Array_data_structure&oldid=885176766)
 - [Assignment (computer science)](https://en.wikipedia.org/w/index.php?title=Assignment_(computer_science)&oldid=882172626)
@@ -610,6 +615,7 @@ on Stack Overflow, with changes made, and:
 on cppreference.com, with changes made.
 
 [^runningtotaldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Running_total).
+[^abstractiondef-note1]: This definition is based on information from [Wikipedia's definition of “abstraction”](https://en.wikipedia.org/wiki/Abstraction_(disambiguation)).
 [^accumulatordef-note1]: This definition is based on [an answer on Stack Overflow by Alberto Moriconi](https://stackoverflow.com/questions/12983063/what-is-the-difference-between-a-counter-and-an-accumulator/12983603#12983603) and on information from page 257 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^aritydef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/arity), except for the removal of the words “[arguments](https://en.wiktionary.org/wiki/argument)” and “[operation](https://en.wiktionary.org/wiki/operation)”, which do not seem to apply in a computer science context.
 [^arraydef-note1]: This definition is based on information from [Wikipedia's definition of an array in the context of computer science](https://en.wikipedia.org/wiki/Array#Computer_science).

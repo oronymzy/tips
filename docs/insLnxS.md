@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -53,6 +53,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                    | [GNU GPL v3.0][^insLnxS8]
 | `curl`                         | [Curl]                                                   | data transfer tool                       | MIT/X-inspired license[^insLnxS10]
 | `easytag`                      | [EasyTag]                                                | [tag editor]                             | [GNU GPL v2.0] or later[^insLnxS14]
+| `espeak-ng`                    | [eSpeak NG]                                              | [speech synthesis]                       | [GNU GPL v3.0][^insLnxS23]
 | `exfat-fuse` and `exfat-utils` | [exfat]                                                  | [exFAT] [file system] implementation     | [GNU GPL v2.0][^insLnxS15]
 | `exiftool`                     | [ExifTool]                                               | [tag editor]                             | [GNU GPL v1.0] or later[^insLnxS16]
 | `extundelete`                  | [extundelete]                                            | [undeletion] software                    | [GNU GPL v2.0][^insLnxS17]
@@ -78,6 +79,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
 [EasyTag]: https://wiki.gnome.org/Apps/EasyTAG
+[eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [ExifTool]: https://owl.phy.queensu.ca/~phil/exiftool/
 [FLAC]: https://xiph.org/flac/
 [FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
@@ -151,3 +153,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS20]: <https://filezilla-project.org/license.php>
 [^insLnxS21]: <https://xiph.org/flac/license.html>
 [^insLnxS22]: <https://github.com/gottcode/focuswriter/blob/master/COPYING>
+[^insLnxS23]: <https://github.com/espeak-ng/espeak-ng/blob/master/COPYING>

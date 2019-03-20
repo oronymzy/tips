@@ -102,7 +102,7 @@ Use `pdftotext -layout -nopgbrk foo.pdf bar.txt` to convert a PDF file to a text
 
 ## converting plain text to [synthesized-speech]-FLAC {: #plaintexttossFLAC }
 
-### synthesizing speech using [eSpeak NG](https://github.com/espeak-ng/espeak-ng)
+### synthesizing speech using [eSpeak NG]
 
 !!! note
     
@@ -119,7 +119,7 @@ Use `espeak-ng -f foo.txt --stdout | sox --no-clobber - bar.flac` to convert a p
 
 - The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a FLAC output file if a file with the same name already exists.
 
-### synthesizing speech using the [Festival Speech Synthesis System](http://www.cstr.ed.ac.uk/projects/festival/)
+### synthesizing speech using the [Festival Speech Synthesis System]
 
 !!! note
     
@@ -141,6 +141,8 @@ Use `text2wave -otype aiff foo.txt | sox --no-clobber - bar.flac` to convert a p
 - The `-otype aiff` option produces synthesized speech in [AIFF](https://en.wikipedia.org/wiki/Audio_Interchange_File_Format) format.
 - The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a FLAC output file if a file with the same name already exists.
 
+[eSpeak NG]: https://github.com/espeak-ng/espeak-ng
+[Festival Speech Synthesis System]: http://www.cstr.ed.ac.uk/projects/festival/
 [synthesized-speech]: https://en.wikipedia.org/wiki/Speech_synthesis
 
 ## licensing

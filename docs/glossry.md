@@ -5,6 +5,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : mass noun
 : A process or result of generalization, removal of properties, or distancing of ideas from objects.[^abstractiondef-note1]
 
+**calculate** {: #calculatedef }
+: verb
+: To determine mathematically in the case of a number or amount, or in the case of an abstract problem to deduce the answer using logic, reason or common sense.[^calculatedef1] [^calculatedef-note1]
+
 **greenfield project** {: #greenfieldprojectdef }
 : count noun
 : A project that lacks constraints imposed by prior work.
@@ -519,6 +523,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Binary file](https://en.wikipedia.org/w/index.php?title=Binary_file&oldid=876032410)
 - [Block (programming)](https://en.wikipedia.org/w/index.php?title=Block_(programming)&oldid=877703688)
 - [Boolean data type](https://en.wikipedia.org/w/index.php?title=Boolean_data_type&oldid=876857392)
+- [Calculation](https://en.wikipedia.org/w/index.php?title=Calculation&oldid=884039961)
 - [Comparison of programming languages (syntax)§Blocks](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Blocks)
 - [Comparison of programming languages (syntax)§Statements](https://en.wikipedia.org/w/index.php?title=Comparison_of_programming_languages_(syntax)&oldid=871969304#Statements)
 - [Computer file](https://en.wikipedia.org/w/index.php?title=Computer_file&oldid=883194383)
@@ -635,6 +640,8 @@ on cppreference.com, with changes made.
 [^blockdef-note1]: This definition is based on [Wikipedia's definition of a block as a page](https://en.wikipedia.org/wiki/Block_(programming)) and [as a section of a page](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Blocks).
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
+[^calculatedef1]: ["calculate | Definition of calculate in English by Oxford Dictionaries"](https://en.oxforddictionaries.com/definition/calculate). *Oxford Dictionaries | English*. Retrieved 2018-08-30.
+[^calculatedef-note1]: This definition is based on information from [the “Calculation” page on Wikipedia](https://en.wikipedia.org/wiki/Calculation#cite_note-1).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
 [^conditionalexpressiondef1]: Based on information from page 199 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.

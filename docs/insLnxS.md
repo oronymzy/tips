@@ -63,7 +63,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `filezilla`                    | [FileZilla]                                              | [FTP] software                           | [GNU GPL v2.0] or later[^insLnxS20]
 | `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]   | [GNU GPL][^insLnxS21]
 | `focuswriter`                  | [FocusWriter]                                            | [word processor]                         | [GNU GPL v3.0][^insLnxS22]
+| `gedit`                        | [gedit]                                                  | [text editor]                            | [GNU GPL v2.0][^insLnxS24]
+| `gimp`                         | [GIMP]                                                   | [raster graphics editor]                 | [GNU GPL v3.0][^insLnxS25]
 | `git-cola`                     | [Git Cola]                                               | [version control] software               | [GNU GPL v2.0][^insLnxS9]
+| `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                   | [GNU GPL v2.0][^insLnxS26]
+| `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulator]                      | [GNU GPL v3.0][^insLnxS27]
+| `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                            | [GNU GPL v3.0][^insLnxS28]
+| `gparted`                      | [GParted]                                                | [partition editor]                       | [GNU GPL v2.0][^insLnxS29]
 | `gprename`                     | [GPRename]                                               | [batch renamer]                          | [GNU GPL v3.0][^insLnxS4]
 | `krename`                      | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0][^insLnxS5]
 | `net-tools`                    | [ifconfig], part of [net-tools]                          | administration utility                   | [GNU GPL v2.0][^insLnxS3]
@@ -79,7 +85,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
 [EasyTag]: https://wiki.gnome.org/Apps/EasyTAG
-[eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [ExifTool]: https://owl.phy.queensu.ca/~phil/exiftool/
 [FLAC]: https://xiph.org/flac/
 [FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
@@ -87,12 +92,16 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [FileZilla]: https://filezilla-project.org/
 [Filelight]: https://utils.kde.org/projects/filelight/
 [FocusWriter]: https://gottcode.org/focuswriter/
+[GIMP]: https://www.gimp.org/
+[GNOME Terminal]: https://wiki.gnome.org/Apps/Terminal
 [GNU GPL v1.0]: https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
 [GNU GPL]: http://www.gnu.org/licenses/licenses.html#GPL
 [GPRename]: http://gprename.sourceforge.net/
+[GParted]: https://gparted.sourceforge.io/
 [Git Cola]: http://git-cola.github.io/
+[Gnumeric]: http://www.gnumeric.org/
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [KRename]: https://www.krename.net/home/
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
@@ -104,19 +113,28 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
 [codec]: https://en.wikipedia.org/wiki/Codec
 [computer data storage]: https://en.wikipedia.org/wiki/Computer_data_storage
+[disk utility]: https://en.wikipedia.org/wiki/Disk_utility
+[eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [exFAT]: https://en.wikipedia.org/wiki/ExFAT
 [exfat]: https://github.com/relan/exfat
 [extundelete]: http://extundelete.sourceforge.net/
 [eyeD3]: https://github.com/nicfit/eyeD3
 [file system]: https://en.wikipedia.org/wiki/File_system
+[gedit]: https://wiki.gnome.org/Apps/Gedit
+[gnome-disk-utility]: https://gitlab.gnome.org/GNOME/gnome-disk-utility/
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
 [lossless]: https://en.wikipedia.org/wiki/Lossless_compression
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
+[partition editor]: https://en.wikipedia.org/wiki/Disk_editor#Partition_editor
 [pngcrush]: https://pmt.sourceforge.io/pngcrush/
+[raster graphics editor]: https://en.wikipedia.org/wiki/Raster_graphics_editor
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
+[spreadsheet]: https://en.wikipedia.org/wiki/Spreadsheet
 [tag editor]: https://en.wikipedia.org/wiki/Tag_editor
+[terminal emulator]: https://en.wikipedia.org/wiki/Terminal_emulator
+[text editor]: https://en.wikipedia.org/wiki/Text_editor
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
@@ -154,3 +172,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS21]: <https://xiph.org/flac/license.html>
 [^insLnxS22]: <https://github.com/gottcode/focuswriter/blob/master/COPYING>
 [^insLnxS23]: <https://github.com/espeak-ng/espeak-ng/blob/master/COPYING>
+[^insLnxS24]: <https://gitlab.gnome.org/GNOME/gedit/blob/master/COPYING>
+[^insLnxS25]: <https://gitlab.gnome.org/GNOME/gimp/blob/master/COPYING>
+[^insLnxS26]: <https://gitlab.gnome.org/GNOME/gnome-disk-utility/blob/master/COPYING>
+[^insLnxS27]: <https://gitlab.gnome.org/GNOME/gnome-terminal/blob/master/COPYING>
+[^insLnxS28]: <https://gitlab.gnome.org/GNOME/gnumeric/blob/master/COPYING>
+[^insLnxS29]: <https://gitlab.gnome.org/GNOME/gparted/blob/master/COPYING>

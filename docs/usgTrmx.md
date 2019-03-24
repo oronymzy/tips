@@ -1,6 +1,6 @@
 # using [Termux]
 
-Use `pkg install curl flac fortune git gnupg golang imagemagick libqrencode nano ncdu parted play-audio sox tesseract tree wget zbar -y` to install essential packages.
+Use `pkg install curl espeak flac fortune git gnupg golang imagemagick libqrencode nano ncdu parted play-audio sox tesseract tree wget zbar -y` to install essential packages.
 
 To list all packages, use `pkg list-all`.
 
@@ -20,12 +20,17 @@ Termux uses the volume-down button to emulate the control key, and the volume-up
 
 | package name | program name | program category                         | licensing
 |:-------------|:-------------|:-----------------------------------------|:-
+| [espeak]     | [eSpeak NG]  | [speech synthesis]                       | [GNU GPL v3.0] [^usgTrmx2]
 | [tesseract]  | [Tesseract]  | [optical character recognition] software | [Apache License 2.0][^usgTrmx1]
 
-[tesseract]: https://github.com/termux/termux-packages/tree/master/packages/tesseract
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
+[GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
+[eSpeak NG]: https://github.com/espeak-ng/espeak-ng
+[espeak]: https://github.com/termux/termux-packages/tree/master/packages/espeak
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
+[speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
+[tesseract]: https://github.com/termux/termux-packages/tree/master/packages/tesseract
 
 ## prior work
 The method of opening files in external applications and the method of requesting read/write permissions was introduced to me by [the “Sharing Data” page on the Termux wiki](https://wiki.termux.com/wiki/Sharing_Data).
@@ -39,3 +44,4 @@ If the above content is omitted, the rest is licensed **no rights reserved: [CC0
 
 [Termux]: https://termux.com/
 [^usgTrmx1]: <https://github.com/tesseract-ocr/tesseract/blob/master/LICENSE>
+[^usgTrmx2]: <https://github.com/espeak-ng/espeak-ng/blob/master/COPYING>

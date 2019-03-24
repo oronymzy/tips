@@ -7,7 +7,7 @@
     - {==foo.html==} represents an input HTML file.
     - {==bar.md==} represents an output text file formatted with [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
 
-Use `pandoc -f html-native_divs-native_spans -t markdown-escaped_line_breaks-fenced_divs-header_attributes-fenced_code_attributes-inline_code_attributes-bracketed_spans-smart --atx-headers --wrap=none "foo.html" -o "bar.md"` to convert an HTML file to a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file.
+Use `pandoc -f html-native_divs-native_spans -t markdown-escaped_line_breaks-fenced_divs-header_attributes-fenced_code_attributes-inline_code_attributes-bracketed_spans-smart-grid_tables-multiline_tables-simple_tables --atx-headers --wrap=none "foo.html" -o "bar.md"` to convert an HTML file to a [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)-formatted text file.
 
 ### explanation
 
@@ -24,6 +24,7 @@ Use `pandoc -f html-native_divs-native_spans -t markdown-escaped_line_breaks-fen
     - `-header_attributes` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for assigning attribute lists to headings](https://pandoc.org/MANUAL.html#extension-header_attributes).
     - `-inline_code_attributes` [disables](https://pandoc.org/MANUAL.html#extensions) [the Pandoc Markdown extension for assigning attribute lists to inline code](https://pandoc.org/MANUAL.html#extension-inline_code_attributes).
     - `-smart` [disables](https://pandoc.org/MANUAL.html#extensions) [the extension for interpreting ASCII characters as curly quotes, em-dashes, en-dashes, and ellipses, and for inserting nonbreaking spaces](https://pandoc.org/MANUAL.html#extension-smart). Backslash-escaped double-quotes `\"` are also no longer produced.
+    - `-grid_tables-multiline_tables-simple_tables` [disables](https://pandoc.org/MANUAL.html#extensions) the Pandoc Markdown extensions for [grid tables](https://pandoc.org/MANUAL.html#extension-grid_tables), [multiline tables](https://pandoc.org/MANUAL.html#extension-multiline_tables), and [simple tables](https://pandoc.org/MANUAL.html#extension-simple_tables), leaving only [pipe tables](https://pandoc.org/MANUAL.html#extension-pipe_tables).
 - HTML input
     - `-native_divs` [disables](https://pandoc.org/MANUAL.html#extensions) [the raw HTML extension for preserving native `<div>` HTML elements](https://pandoc.org/MANUAL.html#native_divs).
     - `-native_spans` [disables](https://pandoc.org/MANUAL.html#extensions) [the raw HTML extension for preserving some native `<span>` HTML elements](https://pandoc.org/MANUAL.html#native_spans). Some `<span>` HTML elements are still preserved as [bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans) (see the admonition below).

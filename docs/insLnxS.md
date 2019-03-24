@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -71,6 +71,10 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                            | [GNU GPL v3.0][^insLnxS28]
 | `gparted`                      | [GParted]                                                | [partition editor]                       | [GNU GPL v2.0][^insLnxS29]
 | `gprename`                     | [GPRename]                                               | [batch renamer]                          | [GNU GPL v3.0][^insLnxS4]
+| `graphviz`                     | [Graphviz]                                               | [graph visualization]                    | [Eclipse Public License 1.0] [^insLnxS30][^insLnxS31]
+| `grsync`                       | [Grsync]                                                 | [file synchronization]                   | [GNU GPL v2.0] [^insLnxS32]
+| `idle`                         | [IDLE]                                                   | [IDE]                                    | [PSFL] [^insLnxS33]
+| `imagemagick`                  | [ImageMagick]                                            | image manipulation                       | [ImageMagick License] [^insLnxS34]
 | `krename`                      | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0][^insLnxS5]
 | `net-tools`                    | [ifconfig], part of [net-tools]                          | administration utility                   | [GNU GPL v2.0][^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
@@ -85,6 +89,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
 [EasyTag]: https://wiki.gnome.org/Apps/EasyTAG
+[Eclipse Public License 1.0]: https://choosealicense.com/licenses/epl-1.0/
 [ExifTool]: https://owl.phy.queensu.ca/~phil/exiftool/
 [FLAC]: https://xiph.org/flac/
 [FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
@@ -102,10 +107,16 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [GParted]: https://gparted.sourceforge.io/
 [Git Cola]: http://git-cola.github.io/
 [Gnumeric]: http://www.gnumeric.org/
+[Graphviz]: https://www.graphviz.org/
+[Grsync]: http://www.opbyte.it/grsync/
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
+[IDLE]: https://docs.python.org/3/library/idle.html
+[ImageMagick License]: https://imagemagick.org/script/license.php
+[ImageMagick]: http://www.imagemagick.org/
 [KRename]: https://www.krename.net/home/
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
+[PSFL]: https://docs.python.org/3/license.html
 [SoX]: http://sox.sourceforge.net/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
@@ -119,9 +130,11 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [exfat]: https://github.com/relan/exfat
 [extundelete]: http://extundelete.sourceforge.net/
 [eyeD3]: https://github.com/nicfit/eyeD3
+[file synchronization]: https://en.wikipedia.org/wiki/File_synchronization
 [file system]: https://en.wikipedia.org/wiki/File_system
 [gedit]: https://wiki.gnome.org/Apps/Gedit
 [gnome-disk-utility]: https://gitlab.gnome.org/GNOME/gnome-disk-utility/
+[graph visualization]: https://en.wikipedia.org/wiki/Graph_drawing
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
 [lossless]: https://en.wikipedia.org/wiki/Lossless_compression
@@ -178,3 +191,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS27]: <https://gitlab.gnome.org/GNOME/gnome-terminal/blob/master/COPYING>
 [^insLnxS28]: <https://gitlab.gnome.org/GNOME/gnumeric/blob/master/COPYING>
 [^insLnxS29]: <https://gitlab.gnome.org/GNOME/gparted/blob/master/COPYING>
+[^insLnxS30]: <https://gitlab.com/graphviz/graphviz/blob/master/COPYING>
+[^insLnxS31]: <https://gitlab.com/graphviz/graphviz/blob/master/epl-v10.txt>
+[^insLnxS32]: <https://sourceforge.net/p/grsync/code/HEAD/tree/trunk/grsync/COPYING>
+[^insLnxS33]: <https://github.com/python/cpython/blob/master/LICENSE>
+[^insLnxS34]: <https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE>

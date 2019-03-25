@@ -518,6 +518,7 @@ The code fragments above are written in the [C programming language](https://en.
 : [compound] count noun
 : The [path component of a URL](https://en.wikipedia.org/wiki/URL#Syntax) after the endmost slash (`/`).
 : For example, [the Git page on Wikibooks](https://en.wikibooks.org/wiki/Git) URL is `https://en.wikibooks.org/wiki/Git`, so its post-endmost-slash path component would be `Git`.
+: I have created this word because I could not find an existing word specificially referring to the path component of a URL after the endmost slash.
 
 [compound]: https://en.wiktionary.org/wiki/compound_word
 [protologism]: https://en.wikipedia.org/wiki/Protologism

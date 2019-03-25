@@ -515,6 +515,16 @@ The code fragments above are written in the [C programming language](https://en.
 [^whileloopconstructdef1]: ["The while and do-while Statements (The Java™ Tutorials > Learning the Java Language > Language Basics)"](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html). *Dosc.oracle.com*. Retrieved 2016-10-21.
 [^whileloopconstructdef2]: ["while (C# reference)"](http://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx). *Msdn.microsoft.com*. Retrieved 2016-10-21.
 
+## [protologism] section
+
+**post-endmost-slash path component** {: #postendmostslashpathcomponentdef }
+: [compound] count noun
+: The [path component of a URL](https://en.wikipedia.org/wiki/URL#Syntax) after the endmost slash (`/`).
+: For example, [the Git page on Wikibooks](https://en.wikibooks.org/wiki/Git) URL is `https://en.wikibooks.org/wiki/Git`, so its post-endmost-slash path component would be `Git`.
+
+[compound]: https://en.wiktionary.org/wiki/compound_word
+[protologism]: https://en.wikipedia.org/wiki/Protologism
+
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).**[^glossry1] Includes significant content from:
 

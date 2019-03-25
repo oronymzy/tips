@@ -512,9 +512,6 @@ while (true)
 The code fragments above are written in the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)) (as well as [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)),[^whileloopconstructdef2] [Objective-C](https://en.wikipedia.org/wiki/Objective-C), and [C++](https://en.wikipedia.org/wiki/C++), which [use the same syntax](https://en.wikipedia.org/wiki/Polyglot_(computing)) in this case).
 : Hyponym of [condition-controlled loop construct](#conditioncontrolledloopconstructdef).
 
-[^whileloopconstructdef1]: ["The while and do-while Statements (The Java™ Tutorials > Learning the Java Language > Language Basics)"](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html). *Dosc.oracle.com*. Retrieved 2016-10-21.
-[^whileloopconstructdef2]: ["while (C# reference)"](http://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx). *Msdn.microsoft.com*. Retrieved 2016-10-21.
-
 ## [protologism] section
 
 **post-endmost-slash path component** {: #postendmostslashpathcomponentdef }
@@ -793,4 +790,6 @@ on cppreference.com, with changes made.
 [^variabledef2]: Knuth, Donald (1997). *The Art of Computer Programming*. **1** (3rd ed.). Reading, Massachusetts: Addison-Wesley. p. 3-4. [ISBN](https://en.wikipedia.org/wiki/International_Standard_Book_Number) [0-201-89683-4](https://en.wikipedia.org/wiki/Special:BookSources/0-201-89683-4).
 [^variabledef-note1]: This definition is based on [a definition from the “Variables” page on cppreference.com](https://en.cppreference.com/book/intro/variables) and [a definition from Wikipedia's “Variable (computer science” page](https://en.wikipedia.org/wiki/Variable_(computer_science)).
 [^variabledef-note2]: This definition is based on [a definition from the “Variables in C++” section of the “Variables” page on cppreference.com](https://en.cppreference.com/book/intro/variables#Variables_in_C.2B.2B)
+[^whileloopconstructdef1]: ["The while and do-while Statements (The Java™ Tutorials > Learning the Java Language > Language Basics)"](http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html). *Dosc.oracle.com*. Retrieved 2016-10-21.
+[^whileloopconstructdef2]: ["while (C# reference)"](http://msdn.microsoft.com/en-us/library/2aeyhxcd.aspx). *Msdn.microsoft.com*. Retrieved 2016-10-21.
 [^whileloopconstructdef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/While_loop).

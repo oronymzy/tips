@@ -30,6 +30,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : count noun
 : A [time-consuming](https://en.wiktionary.org/wiki/time-consuming) [tangent](https://en.wiktionary.org/wiki/tangent) or [detour](https://en.wiktionary.org/wiki/detour), often from which it is difficult to extricate oneself.[^rabbitholedef-note1]
 
+**system** {: #systemdef }
+: count noun
+: A group of interacting or interrelated entities that form a unified whole.[^systemdef1] A system is delineated by its spatial and temporal boundaries, surrounded and influenced by its environment, described by its structure and purpose and expressed in its functioning.[^systemdef-note1]
+
 **vacuous** {: #vacuousdef }
 : adjective
 : Empty; void; lacking meaningful [content](https://en.wiktionary.org/wiki/content).[^vacuousdef-note1]
@@ -591,6 +595,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 - [Subroutine§C and C++ examples](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=883485600#C_and_C++_examples)
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
+- [System](https://en.wikipedia.org/w/index.php?title=System&oldid=887887227)
 - [Text file](https://en.wikipedia.org/w/index.php?title=Text_file&oldid=881932349)
 - [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
 - [Variable (computer science)](https://en.wikipedia.org/w/index.php?title=Variable_(computer_science)&oldid=882244717)
@@ -787,6 +792,8 @@ on cppreference.com, with changes made.
 [^subroutinedef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine#C_and_C++_examples).
 [^switchconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).
 [^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).
+[^systemdef1]: ["Definition of system"](http://www.merriam-webster.com/dictionary/system). *Merriam-Webster*. Springfield, MA, USA. Retrieved 2019-01-13.
+[^systemdef-note1]: This definition is based on information from [the “System” page on Wikipedia](https://en.wikipedia.org/wiki/System).
 [^terminatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement terminator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).
 [^textfiledef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Text_file).
 [^trailingdef]: <https://stackoverflow.com/questions/22273233/what-is-meant-by-trailing-space-and-whats-the-difference-between-it-and-a-blank/22273264#22273264>

@@ -14,6 +14,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : A project that lacks constraints imposed by prior work.
 : The analogy is to that of construction on [greenfield land](https://en.wikipedia.org/wiki/Greenfield_land) where there is no need to work within the constraints of existing buildings or infrastructure.[^greenfieldprojectdef1] [^greenfieldprojectdef-note1]
 
+**intelligence** {: #intelligencedef }
+: mass noun
+: The ability to perceive or infer [information](https://en.wikipedia.org/wiki/Information), and to retain it as [knowledge](https://en.wikipedia.org/wiki/Knowledge) to be applied towards adaptive behaviors within an environment or context.[^intelligencedef-note1]
+
 **obsolescence** {: #obsolescencedef }
 : mass noun
 : The state of being which occurs when an object, service, or practice is no longer wanted even though it may still be in good working order.[^obsolescencedef-note1]
@@ -565,6 +569,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Identifier§In computer languages](https://en.wikipedia.org/w/index.php?title=Identifier&oldid=882722496#In_computer_languages)
 - [Identifier§In computer science](https://en.wikipedia.org/w/index.php?title=Identifier&oldid=882722496#In_computer_science)
 - [Increment and decrement operators](https://en.wikipedia.org/w/index.php?title=Increment_and_decrement_operators&oldid=879445217)
+- [Intelligence](https://en.wikipedia.org/w/index.php?title=Intelligence&oldid=888776338)
 - [Lexical analysis§Token](https://en.wikipedia.org/w/index.php?title=Lexical_analysis&oldid=872271284).
 - [Literal (computer programming)](https://en.wikipedia.org/w/index.php?title=Literal_(computer_programming)&oldid=849448036)
 - [Logical connective](https://en.wikipedia.org/w/index.php?title=Logical_connective&oldid=881652068)
@@ -654,7 +659,7 @@ on cppreference.com, with changes made.
 [^Booleandatatypedef-note1]: This definition is based on [Wikipedia's definition of Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type) and [Data type](https://en.wikipedia.org/wiki/Data_type).
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^calculatedef1]: ["calculate | Definition of calculate in English by Oxford Dictionaries"](https://en.oxforddictionaries.com/definition/calculate). *Oxford Dictionaries | English*. Retrieved 2018-08-30.
-[^calculatedef-note1]: This definition is based on information from [the “Calculation” page on Wikipedia](https://en.wikipedia.org/wiki/Calculation#cite_note-1).
+[^calculatedef-note1]: This definition is based on information from [the “Calculation” page on Wikipedia](https://en.wikipedia.org/wiki/Calculation).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
 [^conditionalexpressiondef1]: Based on information from page 199 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.
@@ -727,6 +732,7 @@ on cppreference.com, with changes made.
 [^incrementdef-note1]: This definition is based on [Wiktionary's definition of “increment”](https://en.wiktionary.org/wiki/increment#Verb) and [Wiktionary's definition of “decrement”](https://en.wiktionary.org/wiki/decrement#Verb).
 [^incrementoperatordef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Increment_and_decrement_operators).
 [^incrementoperatordef-note2]: Based on information from page 231 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
+[^intelligencedef-note1]: This definition is based on information from [the “Intelligence” page on Wikipedia](https://en.wikipedia.org/wiki/Intelligence).
 [^iterationdef-note1]: This definition is based on [Wiktionary's definition](https://en.wiktionary.org/wiki/iteration).
 [^leadingdef]: <https://stackoverflow.com/questions/959215/how-do-i-remove-leading-whitespace-in-python>
 [^literaldef-note1]: This definition is the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Literal_(computer_programming)).

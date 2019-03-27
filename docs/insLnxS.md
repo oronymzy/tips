@@ -75,7 +75,12 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `grsync`                       | [Grsync]                                                 | [file synchronization]                   | [GNU GPL v2.0] [^insLnxS32]
 | `idle`                         | [IDLE]                                                   | [IDE]                                    | [PSFL] [^insLnxS33]
 | `imagemagick`                  | [ImageMagick]                                            | image manipulation                       | [ImageMagick License] [^insLnxS34]
+| `inkscape`                     | [Inkscape]                                               | [vector graphics editor]                 | [GNU GPL v3.0] or later[^insLnxS35]
+| `jekyll`                       | [Jekyll]                                                 | [static site generator]                  | [MIT License] [^insLnxS36]
+| `jq`                           | [jq]                                                     | [JSON] processor                         | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37]
 | `krename`                      | [KRename]                                                | [batch renamer]                          | [GNU GPL v2.0] [^insLnxS5]
+| `lftp`                         | [LFTP]                                                   | [file transfer] program                  | [GNU GPL v3.0] [^insLnxS38]
+| `lolcat`                       | [lolcat]                                                 | [toy program] for text colorization      | unknown license[^insLnxS39]
 | `net-tools`                    | [ifconfig], part of [net-tools]                          | administration utility                   | [GNU GPL v2.0] [^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
 | `pngcrush`                     | [pngcrush]                                               | [PNG] image optimizer                    | libpng-like license
@@ -85,6 +90,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Audacity]: https://www.audacityteam.org/
 [Bless]: https://github.com/afrantzis/bless
+[CC BY 3.0]: https://creativecommons.org/licenses/by/3.0/
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
@@ -113,7 +119,12 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [IDLE]: https://docs.python.org/3/library/idle.html
 [ImageMagick License]: https://imagemagick.org/script/license.php
 [ImageMagick]: http://www.imagemagick.org/
+[Inkscape]: https://inkscape.org/
+[JSON]: https://en.wikipedia.org/wiki/JSON
+[Jekyll]: https://jekyllrb.com/
 [KRename]: https://www.krename.net/home/
+[LFTP]: https://lftp.tech/
+[MIT License]: https://choosealicense.com/licenses/mit/
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [PSFL]: https://docs.python.org/3/license.html
@@ -132,11 +143,14 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [eyeD3]: https://github.com/nicfit/eyeD3
 [file synchronization]: https://en.wikipedia.org/wiki/File_synchronization
 [file system]: https://en.wikipedia.org/wiki/File_system
+[file transfer]: https://en.wikipedia.org/wiki/File_transfer
 [gedit]: https://wiki.gnome.org/Apps/Gedit
 [gnome-disk-utility]: https://gitlab.gnome.org/GNOME/gnome-disk-utility/
 [graph visualization]: https://en.wikipedia.org/wiki/Graph_drawing
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
+[jq]: http://stedolan.github.io/jq/
+[lolcat]: https://github.com/busyloop/lolcat
 [lossless]: https://en.wikipedia.org/wiki/Lossless_compression
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
@@ -145,10 +159,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [raster graphics editor]: https://en.wikipedia.org/wiki/Raster_graphics_editor
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [spreadsheet]: https://en.wikipedia.org/wiki/Spreadsheet
+[static site generator]: https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 [tag editor]: https://en.wikipedia.org/wiki/Tag_editor
 [terminal emulator]: https://en.wikipedia.org/wiki/Terminal_emulator
 [text editor]: https://en.wikipedia.org/wiki/Text_editor
+[toy program]: https://en.wikipedia.org/wiki/Toy_program
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
+[vector graphics editor]: https://en.wikipedia.org/wiki/Vector_graphics_editor
 [version control]: https://en.wikipedia.org/wiki/Version_control
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 [word processor]: https://en.wikipedia.org/wiki/Word_processor
@@ -196,3 +213,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS32]: <https://sourceforge.net/p/grsync/code/HEAD/tree/trunk/grsync/COPYING>
 [^insLnxS33]: <https://github.com/python/cpython/blob/master/LICENSE>
 [^insLnxS34]: <https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE>
+[^insLnxS35]: <https://gitlab.com/inkscape/inkscape/blob/master/COPYING>
+[^insLnxS36]: <https://github.com/jekyll/jekyll/blob/master/LICENSE>
+[^insLnxS37]: <https://github.com/stedolan/jq/blob/master/COPYING>
+[^insLnxS38]: <https://github.com/lavv17/lftp/blob/master/COPYING>
+[^insLnxS39]: <https://github.com/busyloop/lolcat/blob/master/LICENSE>

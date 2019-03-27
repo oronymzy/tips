@@ -8,6 +8,11 @@
 In Ubuntu, use `zip -r ../foobar.zip . -x@foobar.txt` to create a [ZIP archive](https://en.wikipedia.org/wiki/Zip_(file_format)) file of the contents of the current directory, including [hidden files and hidden directories](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory) but excluding any files and/or directories specified in *foobar.txt*, saving the file into the parent directory. This requires [Info-ZIP](http://infozip.sourceforge.net/Zip.html).
 
 ## explanation
+
+!!! note
+    
+    This is an incomplete explanation.
+
 - The `-r` option enables recursion.
 - The `-x@foobar.txt` option enables the exclusion of any files and/or directories specified in *foobar.txt*.
 

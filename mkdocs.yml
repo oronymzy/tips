@@ -94,9 +94,9 @@ nav:
     - determining which files are affected by a Git commit: 'dtnfaGc.md'
     - determining which files have the most Git commits: 'dtnfmGc.md'
     - editing a Git commit message: 'edGitcm.md'
+    - exploring Git history: 'expGith.md'
     - installing Git: 'instGit.md'
     - rewriting Git history: 'rGithst.md'
-    - searching a Git repository: 'sGitrpo.md'
     - undoing a Git commit: 'undGitc.md'
     - using Git: 'usngGit.md'
   - Web development:

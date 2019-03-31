@@ -1,10 +1,10 @@
-# searching a [Git] repository
+# exploring [Git] history
 
-## searching for commits applied to a single file
+## listing commits applied to a relevant file
 
 !!! note
     
-    - {==foobar.baz==} represents the single file whose commits should be searched.
+    - {==foobar.baz==} represents the relevant file.
 
 Use `git log -- foobar.baz`.
 
@@ -16,11 +16,11 @@ Use `git log -- foobar.baz`.
 
 - The `--` [option](https://git-scm.com/docs/git-log#Documentation/git-log.txt---ltpathgt82308203) causes only commits that are enough to explain how the files that match the path(s) following it came to be to be shown.
 
-## searching for commits in which patch text was added or removed
+## listing commits in which relevant text was added to a patch or removed from a patch
 
 !!! note
     
-    - {==foobar==} represents the patch text that was added or removed. [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression) are supported.
+    - {==foobar==} represents the relevant text. [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression) are supported.
 
 Use `git log --all --reverse --source -i -p -G "foobar"`.
 
@@ -35,11 +35,11 @@ Use `git log --all --reverse --source -i -p -G "foobar"`.
 - The `-p` [option](https://git-scm.com/docs/git-log#Documentation/git-log.txt--p) generates a patch.
 - The `--reverse` [option](https://git-scm.com/docs/git-log#Documentation/git-log.txt---reverse) outputs commits in reverse order.
 
-## searching for text in log messages
+## listing commits in which relevant text was present in a log message
 
 !!! note
     
-    {==foobar==} represents the text to search for. [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression) are supported.
+    {==foobar==} represents the relevant text. [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression) are supported.
 
 Use `git log -i --grep="foobar"`.
 
@@ -55,9 +55,9 @@ Use `git log -i --grep="foobar"`.
 ## prior work
 - The functionality of the `-G` option was introduced to me by [an answer on Stack Overflow by Jakub Narębski](https://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-contents-for-a-certain-word/1340245#1340245).
 - The functionality of the `-p` option was introduced to me by [an answer on Stack Overflow by Nathan Kinsinger](https://stackoverflow.com/questions/4468361/search-all-of-git-history-for-a-string/4472267#4472267).
-- The method of searching for commits applied to a single file was introduced to me by [an answer on Stack Overflow by ralphtheninja](https://stackoverflow.com/questions/10215197/git-search-for-string-in-a-single-files-history/10216050#10216050).
-- The method of searching for commits in which patch text was added or removed was introduced to me by [an answer on Stack Overflow by Mark Longair](https://stackoverflow.com/questions/5816134/how-to-find-the-git-commit-that-introduced-a-string-in-any-branch/5816177#5816177) and [an answer on Stack Overflow by Ciro Santilli](https://stackoverflow.com/questions/5816134/how-to-find-the-git-commit-that-introduced-a-string-in-any-branch/31621921#31621921).
-- The method of searching for text in log messages was introduced to me by [an answer on Stack Overflow by hobbs](https://stackoverflow.com/questions/3826748/how-to-search-in-commit-messages-using-command-line/3826800#3826800).
+- The method of listing commits applied to a relevant file was introduced to me by [an answer on Stack Overflow by ralphtheninja](https://stackoverflow.com/questions/10215197/git-search-for-string-in-a-single-files-history/10216050#10216050).
+- The method of listing commits in which relevant text was added to a patch or removed from a patch was introduced to me by [an answer on Stack Overflow by Mark Longair](https://stackoverflow.com/questions/5816134/how-to-find-the-git-commit-that-introduced-a-string-in-any-branch/5816177#5816177) and [an answer on Stack Overflow by Ciro Santilli](https://stackoverflow.com/questions/5816134/how-to-find-the-git-commit-that-introduced-a-string-in-any-branch/31621921#31621921).
+- The method of listing commits in which relevant text was present in a log message was introduced to me by [an answer on Stack Overflow by hobbs](https://stackoverflow.com/questions/3826748/how-to-search-in-commit-messages-using-command-line/3826800#3826800).
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

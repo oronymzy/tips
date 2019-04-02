@@ -462,6 +462,10 @@ A type of selection control mechanism used to allow the value of a [variable](#v
 : count noun
 : A waveform, a state or a significant condition of a communication channel that persists for a fixed period of time. It may be described as either a pulse in digital baseband transmission or a tone in passband transmission using modems. A sending device places symbols on the channel at a fixed and known symbol rate, and the receiving device has the job of detecting the sequence of symbols in order to reconstruct the transmitted [data](#datumdef). There may be a direct correspondence between a symbol and a small unit of data. For example, each symbol may encode one or several binary digits or 'bits'. The data may also be represented by the transitions between symbols, or even by a sequence of many symbols.[^symboldef-note1]
 
+**syntax highlighting** {: #syntaxhighlightingdef }
+: mass noun
+: The displaying of text, especially [source code](https://en.wikipedia.org/wiki/Source_code), in different colors and fonts to indicate syntactic structure.[^syntaxhighlightingdef-note1]
+
 **terminator** {: #terminatordef }
 : count noun
 : A token that demarcates the end of an individual [statement](#statementdef).[^terminatordef-note1]
@@ -595,6 +599,7 @@ The code fragments above are written in the [C programming language](https://en.
 - [Subroutine](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=879018923)
 - [Subroutine§C and C++ examples](https://en.wikipedia.org/w/index.php?title=Subroutine&oldid=883485600#C_and_C++_examples)
 - [Switch statement](https://en.wikipedia.org/w/index.php?title=Switch_statement&oldid=866307445)
+- [Syntax highlighting](https://en.wikipedia.org/w/index.php?title=Syntax_highlighting&oldid=887459958)
 - [System](https://en.wikipedia.org/w/index.php?title=System&oldid=887887227)
 - [Text file](https://en.wikipedia.org/w/index.php?title=Text_file&oldid=881932349)
 - [Value (computer science)§Assignment: l-values and r-values](https://en.wikipedia.org/w/index.php?title=Value_(computer_science)&oldid=803728831)
@@ -624,6 +629,7 @@ on Wikiversity, with changes made, and:
 - [performant](https://en.wiktionary.org/w/index.php?title=performant&oldid=51350068)
 - [playback](https://en.wiktionary.org/w/index.php?title=playback&oldid=50652068)
 - [rabbit hole](https://en.wiktionary.org/w/index.php?title=rabbit_hole&oldid=51654654)
+- [syntax highlighting](https://en.wiktionary.org/w/index.php?title=syntax_highlighting&oldid=47903468)
 - [truncate](https://en.wiktionary.org/w/index.php?title=truncate&oldid=51196049)
 - [vacuous](https://en.wiktionary.org/w/index.php?title=vacuous&oldid=47613271)
 
@@ -792,6 +798,7 @@ on cppreference.com, with changes made.
 [^subroutinedef-note2]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Subroutine#C_and_C++_examples).
 [^switchconstructdef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Switch_statement).
 [^symboldef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Symbol_rate#Symbols).
+[^syntaxhighlightingdef-note1]: This definition is based on information from [the “Syntax highlighting” page on Wikipedia](https://en.wikipedia.org/wiki/Syntax_highlighting) and [the “syntax highlighting” page on Wiktionary](https://en.wiktionary.org/wiki/syntax_highlighting).
 [^systemdef1]: ["Definition of system"](http://www.merriam-webster.com/dictionary/system). *Merriam-Webster*. Springfield, MA, USA. Retrieved 2019-01-13.
 [^systemdef-note1]: This definition is based on information from [the “System” page on Wikipedia](https://en.wikipedia.org/wiki/System).
 [^terminatordef-note1]: This definition is based on [Wikipedia's definition of a token](https://en.wikipedia.org/wiki/Lexical_analysis#Token) and [Wikipedia's definition of a statement terminator](https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(syntax)#Statements).

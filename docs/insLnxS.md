@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pmount pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -84,9 +84,12 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `lynx`                         | [Lynx]                                                   | [text-based web browser]                     | [GNU GPL v2.0] [^insLnxS40]
 | `mediainfo`                    | [MediaInfo]                                              | video file and audio file metadata displayer | [BSD 2-Clause license] [^insLnxS41] [^insLnxS42]
 | `meld`                         | [Meld]                                                   | [file comparison]                            | [GNU GPL v2.0] [^insLnxS43]
-| `net-tools`                    | [ifconfig], part of [net-tools]                          | administration utility                       | [GNU GPL v2.0] [^insLnxS3]
+| `moreutils`                    | sponge, part of [moreutils]                              | [standard stream] utility                    | various licenses (sponge is licensed [GNU GPL v2.0] [^insLnxS44])
+| `ncdu`                         | [Ncdu]                                                   | [computer data storage] analyzer             | [MIT License] [^insLnxS45]
+| `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration utility           | [GNU GPL v2.0] [^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
 | `pngcrush`                     | [pngcrush]                                               | [PNG] image optimizer                        | libpng-like license
+| `recoll`                       | [Recoll]                                                 | [desktop search] tool                        | [GNU GPL v2.0] [^insLnxS46]
 | `sox`                          | [SoX]                                                    | [audio editor]                               | [GNU GPL v2.0] or later[^insLnxS12]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition] software     | [Apache License 2.0] [^insLnxS13]
 
@@ -132,9 +135,11 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [MIT License]: https://choosealicense.com/licenses/mit/
 [MediaInfo]: https://mediaarea.net/en/MediaInfo
 [Meld]: http://meldmerge.org/
+[Ncdu]: https://dev.yorhel.nl/ncdu
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [PSFL]: https://docs.python.org/3/license.html
+[Recoll]: https://www.lesbonscomptes.com/recoll/
 [SoX]: http://sox.sourceforge.net/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [audio editor]: https://en.wikipedia.org/wiki/Audio_editing_software
@@ -142,6 +147,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [batch renamer]: https://en.wikipedia.org/wiki/Batch_renaming
 [codec]: https://en.wikipedia.org/wiki/Codec
 [computer data storage]: https://en.wikipedia.org/wiki/Computer_data_storage
+[desktop search]: https://en.wikipedia.org/wiki/Desktop_search
 [disk utility]: https://en.wikipedia.org/wiki/Disk_utility
 [eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [exFAT]: https://en.wikipedia.org/wiki/ExFAT
@@ -160,13 +166,16 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [jq]: http://stedolan.github.io/jq/
 [lolcat]: https://github.com/busyloop/lolcat
 [lossless]: https://en.wikipedia.org/wiki/Lossless_compression
+[moreutils]: http://joeyh.name/code/moreutils/
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
+[networking]: https://en.wikipedia.org/wiki/Computer_network
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
 [partition editor]: https://en.wikipedia.org/wiki/Disk_editor#Partition_editor
 [pngcrush]: https://pmt.sourceforge.io/pngcrush/
 [raster graphics editor]: https://en.wikipedia.org/wiki/Raster_graphics_editor
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [spreadsheet]: https://en.wikipedia.org/wiki/Spreadsheet
+[standard stream]: https://en.wikipedia.org/wiki/Standard_streams
 [static site generator]: https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 [tag editor]: https://en.wikipedia.org/wiki/Tag_editor
 [terminal emulator]: https://en.wikipedia.org/wiki/Terminal_emulator
@@ -231,3 +240,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS41]: <https://mediaarea.net/en/MediaInfo/License>
 [^insLnxS42]: <https://github.com/MediaArea/MediaInfo/blob/master/LICENSE>
 [^insLnxS43]: <https://gitlab.gnome.org/GNOME/meld/blob/master/COPYING>
+[^insLnxS44]: <https://metadata.ftp-master.debian.org/changelogs/main/m/moreutils/moreutils_0.63-1_copyright>
+[^insLnxS45]: <https://g.blicky.net/ncdu.git/tree/COPYING>
+[^insLnxS46]: <https://opensourceprojects.eu/p/recoll1/code/ci/7e3acf2d0aaa37413e9cc1d0eb32e7c104abc430/tree/src/COPYING>

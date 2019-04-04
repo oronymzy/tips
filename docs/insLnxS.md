@@ -45,53 +45,53 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
     
     This is an incomplete explanation.
 
-| package name                   | program name                                             | program category                             | licensing
-|:-------------------------------|:---------------------------------------------------------|:---------------------------------------------|:-
-| `audacity`                     | [Audacity]                                               | [audio editor]                               | [GNU GPL v2.0] [^insLnxS6]
-| `bless`                        | [Bless]                                                  | [hex editor]                                 | [GNU GPL v2.0] [^insLnxS2]
-| `cheese`                       | [Cheese]                                                 | [webcam] software                            | [GNU GPL v2.0] [^insLnxS7]
-| `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                        | [GNU GPL v3.0] [^insLnxS8]
-| `curl`                         | [Curl]                                                   | data transfer tool                           | MIT/X-inspired license[^insLnxS10]
-| `easytag`                      | [EasyTag]                                                | [tag editor]                                 | [GNU GPL v2.0] or later[^insLnxS14]
-| `espeak-ng`                    | [eSpeak NG]                                              | [speech synthesis]                           | [GNU GPL v3.0] [^insLnxS23]
-| `exfat-fuse` and `exfat-utils` | [exfat]                                                  | [exFAT] [file system] implementation         | [GNU GPL v2.0] [^insLnxS15]
-| `exiftool`                     | [ExifTool]                                               | [tag editor]                                 | [GNU GPL v1.0] or later[^insLnxS16]
-| `extundelete`                  | [extundelete]                                            | [undeletion] software                        | [GNU GPL v2.0] [^insLnxS17]
-| `eyed3`                        | [eyeD3]                                                  | [tag editor]                                 | [GNU GPL v3.0] [^insLnxS18]
-| `festival`                     | [Festival Speech Synthesis System]                       | [speech synthesis]                           | MIT-like license[^insLnxS11]
-| `filelight`                    | [Filelight]                                              | [computer data storage] analyzer             | [GNU GPL v2.0] [^insLnxS19]
-| `filezilla`                    | [FileZilla]                                              | [FTP] software                               | [GNU GPL v2.0] or later[^insLnxS20]
-| `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]       | [GNU GPL] [^insLnxS21]
-| `focuswriter`                  | [FocusWriter]                                            | [word processor]                             | [GNU GPL v3.0] [^insLnxS22]
-| `gedit`                        | [gedit]                                                  | [text editor]                                | [GNU GPL v2.0] [^insLnxS24]
-| `gimp`                         | [GIMP]                                                   | [raster graphics editor]                     | [GNU GPL v3.0] [^insLnxS25]
-| `git-cola`                     | [Git Cola]                                               | [version control] software                   | [GNU GPL v2.0] [^insLnxS9]
-| `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                       | [GNU GPL v2.0] [^insLnxS26]
-| `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulator]                          | [GNU GPL v3.0] [^insLnxS27]
-| `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                                | [GNU GPL v3.0] [^insLnxS28]
-| `gparted`                      | [GParted]                                                | [partition editor]                           | [GNU GPL v2.0] [^insLnxS29]
-| `gprename`                     | [GPRename]                                               | [batch renamer]                              | [GNU GPL v3.0] [^insLnxS4]
-| `graphviz`                     | [Graphviz]                                               | [graph visualization]                        | [Eclipse Public License 1.0] [^insLnxS30] [^insLnxS31]
-| `grsync`                       | [Grsync]                                                 | [file synchronization]                       | [GNU GPL v2.0] [^insLnxS32]
-| `idle`                         | [IDLE]                                                   | [IDE]                                        | [PSFL] [^insLnxS33]
-| `imagemagick`                  | [ImageMagick]                                            | image manipulation                           | [ImageMagick License] [^insLnxS34]
-| `inkscape`                     | [Inkscape]                                               | [vector graphics editor]                     | [GNU GPL v3.0] or later[^insLnxS35]
-| `jekyll`                       | [Jekyll]                                                 | [static site generator]                      | [MIT License] [^insLnxS36]
-| `jq`                           | [jq]                                                     | [JSON] processor                             | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37]
-| `krename`                      | [KRename]                                                | [batch renamer]                              | [GNU GPL v2.0] [^insLnxS5]
-| `lftp`                         | [LFTP]                                                   | [file transfer] program                      | [GNU GPL v3.0] [^insLnxS38]
-| `lolcat`                       | [lolcat]                                                 | [toy program] for text colorization          | unknown license[^insLnxS39]
-| `lynx`                         | [Lynx]                                                   | [text-based web browser]                     | [GNU GPL v2.0] [^insLnxS40]
-| `mediainfo`                    | [MediaInfo]                                              | video file and audio file metadata displayer | [BSD 2-Clause license] [^insLnxS41] [^insLnxS42]
-| `meld`                         | [Meld]                                                   | [file comparison]                            | [GNU GPL v2.0] [^insLnxS43]
-| `moreutils`                    | sponge, part of [moreutils]                              | [standard stream] utility                    | various licenses (sponge is licensed [GNU GPL v2.0] [^insLnxS44])
-| `ncdu`                         | [Ncdu]                                                   | [computer data storage] analyzer             | [MIT License] [^insLnxS45]
-| `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration utility           | [GNU GPL v2.0] [^insLnxS3]
+| package name                   | program name                                             | program category                             | [interface] | licensing
+|:-------------------------------|:---------------------------------------------------------|:---------------------------------------------|:------------|:-
+| `audacity`                     | [Audacity]                                               | [audio editor]                               | [GUI]       | [GNU GPL v2.0] [^insLnxS6]
+| `bless`                        | [Bless]                                                  | [hex editor]                                 | [GUI]       | [GNU GPL v2.0] [^insLnxS2]
+| `cheese`                       | [Cheese]                                                 | [webcam] software                            | [GUI]       | [GNU GPL v2.0] [^insLnxS7]
+| `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                        | [GUI]       | [GNU GPL v3.0] [^insLnxS8]
+| `curl`                         | [Curl]                                                   | data transfer tool                           | [CLI]       | MIT/X-inspired license[^insLnxS10]
+| `easytag`                      | [EasyTag]                                                | [tag editor]                                 | [GUI]       | [GNU GPL v2.0] or later[^insLnxS14]
+| `espeak-ng`                    | [eSpeak NG]                                              | [speech synthesis]                           | [CLI]       | [GNU GPL v3.0] [^insLnxS23]
+| `exfat-fuse` and `exfat-utils` | [exfat]                                                  | [exFAT] [file system] implementation         |             | [GNU GPL v2.0] [^insLnxS15]
+| `exiftool`                     | [ExifTool]                                               | [tag editor]                                 | [CLI]       | [GNU GPL v1.0] or later[^insLnxS16]
+| `extundelete`                  | [extundelete]                                            | [undeletion] software                        | [CLI]       | [GNU GPL v2.0] [^insLnxS17]
+| `eyed3`                        | [eyeD3]                                                  | [tag editor]                                 | [GUI]       | [GNU GPL v3.0] [^insLnxS18]
+| `festival`                     | [Festival Speech Synthesis System]                       | [speech synthesis]                           | [CLI]       | MIT-like license[^insLnxS11]
+| `filelight`                    | [Filelight]                                              | [computer data storage] analyzer             | [GUI]       | [GNU GPL v2.0] [^insLnxS19]
+| `filezilla`                    | [FileZilla]                                              | [FTP] software                               | [GUI]       | [GNU GPL v2.0] or later[^insLnxS20]
+| `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]       | [CLI]       | [GNU GPL] [^insLnxS21]
+| `focuswriter`                  | [FocusWriter]                                            | [word processor]                             | [GUI]       | [GNU GPL v3.0] [^insLnxS22]
+| `gedit`                        | [gedit]                                                  | [text editor]                                | [GUI]       | [GNU GPL v2.0] [^insLnxS24]
+| `gimp`                         | [GIMP]                                                   | [raster graphics editor]                     | [GUI]       | [GNU GPL v3.0] [^insLnxS25]
+| `git-cola`                     | [Git Cola]                                               | [version control] software                   | [GUI]       | [GNU GPL v2.0] [^insLnxS9]
+| `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                       | [GUI]       | [GNU GPL v2.0] [^insLnxS26]
+| `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulator]                          | [GUI]       | [GNU GPL v3.0] [^insLnxS27]
+| `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                                | [GUI]       | [GNU GPL v3.0] [^insLnxS28]
+| `gparted`                      | [GParted]                                                | [partition editor]                           | [GUI]       | [GNU GPL v2.0] [^insLnxS29]
+| `gprename`                     | [GPRename]                                               | [batch renamer]                              | [GUI]       | [GNU GPL v3.0] [^insLnxS4]
+| `graphviz`                     | [Graphviz]                                               | [graph visualization]                        | [CLI]       | [Eclipse Public License 1.0] [^insLnxS30] [^insLnxS31]
+| `grsync`                       | [Grsync]                                                 | [file synchronization]                       | [GUI]       | [GNU GPL v2.0] [^insLnxS32]
+| `idle`                         | [IDLE]                                                   | [IDE]                                        | [GUI]       | [PSFL] [^insLnxS33]
+| `imagemagick`                  | [ImageMagick]                                            | image manipulation                           | [CLI]       | [ImageMagick License] [^insLnxS34]
+| `inkscape`                     | [Inkscape]                                               | [vector graphics editor]                     | [GUI]       | [GNU GPL v3.0] or later[^insLnxS35]
+| `jekyll`                       | [Jekyll]                                                 | [static site generator]                      | [CLI]       | [MIT License] [^insLnxS36]
+| `jq`                           | [jq]                                                     | [JSON] processor                             | [CLI]       | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37]
+| `krename`                      | [KRename]                                                | [batch renamer]                              | [GUI]       | [GNU GPL v2.0] [^insLnxS5]
+| `lftp`                         | [LFTP]                                                   | [file transfer] program                      | [CLI]       | [GNU GPL v3.0] [^insLnxS38]
+| `lolcat`                       | [lolcat]                                                 | [toy program] for text colorization          | [CLI]       | unknown license[^insLnxS39]
+| `lynx`                         | [Lynx]                                                   | [text-based web browser]                     | [CLI]       | [GNU GPL v2.0] [^insLnxS40]
+| `mediainfo`                    | [MediaInfo]                                              | video file and audio file metadata displayer | [CLI]       | [BSD 2-Clause license] [^insLnxS41] [^insLnxS42]
+| `meld`                         | [Meld]                                                   | [file comparison]                            | [GUI]       | [GNU GPL v2.0] [^insLnxS43]
+| `moreutils`                    | sponge, part of [moreutils]                              | [standard stream] utility                    | [CLI]       | various licenses (sponge is licensed [GNU GPL v2.0] [^insLnxS44])
+| `ncdu`                         | [Ncdu]                                                   | [computer data storage] analyzer             | [CLI]       | [MIT License] [^insLnxS45]
+| `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration utility           | [CLI]       | [GNU GPL v2.0] [^insLnxS3]
 | `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
-| `pngcrush`                     | [pngcrush]                                               | [PNG] image optimizer                        | libpng-like license
-| `recoll`                       | [Recoll]                                                 | [desktop search] tool                        | [GNU GPL v2.0] [^insLnxS46]
-| `sox`                          | [SoX]                                                    | [audio editor]                               | [GNU GPL v2.0] or later[^insLnxS12]
-| `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition] software     | [Apache License 2.0] [^insLnxS13]
+| `pngcrush`                     | [pngcrush]                                               | [PNG] image optimizer                        | [CLI]       | libpng-like license
+| `recoll`                       | [Recoll]                                                 | [desktop search] tool                        | [GUI]       | [GNU GPL v2.0] [^insLnxS46]
+| `sox`                          | [SoX]                                                    | [audio editor]                               | [CLI]       | [GNU GPL v2.0] or later[^insLnxS12]
+| `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition] software     | [CLI]       | [Apache License 2.0] [^insLnxS13]
 
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Audacity]: https://www.audacityteam.org/
@@ -99,6 +99,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Bless]: https://github.com/afrantzis/bless
 [CC BY 3.0]: https://creativecommons.org/licenses/by/3.0/
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
+[CLI]: https://en.wikipedia.org/wiki/Command-line_interface
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
 [EasyTag]: https://wiki.gnome.org/Apps/EasyTAG
@@ -122,6 +123,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Gnumeric]: http://www.gnumeric.org/
 [Graphviz]: https://www.graphviz.org/
 [Grsync]: http://www.opbyte.it/grsync/
+[GUI]: https://en.wikipedia.org/wiki/Graphical_user_interface
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [IDLE]: https://docs.python.org/3/library/idle.html
 [ImageMagick License]: https://imagemagick.org/script/license.php
@@ -163,6 +165,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [graph visualization]: https://en.wikipedia.org/wiki/Graph_drawing
 [hex editor]: https://en.wikipedia.org/wiki/Hex_editor
 [ifconfig]: https://en.wikipedia.org/wiki/Ifconfig
+[interface]: https://en.wikipedia.org/wiki/User_interface
 [jq]: http://stedolan.github.io/jq/
 [lolcat]: https://github.com/busyloop/lolcat
 [lossless]: https://en.wikipedia.org/wiki/Lossless_compression

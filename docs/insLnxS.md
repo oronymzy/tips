@@ -66,7 +66,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `focuswriter`                  | [FocusWriter]                                            | [word processor]                                    | [GUI]          | [GNU GPL v3.0] [^insLnxS22]
 | `gedit`                        | [gedit]                                                  | [text editor]                                       | [GUI]          | [GNU GPL v2.0] [^insLnxS24]
 | `gimp`                         | [GIMP]                                                   | [raster graphics editor]                            | [GUI]          | [GNU GPL v3.0] [^insLnxS25]
-| `git-cola`                     | [Git Cola]                                               | [version control] software                          | [GUI]          | [GNU GPL v2.0] [^insLnxS9]
+| `git-cola`                     | [Git Cola]                                               | [version control] software for [Git]                | [GUI]          | [GNU GPL v2.0] [^insLnxS9]
 | `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                              | [GUI]          | [GNU GPL v2.0] [^insLnxS26]
 | `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulator]                                 | [GUI]          | [GNU GPL v3.0] [^insLnxS27]
 | `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                                       | [GUI]          | [GNU GPL v3.0] [^insLnxS28]
@@ -94,7 +94,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `qtqr`                         | QtQR (part of [QR Tools])                                | [QR code] encoder and decoder                       | [GUI]          | [GNU GPL v3.0] (for [QR Tools]) [^insLnxS49]
 | `recode`                       | [recode]                                                 | [character encoding] converter                      | [CLI]          | [GNU GPL v2.0] [^insLnxS50]
 | `recoll`                       | [Recoll]                                                 | [desktop search] tool                               | [GUI]          | [GNU GPL v2.0] [^insLnxS46]
-| `retext`                       | [ReText]                                                 | [text editor] for [Markdown] and [reStructuredText] | [GUI]   | [GNU GPL v3.0] [^insLnxS51]
+| `retext`                       | [ReText]                                                 | [text editor] for [Markdown] and [reStructuredText] | [GUI]          | [GNU GPL v3.0] [^insLnxS51]
 | `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop search] tool                               | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]
 | `sox`                          | [SoX]                                                    | [audio editor]                                      | [CLI]          | [GNU GPL v2.0] or later[^insLnxS12]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition] software            | [CLI]          | [Apache License 2.0] [^insLnxS13]
@@ -119,6 +119,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Filelight]: https://utils.kde.org/projects/filelight/
 [FocusWriter]: https://gottcode.org/focuswriter/
 [GIMP]: https://www.gimp.org/
+[Git]: https://en.wikipedia.org/wiki/Git
 [GNOME Terminal]: https://wiki.gnome.org/Apps/Terminal
 [GNU GPL v1.0]: https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/

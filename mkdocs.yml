@@ -32,6 +32,7 @@ nav:
     - installing sqlitebiter: 'inqbitr.md'
     - installing yq: 'instlyq.md'
     - listing all files containing specific text: 'lsfctxt.md'
+    - making a file executable: 'mkfexec.md'
     - testing for the existence of a file: 'tstfile.md'
     - using yq: 'usingyq.md'
   - Digital preservation:
@@ -46,7 +47,6 @@ nav:
     - installing pup: 'instpup.md'
     - installing uGet: 'instuGt.md'
     - installing youtube-dl: 'insytdl.md'
-    - making a file executable: 'mkfexec.md'
     - opening multiple URLs: 'opmURLs.md'
     - using pup: 'usngpup.md'
     - using Lloyd Brookes's renamer: 'usLBrnm.md'

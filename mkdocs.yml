@@ -26,6 +26,7 @@ nav:
     - using pandoc: 'uspndoc.md'
     - using SoX: 'usngSoX.md'
   - Data management:
+    - getting filesystem information: 'gflsysi.md'
     - installing DB Browser for SQLite: 'inDBSQL.md'
     - installing jq: 'instljq.md'
     - installing sqlitebiter: 'inqbitr.md'

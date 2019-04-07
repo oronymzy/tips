@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -74,6 +74,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `gprename`                     | [GPRename]                                               | [batch renamer]                              | [GUI]          | [GNU GPL v3.0] [^insLnxS4]
 | `graphviz`                     | [Graphviz]                                               | [graph visualization]                        | [CLI]          | [Eclipse Public License 1.0] [^insLnxS30] [^insLnxS31]
 | `grsync`                       | [Grsync]                                                 | [file synchronization]                       | [GUI]          | [GNU GPL v2.0] [^insLnxS32]
+| `gsmartcontrol`                | [GSmartControl]                                          | [computer data storage] analyzer             | [GUI]          | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS48]
 | `idle`                         | [IDLE]                                                   | [IDE]                                        | [GUI]          | [PSFL] [^insLnxS33]
 | `imagemagick`                  | [ImageMagick]                                            | image manipulation                           | [CLI]          | [ImageMagick License] [^insLnxS34]
 | `inkscape`                     | [Inkscape]                                               | [vector graphics editor]                     | [GUI]          | [GNU GPL v3.0] or later[^insLnxS35]
@@ -125,6 +126,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Gnumeric]: http://www.gnumeric.org/
 [Graphviz]: https://www.graphviz.org/
 [Grsync]: http://www.opbyte.it/grsync/
+[GSmartControl]: https://gsmartcontrol.sourceforge.io/home/index.php/
 [GUI]: https://en.wikipedia.org/wiki/Graphical_user_interface
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 [IDLE]: https://docs.python.org/3/library/idle.html
@@ -249,3 +251,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS45]: <https://g.blicky.net/ncdu.git/tree/COPYING>
 [^insLnxS46]: <https://opensourceprojects.eu/p/recoll1/code/ci/7e3acf2d0aaa37413e9cc1d0eb32e7c104abc430/tree/src/COPYING>
 [^insLnxS47]: <https://github.com/zevv/duc/blob/master/LICENSE>
+[^insLnxS48]: <https://gsmartcontrol.sourceforge.io/home/index.php/License>

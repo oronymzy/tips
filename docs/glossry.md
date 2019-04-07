@@ -9,6 +9,10 @@ These are concepts I find especially confusing, ambiguous, or difficult to remem
 : verb
 : To determine mathematically in the case of a number or amount, or in the case of an abstract problem to deduce the answer using logic, reason or common sense.[^calculatedef1] [^calculatedef-note1]
 
+**complacent** {: #complacentdef }
+: adjective
+: [Apathetic](https://en.wiktionary.org/wiki/apathetic) with regard to an apparent need or problem.[^complacentdef-note1]
+
 **greenfield project** {: #greenfieldprojectdef }
 : count noun
 : A project that lacks constraints imposed by prior work.
@@ -616,6 +620,7 @@ on Wikiversity, with changes made, and:
 - [arity](https://en.wiktionary.org/w/index.php?title=arity&oldid=50758406)
 - [associativity](https://en.wiktionary.org/w/index.php?title=associativity&oldid=49893698)
 - [atomicity](https://en.wiktionary.org/w/index.php?title=atomicity&oldid=50343477)
+- [complacent](https://en.wiktionary.org/w/index.php?title=complacent&oldid=51094694)
 - [condition](https://en.wiktionary.org/w/index.php?title=condition&oldid=51410719)
 - [conditional](https://en.wiktionary.org/w/index.php?title=conditional&oldid=51276861)
 - [constant](https://en.wiktionary.org/w/index.php?title=constant&oldid=51246036)
@@ -671,6 +676,7 @@ on cppreference.com, with changes made.
 [^Booleandef-note1]: This definition is based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Boolean_data_type).
 [^calculatedef1]: ["calculate | Definition of calculate in English by Oxford Dictionaries"](https://en.oxforddictionaries.com/definition/calculate). *Oxford Dictionaries | English*. Retrieved 2018-08-30.
 [^calculatedef-note1]: This definition is based on information from [the “Calculation” page on Wikipedia](https://en.wikipedia.org/wiki/Calculation).
+[^complacentdef-note1]: This definition is based on information from [Wiktionary's definition of “complacent”](https://en.wiktionary.org/wiki/complacent).
 [^conditionaldef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/conditional).
 [^conditionalexpressiondef1]: Based on information from page 199 of “Starting Out with C++: From Control through Objects - Edition: 8th”, ISBN 978-0-13-4037325.
 [^conditionaloperatordef1]: Cogwheel. ["What is the difference between logical and conditional /operator/"](https://stackoverflow.com/questions/3154132/what-is-the-difference-between-logical-and-conditional-and-or-in-c). *Stack Overflow.* Retrieved 9 April 2015.

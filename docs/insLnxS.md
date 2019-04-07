@@ -99,6 +99,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] or later[^insLnxS12]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]
 
+## licensing
+**No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
+
+## prior work
+- The method of installing GPRename was introduced to me by [an answer on Ask Ubuntu by karel](https://askubuntu.com/questions/1030996/how-can-i-install-pyrenamer-for-bionic/1031003#1031003).
+- The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
+
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Audacity]: https://www.audacityteam.org/
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
@@ -119,7 +126,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Filelight]: https://utils.kde.org/projects/filelight/
 [FocusWriter]: https://gottcode.org/focuswriter/
 [GIMP]: https://www.gimp.org/
-[Git]: https://en.wikipedia.org/wiki/Git
 [GNOME Terminal]: https://wiki.gnome.org/Apps/Terminal
 [GNU GPL v1.0]: https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
@@ -131,6 +137,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [GSmartControl]: https://gsmartcontrol.sourceforge.io/home/index.php/
 [GUI]: https://en.wikipedia.org/wiki/Graphical_user_interface
 [Git Cola]: http://git-cola.github.io/
+[Git]: https://en.wikipedia.org/wiki/Git
 [Gnumeric]: http://www.gnumeric.org/
 [Graphviz]: https://www.graphviz.org/
 [Grsync]: http://www.opbyte.it/grsync/
@@ -143,6 +150,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Jekyll]: https://jekyllrb.com/
 [KRename]: https://www.krename.net/home/
 [LFTP]: https://lftp.tech/
+[Linux]: https://en.wikipedia.org/wiki/Linux_distribution
 [Lynx]: https://lynx.invisible-island.net/
 [MIT License]: https://choosealicense.com/licenses/mit/
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
@@ -159,6 +167,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Searchmonkey]: http://searchmonkey.embeddediq.com/
 [SoX]: http://sox.sourceforge.net/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
+[Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [audio editing]: https://en.wikipedia.org/wiki/Audio_editing_software
 [audio]: https://en.wikipedia.org/wiki/Digital_audio
 [batch renaming]: https://en.wikipedia.org/wiki/Batch_renaming
@@ -212,15 +221,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 [word processing]: https://en.wikipedia.org/wiki/Word_processor
 
-## licensing
-**No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
-
-## prior work
-- The method of installing GPRename was introduced to me by [an answer on Ask Ubuntu by karel](https://askubuntu.com/questions/1030996/how-can-i-install-pyrenamer-for-bionic/1031003#1031003).
-- The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
-
-[Linux]: https://en.wikipedia.org/wiki/Linux_distribution
-[Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [^insLnxS1]: <http://openjdk.java.net/install/>
 [^insLnxS2]: <https://github.com/afrantzis/bless/blob/master/COPYING>
 [^insLnxS3]: <https://sourceforge.net/p/net-tools/code/ci/master/tree/COPYING>

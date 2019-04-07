@@ -34,6 +34,7 @@ nav:
     - listing all files containing specific text: 'lsfctxt.md'
     - making a file executable: 'mkfexec.md'
     - testing for the existence of a file: 'tstfile.md'
+    - using Duc: 'usngDuc.md'
     - using yq: 'usingyq.md'
   - Digital preservation:
     - archiving files: 'arcvfle.md'

@@ -36,6 +36,8 @@ nav:
     - testing for the existence of a file: 'tstfile.md'
     - using Duc: 'usngDuc.md'
     - using yq: 'usingyq.md'
+  - Data storage:
+    - maximizing data integrity: 'mxdatai.md'
   - Digital preservation:
     - archiving files: 'arcvfle.md'
     - collecting music from the Free Music Archive: 'cmscFMA.md'

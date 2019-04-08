@@ -98,6 +98,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]
 | `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] or later[^insLnxS12]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]
+| `testdisk`                     | [TestDisk]                                               | [data recovery]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS53]
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
@@ -167,6 +168,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Searchmonkey]: http://searchmonkey.embeddediq.com/
 [SoX]: http://sox.sourceforge.net/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
+[TestDisk]: https://www.cgsecurity.org/wiki/TestDisk
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [audio editing]: https://en.wikipedia.org/wiki/Audio_editing_software
 [audio]: https://en.wikipedia.org/wiki/Digital_audio
@@ -174,6 +176,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [character encoding]: https://en.wikipedia.org/wiki/Character_encoding
 [codec]: https://en.wikipedia.org/wiki/Codec
 [computer data storage]: https://en.wikipedia.org/wiki/Computer_data_storage
+[data recovery]: https://en.wikipedia.org/wiki/Data_recovery
 [data transmission]: https://en.wikipedia.org/wiki/Data_transmission
 [desktop searching]: https://en.wikipedia.org/wiki/Desktop_search
 [disk utility]: https://en.wikipedia.org/wiki/Disk_utility
@@ -273,3 +276,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS50]: <https://git.launchpad.net/ubuntu/+source/recode/tree/COPYING>
 [^insLnxS51]: <https://github.com/retext-project/retext/blob/master/LICENSE_GPL>
 [^insLnxS52]: <https://sourceforge.net/p/searchmonkey/GTK/ci/master/tree/COPYING.LESSER>
+[^insLnxS53]: <https://git.cgsecurity.org/cgit/testdisk/tree/COPYING>

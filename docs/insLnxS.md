@@ -18,6 +18,7 @@ Also install additional programs using more specific instructions and installati
 ### dpkg
 - [Atom text editor](insAtom.md) (64-bit systems only)
 - [Google Chrome](insGCrm.md) (64-bit systems only)
+- [VSCodium](inVSCdm.md)
 
 ### npm
 - [Lloyd Brookes's renamer](inLBrnm.md)

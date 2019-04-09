@@ -11,6 +11,7 @@ nav:
     - installing Python: 'insPyth.md'
     - installing VSCodium: 'inVSCdm.md'
     - using Termux: 'usgTrmx.md'
+    - using VSCodium: 'usVSCdm.md'
   - Content creation:
     - installing Krita: 'insKrta.md'
     - installing software from the latest GitHub software release: 'islGHsr.md'

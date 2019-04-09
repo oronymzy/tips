@@ -9,6 +9,7 @@ nav:
     - including code comments: 'incdcmt.md'
     - installing Go: 'instlGo.md'
     - installing Python: 'insPyth.md'
+    - installing VSCodium: 'inVSCdm.md'
     - using Termux: 'usgTrmx.md'
   - Content creation:
     - installing Krita: 'insKrta.md'

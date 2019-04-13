@@ -156,6 +156,7 @@ else
 **constant** {: #constantdef }
 : count noun
 : An [identifier](#identifierdef) that is [bound](https://en.wiktionary.org/wiki/bound) to an [invariant](https://en.wiktionary.org/wiki/invariant) [value](#valuedef); a fixed value given a name to aid in readability of [source code](https://en.wiktionary.org/wiki/source_code).[^constantdef-note1]
+: In [C++](https://en.wikipedia.org/wiki/C++), there is a convention of naming constants with [all caps](https://en.wikipedia.org/wiki/All_caps).[^constantdef-note2]
 
 **control flow** {: #controlflowdef }
 : mass noun
@@ -685,6 +686,7 @@ on cppreference.com, with changes made.
 [^conditioncontrolledloopconstructdef-note1]: This definition is loosely based on [Wikipedia's definition](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops).
 [^conditiondef-note1]: This definition is based on definitions from [Wiktionary](https://en.wiktionary.org/wiki/condition) and [Wikipedia](https://en.wikipedia.org/wiki/Conditional_(computer_programming)).
 [^constantdef-note1]: This definition is the same as [Wiktionary's definition](https://en.wiktionary.org/wiki/constant).
+[^constantdef-note2]: This definition is based on information from [an answer on Stack Overflow by Mnementh](https://stackoverflow.com/questions/838929/naming-why-should-named-constants-be-all-uppercase-in-c-java).
 [^controlflowdef-note1]: This definition is based on information from [Wikipedia's definition of “control flow”](https://en.wikipedia.org/wiki/Control_flow).
 [^controlstructuredef-note1]: This definition is based on information from [the “Category:Control Structures” page on Rosetta Code](https://rosettacode.org/wiki/Category:Control_Structures), [Control structures and statements in C and C++](http://www.circuitstoday.com/control-structures-in-c-and-cpp), and [Wikiversity's definition of “control structure”](https://en.wikiversity.org/wiki/Control_structures).
 [^controlvariabledef1]: Watt, David A. (2004). *Programming Language Design Concepts.* Wiley. pp. 84–85.

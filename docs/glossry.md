@@ -415,6 +415,10 @@ The most common logical operators are **[binary](https://en.wikipedia.org/wiki/B
 : mass noun
 : The ability to run a program for any purpose and to study, change, and distribute it and any adapted versions.[^programmaticalfreedomdef-note1] This ability can be explained in more detail with **four freedoms** that specify the actions that can be taken on or with a program. The first action that can be performed (or **freedom zero**) is to run a program as one wishes, for any purpose. The second action that can be performed (or **freedom one**) is to study how a program works and change it to do one's computing as one wishes. The third action that can be performed (or **freedom two**) is to redistribute copies of a program. The fourth action that can be performed (or **freedom three**) is to distribute copies of a program one has changed. Freedoms one and three require the program's [source code](https://en.wikipedia.org/wiki/Source_code) to be available.[^programmaticalfreedomdef-note2] Taken together, freedoms zero, one, and three make [forking](https://en.wikipedia.org/wiki/Fork_(software_development)) possible.
 
+**refresh** {: #refreshdef }
+: verb
+: To retrieve data from a storage medium and place it into into computer memory, replacing previously-retrieved data from the same storage medium.[^refreshdef-note1]
+
 **relational expression** {: #relationalexpressiondef }
 : count noun
 : An [expression](#expressiondef) created using a [relational operator](#relationaloperatordef), also called a **condition**.[^relationalexpressiondef-note1]
@@ -631,6 +635,7 @@ on Wikiversity, with changes made, and:
 - [flag](https://en.wiktionary.org/w/index.php?title=flag&oldid=51372941)
 - [increment§verb](https://en.wiktionary.org/w/index.php?title=increment&oldid=51035067#Verb)
 - [iteration](https://en.wiktionary.org/w/index.php?title=iteration&oldid=51175255)
+- [load§Verb](https://en.wiktionary.org/w/index.php?title=load&oldid=51726823#Verb)
 - [lvalue](https://en.wiktionary.org/w/index.php?title=lvalue&oldid=50837189)
 - [performant](https://en.wiktionary.org/w/index.php?title=performant&oldid=51350068)
 - [playback](https://en.wiktionary.org/w/index.php?title=playback&oldid=50652068)
@@ -778,6 +783,7 @@ on cppreference.com, with changes made.
 [^programmaticalfreedomdef-note1]: This definition is based on [Wikipedia's definition of free software](https://en.wikipedia.org/wiki/Free_software) and [Wikipedia's definition of freedom](https://en.wikipedia.org/wiki/Freedom).
 [^programmaticalfreedomdef-note2]: This definition is based on [the GNU prject's definition of free software](https://www.gnu.org/philosophy/free-sw.html.en).
 [^rabbitholedef-note1]: This definition is based on information from [Wiktionary's definition of “rabbit hole”](https://en.wiktionary.org/wiki/rabbit_hole).
+[^refreshdef-note1]: This definition is based on information from [Wiktionary's definition of “load§Verb”](https://en.wiktionary.org/wiki/load#Verb).
 [^relationalexpressiondef-note1]: This definition similar to [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^relationaloperatordef-note1]: This definition is essentially the same as [Wikipedia's definition](https://en.wikipedia.org/wiki/Relational_operator).
 [^rvaluedef1]: ["Lvalues and Rvalues (Visual C++)"](https://msdn.microsoft.com/en-us/library/f90831hc.aspx). *Microsoft Developer Network.* Retrieved 3 September 2016.

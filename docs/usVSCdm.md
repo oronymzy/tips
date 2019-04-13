@@ -4,6 +4,10 @@
     
     VSCodium is a binary release of [Visual Studio Code](https://code.visualstudio.com/) with any non-free parts removed. It comes from [the freely-licensed source code of Visual Studio Code](https://github.com/Microsoft/vscode).
 
+!!! note
+    
+    It is seemingly not possible to manually refresh opened files in VSCodium.
+
 Use ++"Extensions"++ to open a search bar, type `code runner`, select the relevant search result, then use ++"Install"++ to install [the Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner), adding the ability to run code written in the following programming languages:
 
 - AppleScript

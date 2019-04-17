@@ -97,9 +97,15 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `recoll`                       | [Recoll]                                                 | [desktop searching]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS46]
 | `retext`                       | [ReText]                                                 | [text editing] for [Markdown] and [reStructuredText] | [GUI]          | [GNU GPL v3.0] [^insLnxS51]
 | `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]
+| `simplescreenrecorder`         | [SimpleScreenRecorder]                                   | [screen recording]                                   | [GUI]          | [GNU GPL v3.0] [^insLnxS54] [^insLnxS55]
 | `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] or later[^insLnxS12]
+| `surf`                         | [surf]                                                   | [web browsing]                                       | [GUI]          | [MIT License] [^insLnxS56]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]
 | `testdisk`                     | [TestDisk]                                               | [data recovery]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS53]
+| `texlive-fonts-recommended`    | recommended fonts for [TeX Live]                         |                                                      |                | [GNU GPL v2.0] [^insLnxS57]
+| `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]
+| `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]
+| `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
@@ -111,6 +117,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Audacity]: https://www.audacityteam.org/
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
+[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Bless]: https://github.com/afrantzis/bless
 [CC BY 3.0]: https://creativecommons.org/licenses/by/3.0/
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
@@ -164,12 +171,16 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [PSFL]: https://docs.python.org/3/license.html
 [QR Tools]: https://launchpad.net/qr-tools
 [QR code]: https://en.wikipedia.org/wiki/QR_code
+[Qt]: https://en.wikipedia.org/wiki/Qt_(software)
 [ReText]: https://github.com/retext-project/retext
 [Recoll]: https://www.lesbonscomptes.com/recoll/
 [Searchmonkey]: http://searchmonkey.embeddediq.com/
+[SimpleScreenRecorder]: https://www.maartenbaert.be/simplescreenrecorder/
 [SoX]: http://sox.sourceforge.net/
+[TeX Live]: http://www.tug.org/texlive/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [TestDisk]: https://www.cgsecurity.org/wiki/TestDisk
+[Transmission]: https://transmissionbt.com/
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [audio editing]: https://en.wikipedia.org/wiki/Audio_editing_software
 [audio]: https://en.wikipedia.org/wiki/Digital_audio
@@ -187,6 +198,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [extundelete]: http://extundelete.sourceforge.net/
 [eyeD3]: https://github.com/nicfit/eyeD3
 [file comparison]: https://en.wikipedia.org/wiki/File_comparison
+[file sharing]: https://en.wikipedia.org/wiki/File_sharing
 [file synchronization]: https://en.wikipedia.org/wiki/File_synchronization
 [file system]: https://en.wikipedia.org/wiki/File_system
 [file transferring]: https://en.wikipedia.org/wiki/File_transfer
@@ -210,18 +222,24 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [raster graphics]: https://en.wikipedia.org/wiki/Raster_graphics_editor
 [reStructuredText]: https://en.wikipedia.org/wiki/ReStructuredText
 [recode]: https://code.launchpad.net/ubuntu/+source/recode
+[screen recording]: https://en.wikipedia.org/wiki/Screencast
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [spreadsheet]: https://en.wikipedia.org/wiki/Spreadsheet
 [standard stream]: https://en.wikipedia.org/wiki/Standard_streams
 [static site generation]: https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
+[surf]: http://surf.suckless.org/
 [tag editing]: https://en.wikipedia.org/wiki/Tag_editor
 [terminal emulation]: https://en.wikipedia.org/wiki/Terminal_emulator
 [text editing]: https://en.wikipedia.org/wiki/Text_editor
 [text-based web browsing]: https://en.wikipedia.org/wiki/Text-based_web_browser
 [toy program]: https://en.wikipedia.org/wiki/Toy_program
+[trash-cli]: https://github.com/andreafrancia/trash-cli
+[trashing]: https://en.wikipedia.org/wiki/Trash_(computing)
+[tree]: http://mama.indstate.edu/users/ice/tree/
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
 [vector graphics]: https://en.wikipedia.org/wiki/Vector_graphics_editor
 [version control]: https://en.wikipedia.org/wiki/Version_control
+[web browsing]: https://en.wikipedia.org/wiki/Web_browser
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 [word processing]: https://en.wikipedia.org/wiki/Word_processor
 
@@ -278,3 +296,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS51]: <https://github.com/retext-project/retext/blob/master/LICENSE_GPL>
 [^insLnxS52]: <https://sourceforge.net/p/searchmonkey/GTK/ci/master/tree/COPYING.LESSER>
 [^insLnxS53]: <https://git.cgsecurity.org/cgit/testdisk/tree/COPYING>
+[^insLnxS54]: <https://www.maartenbaert.be/simplescreenrecorder/#license>
+[^insLnxS55]: <https://github.com/MaartenBaert/ssr/blob/master/COPYING>
+[^insLnxS56]: <http://git.suckless.org/surf/file/LICENSE.html>
+[^insLnxS57]: <http://changelogs.ubuntu.com/changelogs/pool/main/t/texlive-base/texlive-base_2017.20180305-1/copyright>
+[^insLnxS58]: <https://github.com/transmission/transmission/blob/master/COPYING>
+[^insLnxS59]: <https://github.com/andreafrancia/trash-cli/blob/master/COPYING>

@@ -81,6 +81,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `inkscape`                     | [Inkscape]                                               | [image editing] for [vector graphics]                | [GUI]          | [GNU GPL v3.0] or later[^insLnxS35]
 | `jekyll`                       | [Jekyll]                                                 | [static site generation]                             | [CLI]          | [MIT License] [^insLnxS36]
 | `jq`                           | [jq]                                                     | [JSON] processing                                    | [CLI]          | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37]
+| `kmag`                         | [KMag]                                                   | [screen magnification]                               | [GUI]          | [GNU GPL v2.0] [^insLnxS60]
 | `krename`                      | [KRename]                                                | [batch renaming]                                     | [GUI]          | [GNU GPL v2.0] [^insLnxS5]
 | `lftp`                         | [LFTP]                                                   | [file transferring]                                  | [CLI]          | [GNU GPL v3.0] [^insLnxS38]
 | `lolcat`                       | [lolcat]                                                 | text colorization ([toy program])                    | [CLI]          | unknown license[^insLnxS39]
@@ -157,6 +158,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Inkscape]: https://inkscape.org/
 [JSON]: https://en.wikipedia.org/wiki/JSON
 [Jekyll]: https://jekyllrb.com/
+[KMag]: https://kde.org/applications/utilities/kmag/
 [KRename]: https://www.krename.net/home/
 [LFTP]: https://lftp.tech/
 [Linux]: https://en.wikipedia.org/wiki/Linux_distribution
@@ -222,6 +224,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [raster graphics]: https://en.wikipedia.org/wiki/Raster_graphics_editor
 [reStructuredText]: https://en.wikipedia.org/wiki/ReStructuredText
 [recode]: https://code.launchpad.net/ubuntu/+source/recode
+[screen magnification]: https://en.wikipedia.org/wiki/Screen_magnifier
 [screen recording]: https://en.wikipedia.org/wiki/Screencast
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [spreadsheet]: https://en.wikipedia.org/wiki/Spreadsheet
@@ -302,3 +305,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS57]: <http://changelogs.ubuntu.com/changelogs/pool/main/t/texlive-base/texlive-base_2017.20180305-1/copyright>
 [^insLnxS58]: <https://github.com/transmission/transmission/blob/master/COPYING>
 [^insLnxS59]: <https://github.com/andreafrancia/trash-cli/blob/master/COPYING>
+[^insLnxS60]: <https://cgit.kde.org/kmag.git/tree/COPYING>

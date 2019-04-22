@@ -94,6 +94,8 @@ nav:
     - installing qBittorrent: 'insqBtr.md'
     - migrating qBittorrent settings: 'mgqBtst.md'
     - migrating Transmission settings: 'mgTrnsm.md'
+  - Software:
+    - executing portable applications: 'excprta.md'
   - System software:
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'

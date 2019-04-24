@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -107,6 +107,12 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]
 | `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]
 | `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]
+| `unoconv`                      | [unoconv]                                                | [file format] conversion                             | [CLI]          | [GNU GPL v2.0] [^insLnxS61]
+| `unrar`                        | [UnRAR]                                                  | [RAR] unarchiving                                    | [CLI]          | [trialware]
+| `unrtf`                        | [UnRTF]                                                  | [RTF] conversion                                     | [CLI]          | [GNU GPL v3.0] [^insLnxS62]
+| `vlc`                          | [VLC media player]                                       | [media playback]                                     | [GUI]          | [GNU LGPL v2.1] [^insLnxS63] or later [^insLnxS64]
+| `vnstat`                       | [vnStat]                                                 | [networking] analysis                                | [CLI]          | [GNU GPL v2.0] [^insLnxS65]
+| `zbar-tools`                   | [ZBar bar code reader]                                   | [barcode reading]                                    | [CLI] or [GUI] | [GNU LGPL v2.1] or later [^insLnxS66]
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
@@ -174,6 +180,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [QR Tools]: https://launchpad.net/qr-tools
 [QR code]: https://en.wikipedia.org/wiki/QR_code
 [Qt]: https://en.wikipedia.org/wiki/Qt_(software)
+[RAR]: https://en.wikipedia.org/wiki/RAR_(file_format)
+[RTF]: https://en.wikipedia.org/wiki/Rich_Text_Format
 [ReText]: https://github.com/retext-project/retext
 [Recoll]: https://www.lesbonscomptes.com/recoll/
 [Searchmonkey]: http://searchmonkey.embeddediq.com/
@@ -184,8 +192,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [TestDisk]: https://www.cgsecurity.org/wiki/TestDisk
 [Transmission]: https://transmissionbt.com/
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
+[UnRAR]: https://www.rarlab.com/rar_add.htm
+[UnRTF]: https://www.gnu.org/software/unrtf/
+[VLC media player]: https://www.videolan.org/vlc/
+[ZBar bar code reader]: http://zbar.sourceforge.net/
 [audio editing]: https://en.wikipedia.org/wiki/Audio_editing_software
 [audio]: https://en.wikipedia.org/wiki/Digital_audio
+[barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
 [batch renaming]: https://en.wikipedia.org/wiki/Batch_renaming
 [character encoding]: https://en.wikipedia.org/wiki/Character_encoding
 [codec]: https://en.wikipedia.org/wiki/Codec
@@ -200,6 +213,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [extundelete]: http://extundelete.sourceforge.net/
 [eyeD3]: https://github.com/nicfit/eyeD3
 [file comparison]: https://en.wikipedia.org/wiki/File_comparison
+[file format]: https://en.wikipedia.org/wiki/File_format
 [file sharing]: https://en.wikipedia.org/wiki/File_sharing
 [file synchronization]: https://en.wikipedia.org/wiki/File_synchronization
 [file system]: https://en.wikipedia.org/wiki/File_system
@@ -215,6 +229,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [jq]: http://stedolan.github.io/jq/
 [lolcat]: https://github.com/busyloop/lolcat
 [lossless]: https://en.wikipedia.org/wiki/Lossless_compression
+[media playback]: https://en.wikipedia.org/wiki/Media_player_(software)
 [moreutils]: http://joeyh.name/code/moreutils/
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [networking]: https://en.wikipedia.org/wiki/Computer_network
@@ -239,9 +254,12 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [trash-cli]: https://github.com/andreafrancia/trash-cli
 [trashing]: https://en.wikipedia.org/wiki/Trash_(computing)
 [tree]: http://mama.indstate.edu/users/ice/tree/
+[trialware]: https://en.wikipedia.org/wiki/Shareware#Trialware
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
+[unoconv]: http://dag.wiee.rs/home-made/unoconv/
 [vector graphics]: https://en.wikipedia.org/wiki/Vector_graphics_editor
 [version control]: https://en.wikipedia.org/wiki/Version_control
+[vnStat]: https://humdi.net/vnstat/
 [web browsing]: https://en.wikipedia.org/wiki/Web_browser
 [webcam]: https://en.wikipedia.org/wiki/Webcam
 [word processing]: https://en.wikipedia.org/wiki/Word_processor
@@ -306,3 +324,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS58]: <https://github.com/transmission/transmission/blob/master/COPYING>
 [^insLnxS59]: <https://github.com/andreafrancia/trash-cli/blob/master/COPYING>
 [^insLnxS60]: <https://cgit.kde.org/kmag.git/tree/COPYING>
+[^insLnxS61]: <https://github.com/unoconv/unoconv/blob/master/COPYING>
+[^insLnxS62]: <http://hg.savannah.gnu.org/hgweb/unrtf/file/850a32a10b8e/COPYING>
+[^insLnxS63]: <https://git.videolan.org/?p=vlc.git;a=blob;f=COPYING.LIB;h=4362b49151d7b34ef83b3067a8f9c9f877d72a0e;hb=HEAD>
+[^insLnxS64]: <https://www.videolan.org/press/lgpl-libvlc.html>
+[^insLnxS65]: <https://github.com/vergoh/vnstat/blob/master/COPYING>
+[^insLnxS66]: <https://sourceforge.net/p/zbar/code/ci/default/tree/COPYING>

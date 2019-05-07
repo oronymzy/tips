@@ -8,6 +8,7 @@ nav:
     - C++ reference: 'Cpprefr.md'
     - including code comments: 'incdcmt.md'
     - installing Go: 'instlGo.md'
+    - installing Linguist: 'insLngst.md'
     - installing Python: 'insPyth.md'
     - installing VSCodium: 'inVSCdm.md'
     - using Termux: 'usgTrmx.md'

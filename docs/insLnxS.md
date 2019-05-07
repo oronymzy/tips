@@ -10,6 +10,7 @@ Also install additional programs using more specific instructions and installati
 - [Go](instlGo.md)
 - [Node.js and npm with nvm](inNjspv.md)
 - [pip](instpip.md)
+- [Ruby Version Manager](insRVMr.md)
 
 - Pandoc [from the latest GitHub software release](islGHsr.md)
 - [VirtualBox](instVBx.md)
@@ -35,6 +36,9 @@ Also install additional programs using more specific instructions and installati
 - [qBittorrent](insqBtr.md)
 - [uGet](instuGt.md)
 
+### RubyGems
+- [Linguist](insLngst.md)
+
 For Lubuntu, install additional packages using `sudo apt install dolphin kate openjdk-8-jre`.
 
 ??? info "Personal experience"
@@ -46,25 +50,25 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
     
     This is an incomplete explanation.
 
-| package name                   | program name                                             | program category                                     | [interface]    | licensing
-|:-------------------------------|:---------------------------------------------------------|:-----------------------------------------------------|:---------------|:-
-| `audacity`                     | [Audacity]                                               | [audio editing]                                      | [GUI]          | [GNU GPL v2.0] [^insLnxS6]
-| `bless`                        | [Bless]                                                  | [hex editing]                                        | [GUI]          | [GNU GPL v2.0] [^insLnxS2]
-| `cheese`                       | [Cheese]                                                 | [webcam] recording                                   | [GUI]          | [GNU GPL v2.0] [^insLnxS7]
-| `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                                | [GUI]          | [GNU GPL v3.0] [^insLnxS8]
-| `curl`                         | [Curl]                                                   | [data transmission]                                  | [CLI]          | MIT/X-inspired license[^insLnxS10]
-| `duc`                          | [Duc]                                                    | [computer data storage] analysis                     | [CLI] or [GUI] | [GNU GPL v3.0] [^insLnxS47]
-| `easytag`                      | [EasyTag]                                                | [tag editing]                                        | [GUI]          | [GNU GPL v2.0] or later[^insLnxS14]
-| `espeak-ng`                    | [eSpeak NG]                                              | [speech synthesis]                                   | [CLI]          | [GNU GPL v3.0] [^insLnxS23]
-| `exfat-fuse` and `exfat-utils` | [exfat]                                                  | implementation of [exFAT] [file system]              |                | [GNU GPL v2.0] [^insLnxS15]
-| `exiftool`                     | [ExifTool]                                               | [tag editing]                                        | [CLI]          | [GNU GPL v1.0] or later[^insLnxS16]
-| `extundelete`                  | [extundelete]                                            | [undeletion]                                         | [CLI]          | [GNU GPL v2.0] [^insLnxS17]
-| `eyed3`                        | [eyeD3]                                                  | [tag editing]                                        | [GUI]          | [GNU GPL v3.0] [^insLnxS18]
-| `festival`                     | [Festival Speech Synthesis System]                       | [speech synthesis]                                   | [CLI]          | MIT-like license[^insLnxS11]
-| `filelight`                    | [Filelight]                                              | [computer data storage] analysis                     | [GUI]          | [GNU GPL v2.0] [^insLnxS19]
-| `filezilla`                    | [FileZilla]                                              | [data transmission] for [FTP]                        | [GUI]          | [GNU GPL v2.0] or later[^insLnxS20]
-| `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]               | [CLI]          | [GNU GPL] [^insLnxS21]
-| `focuswriter`                  | [FocusWriter]                                            | [word processing]                                    | [GUI]          | [GNU GPL v3.0] [^insLnxS22]
+| package name                   | program name                                             | program category                                     | [interface]    | licensing                                                            | predominant programming language
+|:-------------------------------|:---------------------------------------------------------|:-----------------------------------------------------|:---------------|:---------------------------------------------------------------------|:-
+| `audacity`                     | [Audacity]                                               | [audio editing]                                      | [GUI]          | [GNU GPL v2.0] [^insLnxS6]                                           | [C]
+| `bless`                        | [Bless]                                                  | [hex editing]                                        | [GUI]          | [GNU GPL v2.0] [^insLnxS2]                                           | [C#]
+| `cheese`                       | [Cheese]                                                 | [webcam] recording                                   | [GUI]          | [GNU GPL v2.0] [^insLnxS7]                                           | [C]
+| `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                                | [GUI]          | [GNU GPL v3.0] [^insLnxS8] [^insLnxS67]                              | [C++]
+| `curl`                         | [Curl]                                                   | [data transmission]                                  | [CLI]          | MIT/X-inspired license[^insLnxS10] [^insLnxS68]                      | [C]
+| `duc`                          | [Duc]                                                    | [computer data storage] analysis                     | [CLI] or [GUI] | [GNU GPL v3.0] [^insLnxS47]                                          | [C]
+| `easytag`                      | [EasyTag]                                                | [tag editing]                                        | [GUI]          | [GNU GPL v2.0] or later[^insLnxS14]                                  | [C]
+| `espeak-ng`                    | [eSpeak NG]                                              | [speech synthesis]                                   | [CLI]          | [GNU GPL v3.0] [^insLnxS23]                                          | [C]
+| `exfat-fuse` and `exfat-utils` | [exfat]                                                  | implementation of [exFAT] [file system]              |                | [GNU GPL v2.0] [^insLnxS15]                                          | [C]
+| `exiftool`                     | [ExifTool]                                               | [tag editing]                                        | [CLI]          | [GNU GPL v1.0] or later[^insLnxS16] [^insLnxS69]                     | [Perl]
+| `extundelete`                  | [extundelete]                                            | [undeletion]                                         | [CLI]          | [GNU GPL v2.0] [^insLnxS17]                                          | [C++]
+| `eyed3`                        | [eyeD3]                                                  | [tag editing]                                        | [GUI]          | [GNU GPL v3.0] [^insLnxS18]                                          | [Python]
+| `festival`                     | [Festival Speech Synthesis System]                       | [speech synthesis]                                   | [CLI]          | MIT-like license[^insLnxS11]                                         | [C++]
+| `filelight`                    | [Filelight]                                              | [computer data storage] analysis                     | [GUI]          | [GNU GPL v2.0] [^insLnxS19]                                          | [C++]
+| `filezilla`                    | [FileZilla]                                              | [data transmission] for [FTP]                        | [GUI]          | [GNU GPL v2.0] [^insLnxS70] or later[^insLnxS20]                     | [C++]
+| `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]               | [CLI]          | [GNU GPL] [^insLnxS21] [^insLnxS72]                                  | [C]
+| `focuswriter`                  | [FocusWriter]                                            | [word processing]                                    | [GUI]          | [GNU GPL v3.0] [^insLnxS22]                                          | [C++]
 | `gedit`                        | [gedit]                                                  | [text editing]                                       | [GUI]          | [GNU GPL v2.0] [^insLnxS24]
 | `gimp`                         | [GIMP]                                                   | [image editing] for [raster graphics]                | [GUI]          | [GNU GPL v3.0] [^insLnxS25]
 | `git-cola`                     | [Git Cola]                                               | [version control] for [Git]                          | [GUI]          | [GNU GPL v2.0] [^insLnxS9]
@@ -100,6 +104,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]
 | `simplescreenrecorder`         | [SimpleScreenRecorder]                                   | [screen recording]                                   | [GUI]          | [GNU GPL v3.0] [^insLnxS54] [^insLnxS55]
 | `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] or later[^insLnxS12]
+| `subversion`                   | [Apache Subversion]                                      | [version control]                                    | [CLI]          | [Apache License 2.0] [^insLnxS71]                                    | [C]
 | `surf`                         | [surf]                                                   | [web browsing]                                       | [GUI]          | [MIT License] [^insLnxS56]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]
 | `testdisk`                     | [TestDisk]                                               | [data recovery]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS53]
@@ -122,12 +127,16 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 - The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
 
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
+[Apache Subversion]: https://en.wikipedia.org/wiki/Apache_Subversion
 [Audacity]: https://www.audacityteam.org/
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Bless]: https://github.com/afrantzis/bless
+[C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+[C++]: https://en.wikipedia.org/wiki/C%2B%2B
 [CC BY 3.0]: https://creativecommons.org/licenses/by/3.0/
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
+[C]: https://en.wikipedia.org/wiki/C_(programming_language)
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
@@ -177,6 +186,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [PSFL]: https://docs.python.org/3/license.html
+[Perl]: https://en.wikipedia.org/wiki/Perl
+[Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [QR Tools]: https://launchpad.net/qr-tools
 [QR code]: https://en.wikipedia.org/wiki/QR_code
 [Qt]: https://en.wikipedia.org/wiki/Qt_(software)
@@ -330,3 +341,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS64]: <https://www.videolan.org/press/lgpl-libvlc.html>
 [^insLnxS65]: <https://github.com/vergoh/vnstat/blob/master/COPYING>
 [^insLnxS66]: <https://sourceforge.net/p/zbar/code/ci/default/tree/COPYING>
+[^insLnxS67]: <http://svn.code.sf.net/p/codeblocks/code/trunk/COPYING>
+[^insLnxS68]: <https://github.com/curl/curl/blob/master/COPYING>
+[^insLnxS69]: <https://github.com/exiftool/exiftool/blob/master/README>
+[^insLnxS70]: <https://svn.filezilla-project.org/svn/FileZilla3/trunk/COPYING>
+[^insLnxS71]: <https://svn.apache.org/viewvc/subversion/trunk/LICENSE?view=co>
+[^insLnxS72]: <https://git.xiph.org/?p=flac.git;a=blob;f=COPYING.GPL;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD>

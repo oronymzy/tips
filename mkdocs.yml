@@ -35,6 +35,7 @@ nav:
     - using yq: 'usingyq.md'
   - Data storage:
     - archiving files: 'arcvfle.md'
+    - backing up files: 'bkgupfl.md'
     - embedding Exif metadata into an image: 'emExfmi.md'
     - getting filesystem information: 'gflsysi.md'
     - listing all files containing specific text: 'lsfctxt.md'

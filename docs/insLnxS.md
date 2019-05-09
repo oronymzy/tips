@@ -69,8 +69,8 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `filezilla`                    | [FileZilla]                                              | [data transmission] for [FTP]                        | [GUI]          | [GNU GPL v2.0] [^insLnxS70] or later[^insLnxS20]                     | [C++]
 | `flac`                         | [FLAC]                                                   | [lossless] [audio] compression [codec]               | [CLI]          | [GNU GPL] [^insLnxS21] [^insLnxS72]                                  | [C]
 | `focuswriter`                  | [FocusWriter]                                            | [word processing]                                    | [GUI]          | [GNU GPL v3.0] [^insLnxS22]                                          | [C++]
-| `gedit`                        | [gedit]                                                  | [text editing]                                       | [GUI]          | [GNU GPL v2.0] [^insLnxS24]
-| `gimp`                         | [GIMP]                                                   | [image editing] for [raster graphics]                | [GUI]          | [GNU GPL v3.0] [^insLnxS25]
+| `gedit`                        | [gedit]                                                  | [text editing]                                       | [GUI]          | [GNU GPL v2.0] [^insLnxS24]                                          | [C]
+| `gimp`                         | [GIMP]                                                   | [image editing] for [raster graphics]                | [GUI]          | [GNU GPL v3.0] [^insLnxS25] [^insLnxS73]                             | [C]
 | `git-cola`                     | [Git Cola]                                               | [version control] for [Git]                          | [GUI]          | [GNU GPL v2.0] [^insLnxS9]
 | `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                               | [GUI]          | [GNU GPL v2.0] [^insLnxS26]
 | `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulation]                                 | [GUI]          | [GNU GPL v3.0] [^insLnxS27]
@@ -347,3 +347,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS70]: <https://svn.filezilla-project.org/svn/FileZilla3/trunk/COPYING>
 [^insLnxS71]: <https://svn.apache.org/viewvc/subversion/trunk/LICENSE?view=co>
 [^insLnxS72]: <https://git.xiph.org/?p=flac.git;a=blob;f=COPYING.GPL;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD>
+[^insLnxS73]: <https://gitlab.gnome.org/GNOME/gimp/blob/master/COPYING>

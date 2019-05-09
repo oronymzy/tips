@@ -7,7 +7,7 @@
 
 Use `sudo apt-add-repository -y ppa:rael-gc/rvm && sudo apt-get update && sudo apt-get install rvm -y` to install from [Ubuntu PPA](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)#Package_Archives). Open Gnome Terminal with `gnome-terminal`, then use ++"Edit > Preferences > Command"++ and enable ++"Run command as a login shell"++. Reboot. Verify installation with `rvm -v`.
 
-If necessary, open Gnome Terminal with `gnome-terminal`, then use `rvm install ruby` to install Ruby, followed by `rvm alias create default foobar && rvm use foobar` to specify the Ruby version used by Ruby Version Manager, where {==foobar==} represents a Ruby version, for example `ruby-2.6.0`.
+If necessary, open Gnome Terminal with `gnome-terminal`, then use `rvm install ruby` to install Ruby. Determine which Ruby version is available with `rvm list`, for example `ruby-2.6.0`, then use `rvm alias create default foobar && rvm use foobar` to specify the Ruby version used by Ruby Version Manager, where {==foobar==} represents a Ruby version, for example `ruby-2.6.0`.
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

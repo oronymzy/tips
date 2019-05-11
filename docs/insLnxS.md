@@ -71,32 +71,32 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `focuswriter`                  | [FocusWriter]                                            | [word processing]                                    | [GUI]          | [GNU GPL v3.0] [^insLnxS22]                                          | [C++]
 | `gedit`                        | [gedit]                                                  | [text editing]                                       | [GUI]          | [GNU GPL v2.0] [^insLnxS24]                                          | [C]
 | `gimp`                         | [GIMP]                                                   | [image editing] for [raster graphics]                | [GUI]          | [GNU GPL v3.0] [^insLnxS25] [^insLnxS73]                             | [C]
-| `git-cola`                     | [Git Cola]                                               | [version control] for [Git]                          | [GUI]          | [GNU GPL v2.0] [^insLnxS9]
-| `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                               | [GUI]          | [GNU GPL v2.0] [^insLnxS26]
-| `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulation]                                 | [GUI]          | [GNU GPL v3.0] [^insLnxS27]
-| `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                                        | [GUI]          | [GNU GPL v3.0] [^insLnxS28]
-| `gparted`                      | [GParted]                                                | [partition editing]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS29]
-| `gprename`                     | [GPRename]                                               | [batch renaming]                                     | [GUI]          | [GNU GPL v3.0] [^insLnxS4]
-| `graphviz`                     | [Graphviz]                                               | [graph visualization]                                | [CLI]          | [Eclipse Public License 1.0] [^insLnxS30] [^insLnxS31]
-| `grsync`                       | [Grsync]                                                 | [file synchronization]                               | [GUI]          | [GNU GPL v2.0] [^insLnxS32]
-| `gsmartcontrol`                | [GSmartControl]                                          | [computer data storage] analysis                     | [GUI]          | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS48]
-| `idle`                         | [IDLE]                                                   | [IDE]                                                | [GUI]          | [PSFL] [^insLnxS33]
-| `imagemagick`                  | [ImageMagick]                                            | [image editing]                                      | [CLI]          | [ImageMagick License] [^insLnxS34]
-| `inkscape`                     | [Inkscape]                                               | [image editing] for [vector graphics]                | [GUI]          | [GNU GPL v3.0] or later[^insLnxS35]
-| `jekyll`                       | [Jekyll]                                                 | [static site generation]                             | [CLI]          | [MIT License] [^insLnxS36]
-| `jq`                           | [jq]                                                     | [JSON] processing                                    | [CLI]          | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37]
-| `kmag`                         | [KMag]                                                   | [screen magnification]                               | [GUI]          | [GNU GPL v2.0] [^insLnxS60]
-| `krename`                      | [KRename]                                                | [batch renaming]                                     | [GUI]          | [GNU GPL v2.0] [^insLnxS5]
-| `lftp`                         | [LFTP]                                                   | [file transferring]                                  | [CLI]          | [GNU GPL v3.0] [^insLnxS38]
-| `lolcat`                       | [lolcat]                                                 | text colorization ([toy program])                    | [CLI]          | unknown license[^insLnxS39]
-| `lynx`                         | [Lynx]                                                   | [text-based web browsing]                            | [CLI]          | [GNU GPL v2.0] [^insLnxS40]
-| `mediainfo`                    | [MediaInfo]                                              | video file and audio file metadata displaying        | [CLI]          | [BSD 2-Clause license] [^insLnxS41] [^insLnxS42]
-| `meld`                         | [Meld]                                                   | [file comparison]                                    | [GUI]          | [GNU GPL v2.0] [^insLnxS43]
+| `git-cola`                     | [Git Cola]                                               | [version control] for [Git]                          | [GUI]          | [GNU GPL v2.0] [^insLnxS9]                                           | [Python]
+| `gnome-disk-utility`           | [gnome-disk-utility]                                     | [disk utility] package                               | [GUI]          | [GNU GPL v2.0] [^insLnxS26]                                          | [C]
+| `gnome-terminal`               | [GNOME Terminal]                                         | [terminal emulation]                                 | [GUI]          | [GNU GPL v3.0] [^insLnxS27]                                          | [C]
+| `gnumeric`                     | [Gnumeric]                                               | [spreadsheet]                                        | [GUI]          | [GNU GPL v3.0] [^insLnxS28]                                          | [C]
+| `gparted`                      | [GParted]                                                | [partition editing]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS29]                                          | [C++]
+| `gprename`                     | [GPRename]                                               | [batch renaming]                                     | [GUI]          | [GNU GPL v3.0] [^insLnxS4]                                           | [Perl]
+| `graphviz`                     | [Graphviz]                                               | [graph visualization]                                | [CLI]          | [Eclipse Public License 1.0] [^insLnxS30] [^insLnxS31]               | [C]
+| `grsync`                       | [Grsync]                                                 | [file synchronization]                               | [GUI]          | [GNU GPL v2.0] [^insLnxS32]                                          | [C]
+| `gsmartcontrol`                | [GSmartControl]                                          | [computer data storage] analysis                     | [GUI]          | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS48] [^insLnxS74]           | [C++]
+| `idle`                         | [IDLE]                                                   | [IDE]                                                | [GUI]          | [PSFL] [^insLnxS33]                                                  | [Python]
+| `imagemagick`                  | [ImageMagick]                                            | [image editing]                                      | [CLI]          | [ImageMagick License] [^insLnxS34]                                   | [C]
+| `inkscape`                     | [Inkscape]                                               | [image editing] for [vector graphics]                | [GUI]          | [GNU GPL v3.0] or later[^insLnxS35]                                  | [C++]
+| `jekyll`                       | [Jekyll]                                                 | [static site generation]                             | [CLI]          | [MIT License] [^insLnxS36]                                           | [Ruby]
+| `jq`                           | [jq]                                                     | [JSON] processing                                    | [CLI]          | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37] | [C]
+| `kmag`                         | [KMag]                                                   | [screen magnification]                               | [GUI]          | [GNU GPL v2.0] [^insLnxS60]                                          | [C++]
+| `krename`                      | [KRename]                                                | [batch renaming]                                     | [GUI]          | [GNU GPL v2.0] [^insLnxS5]                                           | [C++]
+| `lftp`                         | [LFTP]                                                   | [file transferring]                                  | [CLI]          | [GNU GPL v3.0] [^insLnxS38]                                          | [C++]
+| `lolcat`                       | [lolcat]                                                 | text colorization ([toy program])                    | [CLI]          | unknown license[^insLnxS39]                                          | [Ruby]
+| `lynx`                         | [Lynx]                                                   | [text-based web browsing]                            | [CLI]          | [GNU GPL v2.0] [^insLnxS40]                                          | [C]
+| `mediainfo`                    | [MediaInfo]                                              | video file and audio file metadata displaying        | [CLI]          | [BSD 2-Clause license] [^insLnxS41] [^insLnxS42]                     | [Pascal]
+| `meld`                         | [Meld]                                                   | [file comparison]                                    | [GUI]          | [GNU GPL v2.0] [^insLnxS43]                                          | [Python]
 | `moreutils`                    | sponge, part of [moreutils]                              | [standard stream] manipulation                       | [CLI]          | various licenses (sponge is licensed [GNU GPL v2.0] [^insLnxS44])
-| `ncdu`                         | [Ncdu]                                                   | [computer data storage] analysis                     | [CLI]          | [MIT License] [^insLnxS45]
-| `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration                           | [CLI]          | [GNU GPL v2.0] [^insLnxS3]
+| `ncdu`                         | [Ncdu]                                                   | [computer data storage] analysis                     | [CLI]          | [MIT License] [^insLnxS45]                                           | [C]
+| `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration                           | [CLI]          | [GNU GPL v2.0] [^insLnxS3]                                           | [C]
 | `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
-| `pngcrush`                     | [pngcrush]                                               | [PNG] image optimization                             | [CLI]          | libpng-like license
+| `pngcrush`                     | [pngcrush]                                               | [PNG] image optimization                             | [CLI]          | libpng-like license [^insLnxS75]                                     | [C]
 | `qtqr`                         | QtQR (part of [QR Tools])                                | [QR code] encoding and decoding                      | [GUI]          | [GNU GPL v3.0] (for [QR Tools]) [^insLnxS49]
 | `recode`                       | [recode]                                                 | [character encoding] conversion                      | [CLI]          | [GNU GPL v2.0] [^insLnxS50]
 | `recoll`                       | [Recoll]                                                 | [desktop searching]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS46]                                          | [C++]
@@ -186,6 +186,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Meld]: http://meldmerge.org/
 [Ncdu]: https://dev.yorhel.nl/ncdu
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
+[Pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [PSFL]: https://docs.python.org/3/license.html
 [Perl]: https://en.wikipedia.org/wiki/Perl
@@ -197,6 +198,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [RTF]: https://en.wikipedia.org/wiki/Rich_Text_Format
 [ReText]: https://github.com/retext-project/retext
 [Recoll]: https://www.lesbonscomptes.com/recoll/
+[Ruby]: https://en.wikipedia.org/wiki/Ruby_(programming_language)
 [Searchmonkey]: http://searchmonkey.embeddediq.com/
 [SimpleScreenRecorder]: https://www.maartenbaert.be/simplescreenrecorder/
 [SoX]: http://sox.sourceforge.net/
@@ -351,4 +353,6 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS71]: <https://svn.apache.org/viewvc/subversion/trunk/LICENSE?view=co>
 [^insLnxS72]: <https://git.xiph.org/?p=flac.git;a=blob;f=COPYING.GPL;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD>
 [^insLnxS73]: <https://gitlab.gnome.org/GNOME/gimp/blob/master/COPYING>
+[^insLnxS74]: <https://sourceforge.net/p/gsmartcontrol/code/HEAD/tree/trunk/gsmartcontrol/doc/LICENSE_gsmartcontrol.txt>
+[^insLnxS75]: <https://sourceforge.net/p/pmt/code/ci/pngcrush/tree/LICENSE>
 [^insLnxS76]: <https://gitlab.gnome.org/GNOME/tracker/blob/master/COPYING>

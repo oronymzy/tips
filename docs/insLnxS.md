@@ -99,7 +99,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `pngcrush`                     | [pngcrush]                                               | [PNG] image optimization                             | [CLI]          | libpng-like license
 | `qtqr`                         | QtQR (part of [QR Tools])                                | [QR code] encoding and decoding                      | [GUI]          | [GNU GPL v3.0] (for [QR Tools]) [^insLnxS49]
 | `recode`                       | [recode]                                                 | [character encoding] conversion                      | [CLI]          | [GNU GPL v2.0] [^insLnxS50]
-| `recoll`                       | [Recoll]                                                 | [desktop searching]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS46]
+| `recoll`                       | [Recoll]                                                 | [desktop searching]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS46]                                          | [C++]
 | `retext`                       | [ReText]                                                 | [text editing] for [Markdown] and [reStructuredText] | [GUI]          | [GNU GPL v3.0] [^insLnxS51]
 | `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]
 | `simplescreenrecorder`         | [SimpleScreenRecorder]                                   | [screen recording]                                   | [GUI]          | [GNU GPL v3.0] [^insLnxS54] [^insLnxS55]
@@ -109,6 +109,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]
 | `testdisk`                     | [TestDisk]                                               | [data recovery]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS53]
 | `texlive-fonts-recommended`    | recommended fonts for [TeX Live]                         |                                                      |                | [GNU GPL v2.0] [^insLnxS57]
+| `tracker`                      | [Tracker]                                                | [desktop searching]                                  | [CLI]          | [GNU LGPL v2.1] or later, [BSD 3-Clause license], and [GNU GPL v2.0] or later [^insLnxS76] | [C]
 | `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]
 | `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]
 | `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]
@@ -130,6 +131,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Apache Subversion]: https://en.wikipedia.org/wiki/Apache_Subversion
 [Audacity]: https://www.audacityteam.org/
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
+[BSD 3-Clause license]: https://opensource.org/licenses/BSD-3-Clause
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Bless]: https://github.com/afrantzis/bless
 [C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
@@ -201,6 +203,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [TeX Live]: http://www.tug.org/texlive/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [TestDisk]: https://www.cgsecurity.org/wiki/TestDisk
+[Tracker]: https://wiki.gnome.org/Projects/Tracker
 [Transmission]: https://transmissionbt.com/
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
 [UnRAR]: https://www.rarlab.com/rar_add.htm
@@ -348,3 +351,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS71]: <https://svn.apache.org/viewvc/subversion/trunk/LICENSE?view=co>
 [^insLnxS72]: <https://git.xiph.org/?p=flac.git;a=blob;f=COPYING.GPL;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD>
 [^insLnxS73]: <https://gitlab.gnome.org/GNOME/gimp/blob/master/COPYING>
+[^insLnxS76]: <https://gitlab.gnome.org/GNOME/tracker/blob/master/COPYING>

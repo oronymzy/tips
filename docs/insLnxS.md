@@ -97,28 +97,28 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration                           | [CLI]          | [GNU GPL v2.0] [^insLnxS3]                                           | [C]
 | `openjdk-8-jre`[^insLnxS1]     | the [Open Java Development Kit] Java Runtime Environment
 | `pngcrush`                     | [pngcrush]                                               | [PNG] image optimization                             | [CLI]          | libpng-like license [^insLnxS75]                                     | [C]
-| `qtqr`                         | QtQR (part of [QR Tools])                                | [QR code] encoding and decoding                      | [GUI]          | [GNU GPL v3.0] (for [QR Tools]) [^insLnxS49]
-| `recode`                       | [recode]                                                 | [character encoding] conversion                      | [CLI]          | [GNU GPL v2.0] [^insLnxS50]
+| `qtqr`                         | QtQR (part of [QR Tools])                                | [QR code] encoding and decoding                      | [GUI]          | [GNU GPL v3.0] (for [QR Tools]) [^insLnxS49] [^insLnxS77]            | [Python]
+| `recode`                       | [recode]                                                 | [character encoding] conversion                      | [CLI]          | [GNU GPL v2.0] [^insLnxS50]                                          | [C]
 | `recoll`                       | [Recoll]                                                 | [desktop searching]                                  | [GUI]          | [GNU GPL v2.0] [^insLnxS46]                                          | [C++]
-| `retext`                       | [ReText]                                                 | [text editing] for [Markdown] and [reStructuredText] | [GUI]          | [GNU GPL v3.0] [^insLnxS51]
-| `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]
-| `simplescreenrecorder`         | [SimpleScreenRecorder]                                   | [screen recording]                                   | [GUI]          | [GNU GPL v3.0] [^insLnxS54] [^insLnxS55]
-| `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] or later[^insLnxS12]
+| `retext`                       | [ReText]                                                 | [text editing] for [Markdown] and [reStructuredText] | [GUI]          | [GNU GPL v3.0] [^insLnxS51]                                          | [Python]
+| `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]                                         | [C]
+| `simplescreenrecorder`         | [SimpleScreenRecorder]                                   | [screen recording]                                   | [GUI]          | [GNU GPL v3.0] [^insLnxS54] [^insLnxS55]                             | [C++]
+| `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS78] or later[^insLnxS12]                                  | [C]
 | `subversion`                   | [Apache Subversion]                                      | [version control]                                    | [CLI]          | [Apache License 2.0] [^insLnxS71]                                    | [C]
-| `surf`                         | [surf]                                                   | [web browsing]                                       | [GUI]          | [MIT License] [^insLnxS56]
-| `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]
+| `surf`                         | [surf]                                                   | [web browsing]                                       | [GUI]          | [MIT License] [^insLnxS56]                                           | [C]
+| `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]                                    | [C++]
 | `testdisk`                     | [TestDisk]                                               | [data recovery]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS53]
 | `texlive-fonts-recommended`    | recommended fonts for [TeX Live]                         |                                                      |                | [GNU GPL v2.0] [^insLnxS57]
 | `tracker`                      | [Tracker]                                                | [desktop searching]                                  | [CLI]          | [GNU LGPL v2.1] or later, [BSD 3-Clause license], and [GNU GPL v2.0] or later [^insLnxS76] | [C]
-| `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]
-| `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]
-| `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]
-| `unoconv`                      | [unoconv]                                                | [file format] conversion                             | [CLI]          | [GNU GPL v2.0] [^insLnxS61]
+| `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]                        | [C]
+| `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]                                          | [Python]
+| `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]                                                       | [C]
+| `unoconv`                      | [unoconv]                                                | [file format] conversion                             | [CLI]          | [GNU GPL v2.0] [^insLnxS61]                                          | [Python]
 | `unrar`                        | [UnRAR]                                                  | [RAR] unarchiving                                    | [CLI]          | [trialware]
-| `unrtf`                        | [UnRTF]                                                  | [RTF] conversion                                     | [CLI]          | [GNU GPL v3.0] [^insLnxS62]
-| `vlc`                          | [VLC media player]                                       | [media playback]                                     | [GUI]          | [GNU LGPL v2.1] [^insLnxS63] or later [^insLnxS64]
-| `vnstat`                       | [vnStat]                                                 | [networking] analysis                                | [CLI]          | [GNU GPL v2.0] [^insLnxS65]
-| `zbar-tools`                   | [ZBar bar code reader]                                   | [barcode reading]                                    | [CLI] or [GUI] | [GNU LGPL v2.1] or later [^insLnxS66]
+| `unrtf`                        | [UnRTF]                                                  | [RTF] conversion                                     | [CLI]          | [GNU GPL v3.0] [^insLnxS62]                                          | [C]
+| `vlc`                          | [VLC media player]                                       | [media playback]                                     | [GUI]          | [GNU LGPL v2.1] [^insLnxS63] or later [^insLnxS64]                   | [C]
+| `vnstat`                       | [vnStat]                                                 | [networking] analysis                                | [CLI]          | [GNU GPL v2.0] [^insLnxS65]                                          | [C]
+| `zbar-tools`                   | [ZBar bar code reader]                                   | [barcode reading]                                    | [CLI] or [GUI] | [GNU LGPL v2.1] or later [^insLnxS66]                                | [C]
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
@@ -176,7 +176,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [JSON]: https://en.wikipedia.org/wiki/JSON
 [Jekyll]: https://jekyllrb.com/
 [KMag]: https://kde.org/applications/utilities/kmag/
-[KRename]: https://www.krename.net/home/
+[KRename]: https://sourceforge.net/projects/krename/
 [LFTP]: https://lftp.tech/
 [Linux]: https://en.wikipedia.org/wiki/Linux_distribution
 [Lynx]: https://lynx.invisible-island.net/
@@ -342,7 +342,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS60]: <https://cgit.kde.org/kmag.git/tree/COPYING>
 [^insLnxS61]: <https://github.com/unoconv/unoconv/blob/master/COPYING>
 [^insLnxS62]: <http://hg.savannah.gnu.org/hgweb/unrtf/file/850a32a10b8e/COPYING>
-[^insLnxS63]: <https://git.videolan.org/?p=vlc.git;a=blob;f=COPYING.LIB;h=4362b49151d7b34ef83b3067a8f9c9f877d72a0e;hb=HEAD>
+[^insLnxS63]: <https://git.videolan.org/?p=vlc.git;a=blob_plain;f=COPYING.LIB;hb=HEAD>
 [^insLnxS64]: <https://www.videolan.org/press/lgpl-libvlc.html>
 [^insLnxS65]: <https://github.com/vergoh/vnstat/blob/master/COPYING>
 [^insLnxS66]: <https://sourceforge.net/p/zbar/code/ci/default/tree/COPYING>
@@ -356,3 +356,5 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS74]: <https://sourceforge.net/p/gsmartcontrol/code/HEAD/tree/trunk/gsmartcontrol/doc/LICENSE_gsmartcontrol.txt>
 [^insLnxS75]: <https://sourceforge.net/p/pmt/code/ci/pngcrush/tree/LICENSE>
 [^insLnxS76]: <https://gitlab.gnome.org/GNOME/tracker/blob/master/COPYING>
+[^insLnxS77]: <https://bazaar.launchpad.net/~qr-tools-developers/qr-tools/trunk/view/head:/LICENCE>
+[^insLnxS78]: <https://sourceforge.net/p/sox/code/ci/master/tree/COPYING>

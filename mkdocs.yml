@@ -99,6 +99,7 @@ nav:
   - Software:
     - executing portable applications: 'excprta.md'
   - System software:
+    - installing an Android system: 'insAdrs.md'
     - installing a CentOS system: 'insCOSs.md'
     - installing a Linux system: 'insLnxS.md'
   - Version control:

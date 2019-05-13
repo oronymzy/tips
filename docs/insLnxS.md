@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -92,6 +92,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `lynx`                         | [Lynx]                                                   | [text-based web browsing]                            | [CLI]          | [GNU GPL v2.0] [^insLnxS40]                                          | [C]
 | `mediainfo`                    | [MediaInfo]                                              | video file and audio file metadata displaying        | [CLI]          | [BSD 2-Clause license] [^insLnxS41] [^insLnxS42]                     | [Pascal]
 | `meld`                         | [Meld]                                                   | [file comparison]                                    | [GUI]          | [GNU GPL v2.0] [^insLnxS43]                                          | [Python]
+| `mercurial`                    | [Mercurial]                                              | [version control]                                    | [CLI]          | [GNU GPL v2.0] [^insLnxS79]
 | `moreutils`                    | sponge, part of [moreutils]                              | [standard stream] manipulation                       | [CLI]          | various licenses (sponge is licensed [GNU GPL v2.0] [^insLnxS44])
 | `ncdu`                         | [Ncdu]                                                   | [computer data storage] analysis                     | [CLI]          | [MIT License] [^insLnxS45]                                           | [C]
 | `net-tools`                    | [ifconfig], part of [net-tools]                          | [networking] configuration                           | [CLI]          | [GNU GPL v2.0] [^insLnxS3]                                           | [C]
@@ -119,6 +120,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `vlc`                          | [VLC media player]                                       | [media playback]                                     | [GUI]          | [GNU LGPL v2.1] [^insLnxS63] or later [^insLnxS64]                   | [C]
 | `vnstat`                       | [vnStat]                                                 | [networking] analysis                                | [CLI]          | [GNU GPL v2.0] [^insLnxS65]                                          | [C]
 | `zbar-tools`                   | [ZBar bar code reader]                                   | [barcode reading]                                    | [CLI] or [GUI] | [GNU LGPL v2.1] or later [^insLnxS66]                                | [C]
+
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
@@ -184,6 +186,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Markdown]: https://en.wikipedia.org/wiki/Markdown
 [MediaInfo]: https://mediaarea.net/en/MediaInfo
 [Meld]: http://meldmerge.org/
+[Mercurial]: https://www.mercurial-scm.org/
 [Ncdu]: https://dev.yorhel.nl/ncdu
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
 [Pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
@@ -358,3 +361,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS76]: <https://gitlab.gnome.org/GNOME/tracker/blob/master/COPYING>
 [^insLnxS77]: <https://bazaar.launchpad.net/~qr-tools-developers/qr-tools/trunk/view/head:/LICENCE>
 [^insLnxS78]: <https://sourceforge.net/p/sox/code/ci/master/tree/COPYING>
+[^insLnxS79]: <https://www.mercurial-scm.org/repo/hg-stable/file/tip/COPYING>

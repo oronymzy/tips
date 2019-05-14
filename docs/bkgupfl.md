@@ -3,11 +3,16 @@
 
 !!! note
     
+    - {==foobar==} represents the name of the relevant Git repository to be backed up.
     - {==/foo/bar/baz/foobar==} represents the directory containing the relevant Git repository to be backed up.
     - {==foobar.bundle==} represents the intermediate Git bundle to be created during the course of backing up the relevant Git repository.
     - {==/baz/bar/foo/foobar==} represents the directory containing a backup of the relevant Git repository.
 
-Use `cd "/foo/bar/baz/foobar" && git bundle create "/tmp/foobar.bundle" --all && git clone "/tmp/foobar.bundle" "/baz/bar/foo/foobar"` to back up Git data, excluding any unstaged changes. Then use `rsync -c -r -s -t -v --progress --exclude="/.git/" --exclude="/.gitignore/" "/foo/bar/baz/foobar" "/baz/bar/foo/foobar"`
+Use `cd "/foo/bar/baz/foobar" && git bundle create "/tmp/foobar.bundle" --all && git clone "/tmp/foobar.bundle" "/baz/bar/foo/foobar"` to back up Git data, excluding any unstaged changes. Then use `rsync -c -r -s -t -v --progress --exclude="/.git/" --exclude="/.gitignore/" "/foo/bar/baz/foobar/" "/baz/bar/foo/foobar"`
+
+!!! info "Additional option"
+    
+    In rsync, the `-n` [option] enables a dry run, producing information on how the backup would be performed without making any changes to the directory containing a backup of the relevant Git repository.
 
 ## explanation
 

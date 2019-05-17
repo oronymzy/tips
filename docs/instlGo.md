@@ -1,5 +1,5 @@
 # installing [Go]
-In Linux, use `wget -P /tmp https://dl.google.com/go/go1.11.linux-amd64.tar.gz && sudo tar -C /usr/local -xzf /tmp/go1.11.linux-amd64.tar.gz`, then add these lines to `$HOME/.profile`:
+In Linux, use `wget -P /tmp https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz && sudo tar -C /usr/local -xzf /tmp/go1.12.5.linux-amd64.tar.gz`, then add these lines to `$HOME/.profile`:
 
 ```
 # Set GOROOT
@@ -20,8 +20,8 @@ To uninstall, use `rm -rvf /usr/local/go/`, then remove the text previously adde
 !!! note
     This is an incomplete explanation.
 
-- `wget -P /tmp https://dl.google.com/go/go1.11.linux-amd64.tar.gz` downloads [the Linux tar](https://golang.org/dl/).
-- `sudo tar -C /usr/local -xzf /tmp/go1.11.linux-amd64.tar.gz` extracts the tar and creates a Go tree in `/usr/local/go`.
+- `wget -P /tmp https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz` downloads [the Linux tar](https://golang.org/dl/).
+- `sudo tar -C /usr/local -xzf /tmp/go1.12.5.linux-amd64.tar.gz` extracts the tar and creates a Go tree in `/usr/local/go`.
 
 ## licensing
 **Some rights reserved: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).** Includes significant content from [an answer on Ask Ubuntu by Tony](https://askubuntu.com/questions/959932/installation-instructions-for-golang-1-9-into-ubuntu-16-04/960327#960327), with modifications.

@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -59,7 +59,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `curl`                         | [Curl]                                                   | [data transmission]                                  | [CLI]          | MIT/X-inspired license[^insLnxS10] [^insLnxS68]                      | [C]
 | `duc`                          | [Duc]                                                    | [computer data storage] analysis                     | [CLI] or [GUI] | [GNU GPL v3.0] [^insLnxS47]                                          | [C]
 | `easytag`                      | [EasyTag]                                                | [tag editing]                                        | [GUI]          | [GNU GPL v2.0] or later[^insLnxS14]                                  | [C]
-| `espeak-ng`                    | [eSpeak NG]                                              | [speech synthesis]                                   | [CLI]          | [GNU GPL v3.0] [^insLnxS23]                                          | [C]
+| `espeak-ng-espeak`             | [eSpeak NG]                                              | [speech synthesis]                                   | [CLI]          | [GNU GPL v3.0] [^insLnxS23]                                          | [C]
 | `exfat-fuse` and `exfat-utils` | [exfat]                                                  | implementation of [exFAT] [file system]              |                | [GNU GPL v2.0] [^insLnxS15]                                          | [C]
 | `exiftool`                     | [ExifTool]                                               | [tag editing]                                        | [CLI]          | [GNU GPL v1.0] or later[^insLnxS16] [^insLnxS69]                     | [Perl]
 | `extundelete`                  | [extundelete]                                            | [undeletion]                                         | [CLI]          | [GNU GPL v2.0] [^insLnxS17]                                          | [C++]

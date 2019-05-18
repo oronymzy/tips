@@ -15,12 +15,12 @@ Use `snap install yq` to install using [Snappy](https://en.wikipedia.org/wiki/Sn
     - Snappy installation tested in Kubuntu 17.10.
     - PPA installation does not work in Kubuntu 17.10.
 
-## licensing
-**No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
-
 ## prior work
 - The method of installing Andrey Kislyuk's yq using pip was introduced to me by [the Installation section of Andrey Kislyuk's yq's GitHub](https://github.com/kislyuk/yq#installation)
 - The method of installing Mike Farah's yq using Snappy or PPA was introduced to me by [the Install section of Mike Farah's yq's GitHub](https://github.com/mikefarah/yq#install)
+
+## licensing
+**No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 [Andrey Kislyuk's yq]: https://github.com/kislyuk/yq
 [Mike Farah's yq]: https://github.com/mikefarah/yq

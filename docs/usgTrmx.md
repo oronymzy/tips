@@ -1,6 +1,6 @@
 # using [Termux]
 
-Use `pkg install curl espeak flac fortune git gnupg golang imagemagick libqrencode nano ncdu parted play-audio sox tesseract tree wget zbar -y` to install essential packages.
+Use `pkg install curl espeak flac fortune git gnupg golang imagemagick libqrencode nano ncdu parted play-audio python sox tesseract tree wget zbar -y` to install essential packages.
 
 To list all packages, use `pkg list-all`.
 
@@ -21,14 +21,19 @@ Termux uses the volume-down button to emulate the control key, and the volume-up
 | package name | program name | program category                         | licensing
 |:-------------|:-------------|:-----------------------------------------|:-
 | [espeak]     | [eSpeak NG]  | [speech synthesis]                       | [GNU GPL v3.0] [^usgTrmx2]
-| [tesseract]  | [Tesseract]  | [optical character recognition] software | [Apache License 2.0][^usgTrmx1]
+| [python]     | [Python]     | [programming language]                   | [PSFL] [^usgTrmx3]
+| [tesseract]  | [Tesseract]  | [optical character recognition] software | [Apache License 2.0] [^usgTrmx1]
 
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
+[PSFL]: https://docs.python.org/3/license.html
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [espeak]: https://github.com/termux/termux-packages/tree/master/packages/espeak
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
+[programming language]: https://en.wikipedia.org/wiki/Programming_language
+[python]: https://github.com/termux/termux-packages/tree/master/packages/python
+[Python]: https://github.com/python/cpython
 [speech synthesis]: https://en.wikipedia.org/wiki/Speech_synthesis
 [tesseract]: https://github.com/termux/termux-packages/tree/master/packages/tesseract
 
@@ -45,3 +50,4 @@ If the above content is omitted, the rest is licensed **no rights reserved: [CC0
 [Termux]: https://termux.com/
 [^usgTrmx1]: <https://github.com/tesseract-ocr/tesseract/blob/master/LICENSE>
 [^usgTrmx2]: <https://github.com/espeak-ng/espeak-ng/blob/master/COPYING>
+[^usgTrmx3]: <https://github.com/python/cpython/blob/master/LICENSE>

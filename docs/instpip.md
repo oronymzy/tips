@@ -6,6 +6,8 @@ Use `curl -L https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py && sudo -H 
     
     Works on Slim running CentOS 7, Slim running Kubuntu 18.04, Slinky running Kubuntu 18.04, Snarky running Kubuntu 17.10, and Tabby running Kubuntu 18.04.
 
+To update an existing Ubuntu installation of pip to use Python3 instead of Python2, use `sudo apt install python3-pip -y && sudo -H pip3 install --ignore-installed pip && sudo apt autoremove python3-pip -y`.
+
 [Linux]: https://en.wikipedia.org/wiki/Linux
 
 ## installing [pip] in [Termux]

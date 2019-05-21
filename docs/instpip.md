@@ -3,9 +3,15 @@
 Use `curl -L https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py && sudo -H python /tmp/get-pip.py`.
 
 ??? info "Personal experience"
+    
     Works on Slim running CentOS 7, Slim running Kubuntu 18.04, Slinky running Kubuntu 18.04, Snarky running Kubuntu 17.10, and Tabby running Kubuntu 18.04.
 
 [Linux]: https://en.wikipedia.org/wiki/Linux
+
+## installing [pip] in [Termux]
+Use `cd ~ && curl -L https://bootstrap.pypa.io/get-pip.py -o ./get-pip.py && python get-pip.py`.
+
+[Termux]: https://termux.com/
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

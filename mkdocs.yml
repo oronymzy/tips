@@ -9,8 +9,9 @@ nav:
     - including code comments: 'incdcmt.md'
     - installing Go: 'instlGo.md'
     - installing Linguist: 'insLngst.md'
-    - installing Python: 'insPyth.md'
     - installing VSCodium: 'inVSCdm.md'
+    - Python coding:
+      - installing Python: 'insPyth.md'
     - using Termux: 'usgTrmx.md'
     - using vi: 'usingvi.md'
     - using VSCodium: 'usVSCdm.md'

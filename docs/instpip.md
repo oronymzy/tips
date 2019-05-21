@@ -20,6 +20,7 @@ Use `cd ~ && curl -L https://bootstrap.pypa.io/get-pip.py -o ./get-pip.py && pyt
 
 ## prior work
 - The `-H` option for sudo was introduced to me by [a comment on MkDocs by k4kfh](https://github.com/mkdocs/mkdocs/issues/195#issuecomment-158222944).
+- The `pip3 install --ignore-installed pip` portion of the script for updating pip was introduced to me by [a comment on GitHub by valtron](https://github.com/pypa/pip/issues/5429).
 - The idea of using an installer from the pip website was introduced to me by [a comment on MkDocs by abethman](https://github.com/mkdocs/mkdocs/issues/195#issuecomment-102446415).
 
 [pip]: https://pip.pypa.io/en/stable/

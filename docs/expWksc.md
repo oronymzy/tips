@@ -5,7 +5,7 @@ Open [WSexport on Toolforge](https://tools.wmflabs.org/wsexport/tool/book.php) a
 
 ??? info "Additional options"
     
-    - For the [drop-down list](https://en.wikipedia.org/wiki/Drop-down_list) [labelled](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) `File format`, select `txt (in beta)` instead of the default `epub 3`.
+    - For the [drop-down list](https://en.wikipedia.org/wiki/Drop-down_list) [labelled](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) `File format`, select `txt (in beta)` or `htmlz (zip archive with an html file inside, in beta)` instead of the default `epub 3`.
     - Select the [checkbox](https://en.wikipedia.org/wiki/Checkbox) [labelled](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) `Do not include images`.
 
 Press the ++"Export"++ button.

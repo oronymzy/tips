@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -114,6 +114,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]                        | [C]
 | `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]                                          | [Python]
 | `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]                                                       | [C]
+| `unar`                         | [The Unarchiver]                                         | [archive file] unarchiving                           | [CLI]          | [GNU LGPL v2.1] [^insLnxS80]                                         | [C]
 | `unoconv`                      | [unoconv]                                                | [file format] conversion                             | [CLI]          | [GNU GPL v2.0] [^insLnxS61]                                          | [Python]
 | `unrar`                        | [UnRAR]                                                  | [RAR] unarchiving                                    | [CLI]          | [trialware]
 | `unrtf`                        | [UnRTF]                                                  | [RTF] conversion                                     | [CLI]          | [GNU GPL v3.0] [^insLnxS62]                                          | [C]
@@ -208,6 +209,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [TeX Live]: http://www.tug.org/texlive/
 [Tesseract]: https://github.com/tesseract-ocr/tesseract
 [TestDisk]: https://www.cgsecurity.org/wiki/TestDisk
+[The Unarchiver]: https://bitbucket.org/kosovan/theunarchiver/src/default/
 [Tracker]: https://wiki.gnome.org/Projects/Tracker
 [Transmission]: https://transmissionbt.com/
 [Ubuntu-based]: https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based
@@ -215,6 +217,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [UnRTF]: https://www.gnu.org/software/unrtf/
 [VLC media player]: https://www.videolan.org/vlc/
 [ZBar bar code reader]: http://zbar.sourceforge.net/
+[archive file]: https://en.wikipedia.org/wiki/Archive_file
 [audio editing]: https://en.wikipedia.org/wiki/Audio_editing_software
 [audio]: https://en.wikipedia.org/wiki/Digital_audio
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
@@ -362,3 +365,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS77]: <https://bazaar.launchpad.net/~qr-tools-developers/qr-tools/trunk/view/head:/LICENCE>
 [^insLnxS78]: <https://sourceforge.net/p/sox/code/ci/master/tree/COPYING>
 [^insLnxS79]: <https://www.mercurial-scm.org/repo/hg-stable/file/tip/COPYING>
+[^insLnxS80]: <https://bitbucket.org/kosovan/theunarchiver/src/default/License.txt>

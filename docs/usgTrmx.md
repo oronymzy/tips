@@ -1,6 +1,6 @@
 # using [Termux]
 
-Use `pkg install curl espeak flac fortune git gnupg golang imagemagick libqrencode nano ncdu parted play-audio python sox tesseract tree wget zbar -y` to install essential packages.
+Use `pkg install curl espeak flac git gnupg golang imagemagick libqrencode nano ncdu parted play-audio python sox tesseract tree wget zbar -y` to install essential packages.
 
 If [pip](https://pip.pypa.io/en/stable/) was installed with [Termux's Python package](https://github.com/termux/termux-packages/tree/master/packages/python), use `pip install --upgrade pip`. If not, [install pip](instpip.md).
 

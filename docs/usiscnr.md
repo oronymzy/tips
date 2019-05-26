@@ -8,12 +8,12 @@ For Kubuntu, download [the deb package](http://support.epson.net/linux/en/iscan.
 
 !!! attention
     
-    At some point, Kubuntu made a change that broke compatibility with [Image Scan! for Linux](http://download.ebz.epson.net/man/linux/iscan_e.html), seemingly related to a naming change of the `libsane` library to `libsane1`.[^usiscnr2] For Kubuntu 17.10 “Artful Aardvark”, a workaround is to add the following line to `/etc/apt/sources.list`:[^usiscnr3] `deb http://archive.ubuntu.com/ubuntu/ artful-proposed restricted main multiverse universe`. Use `sudo apt-get update`, `sudo apt install libsane1`, `sudo cp /usr/lib/sane/libsane-epkowa.* /usr/lib/x86_64-linux-gnu/sane/` Create `79-udev-epson.rules` with `sudo nano /etc/udev/rules.d/79-udev-epson.rules`, add the following content to the file:
+    At some point, Kubuntu made a change that broke compatibility with [Image Scan! for Linux](http://download.ebz.epson.net/man/linux/iscan_e.html), seemingly related to a naming change of the `libsane` library to `libsane1`.[^usiscnr2] For Kubuntu 17.10 “Artful Aardvark” and Kubuntu 18.04 “Bionic Beaver”, a workaround is to add the following line to `/etc/apt/sources.list`:[^usiscnr3] `deb http://archive.ubuntu.com/ubuntu/ artful-proposed restricted main multiverse universe`. Use `sudo apt-get update`, `sudo apt install libsane1`, `sudo cp /usr/lib/sane/libsane-epkowa.* /usr/lib/x86_64-linux-gnu/sane/`. Then use `sudo nano /etc/udev/rules.d/79-udev-epson.rules` to create `79-udev-epson.rules`, and add the following content to the file:
     ```
     # chmod device EPSON group
     ATTRS{manufacturer}=="EPSON", DRIVERS=="usb", SUBSYSTEMS=="usb", ATTRS{idVendor}=="04b8", ATTRS{idProduct}=="*", MODE="0777"
     ```
-    and reboot.
+    Reboot.
 
 [Epson Perfection V600 Photo]: https://epson.com/Support/Scanners/Perfection-Series/Epson-Perfection-V600-Photo/s/SPT_B11B198011
 

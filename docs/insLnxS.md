@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -54,6 +54,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 |:-------------------------------|:---------------------------------------------------------|:-----------------------------------------------------|:---------------|:---------------------------------------------------------------------|:-
 | `audacity`                     | [Audacity]                                               | [audio editing]                                      | [GUI]          | [GNU GPL v2.0] [^insLnxS6]                                           | [C]
 | `bless`                        | [Bless]                                                  | [hex editing]                                        | [GUI]          | [GNU GPL v2.0] [^insLnxS2]                                           | [C#]
+| `bzr`                          | [Bazaar]                                                 | [version control]                                    | [CLI]          | [GNU GPL v2.0] [^insLnxS81] or later [^insLnxS82]                    | [Python]
 | `cheese`                       | [Cheese]                                                 | [webcam] recording                                   | [GUI]          | [GNU GPL v2.0] [^insLnxS7]                                           | [C]
 | `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                                | [GUI]          | [GNU GPL v3.0] [^insLnxS8] [^insLnxS67]                              | [C++]
 | `curl`                         | [Curl]                                                   | [data transmission]                                  | [CLI]          | MIT/X-inspired license[^insLnxS10] [^insLnxS68]                      | [C]
@@ -133,6 +134,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Apache Subversion]: https://en.wikipedia.org/wiki/Apache_Subversion
 [Audacity]: https://www.audacityteam.org/
+[Bazaar]: http://bazaar.canonical.com/en/
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
 [BSD 3-Clause license]: https://opensource.org/licenses/BSD-3-Clause
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
@@ -366,3 +368,5 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS78]: <https://sourceforge.net/p/sox/code/ci/master/tree/COPYING>
 [^insLnxS79]: <https://www.mercurial-scm.org/repo/hg-stable/file/tip/COPYING>
 [^insLnxS80]: <https://bitbucket.org/kosovan/theunarchiver/src/default/License.txt>
+[^insLnxS81]: <https://bazaar.launchpad.net/~bzr-pqm/bzr/bzr.dev/view/head:/COPYING.txt>
+[^insLnxS82]: <http://wiki.bazaar.canonical.com/Welcome>

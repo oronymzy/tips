@@ -50,6 +50,12 @@ nav:
     - maximizing data integrity: 'mxdatai.md'
     - testing for the existence of a file: 'tstfile.md'
     - using Duc: 'usngDuc.md'
+  - Data transmission:
+    - enabling browser support for the dat protocol: 'ebsdatp.md'
+    - installing Beaker Browser: 'insBkrB.md'
+    - installing qBittorrent: 'insqBtr.md'
+    - migrating qBittorrent settings: 'mgqBtst.md'
+    - migrating Transmission settings: 'mgTrnsm.md'
   - Digital preservation:
     - collecting music from the Free Music Archive: 'cmscFMA.md'
     - extracting plain text from digitally imaged text using optical character recognition: 'extxtdi.md'
@@ -97,12 +103,6 @@ nav:
     - installing VeraCrypt: 'insVCpt.md'
     - installing VirtualBox: 'instVBx.md'
     - using GNU GRUB: 'usgGRUB.md'
-  - Sharing:
-    - enabling browser support for the dat protocol: 'ebsdatp.md'
-    - installing Beaker Browser: 'insBkrB.md'
-    - installing qBittorrent: 'insqBtr.md'
-    - migrating qBittorrent settings: 'mgqBtst.md'
-    - migrating Transmission settings: 'mgTrnsm.md'
   - Software:
     - executing portable applications: 'excprta.md'
   - System software:

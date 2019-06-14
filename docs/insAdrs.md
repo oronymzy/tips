@@ -15,6 +15,7 @@
 | [Kiwix]              | [org.kiwix.kiwixmobile]           | [offline reading]                    | [GNU GPL v3.0] [^insAdrs9]                        | [Java]
 | [LibreTorrent]       | [org.proninyaroslav.libretorrent] | [file sharing] for [BitTorrent]      | [GNU GPL v3.0] [^insAdrs10]                       | [Java]
 | [MuPDF viewer]       | [com.artifex.mupdf.viewer.app]    | [file viewer] for [PDF] files        | [GNU AGPL v3.0] [^insAdrs11]                      | [Java]
+| [NewPipe]            | [org.schabi.newpipe]              | [media playback]                     | [GNU GPL v3.0] [^insAdrs19]                       | [Java]
 | [PaperCraft]         | [pro.rudloff.papercraft]          | [gaming] ([space flight simulation]) | [Apache License 2.0] [^insAdrs12]                 | [Java]
 | [Syncthing]          | [com.nutomic.syncthingandroid]    | [file synchronization]               | [MPL 2.0] [^insAdrs13]                            | [Java]
 | [Termux]             | [com.termux]                      | [terminal emulation]                 | [GNU GPL v3.0] [^insAdrs15]                       | [Java]
@@ -44,6 +45,7 @@
 [MIT License]: https://choosealicense.com/licenses/mit/
 [MPL 2.0]: https://www.mozilla.org/en-US/MPL/2.0/
 [MuPDF viewer]: https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary
+[NewPipe]: https://newpipe.schabi.org/
 [PDF]: https://en.wikipedia.org/wiki/PDF
 [PaperCraft]: https://github.com/Rudloff/PaperCraft
 [RSS]: https://en.wikipedia.org/wiki/RSS
@@ -78,6 +80,7 @@
 [org.kiwix.kiwixmobile]: https://f-droid.org/en/packages/org.kiwix.kiwixmobile/
 [org.pipoypipagames.towerjumper]: https://f-droid.org/en/packages/org.pipoypipagames.towerjumper/
 [org.proninyaroslav.libretorrent]: https://f-droid.org/en/packages/org.proninyaroslav.libretorrent/
+[org.schabi.newpipe]: https://f-droid.org/packages/org.schabi.newpipe/
 [org.videolan.vlc]: https://f-droid.org/en/packages/org.videolan.vlc/
 [podcasts]: https://en.wikipedia.org/wiki/Podcast
 [pro.rudloff.papercraft]: https://f-droid.org/en/packages/pro.rudloff.papercraft/
@@ -105,6 +108,7 @@
 [^insAdrs16]: <https://github.com/genonbeta/TrebleShot/blob/master/COPYING>
 [^insAdrs17]: <https://code.videolan.org/videolan/vlc-android/blob/master/COPYING>
 [^insAdrs18]: <https://code.videolan.org/videolan/vlc-android#license>
+[^insAdrs19]: <https://github.com/TeamNewPipe/NewPipe/blob/dev/LICENSE>
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

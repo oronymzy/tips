@@ -1010,7 +1010,7 @@ A table is equivalent to the [`<table>`](https://developer.mozilla.org/en-US/doc
 |{: .fth } [list]  [(ordered list)][ordered list]                                     | yes{: .yes}               | yes{: .yes}[^ghfmlst]                                                  | yes{: .yes}[^glfmlst]                          | yes{: .yes}[^jgmlist]    | yes{: .yes}[^pdmlord]                           | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlist]                                     |
 |{: .fth } [list]  [(unordered list)][unordered list]                                 | yes{: .yes}               | yes{: .yes}[^ghfmlst]                                                  | yes{: .yes}[^glfmlst]                          | yes{: .yes}[^jgmlist]    | yes{: .yes}[^pdmlurd]                           | yes{: .yes}                                    | yes{: .yes}                            | yes{: .yes}[^somlist]                                     |
 |{: .fth } [strikethrough]                                                            | yes{: .yes}               | yes (with extension){: .yes}[^ghfmstk]                                 | yes{: .yes}[^glfmskt]                          | no{: .no}                | yes (with extension){: .yes}[^pdmstrk]          | yes (with extension){: .yes}[^pymtlde]         | no{: .no}                              | no{: .no}                                                 |
-|{: .fth } [table]                                                                    | yes{: .yes}               | yes (with extension){: .yes}[^ghfmtbl]                                 | yes{: .yes}[^glfmtbl]                          | no{: .no}                | yes (with extension){: .yes}[^pdmtabl]          | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pyntabl] | no (by design){: .no} [^somhtm2]                          |
+|{: .fth } [table]                                                                    | yes{: .yes}               | yes (with extension){: .yes}[^ghfmtbl]                                 | yes{: .yes}[^glfmtbl]                          | no{: .no}                | yes (with extension){: .yes}[^pdmtabl]          | yes (with extension){: .yes}[^pymexra]         | yes (with extension){: .yes}[^pyntabl] | no (by design){: .no} [^somhtm2] [^somtabl]               |
 
 [admonition]: #admonition
 [attribute list]: #alist
@@ -1140,6 +1140,7 @@ A table is equivalent to the [`<table>`](https://developer.mozilla.org/en-US/doc
 [^somlink]: <https://stackoverflow.com/editing-help#link-links>
 [^somlist]: <https://stackoverflow.com/editing-help#link-simple-lists>
 [^somlkao]: <https://stackoverflow.com/editing-help#link-bare-urls>
+[^somtabl]: <https://dba.meta.stackexchange.com/questions/934/please-can-we-have-markdown-tables-on-dba-se/966#966>
 [^somtbrk]: <https://stackoverflow.com/editing-help#link-horizontal-rules>
 
 ## licensing

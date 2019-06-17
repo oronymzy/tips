@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -34,7 +34,6 @@ Also install additional programs using more specific instructions and installati
 - [Git](instGit.md)
 - [Krita](insKrta.md)
 - [qBittorrent](insqBtr.md)
-- [uGet](instuGt.md)
 
 ### RubyGems
 - [Linguist](insLngst.md)
@@ -115,6 +114,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]                        | [C]
 | `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]                                          | [Python]
 | `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]                                                       | [C]
+| `uget`                         | [uGet]                                                   | [download management]                                | [GUI]          | [GNU LGPL v2.1] [^insLnxS83]                                         | [C]
 | `unar`                         | [The Unarchiver]                                         | [archive file] unarchiving                           | [CLI]          | [GNU LGPL v2.1] [^insLnxS80]                                         | [C]
 | `unoconv`                      | [unoconv]                                                | [file format] conversion                             | [CLI]          | [GNU GPL v2.0] [^insLnxS61]                                          | [Python]
 | `unrar`                        | [UnRAR]                                                  | [RAR] unarchiving                                    | [CLI]          | [trialware]
@@ -134,9 +134,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Apache Subversion]: https://en.wikipedia.org/wiki/Apache_Subversion
 [Audacity]: https://www.audacityteam.org/
-[Bazaar]: http://bazaar.canonical.com/en/
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
 [BSD 3-Clause license]: https://opensource.org/licenses/BSD-3-Clause
+[Bazaar]: http://bazaar.canonical.com/en/
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Bless]: https://github.com/afrantzis/bless
 [C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
@@ -192,9 +192,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Mercurial]: https://www.mercurial-scm.org/
 [Ncdu]: https://dev.yorhel.nl/ncdu
 [Open Java Development Kit]: https://en.wikipedia.org/wiki/OpenJDK
-[Pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 [PNG]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [PSFL]: https://docs.python.org/3/license.html
+[Pascal]: https://en.wikipedia.org/wiki/Pascal_(programming_language)
 [Perl]: https://en.wikipedia.org/wiki/Perl
 [Python]: https://en.wikipedia.org/wiki/Python_(programming_language)
 [QR Tools]: https://launchpad.net/qr-tools
@@ -231,6 +231,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [data transmission]: https://en.wikipedia.org/wiki/Data_transmission
 [desktop searching]: https://en.wikipedia.org/wiki/Desktop_search
 [disk utility]: https://en.wikipedia.org/wiki/Disk_utility
+[download management]: https://en.wikipedia.org/wiki/Download_manager
 [eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [exFAT]: https://en.wikipedia.org/wiki/ExFAT
 [exfat]: https://github.com/relan/exfat
@@ -279,6 +280,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [trashing]: https://en.wikipedia.org/wiki/Trash_(computing)
 [tree]: http://mama.indstate.edu/users/ice/tree/
 [trialware]: https://en.wikipedia.org/wiki/Shareware#Trialware
+[uGet]: https://ugetdm.com
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
 [unoconv]: http://dag.wiee.rs/home-made/unoconv/
 [vector graphics]: https://en.wikipedia.org/wiki/Vector_graphics_editor
@@ -370,3 +372,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS80]: <https://bitbucket.org/kosovan/theunarchiver/src/default/License.txt>
 [^insLnxS81]: <https://bazaar.launchpad.net/~bzr-pqm/bzr/bzr.dev/view/head:/COPYING.txt>
 [^insLnxS82]: <http://wiki.bazaar.canonical.com/Welcome>
+[^insLnxS83]: <https://sourceforge.net/p/urlget/uget2/ci/master/tree/COPYING>

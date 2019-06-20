@@ -22,6 +22,7 @@
 | [TowerJumper]        | [org.pipoypipagames.towerjumper]  | [gaming]                             | [GNU GPL v3.0] [^insAdrs14]                       | [Java]
 | [TrebleShot]         | [com.genonbeta.TrebleShot]        | [data transmission]                  | [GNU GPL v2.0] [^insAdrs16]                       | [Java]
 | [VLC for Android]    | [org.videolan.vlc]                | [media playback]                     | [GNU GPL v2.0] [^insAdrs17] or later [^insAdrs18] | [Kotlin]
+| [Yorecast]           | [org.thosp.yourlocalweather]      | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs20]                       | [Java]
 
 [Amaze File Manager]: https://github.com/TeamAmaze/AmazeFileManager
 [Android]: https://en.wikipedia.org/wiki/Android_(operating_system)
@@ -54,6 +55,7 @@
 [TowerJumper]: https://github.com/Dariasteam/TowerJumper
 [TrebleShot]: https://github.com/genonbeta/TrebleShot
 [VLC for Android]: https://code.videolan.org/videolan/vlc-android
+[Yorecast]: https://github.com/thuryn/your-local-weather
 [audio recording]: https://en.wikipedia.org/wiki/Digital_recording
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
 [com.amaze.filemanager]: https://f-droid.org/en/packages/com.amaze.filemanager/
@@ -81,6 +83,7 @@
 [org.pipoypipagames.towerjumper]: https://f-droid.org/en/packages/org.pipoypipagames.towerjumper/
 [org.proninyaroslav.libretorrent]: https://f-droid.org/en/packages/org.proninyaroslav.libretorrent/
 [org.schabi.newpipe]: https://f-droid.org/packages/org.schabi.newpipe/
+[org.thosp.yourlocalweather]: https://f-droid.org/en/packages/org.thosp.yourlocalweather/
 [org.videolan.vlc]: https://f-droid.org/en/packages/org.videolan.vlc/
 [podcasts]: https://en.wikipedia.org/wiki/Podcast
 [pro.rudloff.papercraft]: https://f-droid.org/en/packages/pro.rudloff.papercraft/
@@ -88,6 +91,7 @@
 [space flight simulation]: https://en.wikipedia.org/wiki/Space_flight_simulation_game
 [terminal emulation]: https://en.wikipedia.org/wiki/Terminal_emulator
 [text editing]: https://en.wikipedia.org/wiki/Text_editor
+[weather forecasting]: https://en.wikipedia.org/wiki/Weather_forecasting
 [web browsing]: https://en.wikipedia.org/wiki/Web_browser
 
 [^insAdrs1]: <https://github.com/TeamAmaze/AmazeFileManager/blob/master/LICENSE.txt>
@@ -109,6 +113,7 @@
 [^insAdrs17]: <https://code.videolan.org/videolan/vlc-android/blob/master/COPYING>
 [^insAdrs18]: <https://code.videolan.org/videolan/vlc-android#license>
 [^insAdrs19]: <https://github.com/TeamNewPipe/NewPipe/blob/dev/LICENSE>
+[^insAdrs20]: <https://github.com/thuryn/your-local-weather/blob/master/LICENSE>
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

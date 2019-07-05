@@ -13,11 +13,14 @@
 | [FOSS Browser]       | [de.baumann.browser]              | [web browsing]                       | [GNU GPL v3.0] or later [^insAdrs8]               | [Java]
 | [Fedilab]            | [fr.gouv.etalab.mastodon]         | [social networking]                  | [GNU GPL v3.0] [^insAdrs6]                        | [Java]
 | [Feeder]             | [com.nononsenseapps.feeder]       | [news aggregation] for [RSS] feeds   | [GNU GPL v3.0] [^insAdrs7]                        | [Kotlin]
+| [GPSTest]            | [com.android.gpstest.osmdroid]    | [satellite navigation]               | [Apache License 2.0] [^insAdrs31]                 | [Java]
 | [K-9 Mail]           | [com.fsck.k9]                     | [email]                              | [Apache License 2.0] [^insAdrs21]                 | [Java]
 | [Kiwix]              | [org.kiwix.kiwixmobile]           | [offline reading]                    | [GNU GPL v3.0] [^insAdrs9]                        | [Java]
 | [LibreTorrent]       | [org.proninyaroslav.libretorrent] | [file sharing] for [BitTorrent]      | [GNU GPL v3.0] [^insAdrs10]                       | [Java]
 | [MuPDF viewer]       | [com.artifex.mupdf.viewer.app]    | [file viewer] for [PDF] files        | [GNU AGPL v3.0] [^insAdrs11]                      | [Java]
 | [NewPipe]            | [org.schabi.newpipe]              | [media playback]                     | [GNU GPL v3.0] [^insAdrs19]                       | [Java]
+| [OsmAnd]             | [net.osmand.plus]                 | [satellite navigation]               | [GNU GPL v3.0] (for code) and [CC BY-NC-ND 4.0] (for artwork), except some 3rd party libs and resources [^insAdrs30] | [Java]
+| [p!n]                | [de.nproth.pin]                   | [notetaking]                         | [GNU GPL v3.0] [^insAdrs28]                       | [Java]
 | [PaperCraft]         | [pro.rudloff.papercraft]          | [gaming] ([space flight simulation]) | [Apache License 2.0] [^insAdrs12]                 | [Java]
 | [QKSMS]              | [com.moez.QKSMS]                  | [text messaging] for [SMS]           | [GNU GPL v3.0] [^insAdrs26]                       | [Java]
 | [RedReader]          | [org.quantumbadger.redreader]     | [social networking] for [Reddit]     | [GNU GPL v3.0] [^insAdrs23]                       | [Java]
@@ -29,6 +32,7 @@
 | [TrebleShot]         | [com.genonbeta.TrebleShot]        | [data transmission]                  | [GNU GPL v2.0] [^insAdrs16]                       | [Java]
 | [Twire]              | [com.perflyst.twire]              | [media playback] for [Twitch]        | [GNU GPL v3.0] [^insAdrs24]                       | [Java]
 | [VLC for Android]    | [org.videolan.vlc]                | [media playback]                     | [GNU GPL v2.0] [^insAdrs17] or later [^insAdrs18] | [Kotlin]
+| [wX]                 | [joshuatee.wx]                    | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs29]                       | [Kotlin]
 | [Yorecast]           | [org.thosp.yourlocalweather]      | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs20]                       | [Java]
 
 [Amaze File Manager]: https://github.com/TeamAmaze/AmazeFileManager
@@ -38,6 +42,7 @@
 [Audio Recorder]: https://gitlab.com/axet/android-audio-recorder
 [Barcode Scanner]: https://github.com/zxing/zxing
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
+[CC BY-NC-ND 4.0]: https://creativecommons.org/licenses/by-nc-nd/4.0/
 [DroidFish]: https://github.com/peterosterlund2/droidfish
 [Editor]: https://github.com/billthefarmer/editor
 [F-Droid]: https://f-droid.org/
@@ -47,6 +52,7 @@
 [GNU AGPL v3.0]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [GNU GPL v2.0]: https://choosealicense.com/licenses/gpl-2.0/
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
+[GPSTest]: https://github.com/barbeau/gpstest
 [Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
 [K-9 Mail]: https://k9mail.github.io/
 [Kiwix]: https://www.kiwix.org/en/
@@ -56,6 +62,7 @@
 [MPL 2.0]: https://www.mozilla.org/en-US/MPL/2.0/
 [MuPDF viewer]: https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary
 [NewPipe]: https://newpipe.schabi.org/
+[OsmAnd]: https://osmand.net/
 [PDF]: https://en.wikipedia.org/wiki/PDF
 [PaperCraft]: https://github.com/Rudloff/PaperCraft
 [PeerTube]: https://en.wikipedia.org/wiki/PeerTube
@@ -78,6 +85,7 @@
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
 [chess]: https://en.wikipedia.org/wiki/Chess
 [com.amaze.filemanager]: https://f-droid.org/en/packages/com.amaze.filemanager/
+[com.android.gpstest.osmdroid]: https://f-droid.org/en/packages/com.android.gpstest.osmdroid/
 [com.artifex.mupdf.viewer.app]: https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/
 [com.fsck.k9]: https://f-droid.org/en/packages/com.fsck.k9/
 [com.genonbeta.TrebleShot]: https://f-droid.org/en/packages/com.genonbeta.TrebleShot/
@@ -91,6 +99,7 @@
 [data transmission]: https://en.wikipedia.org/wiki/Data_transmission
 [de.baumann.browser]: https://f-droid.org/en/packages/de.baumann.browser/
 [de.danoeh.antennapod]: https://f-droid.org/en/packages/de.danoeh.antennapod/
+[de.nproth.pin]: https://f-droid.org/en/packages/de.nproth.pin/
 [email]: https://en.wikipedia.org/wiki/Email
 [file management]: https://en.wikipedia.org/wiki/File_manager
 [file sharing]: https://en.wikipedia.org/wiki/File_sharing
@@ -98,9 +107,12 @@
 [file viewer]: https://en.wikipedia.org/wiki/File_viewer
 [fr.gouv.etalab.mastodon]: https://f-droid.org/en/packages/fr.gouv.etalab.mastodon/
 [gaming]: https://en.wikipedia.org/wiki/Video_game
+[joshuatee.wx]: https://f-droid.org/en/packages/joshuatee.wx/
 [media playback]: https://en.wikipedia.org/wiki/Media_player_(software)
+[net.osmand.plus]: https://f-droid.org/en/packages/net.osmand.plus/
 [net.schueller.peertube]: https://f-droid.org/en/packages/net.schueller.peertube/
 [news aggregation]: https://en.wikipedia.org/wiki/News_aggregator
+[notetaking]: https://en.wikipedia.org/wiki/Comparison_of_notetaking_software
 [offline reading]: https://en.wikipedia.org/wiki/Offline_reader
 [org.billthefarmer.editor]: https://f-droid.org/en/packages/org.billthefarmer.editor/
 [org.kiwix.kiwixmobile]: https://f-droid.org/en/packages/org.kiwix.kiwixmobile/
@@ -112,14 +124,17 @@
 [org.tasks]: https://f-droid.org/en/packages/org.tasks/
 [org.thosp.yourlocalweather]: https://f-droid.org/en/packages/org.thosp.yourlocalweather/
 [org.videolan.vlc]: https://f-droid.org/en/packages/org.videolan.vlc/
+[p!n]: https://github.com/nproth/pin
 [podcasts]: https://en.wikipedia.org/wiki/Podcast
 [pro.rudloff.papercraft]: https://f-droid.org/en/packages/pro.rudloff.papercraft/
+[satellite navigation]: https://en.wikipedia.org/wiki/Satellite_navigation
 [social networking]: https://en.wikipedia.org/wiki/Social_networking_service
 [space flight simulation]: https://en.wikipedia.org/wiki/Space_flight_simulation_game
 [task]: https://en.wikipedia.org/wiki/Task_(project_management)
 [terminal emulation]: https://en.wikipedia.org/wiki/Terminal_emulator
 [text editing]: https://en.wikipedia.org/wiki/Text_editor
 [text messaging]: https://en.wikipedia.org/wiki/Text_messaging
+[wX]: https://gitlab.com/joshua.tee/wx
 [weather forecasting]: https://en.wikipedia.org/wiki/Weather_forecasting
 [web browsing]: https://en.wikipedia.org/wiki/Web_browser
 
@@ -150,6 +165,10 @@
 [^insAdrs25]: <https://github.com/tasks/tasks/blob/master/LICENSE>
 [^insAdrs26]: <https://github.com/moezbhatti/qksms/blob/master/LICENSE>
 [^insAdrs27]: <https://github.com/peterosterlund2/droidfish/blob/master/COPYING>
+[^insAdrs28]: <https://github.com/nproth/pin/blob/master/LICENSE>
+[^insAdrs29]: <https://gitlab.com/joshua.tee/wx/blob/master/COPYING>
+[^insAdrs30]: <https://github.com/osmandapp/Osmand/blob/master/LICENSE>
+[^insAdrs31]: <https://github.com/barbeau/gpstest/blob/master/LICENSE>
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

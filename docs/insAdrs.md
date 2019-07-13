@@ -4,8 +4,10 @@
 
 | program name         | F-Droid package                   | program category                     | licensing                                         | predominant programming language
 |:---------------------|:----------------------------------|:-------------------------------------|:--------------------------------------------------|:-
+| [Aard 2]             | [itkach.aard2]                    | [dictionary] reading                 | [GNU GPL v3.0] [^insAdrs32]                       | [Java]
 | [Amaze File Manager] | [com.amaze.filemanager]           | [file management]                    | [GNU GPL v3.0] [^insAdrs1]                        | [Java]
 | [AntennaPod]         | [de.danoeh.antennapod]            | [news aggregation] for [podcasts]    | [MIT License] [^insAdrs2]                         | [Java]
+| [Anuto TD]           | [ch.logixisland.anuto]            | [gaming] ([tower defense])           | [GNU GPL v2.0] [^insAdrs33]                       | [Java]
 | [Audio Recorder]     | [com.github.axet.audiorecorder]   | [audio recording]                    | [GNU GPL v3.0] [^insAdrs3]                        | [Java]
 | [Barcode Scanner]    | [com.google.zxing.client.android] | [barcode reading]                    | [Apache License 2.0] [^insAdrs4]                  | [Java]
 | [DroidFish]          | [org.petero.droidfish]            | [gaming] ([chess])                   | [GNU GPL v3.0] [^insAdrs27]                       | [Java]
@@ -19,8 +21,8 @@
 | [LibreTorrent]       | [org.proninyaroslav.libretorrent] | [file sharing] for [BitTorrent]      | [GNU GPL v3.0] [^insAdrs10]                       | [Java]
 | [MuPDF viewer]       | [com.artifex.mupdf.viewer.app]    | [file viewer] for [PDF] files        | [GNU AGPL v3.0] [^insAdrs11]                      | [Java]
 | [NewPipe]            | [org.schabi.newpipe]              | [media playback]                     | [GNU GPL v3.0] [^insAdrs19]                       | [Java]
+| [Open Camera]        | [net.sourceforge.opencamera]      | [photography]                        | [GNU GPL v3.0] or later [^insAdrs34]              | [Java]
 | [OsmAnd]             | [net.osmand.plus]                 | [satellite navigation]               | [GNU GPL v3.0] (for code) and [CC BY-NC-ND 4.0] (for artwork), except some 3rd party libs and resources [^insAdrs30] | [Java]
-| [p!n]                | [de.nproth.pin]                   | [notetaking]                         | [GNU GPL v3.0] [^insAdrs28]                       | [Java]
 | [PaperCraft]         | [pro.rudloff.papercraft]          | [gaming] ([space flight simulation]) | [Apache License 2.0] [^insAdrs12]                 | [Java]
 | [QKSMS]              | [com.moez.QKSMS]                  | [text messaging] for [SMS]           | [GNU GPL v3.0] [^insAdrs26]                       | [Java]
 | [RedReader]          | [org.quantumbadger.redreader]     | [social networking] for [Reddit]     | [GNU GPL v3.0] [^insAdrs23]                       | [Java]
@@ -32,12 +34,15 @@
 | [TrebleShot]         | [com.genonbeta.TrebleShot]        | [data transmission]                  | [GNU GPL v2.0] [^insAdrs16]                       | [Java]
 | [Twire]              | [com.perflyst.twire]              | [media playback] for [Twitch]        | [GNU GPL v3.0] [^insAdrs24]                       | [Java]
 | [VLC for Android]    | [org.videolan.vlc]                | [media playback]                     | [GNU GPL v2.0] [^insAdrs17] or later [^insAdrs18] | [Kotlin]
-| [wX]                 | [joshuatee.wx]                    | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs29]                       | [Kotlin]
 | [Yorecast]           | [org.thosp.yourlocalweather]      | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs20]                       | [Java]
+| [p!n]                | [de.nproth.pin]                   | [notetaking]                         | [GNU GPL v3.0] [^insAdrs28]                       | [Java]
+| [wX]                 | [joshuatee.wx]                    | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs29]                       | [Kotlin]
 
+[Aard 2]: http://aarddict.org/
 [Amaze File Manager]: https://github.com/TeamAmaze/AmazeFileManager
 [Android]: https://en.wikipedia.org/wiki/Android_(operating_system)
 [AntennaPod]: http://antennapod.org/
+[Anuto TD]: https://github.com/reloZid/android-anuto
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Audio Recorder]: https://gitlab.com/axet/android-audio-recorder
 [Barcode Scanner]: https://github.com/zxing/zxing
@@ -62,6 +67,7 @@
 [MPL 2.0]: https://www.mozilla.org/en-US/MPL/2.0/
 [MuPDF viewer]: https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary
 [NewPipe]: https://newpipe.schabi.org/
+[Open Camera]: https://opencamera.sourceforge.io/
 [OsmAnd]: https://osmand.net/
 [PDF]: https://en.wikipedia.org/wiki/PDF
 [PaperCraft]: https://github.com/Rudloff/PaperCraft
@@ -83,6 +89,7 @@
 [Yorecast]: https://github.com/thuryn/your-local-weather
 [audio recording]: https://en.wikipedia.org/wiki/Digital_recording
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
+[ch.logixisland.anuto]: https://f-droid.org/en/packages/ch.logixisland.anuto/
 [chess]: https://en.wikipedia.org/wiki/Chess
 [com.amaze.filemanager]: https://f-droid.org/en/packages/com.amaze.filemanager/
 [com.android.gpstest.osmdroid]: https://f-droid.org/en/packages/com.android.gpstest.osmdroid/
@@ -100,6 +107,7 @@
 [de.baumann.browser]: https://f-droid.org/en/packages/de.baumann.browser/
 [de.danoeh.antennapod]: https://f-droid.org/en/packages/de.danoeh.antennapod/
 [de.nproth.pin]: https://f-droid.org/en/packages/de.nproth.pin/
+[dictionary]: https://en.wikipedia.org/wiki/Dictionary#Online_dictionaries
 [email]: https://en.wikipedia.org/wiki/Email
 [file management]: https://en.wikipedia.org/wiki/File_manager
 [file sharing]: https://en.wikipedia.org/wiki/File_sharing
@@ -107,10 +115,12 @@
 [file viewer]: https://en.wikipedia.org/wiki/File_viewer
 [fr.gouv.etalab.mastodon]: https://f-droid.org/en/packages/fr.gouv.etalab.mastodon/
 [gaming]: https://en.wikipedia.org/wiki/Video_game
+[itkach.aard2]: https://f-droid.org/en/packages/itkach.aard2/
 [joshuatee.wx]: https://f-droid.org/en/packages/joshuatee.wx/
 [media playback]: https://en.wikipedia.org/wiki/Media_player_(software)
 [net.osmand.plus]: https://f-droid.org/en/packages/net.osmand.plus/
 [net.schueller.peertube]: https://f-droid.org/en/packages/net.schueller.peertube/
+[net.sourceforge.opencamera]: https://f-droid.org/en/packages/net.sourceforge.opencamera/
 [news aggregation]: https://en.wikipedia.org/wiki/News_aggregator
 [notetaking]: https://en.wikipedia.org/wiki/Comparison_of_notetaking_software
 [offline reading]: https://en.wikipedia.org/wiki/Offline_reader
@@ -125,6 +135,7 @@
 [org.thosp.yourlocalweather]: https://f-droid.org/en/packages/org.thosp.yourlocalweather/
 [org.videolan.vlc]: https://f-droid.org/en/packages/org.videolan.vlc/
 [p!n]: https://github.com/nproth/pin
+[photography]: https://en.wikipedia.org/wiki/Photography
 [podcasts]: https://en.wikipedia.org/wiki/Podcast
 [pro.rudloff.papercraft]: https://f-droid.org/en/packages/pro.rudloff.papercraft/
 [satellite navigation]: https://en.wikipedia.org/wiki/Satellite_navigation
@@ -134,6 +145,7 @@
 [terminal emulation]: https://en.wikipedia.org/wiki/Terminal_emulator
 [text editing]: https://en.wikipedia.org/wiki/Text_editor
 [text messaging]: https://en.wikipedia.org/wiki/Text_messaging
+[tower defense]: https://en.wikipedia.org/wiki/Tower_defense
 [wX]: https://gitlab.com/joshua.tee/wx
 [weather forecasting]: https://en.wikipedia.org/wiki/Weather_forecasting
 [web browsing]: https://en.wikipedia.org/wiki/Web_browser
@@ -169,6 +181,9 @@
 [^insAdrs29]: <https://gitlab.com/joshua.tee/wx/blob/master/COPYING>
 [^insAdrs30]: <https://github.com/osmandapp/Osmand/blob/master/LICENSE>
 [^insAdrs31]: <https://github.com/barbeau/gpstest/blob/master/LICENSE>
+[^insAdrs32]: <https://github.com/itkach/aard2-android/blob/master/LICENSE.txt>
+[^insAdrs33]: <https://github.com/reloZid/android-anuto/blob/master/LICENSE>
+[^insAdrs34]: <https://opencamera.sourceforge.io/#licence>
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

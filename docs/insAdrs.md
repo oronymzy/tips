@@ -2,42 +2,43 @@
 
 ## [F-Droid] programs
 
-| program name         | F-Droid package                   | program category                     | licensing                                         | predominant programming language
-|:---------------------|:----------------------------------|:-------------------------------------|:--------------------------------------------------|:-
-| [Aard 2]             | [itkach.aard2]                    | [dictionary] reading                 | [GNU GPL v3.0] [^insAdrs32]                       | [Java]
-| [Amaze File Manager] | [com.amaze.filemanager]           | [file management]                    | [GNU GPL v3.0] [^insAdrs1]                        | [Java]
-| [AntennaPod]         | [de.danoeh.antennapod]            | [news aggregation] for [podcasts]    | [MIT License] [^insAdrs2]                         | [Java]
-| [Anuto TD]           | [ch.logixisland.anuto]            | [gaming] ([tower defense])           | [GNU GPL v2.0] [^insAdrs33]                       | [Java]
-| [Audio Recorder]     | [com.github.axet.audiorecorder]   | [audio recording]                    | [GNU GPL v3.0] [^insAdrs3]                        | [Java]
-| [Barcode Scanner]    | [com.google.zxing.client.android] | [barcode reading]                    | [Apache License 2.0] [^insAdrs4]                  | [Java]
-| [DroidFish]          | [org.petero.droidfish]            | [gaming] ([chess])                   | [GNU GPL v3.0] [^insAdrs27]                       | [Java]
-| [Editor]             | [org.billthefarmer.editor]        | [text editing]                       | [GNU GPL v3.0] [^insAdrs5]                        | [Java]
-| [FOSS Browser]       | [de.baumann.browser]              | [web browsing]                       | [GNU GPL v3.0] or later [^insAdrs8]               | [Java]
-| [Fedilab]            | [fr.gouv.etalab.mastodon]         | [social networking]                  | [GNU GPL v3.0] [^insAdrs6]                        | [Java]
-| [Feeder]             | [com.nononsenseapps.feeder]       | [news aggregation] for [RSS] feeds   | [GNU GPL v3.0] [^insAdrs7]                        | [Kotlin]
-| [GPSTest]            | [com.android.gpstest.osmdroid]    | [satellite navigation]               | [Apache License 2.0] [^insAdrs31]                 | [Java]
-| [K-9 Mail]           | [com.fsck.k9]                     | [email]                              | [Apache License 2.0] [^insAdrs21]                 | [Java]
-| [Kiwix]              | [org.kiwix.kiwixmobile]           | [offline reading]                    | [GNU GPL v3.0] [^insAdrs9]                        | [Java]
-| [LibreTorrent]       | [org.proninyaroslav.libretorrent] | [file sharing] for [BitTorrent]      | [GNU GPL v3.0] [^insAdrs10]                       | [Java]
-| [MuPDF viewer]       | [com.artifex.mupdf.viewer.app]    | [file viewer] for [PDF] files        | [GNU AGPL v3.0] [^insAdrs11]                      | [Java]
-| [NewPipe]            | [org.schabi.newpipe]              | [media playback]                     | [GNU GPL v3.0] [^insAdrs19]                       | [Java]
-| [Open Camera]        | [net.sourceforge.opencamera]      | [photography]                        | [GNU GPL v3.0] or later [^insAdrs34]              | [Java]
-| [OsmAnd]             | [net.osmand.plus]                 | [satellite navigation]               | [GNU GPL v3.0] (for code) and [CC BY-NC-ND 4.0] (for artwork), except some 3rd party libs and resources [^insAdrs30] | [Java]
-| [PaperCraft]         | [pro.rudloff.papercraft]          | [gaming] ([space flight simulation]) | [Apache License 2.0] [^insAdrs12]                 | [Java]
-| [QKSMS]              | [com.moez.QKSMS]                  | [text messaging] for [SMS]           | [GNU GPL v3.0] [^insAdrs26]                       | [Java]
-| [RedReader]          | [org.quantumbadger.redreader]     | [social networking] for [Reddit]     | [GNU GPL v3.0] [^insAdrs23]                       | [Java]
-| [RxDroid]            | [at.jclehner.rxdroid]             | [medication] management              | [GNU GPL v3.0] or later and [CC BY-NC-SA 3.0] (for artwork) [^insAdrs35] | [Java]
-| [Syncthing]          | [com.nutomic.syncthingandroid]    | [file synchronization]               | [MPL 2.0] [^insAdrs13]                            | [Java]
-| [Tasks]              | [org.tasks]                       | [task] management                    | [GNU GPL v3.0] [^insAdrs25]                       | [Java]
-| [Termux]             | [com.termux]                      | [terminal emulation]                 | [GNU GPL v3.0] [^insAdrs15]                       | [Java]
-| [Thorium]            | [net.schueller.peertube]          | [media playback] for [PeerTube]      | [GNU AGPL v3.0] [^insAdrs22]                      | [Java]
-| [TowerJumper]        | [org.pipoypipagames.towerjumper]  | [gaming]                             | [GNU GPL v3.0] [^insAdrs14]                       | [Java]
-| [TrebleShot]         | [com.genonbeta.TrebleShot]        | [data transmission]                  | [GNU GPL v2.0] [^insAdrs16]                       | [Java]
-| [Twire]              | [com.perflyst.twire]              | [media playback] for [Twitch]        | [GNU GPL v3.0] [^insAdrs24]                       | [Java]
-| [VLC for Android]    | [org.videolan.vlc]                | [media playback]                     | [GNU GPL v2.0] [^insAdrs17] or later [^insAdrs18] | [Kotlin]
-| [Yorecast]           | [org.thosp.yourlocalweather]      | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs20]                       | [Java]
-| [p!n]                | [de.nproth.pin]                   | [notetaking]                         | [GNU GPL v3.0] [^insAdrs28]                       | [Java]
-| [wX]                 | [joshuatee.wx]                    | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs29]                       | [Kotlin]
+| program name          | F-Droid package                      | program category                     | licensing                                         | predominant programming language
+|:----------------------|:-------------------------------------|:-------------------------------------|:--------------------------------------------------|:-
+| [Aard 2]              | [itkach.aard2]                       | [dictionary] reading                 | [GNU GPL v3.0] [^insAdrs32]                       | [Java]
+| [Amaze File Manager]  | [com.amaze.filemanager]              | [file management]                    | [GNU GPL v3.0] [^insAdrs1]                        | [Java]
+| [AntennaPod]          | [de.danoeh.antennapod]               | [news aggregation] for [podcasts]    | [MIT License] [^insAdrs2]                         | [Java]
+| [Anuto TD]            | [ch.logixisland.anuto]               | [gaming] ([tower defense])           | [GNU GPL v2.0] [^insAdrs33]                       | [Java]
+| [Audio Recorder]      | [com.github.axet.audiorecorder]      | [audio recording]                    | [GNU GPL v3.0] [^insAdrs3]                        | [Java]
+| [Barcode Scanner]     | [com.google.zxing.client.android]    | [barcode reading]                    | [Apache License 2.0] [^insAdrs4]                  | [Java]
+| [DroidFish]           | [org.petero.droidfish]               | [gaming] ([chess])                   | [GNU GPL v3.0] [^insAdrs27]                       | [Java]
+| [Editor]              | [org.billthefarmer.editor]           | [text editing]                       | [GNU GPL v3.0] [^insAdrs5]                        | [Java]
+| [FOSS Browser]        | [de.baumann.browser]                 | [web browsing]                       | [GNU GPL v3.0] or later [^insAdrs8]               | [Java]
+| [Fedilab]             | [fr.gouv.etalab.mastodon]            | [social networking]                  | [GNU GPL v3.0] [^insAdrs6]                        | [Java]
+| [Feeder]              | [com.nononsenseapps.feeder]          | [news aggregation] for [RSS] feeds   | [GNU GPL v3.0] [^insAdrs7]                        | [Kotlin]
+| [GPSTest]             | [com.android.gpstest.osmdroid]       | [satellite navigation]               | [Apache License 2.0] [^insAdrs31]                 | [Java]
+| [K-9 Mail]            | [com.fsck.k9]                        | [email]                              | [Apache License 2.0] [^insAdrs21]                 | [Java]
+| [Kiwix]               | [org.kiwix.kiwixmobile]              | [offline reading]                    | [GNU GPL v3.0] [^insAdrs9]                        | [Java]
+| [LibreTorrent]        | [org.proninyaroslav.libretorrent]    | [file sharing] for [BitTorrent]      | [GNU GPL v3.0] [^insAdrs10]                       | [Java]
+| [MuPDF viewer]        | [com.artifex.mupdf.viewer.app]       | [file viewer] for [PDF] files        | [GNU AGPL v3.0] [^insAdrs11]                      | [Java]
+| [NewPipe]             | [org.schabi.newpipe]                 | [media playback]                     | [GNU GPL v3.0] [^insAdrs19]                       | [Java]
+| [Open Camera]         | [net.sourceforge.opencamera]         | [photography]                        | [GNU GPL v3.0] or later [^insAdrs34]              | [Java]
+| [OsmAnd]              | [net.osmand.plus]                    | [satellite navigation]               | [GNU GPL v3.0] (for code) and [CC BY-NC-ND 4.0] (for artwork), except some 3rd party libs and resources [^insAdrs30] | [Java]
+| [PaperCraft]          | [pro.rudloff.papercraft]             | [gaming] ([space flight simulation]) | [Apache License 2.0] [^insAdrs12]                 | [Java]
+| [QKSMS]               | [com.moez.QKSMS]                     | [text messaging] for [SMS]           | [GNU GPL v3.0] [^insAdrs26]                       | [Java]
+| [RedReader]           | [org.quantumbadger.redreader]        | [social networking] for [Reddit]     | [GNU GPL v3.0] [^insAdrs23]                       | [Java]
+| [RxDroid]             | [at.jclehner.rxdroid]                | [medication] management              | [GNU GPL v3.0] or later and [CC BY-NC-SA 3.0] (for artwork) [^insAdrs35] | [Java]
+| [Simple Calendar Pro] | [com.simplemobiletools.calendar.pro] | [calendaring]                        | [Apache License 2.0] [^insAdrs36]                 | [Kotlin]
+| [Syncthing]           | [com.nutomic.syncthingandroid]       | [file synchronization]               | [MPL 2.0] [^insAdrs13]                            | [Java]
+| [Tasks]               | [org.tasks]                          | [task] management                    | [GNU GPL v3.0] [^insAdrs25]                       | [Java]
+| [Termux]              | [com.termux]                         | [terminal emulation]                 | [GNU GPL v3.0] [^insAdrs15]                       | [Java]
+| [Thorium]             | [net.schueller.peertube]             | [media playback] for [PeerTube]      | [GNU AGPL v3.0] [^insAdrs22]                      | [Java]
+| [TowerJumper]         | [org.pipoypipagames.towerjumper]     | [gaming]                             | [GNU GPL v3.0] [^insAdrs14]                       | [Java]
+| [TrebleShot]          | [com.genonbeta.TrebleShot]           | [data transmission]                  | [GNU GPL v2.0] [^insAdrs16]                       | [Java]
+| [Twire]               | [com.perflyst.twire]                 | [media playback] for [Twitch]        | [GNU GPL v3.0] [^insAdrs24]                       | [Java]
+| [VLC for Android]     | [org.videolan.vlc]                   | [media playback]                     | [GNU GPL v2.0] [^insAdrs17] or later [^insAdrs18] | [Kotlin]
+| [Yorecast]            | [org.thosp.yourlocalweather]         | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs20]                       | [Java]
+| [p!n]                 | [de.nproth.pin]                      | [notetaking]                         | [GNU GPL v3.0] [^insAdrs28]                       | [Java]
+| [wX]                  | [joshuatee.wx]                       | [weather forecasting]                | [GNU GPL v3.0] [^insAdrs29]                       | [Kotlin]
 
 [Aard 2]: http://aarddict.org/
 [Amaze File Manager]: https://github.com/TeamAmaze/AmazeFileManager
@@ -80,6 +81,7 @@
 [Reddit]: https://www.reddit.com/
 [RxDroid]: https://github.com/jclehner/rxdroid
 [SMS]: https://en.wikipedia.org/wiki/SMS
+[Simple Calendar Pro]: https://github.com/SimpleMobileTools/Simple-Calendar
 [Syncthing]: https://syncthing.net/
 [Tasks]: https://tasks.org/
 [Termux]: https://termux.com/
@@ -93,6 +95,7 @@
 [at.jclehner.rxdroid]: https://f-droid.org/en/packages/at.jclehner.rxdroid/
 [audio recording]: https://en.wikipedia.org/wiki/Digital_recording
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
+[calendaring]: https://en.wikipedia.org/wiki/Calendaring_software
 [ch.logixisland.anuto]: https://f-droid.org/en/packages/ch.logixisland.anuto/
 [chess]: https://en.wikipedia.org/wiki/Chess
 [com.amaze.filemanager]: https://f-droid.org/en/packages/com.amaze.filemanager/
@@ -106,6 +109,7 @@
 [com.nononsenseapps.feeder]: https://f-droid.org/en/packages/com.nononsenseapps.feeder/
 [com.nutomic.syncthingandroid]: https://f-droid.org/en/packages/com.nutomic.syncthingandroid/
 [com.perflyst.twire]: https://f-droid.org/en/packages/com.perflyst.twire/
+[com.simplemobiletools.calendar.pro]: https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/
 [com.termux]: https://f-droid.org/packages/com.termux/
 [data transmission]: https://en.wikipedia.org/wiki/Data_transmission
 [de.baumann.browser]: https://f-droid.org/en/packages/de.baumann.browser/
@@ -190,6 +194,7 @@
 [^insAdrs33]: <https://github.com/reloZid/android-anuto/blob/master/LICENSE>
 [^insAdrs34]: <https://opencamera.sourceforge.io/#licence>
 [^insAdrs35]: <https://github.com/jclehner/rxdroid/blob/stable/LICENSE.md>
+[^insAdrs36]: <https://github.com/SimpleMobileTools/Simple-Calendar/blob/master/LICENSE>
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

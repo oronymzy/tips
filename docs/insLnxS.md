@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -104,12 +104,13 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `retext`                       | [ReText]                                                 | [text editing] for [Markdown] and [reStructuredText] | [GUI]          | [GNU GPL v3.0] [^insLnxS51]                                          | [Python]
 | `searchmonkey`                 | [Searchmonkey] ([gSearchmonkey])                         | [desktop searching]                                  | [GUI]          | [GNU LGPL v2.1] [^insLnxS52]                                         | [C]
 | `simplescreenrecorder`         | [SimpleScreenRecorder]                                   | [screen recording]                                   | [GUI]          | [GNU GPL v3.0] [^insLnxS54] [^insLnxS55]                             | [C++]
-| `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS78] or later[^insLnxS12]                                  | [C]
+| `sox`                          | [SoX]                                                    | [audio editing]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS78] or later[^insLnxS12]                     | [C]
 | `subversion`                   | [Apache Subversion]                                      | [version control]                                    | [CLI]          | [Apache License 2.0] [^insLnxS71]                                    | [C]
 | `surf`                         | [surf]                                                   | [web browsing]                                       | [GUI]          | [MIT License] [^insLnxS56]                                           | [C]
 | `tesseract-ocr`                | [Tesseract]                                              | [optical character recognition]                      | [CLI]          | [Apache License 2.0] [^insLnxS13]                                    | [C++]
 | `testdisk`                     | [TestDisk]                                               | [data recovery]                                      | [CLI]          | [GNU GPL v2.0] [^insLnxS53]
 | `texlive-fonts-recommended`    | recommended fonts for [TeX Live]                         |                                                      |                | [GNU GPL v2.0] [^insLnxS57]
+| `thunderbird`                  | [Mozilla Thunderbird]                                    | [email]                                              | [GUI]          | [MPL 2.0] [^insLnxS84]
 | `tracker`                      | [Tracker]                                                | [desktop searching]                                  | [CLI]          | [GNU LGPL v2.1] or later, [BSD 3-Clause license], and [GNU GPL v2.0] or later [^insLnxS76] | [C]
 | `transmission-qt`              | [Transmission]                                           | [file sharing] for [BitTorrent]                      | [GUI] ([Qt])   | [GNU GPL v2.0] or [GNU GPL v3.0] [^insLnxS58]                        | [C]
 | `trash-cli`                    | [trash-cli]                                              | [trashing]                                           | [CLI]          | [GNU GPL v2.0] [^insLnxS59]                                          | [Python]
@@ -131,6 +132,9 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 - The method of installing GPRename was introduced to me by [an answer on Ask Ubuntu by karel](https://askubuntu.com/questions/1030996/how-can-i-install-pyrenamer-for-bionic/1031003#1031003).
 - The method of installing updates was introduced to me by [a post on Reddit by MyNameIsRichardCS54](https://www.reddit.com/r/Kubuntu/comments/99jfb5/every_new_install_of_kubuntu_1804_freezes_up_when/e4qsx0a/).
 
+[MPL 2.0]: https://www.mozilla.org/en-US/MPL/2.0/
+[email]: https://en.wikipedia.org/wiki/Email
+[Mozilla Thunderbird]: https://en.wikipedia.org/wiki/Mozilla_Thunderbird
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Apache Subversion]: https://en.wikipedia.org/wiki/Apache_Subversion
 [Audacity]: https://www.audacityteam.org/
@@ -373,3 +377,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS81]: <https://bazaar.launchpad.net/~bzr-pqm/bzr/bzr.dev/view/head:/COPYING.txt>
 [^insLnxS82]: <http://wiki.bazaar.canonical.com/Welcome>
 [^insLnxS83]: <https://sourceforge.net/p/urlget/uget2/ci/master/tree/COPYING>
+[^insLnxS84]: <https://www.mozilla.org/en-US/foundation/licensing/>

@@ -26,6 +26,7 @@
 | [PaperCraft]         | [pro.rudloff.papercraft]          | [gaming] ([space flight simulation]) | [Apache License 2.0] [^insAdrs12]                 | [Java]
 | [QKSMS]              | [com.moez.QKSMS]                  | [text messaging] for [SMS]           | [GNU GPL v3.0] [^insAdrs26]                       | [Java]
 | [RedReader]          | [org.quantumbadger.redreader]     | [social networking] for [Reddit]     | [GNU GPL v3.0] [^insAdrs23]                       | [Java]
+| [RxDroid]            | [at.jclehner.rxdroid]             | [medication] management              | [GNU GPL v3.0] or later and [CC BY-NC-SA 3.0] (for artwork) [^insAdrs35] | [Java]
 | [Syncthing]          | [com.nutomic.syncthingandroid]    | [file synchronization]               | [MPL 2.0] [^insAdrs13]                            | [Java]
 | [Tasks]              | [org.tasks]                       | [task] management                    | [GNU GPL v3.0] [^insAdrs25]                       | [Java]
 | [Termux]             | [com.termux]                      | [terminal emulation]                 | [GNU GPL v3.0] [^insAdrs15]                       | [Java]
@@ -48,6 +49,7 @@
 [Barcode Scanner]: https://github.com/zxing/zxing
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [CC BY-NC-ND 4.0]: https://creativecommons.org/licenses/by-nc-nd/4.0/
+[CC BY-NC-SA 3.0]: https://creativecommons.org/licenses/by-nc-sa/3.0/
 [DroidFish]: https://github.com/peterosterlund2/droidfish
 [Editor]: https://github.com/billthefarmer/editor
 [F-Droid]: https://f-droid.org/
@@ -76,6 +78,7 @@
 [RSS]: https://en.wikipedia.org/wiki/RSS
 [RedReader]: https://github.com/QuantumBadger/RedReader
 [Reddit]: https://www.reddit.com/
+[RxDroid]: https://github.com/jclehner/rxdroid
 [SMS]: https://en.wikipedia.org/wiki/SMS
 [Syncthing]: https://syncthing.net/
 [Tasks]: https://tasks.org/
@@ -87,6 +90,7 @@
 [Twitch]: https://www.twitch.tv/
 [VLC for Android]: https://code.videolan.org/videolan/vlc-android
 [Yorecast]: https://github.com/thuryn/your-local-weather
+[at.jclehner.rxdroid]: https://f-droid.org/en/packages/at.jclehner.rxdroid/
 [audio recording]: https://en.wikipedia.org/wiki/Digital_recording
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
 [ch.logixisland.anuto]: https://f-droid.org/en/packages/ch.logixisland.anuto/
@@ -118,6 +122,7 @@
 [itkach.aard2]: https://f-droid.org/en/packages/itkach.aard2/
 [joshuatee.wx]: https://f-droid.org/en/packages/joshuatee.wx/
 [media playback]: https://en.wikipedia.org/wiki/Media_player_(software)
+[medication]: https://en.wikipedia.org/wiki/Medication
 [net.osmand.plus]: https://f-droid.org/en/packages/net.osmand.plus/
 [net.schueller.peertube]: https://f-droid.org/en/packages/net.schueller.peertube/
 [net.sourceforge.opencamera]: https://f-droid.org/en/packages/net.sourceforge.opencamera/
@@ -184,6 +189,7 @@
 [^insAdrs32]: <https://github.com/itkach/aard2-android/blob/master/LICENSE.txt>
 [^insAdrs33]: <https://github.com/reloZid/android-anuto/blob/master/LICENSE>
 [^insAdrs34]: <https://opencamera.sourceforge.io/#licence>
+[^insAdrs35]: <https://github.com/jclehner/rxdroid/blob/stable/LICENSE.md>
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**

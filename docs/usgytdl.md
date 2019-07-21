@@ -2,9 +2,12 @@
 
 !!! note
     
-    {==foo.bar==} represents the URL of the YouTube video to be downloaded.
+    - {==foo.bar==} represents the URL of the YouTube video to be downloaded.
+    - {==bar.baz==} represents the URL of the YouTube playlist containing videos to be downloaded.
 
 Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-info-json -o "%(uploader)s's %(title)s-%(id)s.%(ext)s" foo.bar` to download a video using a template-based filename, along with its description text, additional info, all available subtitles, and all available thumbnails. Alternatively, use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-info-json -f "[height<=480]" -o "%(uploader)s's %(title)s (%(resolution)s resolution)-%(id)s.%(ext)s" foo.bar` to download the video in the same way, but only in a format with a video height of 480 pixels or lower, and with the video resolution included in the filename.
+
+Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-info-json -o "%(uploader)s's %(playlist)s-%(playlist_id)s %(playlist_index)s - %(title)s-%(id)s.%(ext)s" bar.baz` to download all videos in a playlist using a template-based filename, along with its description text, additional info, all available subtitles, and all available thumbnails.
 
 ## explanation
 

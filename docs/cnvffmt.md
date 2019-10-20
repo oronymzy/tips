@@ -145,6 +145,29 @@ Use `text2wave -otype aiff foo.txt | sox --no-clobber - bar.flac` to convert a p
 - The `-otype aiff` option produces synthesized speech in [AIFF](https://en.wikipedia.org/wiki/Audio_Interchange_File_Format) format.
 - The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a FLAC output file if a file with the same name already exists.
 
+### converting plain text to [synthesized-speech]-OGG using the [Festival Speech Synthesis System]
+
+!!! note
+    
+    - {==foo.txt==} represents an input plain text file.
+    - {==bar.ogg==} represents an output [Vorbis](https://en.wikipedia.org/wiki/Vorbis)-[Ogg](https://en.wikipedia.org/wiki/Ogg) file.
+
+Use `text2wave -otype aiff foo.txt | sox --no-clobber - -C -1 bar.ogg` to convert a plain text file to a [synthesized-speech]-[Vorbis](https://en.wikipedia.org/wiki/Vorbis)-[Ogg](https://en.wikipedia.org/wiki/Ogg) file.
+
+
+!!! attention
+    
+    `text2wave` does not seem to handle [contractions](https://en.wikipedia.org/wiki/Contraction_(grammar)) correctly, reading out each individual character if an apostrophe is encountered in the middle of a word. A workaround is to omit [apostrophes](https://en.wiktionary.org/wiki/%27) (`'`) from the plain text input file, eliminating any contractions that rely on apostrophes.
+
+#### explanation
+
+!!! note
+    
+    This is an incomplete explanation.
+
+- The `-otype aiff` option produces synthesized speech in [AIFF](https://en.wikipedia.org/wiki/Audio_Interchange_File_Format) format.
+- The `--no-clobber` [option](http://sox.sourceforge.net/sox.html) prevents SoX from producing a [Vorbis](https://en.wikipedia.org/wiki/Vorbis)-[Ogg](https://en.wikipedia.org/wiki/Ogg) output file if a file with the same name already exists.
+
 [eSpeak NG]: https://github.com/espeak-ng/espeak-ng
 [Festival Speech Synthesis System]: http://www.cstr.ed.ac.uk/projects/festival/
 [synthesized-speech]: https://en.wikipedia.org/wiki/Speech_synthesis

@@ -13,7 +13,7 @@ Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-in
     - Add `(%(resolution)s resolution)` to the output template option to include information in the filename related to the video's resolution.
 - Change the output template option to `-o "%(uploader)s's %(playlist)s-%(playlist_id)s %(playlist_index)s - %(title)s-%(id)s.%(ext)s"` when downloading a playlist to include information in the filenames related to the video's playlist.
     - Change the output template option to `-o "%(playlist_index)s - %(title)s-%(id)s.%(ext)s"` for more compact filenames.
-- Add the `--ignore-errors` option to continue downloading even if download errors are encountered. This can be useful if one or more videos are unavailable.
+    - Add the `--ignore-errors` option to continue downloading even if download errors are encountered. This can be useful if one or more videos in the playlist are unavailable.
 
 ## explanation
 

@@ -5,7 +5,7 @@
     - {==foo.bar==} represents the URL of the YouTube video to be downloaded.
     - {==bar.baz==} represents the URL of the YouTube playlist containing videos to be downloaded.
 
-Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-info-json -o "%(uploader)s's %(title)s-%(id)s.%(ext)s" foo.bar` to download a video using a template-based filename, along with its description text, additional info, all available subtitles, and all available thumbnails.
+Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-info-json -o "%(uploader)s's %(title)s-%(id)s.%(ext)s" foo.bar` to download a YouTube video using a template-based filename, along with its description text, additional info, all available subtitles, and all available thumbnails.
 
 ## alternatives
 

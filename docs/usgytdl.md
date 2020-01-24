@@ -14,6 +14,7 @@ Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-in
 - Change the output template option to `-o "%(uploader)s's %(playlist)s-%(playlist_id)s %(playlist_index)s - %(title)s-%(id)s.%(ext)s"` when downloading a playlist to include information in the filenames related to the video's playlist.
     - Change the output template option to `-o "%(playlist_index)s - %(title)s-%(id)s.%(ext)s"` for more compact filenames.
     - Add the `--ignore-errors` option to continue downloading even if download errors are encountered. This can be useful if one or more videos in the playlist are unavailable.
+- Add the `--min-sleep-interval 10 --max-sleep-interval 60` option when downloading a playlist to sleep a random number of seconds, limited to between 10 and 60 seconds, before each individual download in the playlist. Be aware that this sleep also applies to non-video downloads, such as subtitles and thumbnail images.
 
 ## explanation
 
@@ -30,6 +31,7 @@ Use `youtube-dl --all-subs --write-all-thumbnails --write-description --write-in
     - `ext` specifies the video filename extension.
 - The `--all-subs` [subtitle option](https://github.com/rg3/youtube-dl/blob/master/README.md#subtitle-options) downloads all available video subtitles.
 - The `--ignore-errors` [option](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#options) specifies that downloading should continue even if download errors are encountered.
+- The `--min-sleep-interval 10 --max-sleep-interval 60` [workaround option](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#workarounds) sleeps a random number of seconds, limited to between 10 and 60 seconds, before each individual download in a playlist. Be aware that this sleep also applies to non-video downloads, such as subtitles and thumbnail images.
 - The `--write-all-thumbnails` [thumbnail image](https://github.com/rg3/youtube-dl/blob/master/README.md#thumbnail-images) option writes all thumbnail image formats to disk.
 - The `--write-description` [filesystem option](https://github.com/rg3/youtube-dl/blob/master/README.md#filesystem-options) writes the video description to a file with a `.description` extension.
 - The `--write-info-json` [filesystem option](https://github.com/rg3/youtube-dl/blob/master/README.md#filesystem-options) writes video metadata to a file with a `.info.json` extension.

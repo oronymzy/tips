@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -85,6 +85,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `inkscape`                     | [Inkscape]                                               | [image editing] for [vector graphics]                | [GUI]          | [GNU GPL v3.0] or later[^insLnxS35]                                  | [C++]
 | `jekyll`                       | [Jekyll]                                                 | [static site generation]                             | [CLI]          | [MIT License] [^insLnxS36]                                           | [Ruby]
 | `jq`                           | [jq]                                                     | [JSON] processing                                    | [CLI]          | [MIT License] for code and [CC BY 3.0] for documentation[^insLnxS37] | [C]
+| `kcharselect`                  | [KCharSelect]                                            | [character] selection                                | [GUI]          | various licenses[^insLnxS85]
 | `kmag`                         | [KMag]                                                   | [screen magnification]                               | [GUI]          | [GNU GPL v2.0] [^insLnxS60]                                          | [C++]
 | `krename`                      | [KRename]                                                | [batch renaming]                                     | [GUI]          | [GNU GPL v2.0] [^insLnxS5]                                           | [C++]
 | `lftp`                         | [LFTP]                                                   | [file transferring]                                  | [CLI]          | [GNU GPL v3.0] [^insLnxS38]                                          | [C++]
@@ -148,6 +149,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [CC BY 3.0]: https://creativecommons.org/licenses/by/3.0/
 [CLI]: https://en.wikipedia.org/wiki/Command-line_interface
 [C]: https://en.wikipedia.org/wiki/C_(programming_language)
+[character]: https://en.wikipedia.org/wiki/Character_(computing)
 [Cheese]: https://wiki.gnome.org/Apps/Cheese
 [Code::Blocks]: http://codeblocks.org/
 [Curl]: https://curl.haxx.se/
@@ -184,6 +186,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Inkscape]: https://inkscape.org/
 [JSON]: https://en.wikipedia.org/wiki/JSON
 [Jekyll]: https://jekyllrb.com/
+[KCharSelect]: https://utils.kde.org/projects/kcharselect/
 [KMag]: https://kde.org/applications/utilities/kmag/
 [KRename]: https://sourceforge.net/projects/krename/
 [LFTP]: https://lftp.tech/
@@ -378,3 +381,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS82]: <http://wiki.bazaar.canonical.com/Welcome>
 [^insLnxS83]: <https://sourceforge.net/p/urlget/uget2/ci/master/tree/COPYING>
 [^insLnxS84]: <https://www.mozilla.org/en-US/foundation/licensing/>
+[^insLnxS85]: <https://community.kde.org/Policies/Licensing_Policy>

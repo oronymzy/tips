@@ -39,6 +39,7 @@ nav:
     - installing jq: 'instljq.md'
     - installing sqlitebiter: 'inqbitr.md'
     - installing yq: 'instlyq.md'
+    - managing tabular data: 'mngtbld.md'
     - using yq: 'usingyq.md'
   - Data storage:
     - archiving files: 'arcvfle.md'

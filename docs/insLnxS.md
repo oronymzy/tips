@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity autokey-gtk bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -52,6 +52,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | package name                   | program name                                             | program category                                     | [interface]    | licensing                                                            | predominant programming language
 |:-------------------------------|:---------------------------------------------------------|:-----------------------------------------------------|:---------------|:---------------------------------------------------------------------|:-
 | `audacity`                     | [Audacity]                                               | [audio editing]                                      | [GUI]          | [GNU GPL v2.0] [^insLnxS6]                                           | [C]
+| `autokey-gtk`                  | [AutoKey]                                                | [automation]                                         | [GUI]          | [GNU GPL v3.0] [^insLnxS86]                                          | [Python]
 | `bless`                        | [Bless]                                                  | [hex editing]                                        | [GUI]          | [GNU GPL v2.0] [^insLnxS2]                                           | [C#]
 | `bzr`                          | [Bazaar]                                                 | [version control]                                    | [CLI]          | [GNU GPL v2.0] [^insLnxS81] or later [^insLnxS82]                    | [Python]
 | `cheese`                       | [Cheese]                                                 | [webcam] recording                                   | [GUI]          | [GNU GPL v2.0] [^insLnxS7]                                           | [C]
@@ -139,6 +140,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Apache License 2.0]: https://choosealicense.com/licenses/apache-2.0/
 [Apache Subversion]: https://en.wikipedia.org/wiki/Apache_Subversion
 [Audacity]: https://www.audacityteam.org/
+[AutoKey]: https://en.wikipedia.org/wiki/AutoKey
 [BSD 2-Clause license]: https://choosealicense.com/licenses/bsd-2-clause/
 [BSD 3-Clause license]: https://opensource.org/licenses/BSD-3-Clause
 [Bazaar]: http://bazaar.canonical.com/en/
@@ -229,6 +231,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [archive file]: https://en.wikipedia.org/wiki/Archive_file
 [audio editing]: https://en.wikipedia.org/wiki/Audio_editing_software
 [audio]: https://en.wikipedia.org/wiki/Digital_audio
+[automation]: https://en.wikipedia.org/wiki/Category:Automation_software
 [barcode reading]: https://en.wikipedia.org/wiki/Barcode_reader
 [batch renaming]: https://en.wikipedia.org/wiki/Batch_renaming
 [character encoding]: https://en.wikipedia.org/wiki/Character_encoding
@@ -382,3 +385,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS83]: <https://sourceforge.net/p/urlget/uget2/ci/master/tree/COPYING>
 [^insLnxS84]: <https://www.mozilla.org/en-US/foundation/licensing/>
 [^insLnxS85]: <https://community.kde.org/Policies/Licensing_Policy>
+[^insLnxS86]: <https://github.com/autokey/autokey/blob/master/LICENSE>

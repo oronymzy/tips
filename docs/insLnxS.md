@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity autokey-gtk bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity autokey-gtk bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar units unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -119,6 +119,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `tree`                         | [tree]                                                   | [computer data storage] analysis                     | [CLI]          | [GNU GPL v2.0]                                                       | [C]
 | `uget`                         | [uGet]                                                   | [download management]                                | [GUI]          | [GNU LGPL v2.1] [^insLnxS83]                                         | [C]
 | `unar`                         | [The Unarchiver]                                         | [archive file] unarchiving                           | [CLI]          | [GNU LGPL v2.1] [^insLnxS80]                                         | [C]
+| `units`                        | [GNU Units]                                              | [unit conversion]                                    | [CLI]          | [GNU GPL v3.0] or later[^insLnxS87]                                  | [C]
 | `unoconv`                      | [unoconv]                                                | [file format] conversion                             | [CLI]          | [GNU GPL v2.0] [^insLnxS61]                                          | [Python]
 | `unrar`                        | [UnRAR]                                                  | [RAR] unarchiving                                    | [CLI]          | [trialware]
 | `unrtf`                        | [UnRTF]                                                  | [RTF] conversion                                     | [CLI]          | [GNU GPL v3.0] [^insLnxS62]                                          | [C]
@@ -172,6 +173,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [GNU GPL v3.0]: https://choosealicense.com/licenses/gpl-3.0/
 [GNU GPL]: http://www.gnu.org/licenses/licenses.html#GPL
 [GNU LGPL v2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html
+[GNU Units]: https://en.wikipedia.org/wiki/GNU_Units
 [GPRename]: http://gprename.sourceforge.net/
 [GParted]: https://gparted.sourceforge.io/
 [GSmartControl]: https://gsmartcontrol.sourceforge.io/home/index.php/
@@ -292,6 +294,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [trialware]: https://en.wikipedia.org/wiki/Shareware#Trialware
 [uGet]: https://ugetdm.com
 [undeletion]: https://en.wikipedia.org/wiki/Undeletion
+[unit conversion]: https://en.wikipedia.org/wiki/Conversion_of_units
 [unoconv]: http://dag.wiee.rs/home-made/unoconv/
 [vector graphics]: https://en.wikipedia.org/wiki/Vector_graphics_editor
 [version control]: https://en.wikipedia.org/wiki/Version_control
@@ -386,3 +389,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS84]: <https://www.mozilla.org/en-US/foundation/licensing/>
 [^insLnxS85]: <https://community.kde.org/Policies/Licensing_Policy>
 [^insLnxS86]: <https://github.com/autokey/autokey/blob/master/LICENSE>
+[^insLnxS87]: <https://www.gnu.org/software/units/>

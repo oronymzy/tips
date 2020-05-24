@@ -3,7 +3,7 @@
 
 To install updates, use `sudo apt update && sudo apt full-upgrade && sudo apt autoremove`.
 
-To install officially supported programs, use `sudo apt install audacity autokey-gtk bless bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar units unoconv unrar unrtf vlc vnstat zbar-tools -y`.
+To install officially supported programs, use `sudo apt install audacity autokey-gtk bless brasero bzr cheese codeblocks curl duc easytag espeak-ng-espeak exfat-fuse exfat-utils exiftool extundelete eyed3 festival filelight filezilla flac focuswriter gedit gimp git-cola gnome-disk-utility gnome-terminal gnumeric gparted gprename graphviz grsync gsmartcontrol idle imagemagick inkscape jekyll jq kcharselect kmag krename lftp lolcat lynx mediainfo meld mercurial moreutils ncdu net-tools pngcrush qtqr recode recoll retext searchmonkey simplescreenrecorder sox surf tesseract-ocr testdisk texlive-fonts-recommended thunderbird tracker transmission-qt trash-cli tree uget unar units unoconv unrar unrtf vlc vnstat zbar-tools -y`.
 
 Also install additional programs using more specific instructions and installation methods:
 
@@ -54,6 +54,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 | `audacity`                     | [Audacity]                                               | [audio editing]                                      | [GUI]          | [GNU GPL v2.0] [^insLnxS6]                                           | [C]
 | `autokey-gtk`                  | [AutoKey]                                                | [automation]                                         | [GUI]          | [GNU GPL v3.0] [^insLnxS86]                                          | [Python]
 | `bless`                        | [Bless]                                                  | [hex editing]                                        | [GUI]          | [GNU GPL v2.0] [^insLnxS2]                                           | [C#]
+| `brasero`                      | [Brasero]                                                | [optical disc authoring]                             | [GUI]          | [GNU GPL v2.0] [^insLnxS88]                                          | [C]
 | `bzr`                          | [Bazaar]                                                 | [version control]                                    | [CLI]          | [GNU GPL v2.0] [^insLnxS81] or later [^insLnxS82]                    | [Python]
 | `cheese`                       | [Cheese]                                                 | [webcam] recording                                   | [GUI]          | [GNU GPL v2.0] [^insLnxS7]                                           | [C]
 | `codeblocks`                   | [Code::Blocks]                                           | [IDE]                                                | [GUI]          | [GNU GPL v3.0] [^insLnxS8] [^insLnxS67]                              | [C++]
@@ -147,6 +148,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [Bazaar]: http://bazaar.canonical.com/en/
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Bless]: https://github.com/afrantzis/bless
+[Brasero]: https://wiki.gnome.org/Apps/Brasero
 [C#]: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 [C++]: https://en.wikipedia.org/wiki/C%2B%2B
 [CC BY 3.0]: https://creativecommons.org/licenses/by/3.0/
@@ -271,6 +273,7 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [net-tools]: https://sourceforge.net/p/net-tools/code/ci/master/tree/README
 [networking]: https://en.wikipedia.org/wiki/Computer_network
 [optical character recognition]: https://en.wikipedia.org/wiki/Optical_character_recognition
+[optical disc authoring]: https://en.wikipedia.org/wiki/Optical_disc_authoring#Software
 [partition editing]: https://en.wikipedia.org/wiki/Disk_editor#Partition_editor
 [pngcrush]: https://pmt.sourceforge.io/pngcrush/
 [raster graphics]: https://en.wikipedia.org/wiki/Raster_graphics_editor
@@ -390,3 +393,4 @@ For Lubuntu, install additional packages using `sudo apt install dolphin kate op
 [^insLnxS85]: <https://community.kde.org/Policies/Licensing_Policy>
 [^insLnxS86]: <https://github.com/autokey/autokey/blob/master/LICENSE>
 [^insLnxS87]: <https://www.gnu.org/software/units/>
+[^insLnxS88]: <https://gitlab.gnome.org/GNOME/brasero/-/blob/master/COPYING>

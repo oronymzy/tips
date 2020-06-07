@@ -1,6 +1,6 @@
-# list of websites supporting web feeds
+# list of websites supporting [web feeds]
 
-## DeviantArt
+## DeviantArt web feed support
 RSS feeds [are supported through the DeviantArt API](https://www.deviantart.com/developers/rss). More information is available from [the DeviantArt Help Center](https://www.deviantartsupport.com/en/article/how-do-i-use-rss-feeds).
 
 The [query string](https://en.wikipedia.org/wiki/Query_string) consists of two parts. It specifies the type of pages to return:
@@ -70,3 +70,5 @@ Use `http://backend.deviantart.com/rss.xml?type=deviation&q=by:foobar+sort:time`
 
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
+
+[web feeds]: https://en.wikipedia.org/wiki/Web_feed

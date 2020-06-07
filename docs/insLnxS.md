@@ -12,13 +12,13 @@ Also install additional programs using more specific instructions and installati
 - [pip](instpip.md)
 - [Ruby Version Manager](insRVMr.md)
 
-- Pandoc [from the latest GitHub software release](islGHsr.md)
 - [VirtualBox](instVBx.md)
 - [youtube-dl](insytdl.md)
 
 ### dpkg
 - [Atom text editor](insAtom.md) (64-bit systems only)
 - [Google Chrome](insGCrm.md) (64-bit systems only)
+- Pandoc [from the latest GitHub software release](islGHsr.md)
 - [VSCodium](inVSCdm.md)
 
 ### npm

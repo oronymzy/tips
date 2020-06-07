@@ -143,14 +143,15 @@ markdown_extensions:
       guess_lang: false
   - def_list
   - footnotes
+  - md_in_html
   - meta
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.extrarawhtml
   - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -160,7 +161,7 @@ extra_css:
   - 'extra.css'
 extra:
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/oronymzy'
 repo_name: 'oronymzy/tips'
 repo_url: 'https://github.com/oronymzy/tips'

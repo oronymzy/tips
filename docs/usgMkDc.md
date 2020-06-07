@@ -40,14 +40,15 @@ markdown_extensions:
       guess_lang: false
   - def_list
   - footnotes
+  - md_in_html
   - meta
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.extrarawhtml
   - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -57,7 +58,7 @@ extra_css:
   - 'extra.css'
 extra:
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/oronymzy'
 repo_name: 'oronymzy/tips'
 repo_url: 'https://github.com/oronymzy/tips'
@@ -76,15 +77,16 @@ edit_uri: ''
     - The `def_list` entry point enables the [Python-Markdown definition lists](https://python-markdown.github.io/extensions/definition_lists/) (or *description lists*) extension.
     - The `footnotes` entry point enables the [Python-Markdown footnotes](https://python-markdown.github.io/extensions/footnotes/) extension.  
     Additional documentation is available for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/extensions/footnotes/).
+    - The `md_in_html` entry point enables the [PyMdown `md_in_html`](https://facelessuser.github.io/pymdown-extensions/extensions/extrarawhtml/) extension, which is assumed to function identically to the [PyMdown ExtraRawHTML](https://facelessuser.github.io/pymdown-extensions/extensions/extrarawhtml/) extension. ExtraRawHTML allows parsing of Markdown within any HTML element as long as the `markdown="1"` attribute is added to its opening tag. It is taken from [Python-Markdown Extra](https://python-markdown.github.io/extensions/extra/#nested-markdown-inside-html-blocks), and is also available through the [PyMdown Extra](https://facelessuser.github.io/pymdown-extensions/extensions/extra/) and [Python-Markdown Extra](https://python-markdown.github.io/extensions/extra/) extension compilations.
     - The `meta` entry point enables the [Python-Markdown metadata (or meta-data)](https://python-markdown.github.io/extensions/meta_data/) extension, which enables [metadata](https://en.wikipedia.org/wiki/Metadata) blocks with [key-value pairs (or attribute-value pairs)](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair) as the contents.  
     Additional documentation is available for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/extensions/metadata/).
     - The `pymdownx.caret` entry point enables the [PyMdown Caret](https://facelessuser.github.io/pymdown-extensions/extensions/caret/) extension, which allows the *ins* and *sup* HTML elements to be added using a caret (`^`).
     - The `pymdownx.critic` entry point enables the [PyMdown Critic](https://facelessuser.github.io/pymdown-extensions/extensions/critic/) extension, which adds support for the [CriticMarkup](http://criticmarkup.com/) syntax.
     - The `pymdownx.details` entry point enables the [PyMdown Details](https://facelessuser.github.io/pymdown-extensions/extensions/details/) extension, which adds support for collapsible admonition-style elements using the *details* and *summary* HTML elements.
-    - The `pymdownx.extrarawhtml` entry point enables the [PyMdown ExtraRawHTML](https://facelessuser.github.io/pymdown-extensions/extensions/extrarawhtml/) extension, which allows parsing of Markdown within any HTML element as long as the `markdown="1"` attribute is added to its opening tag. It is taken from [Python-Markdown Extra](https://python-markdown.github.io/extensions/extra/#nested-markdown-inside-html-blocks), and is also available through the [PyMdown Extra](https://facelessuser.github.io/pymdown-extensions/extensions/extra/) and [Python-Markdown Extra](https://python-markdown.github.io/extensions/extra/) extension compilations.
     - The `pymdownx.keys` entry point enables the [PyMdown Keys](https://facelessuser.github.io/pymdown-extensions/extensions/keys/) extension, which allows the *kbd* HTML element using two plus signs (`++`).
     - The `pymdownx.snippets` entry point enables the [PyMdown Snippets](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/) extension, which allows one Markdown or HTML file into another Markdown file using ASCII scissors (`--8<--`).
     - The `pymdownx.superfences` entry point enables the [PyMdown SuperFences](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/) extension, which expands the functionality of fenced code blocks.
+    - The `pymdownx.tabbed` entry point enables the [PyMdown Tabbed](https://facelessuser.github.io/pymdown-extensions/extensions/tabbed/) extension, which enables tabbed Markdown content.
     - The `pymdownx.tasklist` entry point enables the [PyMdown Tasklist](https://facelessuser.github.io/pymdown-extensions/extensions/tasklist/) extension, which allows the inclusion of checkboxes to create a (usually non-interactive) task list out of an HTML unordered list.
         - `custom_checkbox: true` enables CSS styling of checkboxes.
     - The `pymdownx.tilde` entry point enables the [PyMdown Tilde](https://facelessuser.github.io/pymdown-extensions/extensions/tilde/) extension, which allows the *del* and *sub* HTML elements to be added using a tilde (`~`).
@@ -105,7 +107,7 @@ Additional documentation is available for [Material for MkDocs](https://squidfun
 ```
 extra:
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/oronymzy'
 ```
 is a custom [`extra` setting](https://www.mkdocs.org/user-guide/configuration/#extra) for the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme that [adds a social link](https://squidfunk.github.io/mkdocs-material/getting-started/#adding-social-links) to GitHub.

@@ -68,7 +68,12 @@ Use `http://backend.deviantart.com/rss.xml?type=deviation&q=by:foobar+sort:time`
     
      From `https://www.deviantart.com/deevad`, `deevad` is the username, so use `http://backend.deviantart.com/rss.xml?type=deviation&q=by:deevad+sort:time`.
 
+## GitHub web feed support
+Atom feeds are available for the releases, tags, and commits of project pages, accessible by postfixing the page's URL with `releases.atom`, `tags.atom`, and `commits/master.atom`, respectively.[^lstwswf1]
+
 ## licensing
 **No rights reserved: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).**
 
 [web feeds]: https://en.wikipedia.org/wiki/Web_feed
+
+[^lstwswf1]: [RSS feeds for GitHub projects - How to use Git and GitHub - GitHub Support Community](https://github.community/t/rss-feeds-for-github-projects/292/2)
